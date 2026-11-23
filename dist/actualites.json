@@ -1,0 +1,47 @@
+{
+  "publications": [
+    {
+      "id": "elles-ont-une-histoire-2026-11-25",
+      "label": "En ce moment · 25 novembre",
+      "title": "Elles ont une histoire à raconter…",
+      "summary": "Quatre livres pour ouvrir les yeux, comprendre et rappeler que la violence ne doit jamais être passée sous silence.",
+      "starts_at": "2026-11-23T00:00:00+01:00",
+      "ends_at": "2026-11-30T00:00:00+01:00",
+      "period": "Sélection du 23 au 29 novembre 2026",
+      "lead": "Le 25 novembre, c'est la Journée internationale pour l'élimination de la violence à l'égard des femmes.",
+      "intro": "À cette occasion, la Bibliothèque des Bréviaires met en lumière des histoires de femmes confrontées à la violence, aux mariages imposés, aux injustices… mais aussi des histoires de résistance, de solidarité et de liberté.",
+      "books": [
+        {
+          "id": "1729",
+          "title": "Les impatientes",
+          "author": "Djaïli Amadou Amal",
+          "text": "Au Cameroun, trois femmes voient leur destin bouleversé par les mariages forcés, la polygamie et les violences conjugales. Trois voix qui refusent de se résigner. Un roman récompensé par le prix Goncourt des lycéens 2020.",
+          "booknode": "https://booknode.com/les_impatientes_03367923"
+        },
+        {
+          "id": "1104",
+          "title": "Mille soleils splendides",
+          "author": "Khaled Hosseini",
+          "text": "En Afghanistan, Mariam et Laila partagent un quotidien marqué par la violence et les interdits. Mais entre elles naît une solidarité qui pourrait tout changer. Une histoire bouleversante sur l'amitié et le courage.",
+          "booknode": "https://booknode.com/mille_soleils_splendides_054013"
+        },
+        {
+          "id": "720",
+          "title": "Le Bal des folles",
+          "author": "Victoria Mas",
+          "text": "Paris, XIXe siècle. À la Salpêtrière, des femmes sont enfermées et considérées comme folles, parfois simplement parce qu'elles dérangent. Un roman sur celles qu'on a voulu faire taire et sur leur désir de liberté.",
+          "booknode": "https://booknode.com/le_bal_des_folles_02952973"
+        },
+        {
+          "id": "3033",
+          "title": "Le petit livre pour dire non à la maltraitance",
+          "author": "Dominique de Saint Mars et Serge Bloch",
+          "text": "Parce que les violences ne concernent pas seulement les adultes, ce petit livre illustré, accessible dès 7 ans, aide les enfants à reconnaître la maltraitance, à comprendre qu'ils ont le droit de dire non et à chercher de l'aide auprès d'un adulte de confiance."
+        }
+      ],
+      "outro": "Quatre livres pour ouvrir les yeux, comprendre et rappeler que la violence ne doit jamais être passée sous silence.",
+      "venue": "Retrouvez cette sélection à la Bibliothèque des Bréviaires.",
+      "signoff": "À samedi !"
+    }
+  ]
+}

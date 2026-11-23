@@ -10,7 +10,9 @@
   <link rel="preload" href="./fonts/rubik-latin.woff" as="font" type="font/woff" crossorigin>
   <link rel="stylesheet" href="./style.css?v=5">
   <link rel="stylesheet" href="./simple.css?v=7">
+  <link rel="stylesheet" href="./news.css?v=1">
   <script type="module" src="./app.js?v=7"></script>
+  <script type="module" src="./news.js?v=1"></script>
 </head>
 <body>
   <a class="skip-link" href="#results">Aller aux livres</a>
@@ -28,6 +30,7 @@
   </header>
 
   <main class="page-shell">
+    <section id="news-banner" class="news-banner" aria-labelledby="news-title" hidden></section>
     <section class="intro" aria-labelledby="page-title">
       <div class="intro-copy">
         <h1 id="page-title">Votre prochaine lecture</h1>
@@ -79,6 +82,7 @@
   <footer class="site-footer"><div><strong>Bibliothèque des Bréviaires</strong><span>ASLB · Le plaisir de lire, tout près de chez vous.</span></div><p>Résumés, notes et avis issus du catalogue de la bibliothèque.<br><span id="catalogue-date">Les livres sont à retrouver lors de votre visite.</span></p></footer>
 
   <dialog id="book-dialog" aria-labelledby="detail-title"><button type="button" class="dialog-close" id="close-dialog" aria-label="Fermer la fiche"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Fermer</span></button><div id="detail-content"></div></dialog>
+  <dialog id="news-dialog" class="news-dialog" aria-labelledby="news-detail-title"><button type="button" class="dialog-close" id="close-news" aria-label="Fermer la sélection"><span>Fermer</span></button><div id="news-content"></div></dialog>
   <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
   <div id="print-content" aria-hidden="true"></div>
   <noscript><p class="noscript-message">Activez JavaScript pour parcourir le catalogue.</p></noscript>
