@@ -1,0 +1,60 @@
+name: Contrôles et publication du catalogue
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: catalogue-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verification:
+    name: Vérifier les fichiers du site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer les fichiers
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Préparer Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          package-manager-cache: false
+      - name: Préparer Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Vérifier le catalogue, la recherche et les filtres
+        run: node --test scripts/catalogue.test.mjs
+      - name: Vérifier l’extraction des prix littéraires
+        run: python3 scripts/test_import_catalogue.py
+      - name: Préparer uniquement le dossier public
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+          retention-days: 7
+
+  publication:
+    name: Publier sur GitHub Pages
+    if: github.event_name != 'pull_request' && github.event.repository.private == false
+    needs: verification
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Mettre le site en ligne
+        id: deployment
+        uses: actions/deploy-pages@v4
