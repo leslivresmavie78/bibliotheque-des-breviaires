@@ -1,0 +1,9 @@
+{
+  "name": "bibliotheque-des-breviaires",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test scripts/catalogue.test.mjs",
+    "test:import": "python3 scripts/test_import_catalogue.py"
+  }
+}

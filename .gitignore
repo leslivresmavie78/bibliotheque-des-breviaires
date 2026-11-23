@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+*.tar.gz
+*.zip
+__pycache__/
+source-privee/
+.openai/
+.env
+.env.*
+Export*.csv
+*Export*.csv
+import-prive/
