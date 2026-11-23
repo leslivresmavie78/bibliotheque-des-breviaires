@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#176a86">
+  <meta name="description" content="Parcourez le catalogue de la Bibliothèque des Bréviaires : livres, auteurs, genres, résumés et avis. Préparez votre prochaine visite avec votre sélection personnelle.">
+  <title>Les livres · Bibliothèque des Bréviaires</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./fonts/rubik-latin.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="./style.css?v=5">
+  <link rel="stylesheet" href="./simple.css?v=7">
+  <script type="module" src="./app.js?v=7"></script>
+</head>
+<body>
+  <a class="skip-link" href="#results">Aller aux livres</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./" aria-label="Bibliothèque des Bréviaires, accueil">
+        <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M20 10c-4-3-10-3-15-1v23c5-2 11-2 15 1 4-3 10-3 15-1V9c-5-2-11-2-15 1Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M20 10v23M10 15c2-.5 4-.4 6 .3M10 20c2-.5 4-.4 6 .3M25 15c2-.7 4-.8 6-.3M25 20c2-.7 4-.8 6-.3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        <span><strong>Bibliothèque</strong><span>des Bréviaires</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <button type="button" class="nav-item active" id="catalogue-nav" aria-pressed="true">Le catalogue</button>
+        <button type="button" class="nav-item selection-nav" id="selection-nav" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><path d="M6 4h12v17l-6-4-6 4V4Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><span id="selection-label">Ma liste</span><span class="count-pill" id="selection-count">0</span></button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="intro" aria-labelledby="page-title">
+      <div class="intro-copy">
+        <h1 id="page-title">Votre prochaine lecture</h1>
+        <p class="intro-text" id="intro-text">Choisissez un livre pour découvrir son résumé et ses avis.</p>
+      </div>
+      <div class="catalogue-stamp" aria-label="Catalogue de la bibliothèque"><span id="total-books">…</span><span>livres à découvrir</span></div>
+    </section>
+
+    <div class="audience-bar"><div class="audience-buttons" id="audience-buttons" role="group" aria-label="Choisir le public"></div></div>
+
+    <section class="search-area" aria-label="Rechercher et filtrer les livres">
+      <form id="search-form" role="search">
+        <div class="search-box">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="1.7"/><path d="m16 16 4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+          <label class="sr-only" for="search">Rechercher un titre, un auteur ou un thème</label>
+          <input id="search" name="q" type="search" autocomplete="off" placeholder="Titre, auteur ou thème…">
+          <button type="submit" class="primary-button">Rechercher</button>
+        </div>
+        <div class="filter-toolbar">
+          <div class="filter-field genre-field"><label for="genre">Genre</label><select id="genre"><option value="">Tous les genres</option></select></div>
+          <button type="button" class="mobile-filter-button" id="toggle-filters" aria-expanded="false" aria-controls="filter-fields"><span>Plus de choix</span><span id="active-filter-count"></span></button>
+          <button type="button" class="reset-button" id="reset-filters" hidden>Tout afficher</button>
+        </div>
+          <div class="filter-fields" id="filter-fields">
+            <div class="filter-field author-field"><label for="author">Auteur</label><input type="search" id="author" list="authors" placeholder="Tous les auteurs" autocomplete="off"><datalist id="authors"></datalist></div>
+            <div class="filter-field age-field"><label for="age">Âge conseillé</label><select id="age"><option value="">Tous les âges</option></select></div>
+            <div class="filter-field rating-field"><label for="rating">Note du catalogue</label><select id="rating"><option value="">Toutes les notes</option><option value="4">4 / 5 et plus</option><option value="4.5">4,5 / 5 et plus</option></select></div>
+            <div class="filter-field sort-field"><label for="sort">Ordre des livres</label><select id="sort"><option value="recent" id="sort-recent">Dernières arrivées</option><option value="title">Titre · A à Z</option><option value="author">Auteur · A à Z</option><option value="rating">Les mieux notés</option></select></div>
+            <label class="reviews-check"><input type="checkbox" id="with-reviews"><span>Avec des avis</span></label>
+          </div>
+      </form>
+    </section>
+
+    <p class="search-notice" id="search-notice" role="status" hidden></p>
+    <p class="age-help" id="age-help" hidden>Tranche selon l’âge minimum indiqué dans le catalogue. Les fiches sans âge précis ne sont pas incluses.</p>
+
+    <section id="results" class="results-section" tabindex="-1" aria-labelledby="results-heading">
+      <div class="results-toolbar">
+        <div><h2 id="results-heading">Dernières arrivées</h2><p id="results-count" role="status" aria-live="polite">Le catalogue se prépare…</p></div>
+      </div>
+      <div class="selection-tools" id="selection-tools" hidden><p>Vos livres pour une prochaine visite.<br><span>Cette liste reste sur votre appareil et ne réserve pas les livres.</span></p><div><button type="button" class="secondary-button" id="copy-selection">Copier ma liste</button><button type="button" class="secondary-button" id="print-selection">Imprimer</button></div></div>
+      <div class="book-grid" id="book-grid" aria-busy="true"></div>
+      <div class="empty-state" id="empty-state" hidden><span class="empty-mark" aria-hidden="true">⌕</span><h3 id="empty-title">Aucun livre pour cette recherche</h3><p id="empty-description">Essayez avec moins de mots ou changez les filtres.</p><button type="button" class="primary-button" id="empty-reset">Revoir tout le catalogue</button></div>
+      <div class="load-error" id="load-error" role="alert" hidden><h3>Le catalogue n’a pas pu être chargé</h3><p>Vérifiez votre connexion, puis réessayez.</p><button type="button" class="primary-button" id="reload">Réessayer</button></div>
+      <nav class="pagination" id="pagination" aria-label="Pages du catalogue" hidden><button type="button" class="secondary-button" id="previous-page">Précédent</button><span id="page-count"></span><button type="button" class="secondary-button" id="next-page">Suivant</button></nav>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div><strong>Bibliothèque des Bréviaires</strong><span>ASLB · Le plaisir de lire, tout près de chez vous.</span></div><p>Résumés, notes et avis issus du catalogue de la bibliothèque.<br><span id="catalogue-date">Les livres sont à retrouver lors de votre visite.</span></p></footer>
+
+  <dialog id="book-dialog" aria-labelledby="detail-title"><button type="button" class="dialog-close" id="close-dialog" aria-label="Fermer la fiche"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Fermer</span></button><div id="detail-content"></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  <div id="print-content" aria-hidden="true"></div>
+  <noscript><p class="noscript-message">Activez JavaScript pour parcourir le catalogue.</p></noscript>
+</body>
+</html>

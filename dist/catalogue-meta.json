@@ -1,0 +1,20 @@
+{
+  "imported_on": "2026-11-23",
+  "source_name": "Export (22).csv",
+  "count": 3420,
+  "source_sha256": "f672339e693057a994b00b67a54cee2eaaa0fad81ea0aa29420c96fff42ba104",
+  "public_fields": [
+    "_id",
+    "title",
+    "author_details",
+    "isbn",
+    "rating",
+    "series_details",
+    "pages",
+    "description",
+    "notes",
+    "genre",
+    "date_added",
+    "literary_awards"
+  ]
+}
