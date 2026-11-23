@@ -72,7 +72,8 @@ async function initNews() {
     const copy = node('div', 'news-banner-copy');
     const title = node('h2', '', publication.title); title.id = 'news-title';
     copy.append(node('p', 'news-kicker', publication.label), title, node('p', 'news-summary', publication.summary));
-    const button = node('button', 'primary-button', publication.books.length === 1 ? 'Découvrir le livre' : `Voir les ${publication.books.length} livres`); button.type = 'button';
+    const button = node('button', 'primary-button', 'Lire'); button.type = 'button';
+    button.setAttribute('aria-label', `Lire la communication : ${publication.title}`);
     button.addEventListener('click', () => showPublication(publication));
     banner.replaceChildren(copy, button);
   }
