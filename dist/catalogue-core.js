@@ -231,7 +231,7 @@ export function prepareBooks(rows, publicationData = {}) {
     const genreParts = row.genre.split('|').map(x => x.trim()).filter(Boolean);
     const category = genreParts.shift() || 'Genre non renseigné';
     const age = genreParts.find(x => /^d[eè]s\s+\d/i.test(x)) || '';
-    const ageNumber = age.match(/^d[eè]s\s+(\d+)\s*ans?\b/i);
+    const ageNumber = age.match(/^d[eè]s\s+(\d+)(?:\s*[–—-]\s*\d+)?\s*ans?\b/i);
     const minAge = ageNumber ? Number(ageNumber[1]) : null;
     const themes = genreParts.filter(x => x !== age).flatMap(x => x.split('•')).map(x => x.trim()).filter(Boolean);
     const ratingNumber = Number((row.rating || '').replace(',', '.'));

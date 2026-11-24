@@ -1,4 +1,4 @@
-import { parseCSV, prepareBooks, normalize, filterBooks, searchCatalogue, awardOptions, LITERARY_AWARDS, FAMILIES, AUDIENCES, AGE_RANGES } from './catalogue-core.js?v=9';
+import { parseCSV, prepareBooks, normalize, filterBooks, searchCatalogue, awardOptions, LITERARY_AWARDS, FAMILIES, AUDIENCES, AGE_RANGES } from './catalogue-core.js?v=10';
 import { activeCriteria, withoutCriterion } from './ui-core.js?v=3';
 
 const $ = id => document.getElementById(id);
