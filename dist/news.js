@@ -1,3 +1,5 @@
+import { publicationMatches, externalLinkLabel } from './ui-core.js?v=1';
+
 const CATEGORY_LABELS = { theme: 'Thème', coeur: 'Coup de cœur', auteur: 'Focus auteur', alerte: 'Actualité', actualite: 'Actualité littéraire', nouveautes: 'Nouveautés', vie: 'Vie de la bibliothèque' };
 const BANNER_LABELS = { theme: 'À la une', coeur: 'Coups de cœur', auteur: 'Focus auteur' };
 const parisWeekday = new Intl.DateTimeFormat('en-US', { timeZone: 'Europe/Paris', weekday: 'short' });
@@ -41,8 +43,9 @@ export function currentPublication(publications, now = Date.now()) {
   return featured[defaultPublicationCategory(featured, now)];
 }
 
-export function filterPublications(publications, category, now = Date.now()) {
-  return publishedPublications(publications, now).filter(publication => category === 'all' || publicationCategory(publication) === category || (category === 'theme' && publicationCategory(publication) === 'alerte'));
+export function filterPublications(publications, category, now = Date.now(), query = '') {
+  return publishedPublications(publications, now).filter(publication =>
+    (category === 'all' || publicationCategory(publication) === category || (category === 'theme' && publicationCategory(publication) === 'alerte')) && publicationMatches(publication, query));
 }
 
 function node(tag, className, text) {
@@ -57,7 +60,7 @@ async function initNews() {
   const banner = $('news-banner'), dialog = $('news-dialog'), content = $('news-content');
   if (!banner || !dialog || !content) return;
   let publications = [], returnFocus = null, returnHash = '', selectedCategory = null, archiveCategory = 'all', loaded = false;
-  let openedId = null, bannerSignature = '', archiveSignature = '', unavailable = false;
+  let openedId = null, bannerSignature = '', archiveSignature = '', unavailable = false, archiveQuery = '', archiveDebounce;
   const returnOrigins = new Map();
 
   function setView(archives, focus = false) {
@@ -85,8 +88,10 @@ async function initNews() {
       for (const match of value.matchAll(/https:\/\/[^\s<>]+/g)) {
         const url = match[0].replace(/[),.;!?]+$/, '');
         paragraph.append(document.createTextNode(value.slice(start, match.index)));
-        const link = node('a', '', url); link.href = url;
+        const label = externalLinkLabel(url);
+        const link = node('a', '', label); link.href = url;
         link.target = '_blank'; link.rel = 'noopener noreferrer';
+        link.setAttribute('aria-label', `${label} (nouvel onglet)`);
         paragraph.append(link); start = match.index + url.length;
       }
       paragraph.append(document.createTextNode(value.slice(start))); target.append(paragraph);
@@ -105,6 +110,23 @@ async function initNews() {
     const title = node('h2', '', publication.title); title.id = 'news-detail-title';
     paragraph(header, 'news-kicker', publication.period); header.append(title); paragraph(header, '', publication.lead);
     const body = node('div', 'news-dialog-body');
+    const linkedBooks = (Array.isArray(publication.books) ? publication.books : []).filter(book => book.id);
+    if (linkedBooks.length) {
+      const quickBooks = node('div', 'news-quick-books');
+      const quickLink = (book, label, className = '') => {
+        const link = node('a', className, label); link.href = `#livre=${encodeURIComponent(book.id)}`;
+        link.setAttribute('aria-label', `Voir le livre au catalogue : ${book.title}`);
+        link.addEventListener('click', () => { setView(false); dialog.close(); });
+        return link;
+      };
+      if (linkedBooks.length === 1) quickBooks.append(quickLink(linkedBooks[0], 'Voir le livre au catalogue', 'primary-button'));
+      else {
+        const details = node('details'), summary = node('summary', '', `Voir les ${linkedBooks.length} livres au catalogue`), list = node('ul');
+        for (const book of linkedBooks) { const item = node('li'); item.append(quickLink(book, book.title)); list.append(item); }
+        details.append(summary, list); quickBooks.append(details);
+      }
+      body.append(quickBooks);
+    }
     if (publication.archive_only === true) {
       paragraph(body, 'news-archive-note', 'Archive : les rendez-vous, horaires et annonces de ce message se rapportent à sa date de publication.');
       paragraph(body, 'news-editorial-note', publication.editorial_note);
@@ -194,11 +216,13 @@ async function initNews() {
     const button = node('button', 'primary-button', 'Lire'); button.type = 'button';
     button.setAttribute('aria-label', `Lire la communication : ${publication.title}`);
     button.addEventListener('click', () => showPublication(publication));
-    row.append(copy, button); banner.replaceChildren(tabs, row);
+    row.append(copy, button);
+    banner.classList.toggle('news-banner-single', categories.length === 1);
+    banner.replaceChildren(categories.length === 1 ? node('p', 'news-kicker', BANNER_LABELS[selectedCategory]) : tabs, row);
   }
 
   function renderArchives() {
-    const visible = filterPublications(publications, archiveCategory), fragment = document.createDocumentFragment();
+    const visible = filterPublications(publications, archiveCategory, Date.now(), archiveQuery), fragment = document.createDocumentFragment();
     for (const publication of visible) {
       const article = node('article', 'publication-row'), copy = node('div', 'publication-copy');
       copy.append(node('p', 'publication-category', CATEGORY_LABELS[publicationCategory(publication)]), node('h2', '', publication.title));
@@ -211,7 +235,8 @@ async function initNews() {
     $('publications-list').replaceChildren(fragment);
     $('publications-count').textContent = `${visible.length} sélection${visible.length > 1 ? 's' : ''}`;
     $('publications-empty').hidden = !!visible.length;
-    $('publications-empty').textContent = unavailable ? 'Les sélections n’ont pas pu être chargées. Réessayez en actualisant la page.' : 'Aucune sélection dans cette rubrique pour le moment.';
+    $('publications-empty').textContent = unavailable ? 'Les sélections n’ont pas pu être chargées. Réessayez en actualisant la page.' : archiveQuery.trim() ? 'Aucun message ne correspond. Essayez un autre mot ou choisissez la rubrique « Toutes ».' : 'Aucune sélection dans cette rubrique pour le moment.';
+    $('clear-publication-search').hidden = !archiveQuery;
     for (const button of $('publication-filters').querySelectorAll('button')) button.setAttribute('aria-pressed', String(button.dataset.category === archiveCategory));
   }
 
@@ -229,6 +254,10 @@ async function initNews() {
     const button = event.target.closest('button[data-category]'); if (!button) return;
     archiveCategory = button.dataset.category; renderArchives();
   });
+  const searchArchives = () => { clearTimeout(archiveDebounce); archiveQuery = $('publication-search').value.slice(0, 250); renderArchives(); };
+  $('publication-search').addEventListener('input', () => { clearTimeout(archiveDebounce); archiveDebounce = setTimeout(searchArchives, 220); });
+  $('publication-search-form').addEventListener('submit', event => { event.preventDefault(); searchArchives(); });
+  $('clear-publication-search').addEventListener('click', () => { $('publication-search').value = ''; searchArchives(); $('publication-search').focus(); });
   $('close-news').addEventListener('click', () => dialog.close());
   dialog.addEventListener('close', () => {
     document.body.classList.remove('news-open'); openedId = null;

@@ -1,4 +1,5 @@
 import { parseCSV, prepareBooks, normalize, filterBooks, searchCatalogue, FAMILIES, AUDIENCES, AGE_RANGES } from './catalogue-core.js?v=7';
+import { activeCriteria, withoutCriterion } from './ui-core.js?v=1';
 
 const $ = id => document.getElementById(id);
 const PAGE_SIZE = 24;
@@ -100,7 +101,7 @@ function bookmarkButton(book) {
   button.setAttribute('aria-pressed', String(isSelected));
   button.setAttribute('aria-label', `${isSelected ? 'Retirer de' : 'Ajouter à'} ma liste : ${book.title}`);
   button.title = isSelected ? 'Retirer de ma liste' : 'Ajouter à ma liste';
-  button.append(icon('bookmark'), element('span', '', isSelected ? 'Gardé' : 'Garder'));
+  button.append(icon('bookmark'), element('span', '', isSelected ? 'Retirer de ma liste' : 'Ajouter à ma liste'));
   button.addEventListener('click', event => { event.stopPropagation(); toggleSelection(book.id); });
   return button;
 }
@@ -151,16 +152,46 @@ function renderChips() {
   if (focusedAudience !== undefined) [...$('audience-buttons').children].find(button => button.dataset.audience === focusedAudience)?.focus({ preventScroll: true });
 }
 
+function renderActiveCriteria() {
+  const criteria = activeCriteria(state);
+  $('active-criteria').hidden = !criteria.length;
+  const fragment = document.createDocumentFragment();
+  for (const { key, label } of criteria) {
+    const button = element('button', 'criterion'); button.type = 'button';
+    button.dataset.criterion = key;
+    button.setAttribute('aria-label', `Retirer le critère : ${label}`);
+    const mark = element('span', 'remove-mark', '×'); mark.setAttribute('aria-hidden', 'true');
+    button.append(element('span', '', label), mark);
+    button.addEventListener('click', () => {
+      clearTimeout(debounce); state = withoutCriterion(state, key); searchNotice = ''; page = 1;
+      syncControls(); render();
+      ($('criteria-list').querySelector('button') || $('search')).focus({ preventScroll: true });
+    });
+    fragment.append(button);
+  }
+  $('criteria-list').replaceChildren(fragment);
+}
+
 function render(resultBooks) {
   if (!ready) return;
   const count = updateSelectionCounter();
   const filterCount = [state.author, state.genre, state.audience, state.age, state.rating, state.reviews].filter(Boolean).length;
-  const extraCount = [state.author, state.age, state.rating, state.reviews, state.sort !== (state.selection ? 'title' : 'recent')].filter(Boolean).length;
+  const extraCount = [state.author, state.genre, state.age, state.rating, state.reviews, state.sort !== (state.selection ? 'title' : 'recent')].filter(Boolean).length;
   $('active-filter-count').textContent = extraCount ? `(${extraCount})` : '';
   $('reset-filters').hidden = !(state.q || filterCount || state.sort !== (state.selection ? 'title' : 'recent'));
   syncNavigation();
+  document.body.classList.toggle('personal-list', state.selection);
+  $('page-title').textContent = state.selection ? 'Ma liste' : 'Trouver un livre';
+  $('catalogue-stamp').hidden = state.selection;
+  $('audience-bar').hidden = state.selection;
+  $('filter-toolbar').hidden = state.selection;
+  $('filter-fields').hidden = state.selection;
+  $('selection-actions').hidden = !count;
+  $('catalogue-search').hidden = state.selection && !count;
+  $('search-label').textContent = state.selection ? 'Rechercher dans ma liste' : 'Rechercher un titre, un auteur ou un thème';
+  $('search').placeholder = state.selection ? 'Un titre ou un auteur de ma liste…' : 'Titre, auteur ou thème…';
   $('selection-tools').hidden = !state.selection; $('copy-selection').disabled = !count; $('print-selection').disabled = !count;
-  $('results-heading').textContent = state.selection ? 'Ma liste de livres' : state.q.trim() ? 'Résultats de recherche' : state.audience === 'jeunesse' ? 'Les livres pour enfants' : state.audience === 'ados' ? 'Les livres pour ado' : state.audience === 'adultes' ? 'Les livres pour adultes' : state.sort === 'recent' ? 'Dernières arrivées' : 'Tous les livres';
+  $('results-heading').textContent = state.selection ? 'Vos livres' : state.q.trim() ? 'Résultats de recherche' : state.audience === 'jeunesse' ? 'Les livres pour enfants' : state.audience === 'ados' ? 'Les livres pour ado' : state.audience === 'adultes' ? 'Les livres pour adultes' : state.sort === 'recent' ? 'Dernières arrivées' : 'Tous les livres';
   $('sort-recent').textContent = state.q.trim() ? 'Les plus proches' : 'Dernières arrivées';
   $('search-notice').hidden = !searchNotice; $('search-notice').textContent = searchNotice;
   $('age-help').hidden = !state.age || state.age === 'unknown';
@@ -176,12 +207,13 @@ function render(resultBooks) {
   $('book-grid').replaceChildren(fragment); $('book-grid').setAttribute('aria-busy', 'false');
   $('empty-state').hidden = filtered.length !== 0;
   const selectionEmpty = state.selection && !count;
-  $('empty-title').textContent = selectionEmpty ? 'Votre prochaine lecture commence ici' : 'Aucun livre pour cette recherche';
-  $('empty-description').textContent = selectionEmpty ? 'Touchez « Garder » sur un livre pour le retrouver ici.' : 'Essayez avec moins de mots ou choisissez « Tout afficher ».';
+  $('empty-title').textContent = selectionEmpty ? 'Votre liste est vide' : 'Aucun livre pour cette recherche';
+  $('empty-description').textContent = selectionEmpty ? 'Dans le catalogue, choisissez « Ajouter à ma liste » sur les livres qui vous intéressent.' : 'Essayez avec moins de mots ou choisissez « Effacer les critères ».';
+  $('empty-reset').textContent = selectionEmpty ? 'Choisir des livres' : state.selection ? 'Revoir toute ma liste' : 'Revoir tout le catalogue';
   $('pagination').hidden = pages <= 1;
   $('page-count').textContent = `Page ${page} sur ${numberFormat.format(pages)}`;
   $('previous-page').disabled = page <= 1; $('next-page').disabled = page >= pages;
-  renderChips(); syncURL();
+  renderChips(); renderActiveCriteria(); syncURL();
 }
 
 function syncNavigation() {
@@ -208,7 +240,7 @@ function updateDetailSelection() {
   const button = $('detail-selection');
   if (!button || !activeBook) return;
   const saved = selected.has(activeBook.id); button.setAttribute('aria-pressed', String(saved));
-  button.replaceChildren(icon('bookmark'), document.createTextNode(saved ? 'Dans ma liste' : 'Garder dans ma liste'));
+  button.replaceChildren(icon('bookmark'), document.createTextNode(saved ? 'Retirer de ma liste' : 'Ajouter à ma liste'));
 }
 
 function addTextSection(target, heading, value, missing, review = false) {
@@ -350,7 +382,11 @@ $('search-form').addEventListener('submit', event => { event.preventDefault(); r
 for (const id of ['search', 'author']) $(id).addEventListener('input', () => { clearTimeout(debounce); debounce = setTimeout(() => refreshFromInputs(id === 'search'), 220); });
 for (const id of ['genre', 'age', 'rating', 'with-reviews', 'sort']) $(id).addEventListener('change', refreshFromInputs);
 $('reset-filters').addEventListener('click', () => { const selection = state.selection; state = { ...defaults(), selection, sort: selection ? 'title' : 'recent' }; searchNotice = ''; page = 1; syncControls(); render(); });
-$('empty-reset').addEventListener('click', resetCatalogue);
+$('empty-reset').addEventListener('click', () => {
+  if (state.selection && updateSelectionCounter()) {
+    state = { ...defaults(), selection: true, sort: 'title' }; searchNotice = ''; page = 1; syncControls(); render();
+  } else resetCatalogue();
+});
 $('catalogue-nav').addEventListener('click', () => {
   const fromPublications = $('catalogue-view').hidden;
   document.dispatchEvent(new Event('show-catalogue'));
