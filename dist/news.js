@@ -1,4 +1,4 @@
-const CATEGORY_LABELS = { theme: 'Thème', coeur: 'Coup de cœur', auteur: 'Focus auteur', alerte: 'Actualité' };
+const CATEGORY_LABELS = { theme: 'Thème', coeur: 'Coup de cœur', auteur: 'Focus auteur', alerte: 'Actualité', actualite: 'Actualité littéraire', nouveautes: 'Nouveautés', vie: 'Vie de la bibliothèque' };
 const BANNER_LABELS = { theme: 'À la une', coeur: 'Coups de cœur', auteur: 'Focus auteur' };
 const parisWeekday = new Intl.DateTimeFormat('en-US', { timeZone: 'Europe/Paris', weekday: 'short' });
 
@@ -20,7 +20,7 @@ export function publishedPublications(publications, now = Date.now()) {
 }
 
 export function featuredPublications(publications, now = Date.now()) {
-  const published = publishedPublications(publications, now);
+  const published = publishedPublications(publications, now).filter(publication => publication.archive_only !== true);
   const active = published.filter(publication => now < Date.parse(publication.ends_at));
   const alerts = active.filter(publication => publicationCategory(publication) === 'alerte');
   const featured = {
@@ -78,6 +78,21 @@ async function initNews() {
     if (value) target.append(node('p', className, value));
   }
 
+  function archiveText(target, text) {
+    for (const value of text.split(/\n\s*\n/)) {
+      const paragraph = node('p', 'news-archive-paragraph');
+      let start = 0;
+      for (const match of value.matchAll(/https:\/\/[^\s<>]+/g)) {
+        const url = match[0].replace(/[),.;!?]+$/, '');
+        paragraph.append(document.createTextNode(value.slice(start, match.index)));
+        const link = node('a', '', url); link.href = url;
+        link.target = '_blank'; link.rel = 'noopener noreferrer';
+        paragraph.append(link); start = match.index + url.length;
+      }
+      paragraph.append(document.createTextNode(value.slice(start))); target.append(paragraph);
+    }
+  }
+
   function showPublication(publication, rememberLocation = true) {
     if (openedId === publication.id && dialog.open) return;
     if (!dialog.open) {
@@ -90,10 +105,31 @@ async function initNews() {
     const title = node('h2', '', publication.title); title.id = 'news-detail-title';
     paragraph(header, 'news-kicker', publication.period); header.append(title); paragraph(header, '', publication.lead);
     const body = node('div', 'news-dialog-body');
+    if (publication.archive_only === true) {
+      paragraph(body, 'news-archive-note', 'Archive : les rendez-vous, horaires et annonces de ce message se rapportent à sa date de publication.');
+      paragraph(body, 'news-editorial-note', publication.editorial_note);
+    }
     paragraph(body, 'news-intro', publication.intro);
+    if (typeof publication.body === 'string') archiveText(body, publication.body);
+    if (Array.isArray(publication.images) && publication.images.length) {
+      const gallery = node('div', 'news-archive-images');
+      for (const visual of publication.images) {
+        if (!/^\.\/archive-wa-[a-zA-Z0-9-]+\.jpg$/.test(visual.src) || !visual.alt) continue;
+        const link = node('a', 'news-archive-image'); link.href = visual.src;
+        link.target = '_blank'; link.rel = 'noopener noreferrer';
+        link.setAttribute('aria-label', `Agrandir : ${visual.alt} (nouvel onglet)`);
+        const image = document.createElement('img'); image.src = visual.src;
+        image.alt = visual.alt; image.loading = 'lazy'; image.decoding = 'async';
+        if (visual.width > 0 && visual.height > 0) { image.width = visual.width; image.height = visual.height; }
+        link.append(image); gallery.append(link);
+      }
+      body.append(gallery);
+    }
+    if (publication.body && publication.books?.length) body.append(node('h3', 'news-related-title', 'Retrouver les livres dans le catalogue'));
     for (const book of Array.isArray(publication.books) ? publication.books : []) {
       const section = node('section', 'news-book');
       section.append(node('h3', '', book.title)); paragraph(section, 'news-book-author', book.author); paragraph(section, 'news-book-text', book.text);
+      paragraph(section, 'news-book-notice', book.notice);
       const actions = node('div', 'news-book-actions');
       if (book.id) {
         const link = node('a', 'primary-button', 'Voir la fiche du livre');

@@ -42,6 +42,1515 @@
       "outro": "Quatre livres pour ouvrir les yeux, comprendre et rappeler que la violence ne doit jamais être passée sous silence.",
       "venue": "Retrouvez cette sélection à la Bibliothèque des Bréviaires.",
       "signoff": "À samedi !"
+    },
+    {
+      "id": "wa-2026-06-20-029",
+      "type": "nouveautes",
+      "title": "Nouveautés à la bibliothèque",
+      "archive_only": true,
+      "original_date": "2026-06-20",
+      "starts_at": "2026-06-20T00:00:00+02:00",
+      "ends_at": "2026-06-21T00:00:00+02:00",
+      "period": "Publié le 20 juin 2026 · Archive",
+      "body": "📚✨ Nouveautés à la bibliothèque – Il y en a pour tous les goûts ! ✨📚\nQue vous soyez amateur de romans captivants, passionné de nature, adepte de loisirs créatifs ou à la recherche d'histoires pour les plus jeunes, les derniers arrivages ont de quoi vous séduire !\n\n📅 Retrouvez notre formidable équipe de bénévoles samedi prochain de 10h à 12h ! 📚😊",
+      "books": [
+        {
+          "id": "100",
+          "title": "Je débute le crochet avec So Croch",
+          "author": "Marie Clesse"
+        }
+      ],
+      "images": [
+        {
+          "src": "./archive-wa-20260620-WA0011.jpg",
+          "alt": "Visuel de la communication « Nouveautés à la bibliothèque »",
+          "width": 1086,
+          "height": 1448
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-06-21-042",
+      "type": "nouveautes",
+      "title": "La bibliothèque, bien plus qu’une étagère de livres",
+      "archive_only": true,
+      "original_date": "2026-06-21",
+      "starts_at": "2026-06-21T00:00:00+02:00",
+      "ends_at": "2026-06-22T00:00:00+02:00",
+      "period": "Publié le 21 juin 2026 · Archive",
+      "body": "📚✨ La bibliothèque, c'est bien plus qu'une étagère de livres... ✨📚\n\nC'est un lieu de rencontres, de découvertes et de partage.\nOn y emprunte des livres, bien sûr, mais aussi des idées, des émotions, des voyages et parfois même de belles discussions. ❤️\n\n📖 Vous connaissez des Bruyérois qui aiment lire, découvrir de nouveaux auteurs ou simplement feuilleter un bon livre ?\n👉 N'hésitez pas à leur transmettre le lien de ce groupe !\n\nVoici quelques nouveautés que vous retrouverez samedi matin.\n\nA demain, pour les nouveautés Jeunesse.",
+      "books": [
+        {
+          "id": "134",
+          "title": "Le cercle de ronces",
+          "author": "Camille Anssel"
+        },
+        {
+          "id": "135",
+          "title": "Où s’adosse le ciel",
+          "author": "David Diop"
+        },
+        {
+          "id": "136",
+          "title": "Les belles promesses",
+          "author": "Pierre Lemaitre"
+        },
+        {
+          "id": "137",
+          "title": "Fauves",
+          "author": "Mélissa Da Costa"
+        }
+      ],
+      "images": [
+        {
+          "src": "./archive-wa-20260620-WA0010.jpg",
+          "alt": "Visuel de la communication « La bibliothèque, bien plus qu’une étagère de livres »",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "src": "./archive-wa-20260620-WA0022.jpg",
+          "alt": "Visuel de la communication « La bibliothèque, bien plus qu’une étagère de livres »",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "src": "./archive-wa-20260620-WA0023.jpg",
+          "alt": "Visuel de la communication « La bibliothèque, bien plus qu’une étagère de livres »",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "src": "./archive-wa-20260620-WA0031.jpg",
+          "alt": "Visuel de la communication « La bibliothèque, bien plus qu’une étagère de livres »",
+          "width": 1086,
+          "height": 1448
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-06-22-050",
+      "type": "nouveautes",
+      "title": "Nouveautés jeunesse",
+      "archive_only": true,
+      "original_date": "2026-06-22",
+      "starts_at": "2026-06-22T00:00:00+02:00",
+      "ends_at": "2026-06-23T00:00:00+02:00",
+      "period": "Publié le 22 juin 2026 · Archive",
+      "body": "📚🌟 Nouveautés Jeunesse à la bibliothèque ! 🌟📚\n\nDes oursons aventuriers, un petit hamster craquant, un renard attentionné, des mondes sauvages à protéger ou encore des histoires pleines d'humour et de tendresse...\nNotre rayon jeunesse s'est enrichi de nombreux nouveaux albums et premières lectures pour faire rêver, rire, découvrir et grandir les petits lecteurs. 🐻🦊🐹📖✨\n\n👧👦 Pour les tout-petits comme pour les lecteurs débutants, il y a forcément une histoire qui les attend !\n\n📅 L’accueil du samedi suivant, de 10 h à 12 h, restait à confirmer lors de l’envoi de ce message.",
+      "books": [
+        {
+          "id": "132",
+          "title": "Aventuriers d’un jour",
+          "author": "Agnès Bertron-Martin, André Boos"
+        },
+        {
+          "id": "108",
+          "title": "Sukeroku : Ma vie de petit hamster",
+          "author": " Gotte,  Watsumi"
+        },
+        {
+          "id": "85",
+          "title": "Il était une fois un monde sauvage",
+          "author": "Emily Hawkins"
+        },
+        {
+          "id": "119",
+          "title": "La petite fille aux allumettes",
+          "author": "Hans Christian Andersen, Benjamin Lacombe"
+        },
+        {
+          "id": "114",
+          "title": "Les petits tracas d’Eva",
+          "author": "Eva Grynszpan"
+        }
+      ],
+      "images": [
+        {
+          "src": "./archive-wa-20260620-WA0029.jpg",
+          "alt": "Visuel de la communication « Nouveautés jeunesse »",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "src": "./archive-wa-20260620-WA0027.jpg",
+          "alt": "Visuel de la communication « Nouveautés jeunesse »",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "src": "./archive-wa-20260620-WA0024.jpg",
+          "alt": "Visuel de la communication « Nouveautés jeunesse »",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "src": "./archive-wa-20260620-WA0025.jpg",
+          "alt": "Visuel de la communication « Nouveautés jeunesse »",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "src": "./archive-wa-20260620-WA0017.jpg",
+          "alt": "Visuel de la communication « Nouveautés jeunesse »",
+          "width": 1086,
+          "height": 1448
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-06-23-057",
+      "type": "auteur",
+      "title": "Michel Bussi : Rien ne t’efface et Les Ombres du monde",
+      "archive_only": true,
+      "original_date": "2026-06-23",
+      "starts_at": "2026-06-23T00:00:00+02:00",
+      "ends_at": "2026-06-24T00:00:00+02:00",
+      "period": "Publié le 23 juin 2026 · Archive",
+      "body": "📚✨ Les nouveautés de Michel Bussi sont arrivées à la bibliothèque ! ✨📚\n\nConnaissez-vous Michel Bussi ? Ancien professeur de géographie devenu l'un des auteurs préférés des Français, il est le maître des intrigues à rebondissements. Avec lui, impossible de deviner la fin avant les dernières pages !\n\n🔎 Suspense, secrets de famille, enquêtes, personnages attachants et retournements de situation : ses romans se dévorent.\n\n📖 Nous venons de recevoir : \n• Rien ne t'efface \n• Les Ombres du monde\n\nDeux romans très différents, mais toujours avec cette touche Bussi qui nous fait tourner les pages sans pouvoir s'arrêter.\n\n💬 Et vous, avez-vous déjà lu un roman de Michel Bussi ? Quel est votre préféré ? Venez nous raconter tout ça samedi matin, SI LA VIGILANCE ROUGE est supprimée...",
+      "books": [
+        {
+          "id": "138",
+          "title": "Rien ne t’efface",
+          "author": "Michel Bussi"
+        },
+        {
+          "id": "106",
+          "title": "Les Ombres du monde",
+          "author": "Michel Bussi"
+        }
+      ],
+      "images": [
+        {
+          "src": "./archive-wa-20260620-WA0030.jpg",
+          "alt": "Visuel de la communication « Michel Bussi : Rien ne t’efface et Les Ombres du monde »",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "src": "./archive-wa-20260620-WA0026.jpg",
+          "alt": "Visuel de la communication « Michel Bussi : Rien ne t’efface et Les Ombres du monde »",
+          "width": 1086,
+          "height": 1448
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-06-26-062",
+      "type": "vie",
+      "title": "Partir en Livre : report de la matinée",
+      "archive_only": true,
+      "original_date": "2026-06-26",
+      "starts_at": "2026-06-26T00:00:00+02:00",
+      "ends_at": "2026-06-27T00:00:00+02:00",
+      "period": "Publié le 26 juin 2026 · Archive",
+      "body": "📚🦸‍♀️ PARTIR EN LIVRE EST REPORTÉ... MAIS PAS ANNULÉ ! 🦸‍♂️📚\n\nBonne nouvelle : notre matinée « Accueil des héros » est simplement reportée au samedi 4 juillet de 10h à 12h à la Bibliothèque des Bréviaires.\n\n✨ Les héros ont demandé un petit délai supplémentaire pour enfiler leur cape, choisir leurs livres préférés et préparer quelques surprises...\n\nEt puis, entre nous, les bénévoles de la bibliothèque ne pouvaient pas imaginer vous laisser partir en vacances sans faire le plein de lectures ! 📖☀️\n\nAu programme :\n📚 Des nouveautés à découvrir\n☕ Un accueil convivial autour d'un café\n🦸 Une animation gratuite pour petits et grands héros\n😊 Et toujours le plaisir de partager nos coups de cœur lecture\n\nAlors notez bien la nouvelle date : samedi 4 juillet, de 10h à 12h.\n\nNous avons hâte de vous retrouver pour cette belle matinée placée sous le signe des livres, de l'imagination et de l'aventure !\n\n📖 L'équipe de la Bibliothèque des Bréviaires",
+      "books": [],
+      "images": [
+        {
+          "src": "./archive-wa-20260624-WA0014.jpg",
+          "alt": "Visuel de la communication « Partir en Livre : report de la matinée »",
+          "width": 1025,
+          "height": 1535
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-06-29-068",
+      "type": "vie",
+      "title": "Partir en Livre : nos petits et grands héros",
+      "archive_only": true,
+      "original_date": "2026-06-29",
+      "starts_at": "2026-06-29T00:00:00+02:00",
+      "ends_at": "2026-06-30T00:00:00+02:00",
+      "period": "Publié le 29 juin 2026 · Archive",
+      "body": "🌤️ Bonjour à toutes et à tous !\n\nOn espère que tout le monde va bien après le gros orage de samedi et qu'il n'y a pas eu trop de dégâts chez vous. ❤️\n\n📚 Samedi matin, on se retrouve à la bibliothèque pour \"Partir en Livre\" !\n\nPour l'occasion, Muriel, notre bibliothécaire bénévole passionnée, a préparé une jolie sélection de livres autour du thème « Nos petits et grands héros ».\n\n☕ Comme toujours, nous vous accueillerons dans une ambiance conviviale, avec le sourire et quelques gourmandises.\n\n📍 Rendez-vous samedi matin à la bibliothèque des Bréviaires !\n\nÀ très vite ! 📖✨",
+      "books": []
+    },
+    {
+      "id": "wa-2026-07-01-076",
+      "type": "theme",
+      "title": "Quatre découvertes pour l’été",
+      "archive_only": true,
+      "original_date": "2026-07-01",
+      "starts_at": "2026-07-01T00:00:00+02:00",
+      "ends_at": "2026-07-02T00:00:00+02:00",
+      "period": "Publié le 1 juillet 2026 · Archive",
+      "body": "📚 Et si votre prochain coup de cœur vous attendait... à la bibliothèque ? ❤️\n\nCette semaine, nous vous proposons quatre belles découvertes, quatre univers très différents :\n\n🌊 Les Fantômes de Shearwater : un thriller captivant où nature, secrets et émotions se mêlent.\n\n🍽️ La Fractale des raviolis : un roman aussi drôle qu'inattendu, qui vous entraîne d'histoire en histoire avec une imagination débordante.\n\n📖 La Fille de la bibliothèque : une ode tendre aux livres, à l'amitié et aux petits miracles du quotidien.\n\n🚆 Au train où va la vie : un voyage rempli d'émotions, de rencontres et d'humanité, qui fait passer du rire aux larmes.\n\nIl ne vous reste plus qu'à choisir... ou à repartir avec les quatre ! 😊\n\n📍 Rendez-vous samedi de 10 h à 12 h à la Bibliothèque des Bréviaires. Nous serons ravis de vous accueillir !\n\n📚 Bonne lecture à toutes et à tous ! 💚",
+      "books": [
+        {
+          "id": "87",
+          "title": "Les Fantômes de Shearwater",
+          "author": "Charlotte McConaghy"
+        },
+        {
+          "id": "140",
+          "title": "La fractale des raviolis",
+          "author": "Pierre Raufast"
+        },
+        {
+          "id": "83",
+          "title": "La fille de la bibliothèque",
+          "author": "Polly Horvath"
+        },
+        {
+          "id": "90",
+          "title": "Au train où va la vie",
+          "author": "Cynthia Kafka"
+        }
+      ],
+      "images": [
+        {
+          "src": "./archive-wa-20260630-WA0038.jpg",
+          "alt": "Visuel de la communication « Quatre découvertes pour l’été »",
+          "width": 1023,
+          "height": 1537
+        },
+        {
+          "src": "./archive-wa-20260630-WA0039.jpg",
+          "alt": "Visuel de la communication « Quatre découvertes pour l’été »",
+          "width": 1023,
+          "height": 1537
+        },
+        {
+          "src": "./archive-wa-20260630-WA0041.jpg",
+          "alt": "Visuel de la communication « Quatre découvertes pour l’été »",
+          "width": 1023,
+          "height": 1537
+        },
+        {
+          "src": "./archive-wa-20260630-WA0040.jpg",
+          "alt": "Visuel de la communication « Quatre découvertes pour l’été »",
+          "width": 1023,
+          "height": 1537
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-07-02-082",
+      "type": "theme",
+      "title": "Alerte aux envahisseurs : les petites bêtes",
+      "archive_only": true,
+      "original_date": "2026-07-02",
+      "starts_at": "2026-07-02T00:00:00+02:00",
+      "ends_at": "2026-07-03T00:00:00+02:00",
+      "period": "Publié le 2 juillet 2026 · Archive",
+      "body": "🐞🚨 ALERTE AUX ENVAHISSEURS ! 🚨🐞\n\nDepuis quelques semaines, une étrange armée a pris le contrôle des Bréviaires...\n\n🦟 Ça pique.\n🐜 Ça grimpe partout.\n🪲 Ça se cache sous les cailloux.\n🕷️ Ça apparaît dès qu'on regarde ailleurs.\n\nEt le plus inquiétant ?\n\n👉 Ils sont déjà dans votre jardin.\n👉 Ils sont peut-être sous votre terrasse.\n👉 Certains vivent même dans votre compost !\n\nPas de panique ! 😄\n\nAvant de déclarer la guerre aux petites bêtes, pourquoi ne pas apprendre à les connaître ?\n\n📍 Disponible à la bibliothèque des Bréviaires \n\n🐜🔍🦋 Qui sait ? Votre prochaine rencontre extraordinaire est peut-être à 30 cm de vos pieds... 😄",
+      "books": []
+    },
+    {
+      "id": "wa-2026-07-03-092",
+      "type": "theme",
+      "title": "Cap sur l’Histoire et les frissons",
+      "archive_only": true,
+      "original_date": "2026-07-03",
+      "starts_at": "2026-07-03T00:00:00+02:00",
+      "ends_at": "2026-07-04T00:00:00+02:00",
+      "period": "Publié le 3 juillet 2026 · Archive",
+      "body": "📚 Cette semaine à la Bibliothèque des Bréviaires… cap sur l'Histoire... et les frissons ! 😊\n\nTrois livres, trois ambiances, mais un même point commun : impossible de rester indifférent !\n\n🇩🇪 Berlin 1989 – Un mur s'écroule vous plonge dans le quotidien d'une adolescente à Berlin-Est, juste avant la chute du Mur.\n\n🍄 Méchante est un roman judiciaire aussi subtil que cruel, avec une fin aussi inattendue que brillante.\n\n🌲 Le Garçon éternel vous entraîne dans un thriller psychologique captivant où passé et présent s'entremêlent.\n\n📖 À découvrir samedi matin, de 10 h à 12 h, à la Bibliothèque des Bréviaires !\n\n☀️ Dernières fiches de lecture avant les vacances ! Nous souhaitons un très bel été et de belles lectures à ceux que nous ne verrons pas demain. Rendez-vous en septembre pour de nouvelles découvertes ! 📚",
+      "books": [
+        {
+          "id": "84",
+          "title": "Berlin 1989 : un mur s’écroule",
+          "author": "Sophie Humann"
+        },
+        {
+          "id": "81",
+          "title": "Méchante",
+          "author": "Karine Sulpice"
+        },
+        {
+          "id": "102",
+          "title": "Le Garçon éternel",
+          "author": "Jérôme Loubry"
+        }
+      ],
+      "images": [
+        {
+          "src": "./archive-wa-20260701-WA0005.jpg",
+          "alt": "Visuel de la communication « Cap sur l’Histoire et les frissons »",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "src": "./archive-wa-20260701-WA0006.jpg",
+          "alt": "Visuel de la communication « Cap sur l’Histoire et les frissons »",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "src": "./archive-wa-20260701-WA0004.jpg",
+          "alt": "Visuel de la communication « Cap sur l’Histoire et les frissons »",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-07-04-098",
+      "type": "vie",
+      "title": "Partir en Livre : c’est ce matin",
+      "archive_only": true,
+      "original_date": "2026-07-04",
+      "starts_at": "2026-07-04T00:00:00+02:00",
+      "ends_at": "2026-07-05T00:00:00+02:00",
+      "period": "Publié le 4 juillet 2026 · Archive",
+      "body": "📚 PARTIR EN LIVRE, C'EST CE MATIN ! \n10h - 12h - ON VOUS ATTEND ☀️\n\nLes transats sont installés,\nLe café est infusé,\nLes livres ouvrent doucement leurs pages,\nEt l'imagination s'apprête à prendre le large.",
+      "books": [],
+      "images": [
+        {
+          "src": "./archive-wa-20260628-WA0039.jpg",
+          "alt": "Visuel de la communication « Partir en Livre : c’est ce matin »",
+          "width": 1365,
+          "height": 2048
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-07-11-101",
+      "type": "actualite",
+      "title": "La Bamboche des Librairies",
+      "archive_only": true,
+      "original_date": "2026-07-11",
+      "starts_at": "2026-07-11T00:00:00+02:00",
+      "ends_at": "2026-07-12T00:00:00+02:00",
+      "period": "Publié le 11 juillet 2026 · Archive",
+      "body": "📚🎉 Et si on faisait la fête... avec un livre ? 🎉📚\nCe samedi 11 juillet 2026, c'est La Bamboche des Librairies ! 🥳\n\nLe principe est tout simple :\n👉 On pousse la porte d'une librairie. \n👉 On flâne un peu. \n👉 Et on repart avec un livre qui nous fait envie. ❤️📖\n\nC'est une belle occasion de soutenir les librairies indépendantes, de découvrir de nouveaux auteurs et, pourquoi pas, de préparer vos prochaines lectures de l'été ! ☀️📚\n\nÀ la Bibliothèque des Bréviaires, on adore toutes les initiatives qui donnent envie de lire. Alors si vous participez, n'hésitez pas à nous raconter vos découvertes lors de votre prochaine visite ! 😊\n\nBonne Bamboche des Librairies à toutes et à tous ! 🎈📚",
+      "books": [],
+      "images": [
+        {
+          "src": "./archive-wa-20260711-WA0001.jpg",
+          "alt": "Visuel de la communication « La Bamboche des Librairies »",
+          "width": 708,
+          "height": 963
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-07-19-109",
+      "type": "vie",
+      "title": "Clap de fin pour Partir en Livre",
+      "archive_only": true,
+      "original_date": "2026-07-19",
+      "starts_at": "2026-07-19T00:00:00+02:00",
+      "ends_at": "2026-07-20T00:00:00+02:00",
+      "period": "Publié le 19 juillet 2026 · Archive",
+      "body": "📚 Clap de fin pour Partir en Livre 2026\n\nNotre matinée Partir en Livre a été mise à l'honneur dans un très bel article de Muriel L. sur GSO Parisien News.\n\nVous y retrouverez l'ambiance conviviale de cette journée, notre exposition « Sains et Saufs : les animaux de refuge », les échanges autour des livres, ainsi que les trois coups de cœur de l'équipe : \n📖 La Fractale des raviolis de Pierre Raufast, \n🌿 Il était une fois un monde sauvage d'Emily Hawkins et Ella Beech, \n🐹 Sukeroku, ma vie de petit hamster de Gotte & Watsumi.\n\nUn grand merci à Muriel pour ce bel article qui met en lumière le travail de nos bénévoles et la vie de notre petite bibliothèque. ❤️\n\n👉 Bonne lecture : https://www.gsoparisien.news/2026/07/10/partir-en-livre-nos-petits-et-grands-heros-aux-breviaires/",
+      "books": [
+        {
+          "id": "140",
+          "title": "La fractale des raviolis",
+          "author": "Pierre Raufast"
+        },
+        {
+          "id": "85",
+          "title": "Il était une fois un monde sauvage",
+          "author": "Emily Hawkins"
+        },
+        {
+          "id": "108",
+          "title": "Sukeroku : Ma vie de petit hamster",
+          "author": " Gotte,  Watsumi"
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-07-26-110",
+      "type": "actualite",
+      "title": "La Bibliothèque Sonore de Paris recherche des bénévoles",
+      "archive_only": true,
+      "original_date": "2026-07-26",
+      "starts_at": "2026-07-26T00:00:00+02:00",
+      "ends_at": "2026-07-27T00:00:00+02:00",
+      "period": "Publié le 26 juillet 2026 · Archive",
+      "body": "📚🎙️ Vous aimez lire à haute voix ?\n\nVotre voix pourrait devenir les yeux de quelqu’un.\n\nLa Bibliothèque Sonore de Paris recherche des bénévoles pour enregistrer des livres à destination de personnes qui ne peuvent pas lire seules. \n\nPas besoin d’être comédien : il faut surtout aimer lire, savoir transmettre une histoire… et avoir un peu de temps à offrir.\n\nParce que parfois, partager un livre, c’est simplement prêter sa voix. ❤️\n\n👉 Découvrez l’article :\nhttps://france3-regions.franceinfo.fr/paris-ile-de-france/paris/plus-que-des-donneurs-de-voix-c-est-de-donneurs-de-temps-dont-nous-avons-besoin-la-bibliotheque-sonore-de-paris-cherche-des-benevoles-3371110.html",
+      "books": []
+    },
+    {
+      "id": "wa-2026-08-08-118",
+      "type": "actualite",
+      "title": "Devenir juré des Pépites 2026",
+      "archive_only": true,
+      "original_date": "2026-08-08",
+      "starts_at": "2026-08-08T00:00:00+02:00",
+      "ends_at": "2026-08-09T00:00:00+02:00",
+      "period": "Publié le 8 août 2026 · Archive",
+      "body": "📚🏆 ET SI VOTRE ENFANT DEVENAIT JURÉ D’UN PRIX LITTÉRAIRE ?\n\nLe Salon du livre et de la presse jeunesse recherche de jeunes lecteurs de 8 à 18 ans pour devenir jurés des Pépites 2026 ! ✨\n\nUne belle aventure pour les passionnés de lecture :\n📖 lire les 5 livres de leur sélection\n💬 partager leurs impressions\n🏆 participer au choix du livre lauréat\n💻 délibérer avec les autres jeunes jurés en visioconférence !\n\nQuatre catégories sont proposées : Livre illustré, Bande dessinée, Fiction juniors et Fiction ados.\n\n📅 Candidatures jusqu’au 20 septembre 2026 à minuit.\n\nPour candidater, les jeunes devront notamment parler de leur livre préféré et rédiger une petite lettre expliquant pourquoi ils aimeraient devenir jurés. ❤️\n\n👉 Toutes les explications et conditions :\nhttps://slpj.fr/salon/pepites/\n\n✍️ Formulaire officiel de candidature :\nhttps://slpj.fr/jury-des-pepites-2026/\n\nAlors, qui parmi nos jeunes lecteurs de la Bibliothèque des Bréviaires tentera l’aventure ? 📚😊",
+      "books": []
+    },
+    {
+      "id": "wa-2026-09-02-125",
+      "type": "vie",
+      "title": "Forum des associations et réouverture de la bibliothèque",
+      "archive_only": true,
+      "original_date": "2026-09-02",
+      "starts_at": "2026-09-02T00:00:00+02:00",
+      "ends_at": "2026-09-03T00:00:00+02:00",
+      "period": "Publié le 2 septembre 2026 · Archive",
+      "body": "📚 RETROUVEZ-NOUS AU FORUM DES ASSOCIATIONS ! 📚\n\nCe samedi, venez rencontrer l’équipe de la Bibliothèque des Bréviaires au Forum des Associations ! 😊\n\n👉 Profitez du Forum pour adhérer à l’ASLB et pouvoir emprunter les livres de la bibliothèque ! 📖\n\n✨ Et notez bien la date :\nla bibliothèque réouvrira officiellement ses portes le samedi 12 septembre, de 10h à 12h !\n\nEn attendant, on vous retrouve samedi au Forum ! ❤️📚",
+      "books": [],
+      "images": [
+        {
+          "src": "./archive-wa-20260628-WA0045.jpg",
+          "alt": "Visuel de la communication « Forum des associations et réouverture de la bibliothèque »",
+          "width": 1447,
+          "height": 2048
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-09-08-127",
+      "type": "theme",
+      "title": "Vive les mots et les histoires",
+      "archive_only": true,
+      "original_date": "2026-09-08",
+      "starts_at": "2026-09-08T00:00:00+02:00",
+      "ends_at": "2026-09-09T00:00:00+02:00",
+      "period": "Publié le 8 septembre 2026 · Archive",
+      "body": "📚✏️ Cette semaine à la Bibliothèque des Bréviaires : vive les mots et les histoires !\n\nÀ l’occasion de la Journée internationale de l’alphabétisation, célébrons quelque chose qui nous tient particulièrement à cœur : le plaisir de lire, d’écrire et de découvrir le monde grâce aux livres. ❤️\n\n🦊 L’hiver de Volpiglio — Karen Hottois & Julia Woignier\n👧 À partir de 5 ans\nLorsque ses amis hibernent, Volpiglio se retrouve seul. La neige devient alors une immense page blanche sur laquelle il commence à poser ses émotions et à jouer avec les mots.\n🔗 En savoir + : https://booknode.com/lhiver_de_volpiglio_03688990\n\n📖 Journal d’un libraire qui ne croyait plus aux histoires — Kevin Lecathelinais\n👤 Adultes\nVivian ouvre une librairie dans un petit village… alors qu’il préférerait ne plus jamais avoir affaire aux livres ! Les rencontres vont peu à peu bouleverser son plan — et sa vie.\n🔗 En savoir + : https://booknode.com/journal_dun_libraire_qui_ne_croyait_plus_aux_histoires_03660177\n\n💌 Le Cercle littéraire des amateurs d’épluchures de patates — Mary Ann Shaffer & Annie Barrows\n👤 Adultes\nAu lendemain de la Seconde Guerre mondiale, une jeune écrivaine londonienne commence à correspondre avec les membres d’un étonnant club de lecture de Guernesey. Au fil des lettres se dévoilent la guerre, l’amitié, la solidarité… et leur passion commune pour les livres.\n🔗 En savoir + : https://booknode.com/le_cercle_litteraire_des_amateurs_d_epluchures_de_patates_015886\n\n🌏 Balzac et la petite tailleuse chinoise — Dai Sijie\n👤 Adultes / grands ados\nDans la Chine de la Révolution culturelle, deux jeunes découvrent une valise remplie de romans interdits. Une magnifique histoire sur les livres comme portes vers la liberté et l’émancipation.\n🔗 En savoir + : https://booknode.com/balzac_et_la_petite_tailleuse_chinoise_014587\n\n❤️ Parce qu’apprendre à lire, c’est aussi apprendre à rêver, comprendre et choisir.\n\n📚 Rendez-vous à la Bibliothèque des Bréviaires, ce samedi de 10 h à 12 h.",
+      "books": [
+        {
+          "id": "133",
+          "title": "L’hiver de Volpiglio",
+          "author": "Karen Hottois, Julia Woignier",
+          "booknode": "https://booknode.com/lhiver_de_volpiglio_03688990"
+        },
+        {
+          "id": "92",
+          "title": "Journal d’un libraire qui ne croyait plus aux histoires",
+          "author": "Kevin Lecathelinais",
+          "booknode": "https://booknode.com/journal_dun_libraire_qui_ne_croyait_plus_aux_histoires_03660177"
+        },
+        {
+          "id": "219",
+          "title": "Le cercle littéraire des amateurs d’épluchures de patates",
+          "author": "Mary Ann Shaffer, Annie Barrows"
+        },
+        {
+          "id": "176",
+          "title": "Balzac et la petite tailleuse chinoise",
+          "author": "Sijie Dai",
+          "booknode": "https://booknode.com/balzac_et_la_petite_tailleuse_chinoise_014587"
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-09-11-130",
+      "type": "coeur",
+      "title": "La Dernière Allumette — Marie Vareille",
+      "archive_only": true,
+      "original_date": "2026-09-11",
+      "starts_at": "2026-09-11T00:00:00+02:00",
+      "ends_at": "2026-09-12T00:00:00+02:00",
+      "period": "Publié le 11 septembre 2026 · Archive",
+      "body": "LE COUP DE ❤️ DE LA SEMAINE\n\n📕 LA DERNIÈRE ALLUMETTE — Marie Vareille\n\nDepuis plus de vingt ans, Abigaëlle vit recluse dans un couvent.\nDe loin, elle observe son frère Gabriel. Artiste reconnu, brillant, séduisant… tout semble lui réussir.\n\nPuis Gabriel rencontre Zoé.\nEt Abigaëlle se met à trembler.\n\nParce qu’elle seule sait qui est vraiment son frère.\n\n🔥 Et c’est ici qu’on arrête de vous raconter l’histoire…\n\nDes secrets. Une famille. Une enfance enfouie. Et cette sensation, page après page, que quelque chose ne colle pas.\n\nOn avance. On doute. On veut comprendre.\nEt surtout… on ne veut plus s'arrêter.\n\n👉 Pour en savoir + sur Marie Vareille (https://marievareille.com/a-propos/)\n\n🕰️ On vous attend demain, de 10h à 12h, à la bibliothèque !",
+      "books": [
+        {
+          "id": "3152",
+          "title": "La Dernière Allumette",
+          "author": "Marie Vareille"
+        }
+      ],
+      "images": [
+        {
+          "src": "./archive-wa-20260906-WA0008.jpg",
+          "alt": "Visuel de la communication « La Dernière Allumette — Marie Vareille »",
+          "width": 1265,
+          "height": 2048
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-09-14-143",
+      "type": "theme",
+      "title": "La nature sauvage des Bréviaires à l’honneur",
+      "archive_only": true,
+      "original_date": "2026-09-14",
+      "starts_at": "2026-09-14T00:00:00+02:00",
+      "ends_at": "2026-09-15T00:00:00+02:00",
+      "period": "Publié le 14 septembre 2026 · Archive",
+      "body": "🦌🐦 Cette semaine, la nature sauvage des Bréviaires est à l’honneur !\n\nÀ l’occasion des Journées du patrimoine, deux rendez-vous nous invitent à regarder autrement les animaux qui vivent tout près de chez nous : les majestueux cerfs de la forêt de Rambouillet… et les hirondelles de notre village. 🌳\n\nAlors, évidemment, nous sommes allés chercher quelques compagnons à plumes et à bois dans les rayons de la bibliothèque ! 📚\n\n🦌 La Forêt perdue — Maurice Genevoix\n👤 Adultes\nUne grande forêt sauvage, un vieux seigneur qui la respecte… et un cerf majestueux que d’autres veulent à tout prix poursuivre. Un roman où la forêt et l’animal sauvage occupent une place centrale.\n🔗 En savoir + :\nhttps://booknode.com/la_foret_perdue_078338\n\n🍂 Trente mille jours — Maurice Genevoix\n👤 Adultes\nMaurice Genevoix revient sur les grands moments de sa vie, profondément liée à la nature. Parmi ses souvenirs : une marche au brame dans les forêts de Sologne… Un joli écho à l’exposition des Bréviaires.\n🔗 En savoir + :\nhttps://booknode.com/trente_mille_jours_033501\n\n🐦 L’Oiseau — Claude Delafosse & René Mettler\n👧 Jeunesse • Documentaire\nUn petit documentaire illustré pour découvrir le vol, les plumes, les œufs et les nids, et apprendre à observer les oiseaux qui vivent autour de nous.\n🔗 En savoir + :\nhttps://booknode.com/loiseau_03235843\n\n🥾 Pistes – Pour découvrir la nature avec les enfants — Louis Espinassous\n👨‍👩‍👧 À découvrir en famille\nObserver les animaux et leurs traces, reconnaître les arbres, écouter les oiseaux, lire le paysage… Un guide pour apprendre à regarder vraiment la nature qui nous entoure.\n🔗 En savoir + :\nhttps://booknode.com/emerveillement_et_decouverte_de_la_nature_01509315\n\n❤️ Cerfs, oiseaux, forêt… notre patrimoine, c’est aussi toute cette vie sauvage qui nous entoure !\n\n📷 EXPOSITION « LE TEMPS DU BRAME » 🦌\n📍 Salle des fêtes des Bréviaires\n\n1️⃣8️⃣ Vendredi 18 septembre • 14 h – 16 h 30\n\n1️⃣9️⃣ Samedi 19 septembre • 10 h – 12 h et 14 h – 17 h\n🥂 Vernissage à 11 h 30\n\n2️⃣0️⃣ Dimanche 20 septembre • 10 h – 12 h et 14 h – 17 h\n\n📸 Photographies de Jean-Philippe Gibault, consacrées aux cerfs et aux biches libres et sauvages de la forêt de Rambouillet.\n\n🎥 Une projection accompagnée d’une bande-son du brame est également prévue pour prolonger l’immersion au cœur de la forêt.\n\n🐦 RECENSEMENT DES NIDS D’HIRONDELLES\n\n1️⃣9️⃣ Samedi 19 septembre • 16 h – 17 h\n📍 Rendez-vous à la salle des fêtes des Bréviaires\n🔎 Venez participer au comptage des nids près du haras.\n📸 Vous pouvez aussi envoyer vos photos de nids en précisant l’adresse à :\n📧 Bibliotheque.breviaires@gmail.com\n\n📚 Rendez-vous à la Bibliothèque des Bréviaires samedi de 10 h à 11h30 exceptionnellement !",
+      "books": [
+        {
+          "id": "1653",
+          "title": "La Forêt perdue",
+          "author": "Maurice Genevoix",
+          "booknode": "https://booknode.com/la_foret_perdue_078338"
+        },
+        {
+          "id": "1654",
+          "title": "Trente mille jours",
+          "author": "Maurice Genevoix",
+          "booknode": "https://booknode.com/trente_mille_jours_033501"
+        },
+        {
+          "id": "2200",
+          "title": "L’Oiseau",
+          "author": "René Mettler, Claude Delafosse",
+          "booknode": "https://booknode.com/loiseau_03235843"
+        },
+        {
+          "id": "392",
+          "title": "Pistes – Pour découvrir la nature avec les enfants",
+          "author": "Louis Espinassous"
+        }
+      ],
+      "images": [
+        {
+          "src": "./archive-wa-20260913-WA0015.jpg",
+          "alt": "Visuel de la communication « La nature sauvage des Bréviaires à l’honneur »",
+          "width": 1600,
+          "height": 1600
+        },
+        {
+          "src": "./archive-wa-20260907-WA0020.jpg",
+          "alt": "Visuel de la communication « La nature sauvage des Bréviaires à l’honneur »",
+          "width": 1448,
+          "height": 2048
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-09-18-145",
+      "type": "coeur",
+      "title": "Empyrean — Rebecca Yarros",
+      "archive_only": true,
+      "original_date": "2026-09-18",
+      "starts_at": "2026-09-18T00:00:00+02:00",
+      "ends_at": "2026-09-19T00:00:00+02:00",
+      "period": "Publié le 18 septembre 2026 · Archive",
+      "body": "📚 LE COUP DE ❤️ DE LA BIBLIOTHÈQUE\n\n🐉 LA SAGA EMPYREAN — Rebecca Yarros\nFourth Wing • Iron Flame • Onyx Storm\n\nViolet Sorrengail devait mener une vie tranquille parmi les livres…\n\nMais sa mère en décide autrement : elle intégrera le Quadrant des Cavaliers, où les candidats s’affrontent pour devenir dragonniers.\n\nLe problème ?\n\nViolet est plus petite, plus fragile que les autres.\nEt dans cette école, tout le monde ne survit pas.\n\n🐉 Des dragons. Des épreuves mortelles. Des secrets. Une guerre. Et un certain Xaden Riorson qui ne va franchement pas simplifier les choses… 🔥\n\nUne fois entrée à Basgiath, difficile d’en ressortir.\nEt une fois Fourth Wing commencé… difficile de s’arrêter.\n\n👉 Envie d’en savoir + sur Rebecca Yarros ?\n\"Découvrez l’autrice et ses livres en français\" (https://www.fnac.com/Rebecca-Yarros/ia3038577/bio)\n\n📖 Nouvelle section Romantasy à la bibliothèque... qui s’enrichira au fil du temps !\n\n🕰️ On vous attend demain, de 10h à 11h30, à la bibliothèque !\n\n18 ans et plus : ces sagas comportent des scènes explicites.",
+      "books": [
+        {
+          "id": "2134",
+          "title": "Fourth Wing",
+          "author": "Rebecca Yarros",
+          "notice": "18 ans et plus · scènes explicites"
+        },
+        {
+          "id": "2139",
+          "title": "Iron Flame",
+          "author": "Rebecca Yarros",
+          "notice": "18 ans et plus · scènes explicites"
+        },
+        {
+          "id": "3151",
+          "title": "Onyx Storm",
+          "author": "Rebecca Yarros",
+          "notice": "18 ans et plus · scènes explicites"
+        }
+      ],
+      "images": [
+        {
+          "src": "./archive-wa-20260914-WA0022.jpg",
+          "alt": "Visuel de la communication « Empyrean — Rebecca Yarros »",
+          "width": 1600,
+          "height": 1600
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-09-21-171",
+      "type": "theme",
+      "title": "Cinq escales autour du monde",
+      "archive_only": true,
+      "original_date": "2026-09-21",
+      "starts_at": "2026-09-21T00:00:00+02:00",
+      "ends_at": "2026-09-22T00:00:00+02:00",
+      "period": "Publié le 21 septembre 2026 · Archive",
+      "body": "✈️🌍 Cette semaine, la bibliothèque vous fait voyager !\n\nÀ l’approche de la Journée mondiale du tourisme, le 27 septembre, embarquez avec nous pour 5 escales autour du monde… sans quitter Les Bréviaires ! 📚\n\n🇪🇹 L’Abyssin — Jean-Christophe Rufin\nDu Caire aux montagnes d’Éthiopie, Jean-Baptiste Poncet se lance dans une incroyable expédition. Intrigues, dangers et rencontres : un grand roman d’aventure sur les routes de l’Orient.\n🔗 https://booknode.com/labyssin_016357\n\n🐎 Alexandre et Alestria — Shan Sa\nLui est Alexandre le Grand, elle est reine des Amazones. Leurs destins se croisent dans une fresque qui nous fait traverser steppes, montagnes, forêts et déserts d’Asie.\n🔗 https://booknode.com/alexandre_et_alestria_040817\n\n🇯🇵 Stupeur et tremblements — Amélie Nothomb\nDirection Tokyo ! Amélie pensait retrouver le Japon de son enfance… elle découvre surtout les codes d’une grande entreprise japonaise. Drôle, mordant et complètement décalé !\n🔗 https://booknode.com/stupeur_et_tremblements_0328\n\n🇮🇳 La Dame au sari bleu — Katherine Scholes\nDe la Tasmanie jusqu’en Inde, Zelda part sur les traces de sa mère qu’elle croyait disparue depuis toujours. Une quête familiale qui nous emmène jusqu’au pied de l’Himalaya, entre secrets, rencontres et dépaysement.\n🔗 https://booknode.com/la_dame_au_sari_bleu_050205\n\n❄️ Contes inuit de la banquise — Jacques Pasquet\n👧 Jeunesse\nCap sur le Grand Nord canadien ! Entre glace et banquise, partons à la rencontre des Inuit, de leur culture et des histoires transmises depuis des générations. Un voyage entre découverte et imaginaire.\n🔗 https://booknode.com/contes_inuit_de_la_banquise_01829995\n\n❤️ 5 livres, 5 escales… et autant de façons de voyager sans faire sa valise !\n\n📚 Samedi 10 h–12 h : venez nous rencontrer à la bibliothèque et choisir votre prochaine destination… ✈️📖",
+      "books": [
+        {
+          "id": "161",
+          "title": "L’Abyssin",
+          "author": "Jean-Christophe Rufin",
+          "booknode": "https://booknode.com/labyssin_016357"
+        },
+        {
+          "id": "172",
+          "title": "Alexandre et Alestria",
+          "author": "Shan Sa",
+          "booknode": "https://booknode.com/alexandre_et_alestria_040817"
+        },
+        {
+          "id": "43",
+          "title": "Stupeur et tremblements",
+          "author": "Amélie Nothomb",
+          "booknode": "https://booknode.com/stupeur_et_tremblements_0328"
+        },
+        {
+          "id": "229",
+          "title": "La dame au sari bleu",
+          "author": "Katherine Scholes",
+          "booknode": "https://booknode.com/la_dame_au_sari_bleu_050205"
+        },
+        {
+          "id": "2740",
+          "title": "Contes inuit de la banquise – Voyage dans l’Arctique canadien",
+          "author": "Jacques Pasquet",
+          "booknode": "https://booknode.com/contes_inuit_de_la_banquise_01829995"
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-09-23-172",
+      "type": "actualite",
+      "title": "Devenir juré du Grand Prix des Lecteurs Pocket 2027",
+      "archive_only": true,
+      "original_date": "2026-09-23",
+      "starts_at": "2026-09-23T00:00:00+02:00",
+      "ends_at": "2026-09-24T00:00:00+02:00",
+      "period": "Publié le 23 septembre 2026 · Archive",
+      "body": "📚🏆 ET SI VOUS DEVENIEZ JURÉ D’UN GRAND PRIX LITTÉRAIRE ?\n\nAvis aux amoureux des livres ! ❤️\nLes éditions Pocket recherchent leurs lecteurs-jurés pour le Grand Prix des Lecteurs Pocket 2027 !\n\nUne belle aventure pour :\n📖 découvrir une sélection de romans\n💬 partager ses impressions et ses coups de cœur\n🏆 et surtout participer au choix des prochains lauréats !\n\nDeux catégories au choix :\n🇫🇷 Littérature française\n🌍 Littérature étrangère\n\nPour tenter votre chance, Pocket vous invite notamment à partager votre dernier coup de cœur Pocket. 💌\n\n👉 Toutes les informations et candidature officielle :\nhttps://www.lisez.com/lp/gpdl-inscription-des-lecteurs-2027\n\n📱 Le concours Pocket sur Instagram : \nhttps://www.instagram.com/p/DdmWqTajESO/?stkn=eDl1YXpybXl0ODdi\n\n🍀 Bonne chance à nos lecteurs !\n\nEt si l’un de vous est sélectionné, venez vite nous le raconter à la Bibliothèque des Bréviaires ! 😍📚",
+      "books": []
+    },
+    {
+      "id": "wa-2026-09-25-176",
+      "type": "coeur",
+      "title": "Au petit bonheur la chance — Aurélie Valognes",
+      "archive_only": true,
+      "original_date": "2026-09-25",
+      "starts_at": "2026-09-25T00:00:00+02:00",
+      "ends_at": "2026-09-26T00:00:00+02:00",
+      "period": "Publié le 25 septembre 2026 · Archive",
+      "body": "📚 LE COUP DE ❤️ DE LA BIBLIOTHÈQUE\n\n🍀 AU PETIT BONHEUR LA CHANCE — Aurélie Valognes\n\n1968. Jean a six ans lorsqu’il est confié, du jour au lendemain, à sa grand-mère.\n\nPour l’été. Pour toujours.\n\nMémé Lucette n’avait rien demandé. Jean non plus.\n\nElle n’est pas très commode, adore le tricot et sa petite vie tranquille. Lui est un véritable moulin à paroles qui s’émerveille de tout.\n\nEt pourtant… doucement, ces deux-là vont s’apprivoiser. ❤️\n\nUne grand-mère, un petit garçon, une époque qui change et ces petits bonheurs tout simples qui finissent parfois par devenir les plus beaux souvenirs d’une vie.\n\nUn roman tendre, drôle et émouvant… le genre de livre qu’on referme avec un petit pincement au cœur et le sourire aux lèvres. 🥰\n\n👉 Envie d’en savoir + sur Aurélie Valognes ?\n\"Découvrez l’autrice et ses romans\" (https://aurelie-valognes.com/)\n\n📚 Et bonne nouvelle : Aurélie Valognes est particulièrement bien représentée à la bibliothèque !\nVous trouverez une belle sélection de ses romans dans nos rayons. ❤️\n\n🕰️ On vous attend samedi, de 10h à 12h, à la bibliothèque !",
+      "books": [
+        {
+          "id": "3155",
+          "title": "Au petit bonheur la chance",
+          "author": "Aurélie Valognes"
+        }
+      ],
+      "images": [
+        {
+          "src": "./archive-wa-20260909-WA0006.jpg",
+          "alt": "Visuel de la communication « Au petit bonheur la chance — Aurélie Valognes »",
+          "width": 400,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-09-28-182",
+      "type": "theme",
+      "title": "Octobre Rose aux Bréviaires",
+      "archive_only": true,
+      "original_date": "2026-09-28",
+      "starts_at": "2026-09-28T00:00:00+02:00",
+      "ends_at": "2026-09-29T00:00:00+02:00",
+      "period": "Publié le 28 septembre 2026 · Archive",
+      "body": "🎀 OCTOBRE ARRIVE… ET LES BRÉVIAIRES VOIENT LA VIE EN ROSE ! 💗\n\nÀ l’occasion d’Octobre Rose, l’ASLB se mobilise samedi 3 octobre, de 10h à 16h à la salle des fêtes : marche, course, animations, gourmandises, tombola… Une journée solidaire au profit de l’association Les Kombatives. 💕\n\n📚 La bibliothèque sera elle aussi de la partie !\n💙 De 10h à 12h, venez découvrir le cyanotype et créer votre propre marque-page. \n🩷 De 14h à 16h, venez participer à un atelier d'ecriture et laisser parler votre plume.\nNous mettrons également en avant quelques lectures autour du cancer et de ceux qui le traversent.\n\n🏴‍☠️ Ma maman est une pirate — Karine Surugue & Rémi Saillard\nUn album plein de tendresse qui utilise l’imaginaire pour parler du cancer aux plus jeunes.\n🔗 https://booknode.com/ma_maman_est_une_pirate_03607546\n\n⭐ Nos étoiles contraires — John Green\nHazel et Augustus sont deux adolescents confrontés au cancer. Une histoire d’amour, d’humour et surtout d’envie de vivre.\n🔗 https://booknode.com/nos_etoiles_contraires_0217852\n\n🎀 Maman, le cancer et nous — Brigitte Labbé\nUn livre destiné aux enfants pour mettre des mots sur ce qui se passe lorsque le cancer du sein entre dans la vie d’une famille.\nhttps://www.editions-privat.com/nos-livres/jeunesse/maman-le-cancer-et-nous\n\n💕 Samedi 3 octobre, que ce soit à la bibliothèque ou du côté de la salle des fêtes, venez nombreux soutenir Octobre Rose et toutes les combattantes !",
+      "books": [
+        {
+          "id": "122",
+          "title": "Ma maman est une pirate",
+          "author": "Karine Surugue, Rémi Saillard",
+          "booknode": "https://booknode.com/ma_maman_est_une_pirate_03607546"
+        },
+        {
+          "id": "76",
+          "title": "Nos étoiles contraires",
+          "author": "John Green",
+          "booknode": "https://booknode.com/nos_etoiles_contraires_0217852"
+        },
+        {
+          "id": "121",
+          "title": "Maman, le cancer et nous",
+          "author": "Brigitte Labbé, Éric Gasté"
+        }
+      ],
+      "images": [
+        {
+          "src": "./archive-wa-20260910-WA0006.jpg",
+          "alt": "Visuel de la communication « Octobre Rose aux Bréviaires »",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-09-30-183",
+      "type": "actualite",
+      "title": "Devenir juré du Prix Roman des étudiants",
+      "archive_only": true,
+      "original_date": "2026-09-30",
+      "starts_at": "2026-09-30T00:00:00+02:00",
+      "ends_at": "2026-10-01T00:00:00+02:00",
+      "period": "Publié le 30 septembre 2026 · Archive",
+      "body": "📚🎓 ET SI VOUS DEVENIEZ JURÉ D’UN PRIX LITTÉRAIRE ?\n\nVous êtes étudiante ou étudiant et vous aimez lire ? ❤️\n\nFrance Culture ouvre son jury du Prix Roman des étudiants 2026 à toutes les filières, partout en France !\n\nAu programme :\n📖 Lire 5 romans de la rentrée littéraire, fournis gratuitement en PDF\n💬 Échanger avec les auteurs et les autres étudiants\n🏆 Voter pour votre roman préféré\n\n📅 Inscription avant le 11 octobre 2026 à minuit.\n\n👉 Toutes les explications :\nhttps://www.radiofrance.com/presse/prix-roman-des-etudiants-france-culture-2026-integrez-le-jury-des-aujourdhui\n\n✍️ Formulaire d’inscription :\nhttps://radiofrance.qualifioapp.com/quiz/1849414_70/prixroman2026.html\n\n🍀 Bonne chance aux étudiants des Bréviaires qui tenteront l’aventure !",
+      "books": []
+    },
+    {
+      "id": "wa-2026-10-01-184",
+      "type": "vie",
+      "title": "L’atelier d’écriture",
+      "archive_only": true,
+      "original_date": "2026-10-01",
+      "starts_at": "2026-10-01T00:00:00+02:00",
+      "ends_at": "2026-10-02T00:00:00+02:00",
+      "period": "Publié le 1 octobre 2026 · Archive",
+      "body": "✍️📚 L’ATELIER D’ÉCRITURE\n\nL’animateur de cet atelier vous propose quelques mots pour vous préparer… et vous donner envie de tenter l’expérience. ✍️😊\n\n« Le pain perdu de mamie, la minute avant la sonnerie du réveil, la balade du soir avec le chien...\nTous ces instants sont autant de victoires sur l'angoisse du vide. Qu'on ait 10 ou 90 ans, nous ressentons tous ces plaisirs minuscules qui font l'alchimie de la vie.\nVenez partager ces moments avec les meilleurs outils qui soient pour le faire : du papier et un stylo. Pas besoin d'être un génie pour écrire ce que l'on ressent. Et pas de panique, si l'inspiration vous manque, la curiosité est la meilleure des amies. »\n\n🕑 L'atelier d'écriture se tiendra à partir de 14 heures.\n\n🤗 Tout le monde est le bienvenu !",
+      "books": []
+    },
+    {
+      "id": "wa-2026-10-02-186",
+      "type": "coeur",
+      "title": "Où vont les larmes quand elles sèchent — Baptiste Beaulieu",
+      "archive_only": true,
+      "original_date": "2026-10-02",
+      "starts_at": "2026-10-02T00:00:00+02:00",
+      "ends_at": "2026-10-03T00:00:00+02:00",
+      "period": "Publié le 2 octobre 2026 · Archive",
+      "body": "📚 LE COUP DE ❤️ DE LA BIBLIOTHÈQUE\n\n💧 OÙ VONT LES LARMES QUAND ELLES SÈCHENT — Baptiste Beaulieu\n\nJean est médecin généraliste.\n\nChaque jour, dans son cabinet, défilent des patients avec leurs douleurs, leurs peurs, leurs petits mensonges… et parfois des blessures qu'aucun médicament ne peut soigner.\n\nJean écoute. Il soigne. Il rassure.\n\nMais à force de recueillir les larmes des autres… que fait-il des siennes ?\n\n💙 Un roman qui raconte la médecine du côté de celles et ceux qui soignent, avec leurs failles et leurs émotions.\n\n✍️ Et puis il y a l'écriture de Baptiste Beaulieu : directe, crue, sans filtre. Des phrases qui claquent, de l'humour, parfois de la colère, beaucoup de colère… Une écriture qui ne cherche pas à arrondir les angles.\n\n👉 Envie d'en savoir + sur Baptiste Beaulieu ?\nhttps://booknode.com/auteur/baptiste-beaulieu\n\n📚 Et si vous aimez sa plume, d'autres livres de Baptiste Beaulieu vous attendent également dans nos rayons !\n\n🕰️ On vous attend demain 💜",
+      "books": [
+        {
+          "id": "3205",
+          "title": "Où vont les larmes quand elles sèchent",
+          "author": "Baptiste Beaulieu"
+        }
+      ],
+      "images": [
+        {
+          "src": "./archive-wa-20260910-WA0004.jpg",
+          "alt": "Visuel de la communication « Où vont les larmes quand elles sèchent — Baptiste Beaulieu »",
+          "width": 400,
+          "height": 635
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-10-05-187",
+      "type": "theme",
+      "title": "On prolonge le sourire",
+      "archive_only": true,
+      "original_date": "2026-10-05",
+      "starts_at": "2026-10-05T00:00:00+02:00",
+      "ends_at": "2026-10-06T00:00:00+02:00",
+      "period": "Publié le 5 octobre 2026 · Archive",
+      "body": "😁📚 CETTE SEMAINE… ON PROLONGE LE SOURIRE !\n\nVendredi dernier, c’était la Journée mondiale du sourire.\nOn l’a un peu loupée… 😇\n\nMais franchement, une seule journée pour sourire, c’était beaucoup trop court !\n\nAlors aux Bréviaires, on a décidé de faire mieux : on prend toute la semaine ! 😁\nPas besoin de raison particulière, ni de journée officielle : quelques livres drôles, tendres ou complètement décalés, et c’est parti !\n\n🚢 LE PREMIER JOUR DU RESTE DE MA VIE — Virginie Grimaldi\nMarie plaque tout et embarque pour une croisière de trois mois autour du monde. À bord : deux nouvelles copines, des rencontres, des imprévus… et forcément quelques situations mémorables. Une bonne dose d’amitié, d’humour et de « allez, cette fois je change de vie ! ».\n🔗 https://booknode.com/le_premier_jour_du_reste_de_ma_vie_01492343\n\n😂 EN VOITURE, SIMONE ! — Aurélie Valognes\nPrenez une grande maison en Bretagne, des parents qui se chamaillent, trois fils et trois belles-filles aux caractères bien trempés, une grand-mère pleine de sagesse… et un chien qui s’incruste sans avoir été invité. Mélangez tout ce petit monde et laissez mijoter : ambiance repas de famille garantie ! \n🔗 https://booknode.com/en_voiture_simone_01982055\n\n💦 DÉGÂTS DES EAUX — Donald E. Westlake\nJohn Dortmunder avait un plan. Évidemment, ça ne va pas du tout se passer comme prévu. Cambriolage, malchance et situations de plus en plus improbables : avec lui, même une opération qui paraît simple peut tourner à la catastrophe.\n🔗 https://booknode.com/degats_des_eaux_083904\n\n🐧 365 PINGOUINS — Jean-Luc Fromental & Joëlle Jolivet\nLe 1er janvier, un colis arrive : un pingouin. Le lendemain : encore un. Puis encore un… Imaginez un peu la maison au bout de quelques semaines ! Nourrir, ranger et caser 365 pingouins, ça devient vite un sacré problème de maths… et un joyeux bazar ! 🐧🐧🐧\n🔗 https://booknode.com/365_pingouins_0138312\n\n📚 On vous attend samedi de 10h à 12h pour choisir votre dose de bonne humeur ! 😁",
+      "books": [
+        {
+          "id": "1417",
+          "title": "Le premier jour du reste de ma vie",
+          "author": "Virginie Grimaldi",
+          "booknode": "https://booknode.com/le_premier_jour_du_reste_de_ma_vie_01492343"
+        },
+        {
+          "id": "299",
+          "title": "En voiture, Simone !",
+          "author": "Aurélie Valognes",
+          "booknode": "https://booknode.com/en_voiture_simone_01982055"
+        },
+        {
+          "id": "327",
+          "title": "Dégâts des eaux",
+          "author": "Donald E. Westlake",
+          "booknode": "https://booknode.com/degats_des_eaux_083904"
+        },
+        {
+          "id": "2474",
+          "title": "365 pingouins",
+          "author": "Jean-Luc Fromental, Joëlle Jolivet",
+          "booknode": "https://booknode.com/365_pingouins_0138312"
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-10-09-189",
+      "type": "coeur",
+      "title": "Blizzard — Marie Vingtras",
+      "archive_only": true,
+      "original_date": "2026-10-09",
+      "starts_at": "2026-10-09T00:00:00+02:00",
+      "ends_at": "2026-10-10T00:00:00+02:00",
+      "period": "Publié le 9 octobre 2026 · Archive",
+      "body": "📚 LE COUP DE ❤️ DE LA BIBLIOTHÈQUE\n\n❄️ BLIZZARD — Marie Vingtras\n\nAlaska. Une tempête. Quelques secondes d’inattention.\n\nBess lâche la main d’un jeune garçon pour refaire ses lacets.\n\nLorsqu’elle relève la tête… il a disparu.\n\nElle se lance à sa recherche dans le blizzard, bientôt suivie par les rares habitants de ce bout du monde.\n\nMais dans cette immensité blanche, le froid n’est peut-être pas le seul danger.\n\n❄️ Une course contre la mort commence. Et peu à peu, la tempête fait remonter les secrets, les blessures et le passé de chacun.\n\n✍️ Des chapitres courts, plusieurs voix, une tension qui monte… Marie Vingtras nous enferme en plein air. On tourne les pages avec une seule obsession : retrouver l’enfant avant qu’il ne soit trop tard.\n\n👉 Envie d’en savoir + sur Marie Vingtras ?\nhttps://booknode.com/auteur/marie-vingtras\n\n🕰️ A demain !",
+      "books": [
+        {
+          "id": "3209",
+          "title": "Blizzard",
+          "author": "Marie Vingtras"
+        }
+      ],
+      "images": [
+        {
+          "src": "./archive-wa-20261009-WA0006.jpg",
+          "alt": "Visuel de la communication « Blizzard — Marie Vingtras »",
+          "width": 1243,
+          "height": 2048
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-10-10-190",
+      "type": "vie",
+      "title": "Lancement du club Les Bréviaires à la page",
+      "archive_only": true,
+      "original_date": "2026-10-10",
+      "starts_at": "2026-10-10T00:00:00+02:00",
+      "ends_at": "2026-10-11T00:00:00+02:00",
+      "period": "Publié le 10 octobre 2026 · Archive",
+      "body": "📚 LA BIBLIOTHÈQUE DES BRÉVIAIRES LANCE SON CLUB DE LECTURE ! \n\nEt si on partageait un peu plus que des livres ?\n\nSe retrouver autour d’un bon livre, c’est chouette… mais trouver un moment où tout le monde est disponible, c’est une autre histoire ! \n\nAlors, si on commençait virtuellement ?\n\nBienvenue dans « Les Bréviaires à la page » ! \n\nLe principe ? Un livre choisi ensemble, quelques chapitres à notre rythme et des échanges pour partager nos impressions, nos coups de cœur et nos théories… sans spoiler les retardataires ! \n\nPas de pression, juste le plaisir de lire et d'échanger. Et qui sait ? On finira peut-être autour d'un café à la bibliothèque ! ☕\n\n📱 Comment participer ?\nC'est gratuit et ouvert aux plus de 18 ans. Vous pouvez rejoindre le club directement sur le site Booklub ou télécharger l'application sur votre téléphone.\n\n👉 Rejoignez-nous ici :\nhttps://booklub.fr/clubs/8156c88a-4142-4933-b62b-49de50a72aa0\n\nBesoin d'un petit coup de main pour vous inscrire ou utiliser l'application ? Passez nous voir à la bibliothèque, on vous expliquera tout avec plaisir ! \n\n❤️ Le club est créé, il ne manque plus que vous !",
+      "books": []
+    },
+    {
+      "id": "wa-2026-10-12-191",
+      "type": "theme",
+      "title": "Des livres pour mettre des mots sur l’absence",
+      "archive_only": true,
+      "original_date": "2026-10-12",
+      "starts_at": "2026-10-12T00:00:00+02:00",
+      "ends_at": "2026-10-13T00:00:00+02:00",
+      "period": "Publié le 12 octobre 2026 · Archive",
+      "body": "🤍 DES LIVRES POUR METTRE DES MOTS SUR L’ABSENCE…\n\nLe 15 octobre, à l’occasion de la journée de sensibilisation au deuil périnatal, la bibliothèque a choisi d’aborder ce sujet délicat à travers quelques lectures.\n\nDes histoires qui parlent de maternité et d’absence, mais aussi et surtout d’amour, d’espoir et de reconstruction. \n\n🌸 ET QUE NE DURENT QUE LES MOMENTS DOUX — Virginie Grimaldi\nDeux femmes, deux histoires de maternité, deux vies bouleversées. Un roman tendre et lumineux sur les épreuves de la vie, les liens qui nous portent et la force que l’on trouve parfois là où on ne l’attendait pas.\n🔗 https://booknode.com/et_que_ne_durent_que_les_moments_doux_03185284\n\n🌊 UNE VIE ENTRE DEUX OCÉANS — M. L. Stedman\nTom et Isabel vivent sur une île isolée et doivent faire face à l’impossibilité d’avoir un enfant. Jusqu’au jour où une barque s’échoue avec à son bord un nourrisson bien vivant… Une histoire bouleversante sur le désir d’enfant, l’amour, la perte et les choix impossibles.\n🔗 https://booknode.com/une_vie_entre_deux_oceans_01109444\n\n🧦 LA VIE RÊVÉE DES CHAUSSETTES ORPHELINES — Marie Vareille\nAlice arrive à Paris avec l’envie de repartir à zéro et de laisser derrière elle un passé douloureux. Derrière son histoire se dessinent le désir d’enfant, les blessures que l’on cache et surtout le chemin de la reconstruction. Un roman émouvant, mais aussi plein de vie.\n🔗 https://booknode.com/la_vie_revee_des_chaussettes_orphelines_02882713\n\n🕊️ À CE SOIR — Laure Adler\nLaure Adler évoque la disparition de son petit garçon Rémi, mort à l’âge de neuf mois. Un témoignage intime et bouleversant sur la douleur de perdre un enfant, le silence qui entoure parfois cette épreuve et l’amour qui demeure.\n🔗 https://booknode.com/a_ce_soir_0766\n\n📘 L’ATTENTE ET LA PERTE DU BÉBÉ À NAÎTRE — Micheline Garel, Hélène Legrand & Laurence Dreyfus\nIci, pas de fiction : un ouvrage consacré à la perte d’un bébé pendant la grossesse. Un livre pour mieux comprendre, accompagner et mettre des mots sur une épreuve dont il est parfois encore difficile de parler.\n🔗 https://booknode.com/lattente_et_la_perte_du_bebe_a_naitre_023795\n\n📚 Des lectures pour mettre des mots là où ils sont difficiles à trouver.",
+      "books": [
+        {
+          "id": "3417",
+          "title": "Et que ne durent que les moments doux",
+          "author": "Virginie Grimaldi",
+          "booknode": "https://booknode.com/et_que_ne_durent_que_les_moments_doux_03185284"
+        },
+        {
+          "id": "253",
+          "title": "Une vie entre deux océans",
+          "author": "M. L. Stedman",
+          "booknode": "https://booknode.com/une_vie_entre_deux_oceans_01109444"
+        },
+        {
+          "id": "3414",
+          "title": "La vie rêvée des chaussettes orphelines",
+          "author": "Marie Vareille",
+          "booknode": "https://booknode.com/la_vie_revee_des_chaussettes_orphelines_02882713"
+        },
+        {
+          "id": "1731",
+          "title": "À ce soir",
+          "author": "Laure Adler",
+          "booknode": "https://booknode.com/a_ce_soir_0766"
+        },
+        {
+          "id": "3450",
+          "title": "L’attente et la perte du bébé à naître",
+          "author": "Micheline Garel, Hélène Legrand",
+          "booknode": "https://booknode.com/lattente_et_la_perte_du_bebe_a_naitre_023795"
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-10-13-192",
+      "type": "vie",
+      "title": "Ouvertures pendant les vacances de la Toussaint",
+      "archive_only": true,
+      "original_date": "2026-10-13",
+      "starts_at": "2026-10-13T00:00:00+02:00",
+      "ends_at": "2026-10-14T00:00:00+02:00",
+      "period": "Publié le 13 octobre 2026 · Archive",
+      "body": "📚 LA BIBLIOTHÈQUE OUVRE PENDANT LES VACANCES ! \n\nBonne nouvelle ! \n\nNos bénévoles se mobilisent pour vous proposer de nouveaux créneaux d'ouverture pendant les vacances de la Toussaint !\n\nVoici les dates :\n\n▪️ Samedi 17 octobre : 10h–12h\n▪️ Mercredi 21 octobre : 15h–17h\n▪️ Samedi 24 octobre : 10h–12h\n▪️ Mercredi 28 octobre : 15h–17h\n▪️ Samedi 31 octobre : 16h–18h 🎃 Animation Halloween !\n\nSi vous êtes au rendez-vous, nous pourrons envisager davantage d'ouvertures, même en dehors des vacances scolaires ! \n\nAlors, venez nombreux ! Votre présence est notre meilleure motivation pour continuer ! 📚❤️",
+      "books": [],
+      "images": [
+        {
+          "src": "./archive-wa-20261013-WA0001.jpg",
+          "alt": "Visuel de la communication « Ouvertures pendant les vacances de la Toussaint »",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-10-14-195",
+      "type": "actualite",
+      "title": "Prime Video s’inspire des livres",
+      "archive_only": true,
+      "original_date": "2026-10-14",
+      "starts_at": "2026-10-14T00:00:00+02:00",
+      "ends_at": "2026-10-15T00:00:00+02:00",
+      "period": "Publié le 14 octobre 2026 · Archive",
+      "body": "🎬📚 PRIME VIDEO S'INSPIRE DES LIVRES… ET NOUS, ON EST ENCORE À LA PAGE ! 😎\n\nÀ la Bibliothèque des Bréviaires, on aime les grands classiques, mais on suit aussi les tendances du moment !\n\nEt justement, deux romans que nous avons dans nos rayons viennent d'être adaptés sur Prime Video ! ❤️\n\n💕 THE LOVE HYPOTHESIS — Ali Hazelwood\n\nUne romance pleine d'humour, de maladresse et de sentiments. Olive, une jeune chercheuse, se retrouve embarquée dans une fausse histoire d'amour avec un professeur particulièrement intimidant… qui pourrait bien devenir beaucoup plus réelle que prévu !\n\n🎬 Le film sur Prime Video :\nhttps://www.primevideo.com/-/fr/detail/0IH8VKXSSIAXGDCWKPS2UU3HZT\n\n👻 CARRIE — Stephen King\n\nCarrie, ce n'est pas un nouveau roman : c'est même le tout premier livre de Stephen King. Une adolescente rejetée par ses camarades et étouffée par l'éducation autoritaire de sa mère découvre qu'elle possède un pouvoir extraordinaire… et les humiliations pourraient bien avoir des conséquences terrifiantes !\n\n🎬 La série sur Prime Video :\nhttps://www.primevideo.com/detail/0QHLPZ8O1W9VTEDNG03QCGAPI2?ref_=atv_nb_lcl_fr_FR",
+      "books": [
+        {
+          "id": "3429",
+          "title": "The Love Hypothesis",
+          "author": "Ali Hazelwood",
+          "notice": "18 ans et plus · scènes explicites"
+        },
+        {
+          "id": "1179",
+          "title": "Carrie",
+          "author": "Stephen King"
+        }
+      ],
+      "images": [
+        {
+          "src": "./archive-wa-20261013-WA0005.jpg",
+          "alt": "Visuel de la communication « Prime Video s’inspire des livres »",
+          "width": 982,
+          "height": 1600
+        },
+        {
+          "src": "./archive-wa-20261013-WA0004.jpg",
+          "alt": "Visuel de la communication « Prime Video s’inspire des livres »",
+          "width": 309,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-10-16-198",
+      "type": "coeur",
+      "title": "La Femme de ménage — Freida McFadden",
+      "archive_only": true,
+      "original_date": "2026-10-16",
+      "starts_at": "2026-10-16T00:00:00+02:00",
+      "ends_at": "2026-10-17T00:00:00+02:00",
+      "period": "Publié le 16 octobre 2026 · Archive",
+      "body": "📚 LE COUP DE ❤️ DE LA BIBLIOTHÈQUE\n\n🧹 LA FEMME DE MÉNAGE — Freida McFadden\n\nMillie a désespérément besoin d’un travail.\n\nAlors quand Nina Winchester l’engage comme femme de ménage dans sa magnifique maison, elle pense avoir enfin de la chance.\n\nMais très vite… quelque chose cloche.\n\nNina change d’humeur sans raison.\nElle salit tout.\nElle raconte des choses étranges sur son mari…\n\nEt puis il y a cette petite chambre sous les combles, où Millie doit dormir.\n\nUne chambre dont la porte ne ferme que de l’extérieur. \n\nÀ partir de là, on ne vous dit plus rien.\n\nParce que dans cette maison, tout le monde cache quelque chose.\n\n👉 Envie d’en savoir + sur Freida McFadden ?\nhttps://booknode.com/auteur/freida-mcfadden\n\n📚 Et si vous devenez accro à Freida McFadden, on a la suite dans nos rayons ! \n\nA demain !",
+      "books": [
+        {
+          "id": "3195",
+          "title": "La Femme de ménage",
+          "author": "Freida McFadden"
+        }
+      ],
+      "images": [
+        {
+          "src": "./archive-wa-20261016-WA0004.jpg",
+          "alt": "Visuel de la communication « La Femme de ménage — Freida McFadden »",
+          "width": 177,
+          "height": 285
+        },
+        {
+          "src": "./archive-wa-20261013-WA0001.jpg",
+          "alt": "Visuel de la communication « La Femme de ménage — Freida McFadden »",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-10-16-200",
+      "type": "vie",
+      "title": "Un petit-déjeuner pour fêter les vacances",
+      "archive_only": true,
+      "original_date": "2026-10-16",
+      "starts_at": "2026-10-16T00:00:00+02:00",
+      "ends_at": "2026-10-17T00:00:00+02:00",
+      "period": "Publié le 16 octobre 2026 · Archive",
+      "body": "📚 DEMAIN, ON FÊTE LES VACANCES À LA BIBLIOTHÈQUE ! \n\nLes vacances scolaires sont là… ENFIN ! \n\nEt qui dit vacances dit… grasses matinées, chocolat chaud, canapé et surtout… un bon livre ! \n\nDemain, de 10h à 12h, on vous attend à la bibliothèque avec un petit-déjeuner pour bien commencer les vacances !\n\n☕ Un café, une petite gourmandise, quelques papotages… et pourquoi pas repartir avec un ou deux livres sous le bras ?\n\nEt pour ceux qui auraient peur de manquer de lecture… pas de panique !\n\nLa bibliothèque restera ouverte pendant les vacances, avec plusieurs créneaux supplémentaires !\n\nA demain, on compte sur vous !",
+      "books": [],
+      "images": [
+        {
+          "src": "./archive-wa-20261013-WA0001.jpg",
+          "alt": "Visuel de la communication « Un petit-déjeuner pour fêter les vacances »",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-10-19-201",
+      "type": "theme",
+      "title": "Vacances : mode cocooning activé",
+      "archive_only": true,
+      "original_date": "2026-10-19",
+      "starts_at": "2026-10-19T00:00:00+02:00",
+      "ends_at": "2026-10-20T00:00:00+02:00",
+      "period": "Publié le 19 octobre 2026 · Archive",
+      "body": "🍂📚 LES VACANCES SONT LÀ… MODE COCOONING ACTIVÉ !\n\nLes journées raccourcissent, les températures baissent doucement…\n\nBref, on déclare officiellement ouverte la saison du plaid, de la boisson chaude et du bon livre ! \n\nEt pour ça, pas besoin de partir très loin : un canapé confortable, quelques heures devant soi et le bon livre choisi à la bibliothèque peuvent largement faire l’affaire. \n\n🍲 UNE SOUPE À LA GRENADE — Marsha Mehran\nTrois sœurs iraniennes trouvent refuge dans un petit village irlandais et y ouvrent un café. Épices, cuisine persane, secrets de famille et nouvelles amitiés… un roman qui donne presque envie de sortir la marmite avant même d’avoir terminé le premier chapitre !\n🔗 https://booknode.com/une_soupe_a_la_grenade_tome_1_03412386\n\n🍿 LE SPLEEN DU POP-CORN QUI VOULAIT EXPLOSER DE JOIE — Raphaëlle Giordano\nJoy court après le temps, la performance et son téléphone… jusqu’au moment où quelques rencontres viennent bousculer tout ça. Une lecture légère autour d’une question plutôt bienvenue pendant les vacances : et si on ralentissait un peu ?\n🔗 https://booknode.com/le_spleen_du_pop_corn_qui_voulait_exploser_de_joie_03452943\n\n🌲🔎 DANS LES BOIS ÉTERNELS — Fred Vargas\nPour ceux qui trouvent qu’un plaid, c’est bien… mais qu’un petit meurtre avec, c’est encore mieux ! 😁 Adamsberg se retrouve plongé dans une enquête où morts mystérieuses, vieilles légendes et forêts profondes se mêlent. Une ambiance parfaite pour les soirées d’automne.\n🔗 https://booknode.com/commissaire_jean_baptiste_adamsberg_tome_5_dans_les_bois_eternels_03431\n\n🍫 CHARLIE ET LA CHOCOLATERIE — Roald Dahl\nUne mystérieuse chocolaterie, cinq tickets d’or et l’extravagant Willy Wonka… Un classique à (re)découvrir pendant les vacances. Et accessoirement, une excellente excuse pour accompagner la lecture d’un petit carré de chocolat. 😇\n🔗 https://booknode.com/charlie_et_la_chocolaterie_00000811\n\nOn vous attend mercredi pour faire le plein de lectures pour les vacances !",
+      "books": [
+        {
+          "id": "741",
+          "title": "Une soupe à la grenade",
+          "author": "Marsha Mehran",
+          "booknode": "https://booknode.com/une_soupe_a_la_grenade_tome_1_03412386"
+        },
+        {
+          "id": "1640",
+          "title": "Le Spleen du pop-corn qui voulait exploser de joie",
+          "author": "Raphaelle Giordano",
+          "booknode": "https://booknode.com/le_spleen_du_pop_corn_qui_voulait_exploser_de_joie_03452943"
+        },
+        {
+          "id": "9",
+          "title": "Dans les bois éternels",
+          "author": "Fred Vargas",
+          "booknode": "https://booknode.com/commissaire_jean_baptiste_adamsberg_tome_5_dans_les_bois_eternels_03431"
+        },
+        {
+          "id": "2565",
+          "title": "Charlie et la chocolaterie",
+          "author": "Roald Dahl",
+          "booknode": "https://booknode.com/charlie_et_la_chocolaterie_00000811"
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-10-20-202",
+      "type": "actualite",
+      "title": "Trois grands prix littéraires : devenir juré",
+      "archive_only": true,
+      "original_date": "2026-10-20",
+      "starts_at": "2026-10-20T00:00:00+02:00",
+      "ends_at": "2026-10-21T00:00:00+02:00",
+      "period": "Publié le 20 octobre 2026 · Archive",
+      "body": "🏆 TROIS GRANDS PRIX LITTÉRAIRES, TROIS CHANCES DE DEVENIR JURÉ !\n\nAvis aux passionnés de lecture ! \n\nLes candidatures pour trois jurys littéraires 2027 sont ouvertes ! Que vous soyez amateur de polars, de littérature, de fantasy ou de romans jeunesse, il y en a pour tous les goûts !\n\n1️⃣ PRIX DES LECTEURS QUAIS DU POLAR 2027\n\nPour les amateurs d'enquêtes, de suspense et de thrillers !\n\n- 6 polars francophones à départager.\n- Participer au choix du polar de l'année.\n- Délibération prévue à Lyon le 13 mars 2027.\n\n⏰ Candidatures jusqu'au 29 novembre 2026.\n\n👉 Explications et modalités :\nhttps://quaisdupolar.com/appel-a-jury-2027/\n\n✍️ Candidature par mail :\nprixdeslecteurs@quaisdupolar.com\n\n2️⃣ PRIX DES LECTEURS DU LIVRE DE POCHE 2027\n\nQuatre jurys au choix selon vos envies !\n\n- Littérature : 21 romans\n- Policier : 18 romans\n- Documents / Essais : 6 livres\n- Imaginaire : 6 livres\n\n⏰ Candidatures jusqu'au 15 novembre 2026 !\n\n📖 Les jurés sélectionnés recevront les livres et participeront aux votes pour élire les lauréats 2027.\n\n👉 Explications et candidatures :\nhttps://www.livredepoche.com/prix-des-lecteurs/\n\n👉 Fonctionnement du prix :\nhttps://www.livredepoche.com/prix-des-lecteurs/tout-savoir-sur-le-prix/\n\n3️⃣ PRIX DES LECTEURS DU LIVRE DE POCHE JEUNESSE 2027\n\nVous aimez la romance, la fantasy ou les romans pour adolescents et jeunes adultes ?\n\n- 6 romans à découvrir et à départager.\n- Élire votre roman préféré.\n- Les lecteurs adultes peuvent aussi candidater !\n\n⏰ Attention, candidatures jusqu'au 25 octobre 2026 !\n\n👉 Explications et inscriptions :\nhttps://www.hachetteromans.fr/actualite/le-livre-de-poche-jeunesse-lance-la-deuxieme-edition-de-son-prix-des-lecteurs/\n\nALORS, QUI VA TENTER L'AVENTURE ?\n\nTrois belles occasions de découvrir de nouveaux livres, de partager ses impressions et de participer à un véritable prix littéraire !\n\n🍀 Bonne chance aux lecteurs de la Bibliothèque des Bréviaires !",
+      "books": []
+    },
+    {
+      "id": "wa-2026-10-22-205",
+      "type": "actualite",
+      "title": "C’était ça ou mourir : un livre controversé",
+      "archive_only": true,
+      "original_date": "2026-10-22",
+      "starts_at": "2026-10-22T00:00:00+02:00",
+      "ends_at": "2026-10-23T00:00:00+02:00",
+      "period": "Publié le 22 octobre 2026 · Archive",
+      "body": "📚 UN LIVRE CONTROVERSÉ… FAUT-IL POUR AUTANT NE PAS LE LIRE ?\n\n📖 C'ÉTAIT ÇA OU MOURIR – Thélyson Orélien\n\nDifficile d'être passé à côté de la polémique !\n\nLe 21 octobre 2026, les Éditions du Boréal ont annoncé avoir trouvé des traces de balises d’IA dans des documents de travail du roman. L’éditeur indique ne pas pouvoir en mesurer l’usage exact ; l’auteur en conteste la portée.\n\nMais au-delà de cette polémique, il reste une histoire qui mérite qu'on s'y intéresse.\n\nCelle de personnes qui doivent tout quitter pour fuir la violence, la peur, parfois l'indicible. Une histoire parmi tant d'autres, qui fait écho à des réalités malheureusement vécues par beaucoup trop de personnes.\n\nMalgré les controverses, ce roman touche par son récit et son écriture.\n\n📚 Nous avons choisi de le proposer à la bibliothèque.\n\nÀ vous maintenant de le découvrir, de vous faire votre propre opinion… 100 % humaine, celle-là ! 😉\n\n📖 En savoir plus sur le livre :\nhttps://www.hachette.fr/livre/cetait-ca-ou-mourir-9782246847069/\n\n✍️ En savoir plus sur l'auteur :\nhttps://www.grasset.fr/auteur/thelyson-orelien/\n\n📚 On vous attend samedi de 10h à 12h !\n\nCommuniqué des Éditions du Boréal du 21 octobre 2026 :\nhttps://www.editionsboreal.qc.ca/actualites/18-les-editions-du-boreal-mettent-fin-a-leur-collaboration-avec-thelyson-orelien.html",
+      "books": [
+        {
+          "id": "3485",
+          "title": "C’était ça ou mourir",
+          "author": "Thélyson Orélien"
+        }
+      ],
+      "editorial_note": "Texte adapté pour cette archive après vérification des informations.",
+      "images": [
+        {
+          "src": "./archive-wa-20261020-WA0003.jpg",
+          "alt": "Visuel de la communication « C’était ça ou mourir : un livre controversé »",
+          "width": 380,
+          "height": 556
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-10-26-207",
+      "type": "theme",
+      "title": "Frissons à la bibliothèque",
+      "archive_only": true,
+      "original_date": "2026-10-26",
+      "starts_at": "2026-10-26T00:00:00+01:00",
+      "ends_at": "2026-10-27T00:00:00+01:00",
+      "period": "Publié le 26 octobre 2026 · Archive",
+      "body": "🎃👻 FRISSONS À LA BIBLIOTHÈQUE !\n\nHalloween approche… et cette semaine, on a décidé de vous faire un peu peur ! \n\nDes histoires inquiétantes, des phénomènes étranges, des monstres et quelques bonnes sueurs froides… Il y en aura pour tous les âges, des plus petits aux plus courageux !\n\n🔦 UN ŒIL DANS LA NUIT — Bernard Minier\nUn réalisateur de films d'horreur, des morts mystérieuses et une enquête qui plonge dans les coulisses du cinéma… Un thriller bien sombre, parfait pour ceux qui aiment se faire peur !\n🔗 https://booknode.com/un_oeil_dans_la_nuit_03486215\n\n🖤 LAYLA — Colleen Hoover\nQuand Leeds emmène Layla dans une maison isolée, des événements inexplicables commencent à se produire… Une histoire d'amour qui prend une tournure franchement inquiétante !\n🔗 https://booknode.com/layla_03362919\n\n🎢 RETOUR AU PARC DE L’HORREUR — R. L. Stine\nUn parc d'attractions où les monstres ne sont peut-être pas de simples déguisements… De quoi donner quelques frissons aux jeunes lecteurs !\n🔗 https://booknode.com/chair_de_poule_tome_62_retour_au_parc_de_lhorreur_059878\n\n👹 CHER MONSTRE — Emma Yarlett\nUn monstre affamé capture un petit garçon et invite ses amis à venir le dévorer ! Mais le petit garçon est malin et compte bien éviter de finir au menu. Un album plein d'humour, avec de drôles de lettres à ouvrir, pour frissonner et rigoler en famille !\n🔗https://booknode.com/cher_monstre_03407502\n\n🧙‍♀️ DANS LE VENTRE DE CORNEBIDOUILLE — Magali Bonniol et Pierre Bertrand\nPierre a encore affaire à l'affreuse sorcière Cornebidouille ! Et cette fois, il se retrouve dans son ventre… Une aventure complètement farfelue, pleine de surprises et d'humour, pour les petits qui n'ont pas peur des sorcières !\n🔗 https://booknode.com/dans_le_ventre_de_cornebidouille_03704688\n\nEt pour prolonger les frissons, rendez-vous à la bibliothèque mercredi et samedi. \n\nAlors, qui osera venir ? 👻",
+      "books": [
+        {
+          "id": "465",
+          "title": "Un œil dans la nuit",
+          "author": "Bernard Minier",
+          "booknode": "https://booknode.com/un_oeil_dans_la_nuit_03486215"
+        },
+        {
+          "id": "3162",
+          "title": "Layla",
+          "author": "Colleen Hoover",
+          "booknode": "https://booknode.com/layla_03362919"
+        },
+        {
+          "id": "2950",
+          "title": "Retour au parc de l’horreur",
+          "author": "R. L. Stine",
+          "booknode": "https://booknode.com/chair_de_poule_tome_62_retour_au_parc_de_lhorreur_059878"
+        },
+        {
+          "id": "3508",
+          "title": "Cher monstre",
+          "author": "Emma Yarlett",
+          "booknode": "https://booknode.com/cher_monstre_03407502"
+        },
+        {
+          "id": "3496",
+          "title": "Dans le ventre de Cornebidouille",
+          "author": "Pierre Bertrand, Magali Bonniol",
+          "booknode": "https://booknode.com/dans_le_ventre_de_cornebidouille_03704688"
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-10-28-208",
+      "type": "vie",
+      "title": "Halloween à la bibliothèque",
+      "archive_only": true,
+      "original_date": "2026-10-28",
+      "starts_at": "2026-10-28T00:00:00+01:00",
+      "ends_at": "2026-10-29T00:00:00+01:00",
+      "period": "Publié le 28 octobre 2026 · Archive",
+      "body": "🎃👻 HALLOWEEN À LA BIBLIOTHÈQUE !\n\nRendez-vous samedi 31 octobre, de 16h à 18h, pour un après-midi de contes, d'activités et de gourmandises ! \n\n⚠️ Petit rappel important :\n\nLes places étant limitées, la participation aux activités est réservée uniquement aux personnes préalablement inscrites par email à l'adresse bibliotheque.breviaires@gmail.com.\n\nNous ne pourrons malheureusement pas accueillir les personnes qui ne se sont pas inscrites.\n\nMerci de votre compréhension ! 🧡\n\n👻 À samedi pour les petits monstres inscrits ! 🎃\n\nEt Nous sommes aussi ouverts cet après-midi !",
+      "books": [],
+      "images": [
+        {
+          "src": "./archive-wa-20261009-WA0013.jpg",
+          "alt": "Visuel de la communication « Halloween à la bibliothèque »",
+          "width": 1447,
+          "height": 2048
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-10-29-212",
+      "type": "coeur",
+      "title": "Le Sang et la Cendre — Jennifer L. Armentrout",
+      "archive_only": true,
+      "original_date": "2026-10-29",
+      "starts_at": "2026-10-29T00:00:00+01:00",
+      "ends_at": "2026-10-30T00:00:00+01:00",
+      "period": "Publié le 29 octobre 2026 · Archive",
+      "body": "📚 LE COUP DE ❤️ DE LA BIBLIOTHÈQUE\n\n🩸 LA SAGA LE SANG ET LA CENDRE — Jennifer L. Armentrout\n\nPoppy n’a jamais eu le droit de choisir sa vie.\n\nDésignée comme la Pucelle, elle vit recluse, protégée de tous, sans pouvoir être touchée ni même regardée… en attendant le jour de son Ascension.\n\nPuis arrive Hawke.\n\nSon nouveau garde. Aussi séduisant qu’insolent. Et surtout, terriblement dangereux pour toutes les certitudes de Poppy… \n\nCar plus elle s’approche de lui, plus une question devient impossible à ignorer :\n\nEt si tout ce qu’on lui avait appris était un mensonge ?\n\n🩸 Royaumes ennemis, créatures, combats, secrets, trahisons et romance interdite… Une saga de romantasy incroyable !\n\n👉 Envie d’en savoir + sur Jennifer L. Armentrout ?\nhttps://booknode.com/auteur/jennifer-l-armentrout\n\n📖 À retrouver dans notre section Romantasy à la bibliothèque !\n\n18 ans et plus : ces sagas comportent des scènes explicites.",
+      "books": [
+        {
+          "id": "2136",
+          "title": "Le sang et la cendre",
+          "author": "Jennifer L. Armentrout",
+          "notice": "18 ans et plus · scènes explicites"
+        },
+        {
+          "id": "2137",
+          "title": "Un royaume de chair et de feu",
+          "author": "Jennifer L. Armentrout"
+        },
+        {
+          "id": "2133",
+          "title": "La Couronne d’os dorés",
+          "author": "Jennifer L. Armentrout"
+        },
+        {
+          "id": "2135",
+          "title": "La Guerre des deux Reines",
+          "author": "Jennifer L. Armentrout",
+          "notice": "18 ans et plus · scènes explicites"
+        }
+      ],
+      "images": [
+        {
+          "src": "./archive-wa-20261027-WA0020.jpg",
+          "alt": "Visuel de la communication « Le Sang et la Cendre — Jennifer L. Armentrout »",
+          "width": 1672,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-11-02-216",
+      "type": "theme",
+      "title": "La grande semaine des prix littéraires",
+      "archive_only": true,
+      "original_date": "2026-11-02",
+      "starts_at": "2026-11-02T00:00:00+01:00",
+      "ends_at": "2026-11-03T00:00:00+01:00",
+      "period": "Publié le 2 novembre 2026 · Archive",
+      "body": "🏆📚 LA GRANDE SEMAINE DES PRIX LITTÉRAIRES !\n\nCes derniers jours, les prix littéraires tombent les uns après les autres !\n\nA la bibliothèque, on a décidé de remonter le temps... Et nous sommes allés chercher quelques pépites dans nos rayons!\n\n🌿 PRIX GONCOURT 1925 — RABOLIOT, Maurice Genevoix\n...Celui-là a déjà plus de 100 ans !  Raboliot est braconnier en Sologne, épris de liberté et traqué par un garde-chasse qui veut sa perte. Un grand classique autour de la nature sauvage et d’un homme qui refuse de se laisser enfermer.\n🔗https://booknode.com/raboliot_038963\n\n⚗️ PRIX FEMINA 1968 — L’ŒUVRE AU NOIR, Marguerite Yourcenar\nDirection l’Europe de la Renaissance avec Zénon, médecin, philosophe, alchimiste et surtout homme libre dans une époque qui ne l’est pas vraiment. Un grand roman historique et philosophique devenu un classique.\n🔗 https://booknode.com/loeuvre_au_noir_0276\n\n🏰 PRIX MÉDICIS ÉTRANGER 1982 — LE NOM DE LA ROSE, Umberto Eco\nUne abbaye au Moyen Âge, des moines qui meurent les uns après les autres, une mystérieuse bibliothèque et Guillaume de Baskerville qui mène l’enquête… Presque un polar médiéval ! Et probablement le monastère où l’on aimerait le moins passer ses vacances.\n🔗 https://booknode.com/le_nom_de_la_rose_0264\n\n🥊 PRIX RENAUDOT 1992 — LA DÉMENCE DU BOXEUR, François Weyergans\nÀ 85 ans, Melchior Marmont se lance dans la réalisation de son premier long métrage. Un tournage difficile, une jeune actrice et une dernière aventure de cinéma : un roman sur le temps qui passe et l’envie de créer.\n🔗 https://booknode.com/la_demence_du_boxeur_01523155\n\nAlors, plutôt Goncourt, Femina, Médicis ou Renaudot ?\n\nTrès bon lundi !",
+      "books": [
+        {
+          "id": "1442",
+          "title": "Raboliot",
+          "author": "Maurice Genevoix",
+          "booknode": "https://booknode.com/raboliot_038963"
+        },
+        {
+          "id": "362",
+          "title": "L’œuvre au noir",
+          "author": "Marguerite Yourcenar",
+          "booknode": "https://booknode.com/loeuvre_au_noir_0276"
+        },
+        {
+          "id": "1580",
+          "title": "Le Nom de la rose",
+          "author": "Umberto Eco",
+          "booknode": "https://booknode.com/le_nom_de_la_rose_0264"
+        },
+        {
+          "id": "333",
+          "title": "La démence du boxeur",
+          "author": "François Weyergans",
+          "booknode": "https://booknode.com/la_demence_du_boxeur_01523155"
+        }
+      ],
+      "editorial_note": "Texte adapté pour cette archive après vérification des informations."
+    },
+    {
+      "id": "wa-2026-11-04-217",
+      "type": "vie",
+      "title": "Un créneau d’ouverture supplémentaire ?",
+      "archive_only": true,
+      "original_date": "2026-11-04",
+      "starts_at": "2026-11-04T00:00:00+01:00",
+      "ends_at": "2026-11-05T00:00:00+01:00",
+      "period": "Publié le 4 novembre 2026 · Archive",
+      "body": "📚 ET SI ON OUVRAIT LA BIBLIOTHÈQUE UN PEU PLUS SOUVENT ?\n\nTout d'abord, un grand merci à tous les enfants et aux parents qui ont participé à notre animation d'Halloween ! \n\nTout s'est vraiment très bien passé ! Les enfants ont été adorables, attentifs, curieux et très sages. Un vrai plaisir pour nos bénévoles !\n\nEt forcément, quand on voit autant d'enthousiasme, ça donne envie d'en proposer encore plus ! ❤️\n\nAlors, on réfléchit à ouvrir la bibliothèque sur un créneau supplémentaire.\n\nMais pour que cette ouverture profite au plus grand nombre, on aimerait connaître vos préférences.\n\n👉 On vous propose donc un petit sondage pour choisir ensemble le créneau qui vous conviendrait le mieux !\n\nEt si cette belle dynamique vous donne envie de rejoindre notre petite équipe de bénévoles, même pour quelques heures de temps en temps, vous êtes les bienvenus !\n💬 Écrivez-nous : bibliotheque.breviaires@gmail.com\n\nMerci à tous pour votre participation !",
+      "books": []
+    },
+    {
+      "id": "wa-2026-11-06-219",
+      "type": "vie",
+      "title": "Rappel du sondage sur les horaires",
+      "archive_only": true,
+      "original_date": "2026-11-06",
+      "starts_at": "2026-11-06T00:00:00+01:00",
+      "ends_at": "2026-11-07T00:00:00+01:00",
+      "period": "Publié le 6 novembre 2026 · Archive",
+      "body": "Bonjour à tous !\n\nOn a eu très peu de retours à notre petit sondage concernant les horaires de la bibliothèque.\n\nSi vous pouviez prendre une minute pour y répondre, ce serait vraiment sympa ! Bien sûr, uniquement si cela vous intéresse. \n\nL'idée est simplement de savoir si vous aimeriez qu'on ouvre la bibliothèque sur un créneau supplémentaire et, si oui, quel jour et quel horaire vous arrangeraient le plus.\n\nVos réponses nous aideront à voir si cela vaut le coup de mettre en place une ouverture supplémentaire.\n\nMerci à tous !",
+      "books": []
+    },
+    {
+      "id": "wa-2026-11-07-224",
+      "type": "coeur",
+      "title": "Les Sept Sœurs — Lucinda Riley",
+      "archive_only": true,
+      "original_date": "2026-11-07",
+      "starts_at": "2026-11-07T00:00:00+01:00",
+      "ends_at": "2026-11-08T00:00:00+01:00",
+      "period": "Publié le 7 novembre 2026 · Archive",
+      "body": "📚 LE COUP DE ❤️ DE LA BIBLIOTHÈQUE !\n\n✨ LES SEPT SŒURS — Lucinda Riley\n\nSept sœurs, sept destins, sept histoires à découvrir… et un secret de famille qui va nous faire voyager aux quatre coins du monde !\n\nÀ la mort de leur père adoptif, un mystérieux milliardaire surnommé Pa Salt, six sœurs se retrouvent dans leur maison d'enfance, au bord du lac Léman.\n\nChacune reçoit des indices sur ses origines. De quoi éveiller leur curiosité et les entraîner dans une incroyable quête !\n\nOn commence avec Maia, l'aînée, qui part au Brésil. Puis, de tome en tome, on découvre l'histoire de ses sœurs, entre secrets de famille, histoires d'amour et voyages dans le passé.\n\n❤️ On a adoré cette saga ! Ce qui est assez fou, c'est qu'on s'attache à chaque sœur, qu'on découvre des époques et des pays différents, et qu'on finit toujours par vouloir connaître la suite !\n\nEt puis, il y a cette fameuse septième sœur… Qui est-elle ? Pourquoi manque-t-elle à l'appel ?\n\nUne saga de huit tomes qui risque bien de vous occuper quelques soirées…\n\n👉 Découvrir la saga : https://booknode.com/serie/les-sept-soeurs\n\nÀ tout de suite !",
+      "books": [
+        {
+          "id": "3159",
+          "title": "Maia",
+          "author": "Lucinda Riley"
+        },
+        {
+          "id": "3499",
+          "title": "La Sœur de la tempête",
+          "author": "Lucinda Riley"
+        },
+        {
+          "id": "3498",
+          "title": "La Sœur de l’ombre",
+          "author": "Lucinda Riley"
+        },
+        {
+          "id": "3421",
+          "title": "La Sœur du Soleil",
+          "author": "Lucinda Riley"
+        }
+      ],
+      "images": [
+        {
+          "src": "./archive-wa-20261107-WA0000.jpg",
+          "alt": "Visuel de la communication « Les Sept Sœurs — Lucinda Riley »",
+          "width": 800,
+          "height": 418
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-11-09-225",
+      "type": "theme",
+      "title": "Les histoires derrière l’Histoire",
+      "archive_only": true,
+      "original_date": "2026-11-09",
+      "starts_at": "2026-11-09T00:00:00+01:00",
+      "ends_at": "2026-11-10T00:00:00+01:00",
+      "period": "Publié le 9 novembre 2026 · Archive",
+      "body": "🇫🇷📚 LES HISTOIRES DERRIÈRE L’HISTOIRE…\n\nLe 11 novembre, on commémore l'armistice de 1918, qui a mis fin aux combats de la Première Guerre mondiale.\n\nMais derrière les grandes dates de nos livres d'histoire, il y a des millions de destins. Des soldats, des familles, des vies bouleversées et des souvenirs transmis de génération en génération.\n\nCette semaine, on vous propose quatre lectures pour découvrir cette période autrement.\n\n📖 LES CHAMPS D’HONNEUR — Jean Rouaud\nDans une famille de Loire-Atlantique, plusieurs disparitions réveillent le souvenir de deux frères morts pendant la Grande Guerre. Un roman sur la mémoire familiale et les traces laissées par le passé. Prix Goncourt 1990.\n🔗 https://booknode.com/les_champs_dhonneur_078\n\n🌍 LE MONDE D’HIER — Stefan Zweig\nÀ travers ses souvenirs, Stefan Zweig nous raconte l'Europe d'avant 1914, ses artistes, ses intellectuels et cette époque où l'on croyait encore à un avenir paisible. Puis la guerre éclate et tout bascule. Un témoignage pour comprendre la disparition de tout un monde.\n🔗 https://booknode.com/le_monde_dhier_05385\n\n🕵️ MR ASHENDEN, AGENT SECRET — Somerset Maugham\nEt si on découvrait la guerre du côté des espions ? Inspirées de l'expérience de l'auteur dans les services secrets britanniques, ces nouvelles nous entraînent dans les coulisses du renseignement pendant la Première Guerre mondiale. Missions secrètes, rencontres inattendues et personnages hauts en couleur !\n🔗 https://booknode.com/mr_ashenden_agent_secret_057190\n\n📚 LA CHUTE DES GÉANTS — Ken Follett\nÀ la veille de la Première Guerre mondiale, cinq familles de nationalités différentes voient leurs destins se croiser. Amours, rivalités, combats et bouleversements politiques… Une grande saga historique qui nous entraîne des mines galloises aux tranchées de 1914-1918. Premier tome de la trilogie Le Siècle.\n🔗 https://booknode.com/le_siecle_tome_1_la_chute_des_geants_053433\n\nQuatre livres, quatre regards sur une période qui a marqué des générations.\n\n📚 Retrouvez notre sélection à la bibliothèque.\n\nÀ samedi !",
+      "books": [
+        {
+          "id": "157",
+          "title": "Les champs d’honneur",
+          "author": "Jean Rouaud",
+          "booknode": "https://booknode.com/les_champs_dhonneur_078"
+        },
+        {
+          "id": "347",
+          "title": "Le monde d’hier",
+          "author": "Stefan Zweig",
+          "booknode": "https://booknode.com/le_monde_dhier_05385"
+        },
+        {
+          "id": "726",
+          "title": "Mr Ashenden, agent secret",
+          "author": "William Somerset Maugham",
+          "booknode": "https://booknode.com/mr_ashenden_agent_secret_057190"
+        },
+        {
+          "id": "1447",
+          "title": "La chute des géants",
+          "author": "Ken Follett",
+          "booknode": "https://booknode.com/le_siecle_tome_1_la_chute_des_geants_053433"
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-11-12-226",
+      "type": "coeur",
+      "title": "Quatre coups de cœur : L’Homme-dé, Lettre à ce prof, Une belle vie, La Chambre des merveilles",
+      "archive_only": true,
+      "original_date": "2026-11-12",
+      "starts_at": "2026-11-12T00:00:00+01:00",
+      "ends_at": "2026-11-13T00:00:00+01:00",
+      "period": "Publié le 12 novembre 2026 · Archive",
+      "body": "📚❤️ Cette semaine, plusieurs coups de cœur qu'on a hâte de partager avec vous à la bibliothèque !\n\nOn se retrouve samedi pour en discuter ! \n\n📖 Petit rappel : notre club de lecture entame sa deuxième lecture, et cette fois, place au thriller !\nhttps://booklub.fr/clubs/8156c88a-4142-4933-b62b-49de50a72aa0\n\nN'hésitez pas à vous inscrire et à nous rejoindre. Tout le monde est le bienvenu !\n\n🎲 L’HOMME-DÉ — Luke Rhinehart\n\nImaginez un peu… Et si, à partir de demain, vous laissiez un simple dé décider de votre vie ?\n\nC'est exactement ce que fait Luke Rhinehart, un psychiatre new-yorkais qui en a assez de son quotidien bien réglé.\n\nChanger de programme, prendre une décision importante, faire quelque chose de complètement fou… Désormais, c'est le dé qui décide !\n\nEt forcément, ça dérape assez vite ! \n\n❤️ Ce roman est complètement déjanté, parfois drôle, parfois franchement dérangeant. On ne sait jamais jusqu'où son personnage va aller, et c'est justement ce qui rend l'histoire aussi étonnante.\n\nAttention, ce n'est pas un roman bien sage ! Certaines situations risquent de vous faire lever les sourcils.\n\nEt puis, avouez… vous n'avez jamais rêvé de laisser le hasard décider à votre place, juste une fois ?\n\n👉 Pour en savoir + : https://booknode.com/lhomme_de_tome_1_071659\n\n✉️ LETTRE À CE PROF QUI A CHANGÉ MA VIE\n\nAlors là… quelle petite pépite ! \n\nOn a tous connu un professeur qui nous a marqués. Celui qui nous a donné confiance, qui nous a fait aimer une matière ou qui, parfois sans même le savoir, a changé quelque chose dans notre vie.\n\nDans ce livre, plusieurs écrivains prennent la plume pour raconter ce professeur qui a compté pour eux.\n\nEt ce qui est assez incroyable, c'est qu'en seulement deux ou trois pages, chaque auteur arrive à nous embarquer dans son univers. On reconnaît une plume, un style, une sensibilité… C'est aussi un vrai plaisir de passer d'un écrivain à l'autre !\n\n❤️ On a adoré ce livre. Vraiment. Certains textes font sourire, d'autres nous serrent un peu beaucoup la gorge… \n\nUn livre qu'on peut lire par petites touches, une lettre après l'autre, mais qu'on a bien du mal à refermer.\n\nEt forcément, en le lisant, les souvenirs remontent...\n\n👉 Pour en savoir + : https://booknode.com/lettre_a_ce_prof_qui_a_change_ma_vie_03498626\n\n🌊 UNE BELLE VIE — Virginie Grimaldi\n\nEmma et Agathe sont sœurs.\n\nElles ont grandi ensemble, très proches, malgré leurs différences.\n\nEt pourtant… elles ne se parlent plus depuis cinq ans.\n\nLorsque leur grand-mère adorée disparaît, elles se retrouvent dans la maison de vacances de leur enfance.\n\nElles ont une semaine pour vider la maison.\n\nUne semaine pour ouvrir les cartons… mais aussi les souvenirs.\n\nUne semaine pour rire, pleurer, se dire enfin certaines choses et peut-être comprendre comment deux sœurs qui s’aimaient autant ont pu devenir des étrangères. ❤️\n\n✨ Virginie Grimaldi nous embarque dans ce qu’elle sait faire de mieux : des personnages terriblement humains, de l’humour, de la tendresse… et des émotions qui arrivent parfois sans prévenir.\n\n👉 Envie d’en savoir + sur Virginie Grimaldi ?\nhttps://virginiegrimaldi.com/\n\n📚 Et bonne nouvelle : plusieurs romans de Virginie Grimaldi vous attendent dans nos rayons !\n\n✨ LA CHAMBRE DES MERVEILLES — Julien Sandrel\n\nLouis a 12 ans, une imagination débordante et tout un tas de rêves à réaliser.\n\nMais un accident le plonge dans le coma.\n\nSa mère, Thelma, découvre alors un carnet dans lequel il a noté toutes les choses qu'il aimerait faire un jour.\n\nEt elle prend une décision un peu folle : elle va réaliser les rêves de son fils à sa place, un par un, en espérant qu'il puisse les entendre et qu'il se réveille.\n\nSauf qu'entre les rêves d'un garçon de 12 ans et ce qu'une maman est prête à faire… il y a parfois de quoi sourire ! \n\n❤️ On a beaucoup aimé ce roman. Thelma est touchante, parfois maladroite, mais quelle énergie ! On la suit dans ses aventures avec cette petite question en tête : jusqu'où irait-on à sa place ?\n\nEt surtout, on attend, comme elle, que Louis ouvre enfin les yeux…\n\n👉 Découvrir le livre : https://booknode.com/la_chambre_des_merveilles_02480533",
+      "books": [
+        {
+          "id": "948",
+          "title": "L’homme-dé",
+          "author": "Luke Rhinehart",
+          "booknode": "https://booknode.com/lhomme_de_tome_1_071659"
+        },
+        {
+          "id": "3511",
+          "title": "Lettre à ce prof qui a changé ma vie",
+          "author": "Abd al Malik, Aline Afanoukoe, Albert Algoud, Anouk F., Jérôme Attal, Charles Berling, Nicolas Beuglet, Sophie Blandinières, Anne-Laure Bondoux, Françoise Bourdin,  Cali, Marie Darrieussecq, Rokhaya Diallo, Irène Frain, Raphaelle Giordano, Héloïse Guay de Bellissen, Serena Giuliano, Marius Jauffret,  Jul, Caroline Laurent, Marc Lévy, Henri Lœvenbruck, Mathias Malzieu, Agnès Martin-Lugand, Nicolas Mathieu, Fabrice Midal, Bernard Minier, Thibault de Montaigu,  Plantu, Josef Schovanec, Romain Slocombe, Tatiana de Rosnay, Camille Pascal, Christiane Taubira, Sylvie Testud, Franck Thilliez, Philippe Torreton, Séverine Vidal, Jacques Weber, Bernard Werber",
+          "booknode": "https://booknode.com/lettre_a_ce_prof_qui_a_change_ma_vie_03498626"
+        },
+        {
+          "id": "3188",
+          "title": "Une belle vie",
+          "author": "Virginie Grimaldi"
+        },
+        {
+          "id": "3507",
+          "title": "La Chambre des merveilles",
+          "author": "Julien Sandrel",
+          "booknode": "https://booknode.com/la_chambre_des_merveilles_02480533"
+        }
+      ],
+      "images": [
+        {
+          "src": "./archive-wa-20261107-WA0009.jpg",
+          "alt": "Visuel de la communication « Quatre coups de cœur : L’Homme-dé, Lettre à ce prof, Une belle vie, La Chambre des merveilles »",
+          "width": 400,
+          "height": 585
+        },
+        {
+          "src": "./archive-wa-20261107-WA0012.jpg",
+          "alt": "Visuel de la communication « Quatre coups de cœur : L’Homme-dé, Lettre à ce prof, Une belle vie, La Chambre des merveilles »",
+          "width": 600,
+          "height": 983
+        },
+        {
+          "src": "./archive-wa-20261107-WA0019.jpg",
+          "alt": "Visuel de la communication « Quatre coups de cœur : L’Homme-dé, Lettre à ce prof, Une belle vie, La Chambre des merveilles »",
+          "width": 400,
+          "height": 622
+        },
+        {
+          "src": "./archive-wa-20261112-WA0026.jpg",
+          "alt": "Visuel de la communication « Quatre coups de cœur : L’Homme-dé, Lettre à ce prof, Une belle vie, La Chambre des merveilles »",
+          "width": 780,
+          "height": 1261
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-11-16-232",
+      "type": "theme",
+      "title": "Les livres n’ont pas d’âge",
+      "archive_only": true,
+      "original_date": "2026-11-16",
+      "starts_at": "2026-11-16T00:00:00+01:00",
+      "ends_at": "2026-11-17T00:00:00+01:00",
+      "period": "Publié le 16 novembre 2026 · Archive",
+      "body": "🌈📚 LES LIVRES N’ONT PAS D’ÂGE !\n\nLe 20 novembre, c’est la Journée internationale des droits de l’enfant !\n\nEt si, cette semaine, on oubliait un peu les âges indiqués sur les couvertures ?\n\nParce qu'il y a des histoires qu'on découvre enfant et qu'on aime encore adulte… Et d'autres qui nous rappellent qu'être petit, c'est aussi avoir de grandes idées, des rêves et une sacrée personnalité !\n\n📖 LE PETIT NICOLAS A DES ENNUIS — René Goscinny et Sempé\nNicolas et ses copains ont encore trouvé le moyen de s'attirer des ennuis ! Des histoires pleines de malice qui font rire les enfants… et rappellent quelques souvenirs aux parents.\n🔗 https://booknode.com/le_petit_nicolas_a_des_ennuis_025604\n\n🏝️ LE ROYAUME DE KENSUKÉ — Michael Morpurgo\nMichael, 11 ans, se retrouve seul sur une île après être tombé d'un voilier. Une aventure qui parle de courage, de rencontres et de respect de la nature. À découvrir ensemble, quel que soit son âge !\n🔗 https://booknode.com/le_royaume_de_kensuke_02525\n\n🌸 LES QUATRE FILLES DU DOCTEUR MARCH — Louisa May Alcott\nQuatre sœurs, quatre caractères et une même envie de construire leur avenir. Un classique sur la famille, l'indépendance et le passage de l'enfance à l'âge adulte.\n🔗 https://booknode.com/les_quatre_filles_du_docteur_march_016323\n\n⚔️ LA GUERRE DES BOUTONS — Louis Pergaud\nDeux bandes de gamins de villages voisins se livrent une guerre sans merci… à coups de boutons arrachés ! Un classique espiègle qui rappelle que les enfants ont parfois leur propre façon de refaire le monde.\n🔗 https://booknode.com/la_guerre_des_boutons_0442\n\n🪄 HARRY POTTER À L’ÉCOLE DES SORCIERS — J. K. Rowling\nLe jour de ses onze ans, Harry découvre qu'il est un sorcier et qu'une place l'attend à Poudlard. Amitié, magie et aventures : un premier tome qui a donné envie de lire à des générations d'enfants… et d'adultes !\n🔗 https://booknode.com/harry_potter_tome_1_harry_potter_a_lecole_des_sorciers_0983\n\n📚 Et vous, quel livre de votre enfance aimeriez-vous relire aujourd'hui ?",
+      "books": [
+        {
+          "id": "2695",
+          "title": "Le petit Nicolas a des ennuis",
+          "author": "Jean-Jacques Sempé, René Goscinny",
+          "booknode": "https://booknode.com/le_petit_nicolas_a_des_ennuis_025604"
+        },
+        {
+          "id": "2764",
+          "title": "Le royaume de Kensuké",
+          "author": "Michael Morpurgo",
+          "booknode": "https://booknode.com/le_royaume_de_kensuke_02525"
+        },
+        {
+          "id": "2779",
+          "title": "Les Quatre filles du docteur March",
+          "author": "Louisa May Alcott",
+          "booknode": "https://booknode.com/les_quatre_filles_du_docteur_march_016323"
+        },
+        {
+          "id": "3312",
+          "title": "La guerre des boutons",
+          "author": "Louis Pergaud",
+          "booknode": "https://booknode.com/la_guerre_des_boutons_0442"
+        },
+        {
+          "id": "3512",
+          "title": "Harry Potter à l’école des sorciers",
+          "author": "J. K. Rowling",
+          "booknode": "https://booknode.com/harry_potter_tome_1_harry_potter_a_lecole_des_sorciers_0983"
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-11-17-234",
+      "type": "coeur",
+      "title": "Les Wonder Women aussi mettent une culotte gainante — Mathou",
+      "archive_only": true,
+      "original_date": "2026-11-17",
+      "starts_at": "2026-11-17T00:00:00+01:00",
+      "ends_at": "2026-11-18T00:00:00+01:00",
+      "period": "Publié le 17 novembre 2026 · Archive",
+      "body": "📚❤️ LE COUP DE CŒUR DE LA BIBLIOTHÈQUE !\n\n🦸‍♀️ LES WONDER WOMEN AUSSI METTENT UNE CULOTTE GAINANTE — Mathou\n\nRien que le titre nous plaît déjà ! \n\nCette fois, on oublie les romans et on passe aux petits dessins humoristiques !\n\nAvec ses personnages tout en rondeurs, ses couleurs pétillantes et son trait immédiatement reconnaissable, Mathou croque avec beaucoup d'humour la vie des femmes et des mamans.\n\nLes enfants, le boulot, les complexes, les apéros, les petites culpabilités… et cette fameuse idée qu'il faudrait être parfaite partout, tout le temps !\n\nCe qu'on adore, c'est sa façon de saisir ces petits moments du quotidien dans lesquels on se reconnaît parfois un peu trop bien. \n\n❤️ C'est drôle, coloré, plein de malice, et les illustrations sont vraiment chouettes ! On peut l'ouvrir à n'importe quelle page, picorer quelques dessins et se retrouver à sourire toute seule.\n\nEt finalement, Mathou nous rappelle une chose assez réjouissante : on peut être une Wonder Woman et avoir parfois envie de tout envoyer promener !\n\nUn petit album à feuilleter sans modération !\n\n👉 Découvrir le livre sur Booknode :\nhttps://booknode.com/les_wonderwomen_aussi_mettent_une_culotte_gainante_02028803\n\nÀ samedi !",
+      "books": [
+        {
+          "id": "3513",
+          "title": "Les wonderwomen aussi mettent une culotte gainante",
+          "author": " Mathou",
+          "booknode": "https://booknode.com/les_wonderwomen_aussi_mettent_une_culotte_gainante_02028803"
+        }
+      ],
+      "images": [
+        {
+          "src": "./archive-wa-20261117-WA0001.jpg",
+          "alt": "Visuel de la communication « Les Wonder Women aussi mettent une culotte gainante — Mathou »",
+          "width": 600,
+          "height": 858
+        },
+        {
+          "src": "./archive-wa-20261117-WA0000.jpg",
+          "alt": "Visuel de la communication « Les Wonder Women aussi mettent une culotte gainante — Mathou »",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "id": "wa-2026-11-20-237",
+      "type": "vie",
+      "title": "Le saviez-vous ? Lecture et stress",
+      "archive_only": true,
+      "original_date": "2026-11-20",
+      "starts_at": "2026-11-20T00:00:00+01:00",
+      "ends_at": "2026-11-21T00:00:00+01:00",
+      "period": "Publié le 20 novembre 2026 · Archive",
+      "body": "📚 Le saviez-vous ?\n\nEt si on s’accordait quelques minutes de lecture pour faire une pause ? 😌\n\nEt ça tombe bien ! À la Bibliothèque des Bréviaires, on a plein de livres qui n’attendent que vous ! Et toujours pleins de nouveautés !\n\n📖 Alors, si vous stressez… venez bouquiner !\n\nOn vous attend demain matin, avec des madeleines, du thé...",
+      "books": [],
+      "editorial_note": "Texte adapté pour cette archive après vérification des informations."
+    },
+    {
+      "id": "wa-2026-11-20-241",
+      "type": "coeur",
+      "title": "Aller simple pour la joie — Lorraine Fouchet",
+      "archive_only": true,
+      "original_date": "2026-11-20",
+      "starts_at": "2026-11-20T00:00:00+01:00",
+      "ends_at": "2026-11-21T00:00:00+01:00",
+      "period": "Publié le 20 novembre 2026 · Archive",
+      "body": "En bonus pour vaincre notre stress quotidien,  un petit livre dépaysant.\n\n🚂 ALLER SIMPLE POUR LA JOIE — Lorraine Fouchet\n\nQuatre inconnus, un chien et un trajet Paris-Quimper qui ne va pas du tout se passer comme prévu !\n\nDes rencontres improbables, des vies qui prennent un autre chemin… et un petit détour par la Bretagne. \n\nMais cette fois, on ne vous en dit pas plus !\n\nOn a photographié la première page du roman pour vous donner un aperçu...\n\n👉 Pour en savoir + : https://booknode.com/aller_simple_pour_la_joie_03613090",
+      "books": [
+        {
+          "id": "3522",
+          "title": "Aller simple pour la joie",
+          "author": "Lorraine Fouchet",
+          "booknode": "https://booknode.com/aller_simple_pour_la_joie_03613090"
+        }
+      ],
+      "images": [
+        {
+          "src": "./archive-wa-20261119-WA0001.jpg",
+          "alt": "Visuel de la communication « Aller simple pour la joie — Lorraine Fouchet »",
+          "width": 200,
+          "height": 200
+        },
+        {
+          "src": "./archive-wa-20261119-WA0002.jpg",
+          "alt": "Visuel de la communication « Aller simple pour la joie — Lorraine Fouchet »",
+          "width": 1200,
+          "height": 1600
+        }
+      ]
     }
   ]
 }

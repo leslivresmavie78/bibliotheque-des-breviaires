@@ -28,6 +28,15 @@
 .news-signoff{margin:0;font-size:17px;line-height:1.8}
 body.news-open{overflow:hidden}
 .news-dialog-body p{white-space:pre-line;overflow-wrap:anywhere}
+.news-archive-note{margin:0 0 22px;padding:12px 15px;background:#f1f5f8;border-radius:7px;font-size:14px;line-height:1.6;color:#445665}
+.news-editorial-note{margin:0 0 20px;font-size:14px;line-height:1.6;color:var(--muted)}
+.news-archive-paragraph{font-size:17px;line-height:1.8;margin:0 0 20px}
+.news-archive-paragraph a{color:#17617e;text-underline-offset:3px}
+.news-archive-images{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:16px;margin:24px 0}
+.news-archive-image{display:block;min-width:0;align-self:start}
+.news-archive-image img{display:block;max-width:100%;width:auto;height:auto;max-height:720px;margin-inline:auto;border-radius:4px}
+.news-related-title{margin:28px 0 14px;font-size:20px;line-height:1.4;color:var(--ink)}
+.news-book-notice{font-size:14px;line-height:1.5;color:#694580;margin:0 0 14px}
 #catalogue-view[hidden],#publications-view[hidden]{display:none}
 .publications-view{padding:30px 0 12px;min-height:55vh}
 .publications-header p{max-width:650px;margin:8px 0 23px;color:var(--muted);font-size:17px}
