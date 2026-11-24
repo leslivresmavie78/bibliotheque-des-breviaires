@@ -1,7 +1,6 @@
 import { publicationMatches, externalLinkLabel } from './ui-core.js?v=1';
 
 const CATEGORY_LABELS = { theme: 'Thème', coeur: 'Coup de cœur', auteur: 'Focus auteur', alerte: 'Actualité', actualite: 'Actualité littéraire', nouveautes: 'Nouveautés', vie: 'Vie de la bibliothèque' };
-const BANNER_LABELS = { theme: 'À la une', coeur: 'Coups de cœur', auteur: 'Focus auteur' };
 const parisWeekday = new Intl.DateTimeFormat('en-US', { timeZone: 'Europe/Paris', weekday: 'short' });
 
 export function publicationCategory(publication) {
@@ -57,10 +56,10 @@ function node(tag, className, text) {
 
 async function initNews() {
   const $ = id => document.getElementById(id);
-  const banner = $('news-banner'), dialog = $('news-dialog'), content = $('news-content');
-  if (!banner || !dialog || !content) return;
-  let publications = [], returnFocus = null, returnHash = '', selectedCategory = null, archiveCategory = 'all', loaded = false;
-  let openedId = null, bannerSignature = '', archiveSignature = '', unavailable = false, archiveQuery = '', archiveDebounce;
+  const dialog = $('news-dialog'), content = $('news-content');
+  if (!dialog || !content) return;
+  let publications = [], returnFocus = null, returnHash = '', archiveCategory = 'all', loaded = false;
+  let openedId = null, archiveSignature = '', unavailable = false, archiveQuery = '', archiveDebounce;
   const returnOrigins = new Map();
 
   function setView(archives, focus = false) {
@@ -187,38 +186,12 @@ async function initNews() {
       else {
         if (dialog.open) dialog.close();
         setView(true); $('publications-empty').hidden = false;
-        $('publications-empty').textContent = 'Cette sélection n’est pas disponible pour le moment.';
+        $('publications-empty').textContent = 'Cette communication n’est pas disponible pour le moment.';
       }
       return;
     }
     if (dialog.open) dialog.close();
     setView(location.hash === '#selections' || location.hash === '#publications-title');
-  }
-
-  function renderBanner() {
-    const featured = featuredPublications(publications), categories = Object.keys(featured);
-    banner.hidden = !categories.length;
-    if (!categories.length) { banner.replaceChildren(); return; }
-    if (!featured[selectedCategory]) selectedCategory = defaultPublicationCategory(featured);
-    const publication = featured[selectedCategory];
-    const tabs = node('div', 'news-tabs'); tabs.setAttribute('role', 'group'); tabs.setAttribute('aria-label', 'Choisir une sélection');
-    for (const category of categories) {
-      const button = node('button', 'news-tab', BANNER_LABELS[category]); button.type = 'button';
-      button.setAttribute('aria-pressed', String(selectedCategory === category)); button.setAttribute('aria-controls', 'news-featured');
-      button.addEventListener('click', () => {
-        selectedCategory = category; renderBanner();
-        [...banner.querySelectorAll('.news-tab')].find(tab => tab.getAttribute('aria-pressed') === 'true')?.focus({ preventScroll: true });
-      }); tabs.append(button);
-    }
-    const row = node('div', 'news-featured'); row.id = 'news-featured'; row.setAttribute('aria-live', 'polite');
-    const copy = node('div', 'news-banner-copy');
-    const title = node('h2', '', publication.title); title.id = 'news-title'; copy.append(title);
-    const button = node('button', 'primary-button', 'Lire'); button.type = 'button';
-    button.setAttribute('aria-label', `Lire la communication : ${publication.title}`);
-    button.addEventListener('click', () => showPublication(publication));
-    row.append(copy, button);
-    banner.classList.toggle('news-banner-single', categories.length === 1);
-    banner.replaceChildren(categories.length === 1 ? node('p', 'news-kicker', BANNER_LABELS[selectedCategory]) : tabs, row);
   }
 
   function renderArchives() {
@@ -233,18 +206,15 @@ async function initNews() {
       article.append(copy, link); fragment.append(article);
     }
     $('publications-list').replaceChildren(fragment);
-    $('publications-count').textContent = `${visible.length} sélection${visible.length > 1 ? 's' : ''}`;
+    $('publications-count').textContent = `${visible.length} communication${visible.length > 1 ? 's' : ''}`;
     $('publications-empty').hidden = !!visible.length;
-    $('publications-empty').textContent = unavailable ? 'Les sélections n’ont pas pu être chargées. Réessayez en actualisant la page.' : archiveQuery.trim() ? 'Aucun message ne correspond. Essayez un autre mot ou choisissez la rubrique « Toutes ».' : 'Aucune sélection dans cette rubrique pour le moment.';
+    $('publications-empty').textContent = unavailable ? 'Les communications n’ont pas pu être chargées. Réessayez en actualisant la page.' : archiveQuery.trim() ? 'Aucun message ne correspond. Essayez un autre mot ou choisissez la rubrique « Toutes ».' : 'Aucune communication dans cette rubrique pour le moment.';
     $('clear-publication-search').hidden = !archiveQuery;
     for (const button of $('publication-filters').querySelectorAll('button')) button.setAttribute('aria-pressed', String(button.dataset.category === archiveCategory));
   }
 
   function refreshPublications() {
-    const featured = featuredPublications(publications), preferred = defaultPublicationCategory(featured);
-    const nextBanner = JSON.stringify([Object.entries(featured).map(([category, publication]) => [category, publication.id]), preferred]);
     const nextArchive = publishedPublications(publications).map(publication => publication.id).join('|');
-    if (nextBanner !== bannerSignature) { bannerSignature = nextBanner; selectedCategory = preferred; renderBanner(); }
     if (nextArchive !== archiveSignature) { archiveSignature = nextArchive; renderArchives(); }
   }
 
@@ -279,7 +249,7 @@ async function initNews() {
     publications = data.publications;
   } catch { unavailable = true; /* Le catalogue reste consultable. */ }
   loaded = true; refreshPublications(); renderArchives(); showFromHash();
-  // Les dates et le jour sont réévalués en heure de Paris, sans rotation automatique.
+  // Les publications déjà commencées restent accessibles après leur période.
   setInterval(refreshPublications, 60000);
 }
 

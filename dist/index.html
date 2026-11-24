@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="./news.css?v=5">
   <link rel="stylesheet" href="./ergonomie.css?v=1">
   <script type="module" src="./app.js?v=9"></script>
-  <script type="module" src="./news.js?v=6"></script>
+  <script type="module" src="./news.js?v=7"></script>
 </head>
 <body>
   <a class="skip-link" href="#results">Aller aux livres</a>
@@ -25,7 +25,7 @@
       </a>
       <nav class="main-nav" aria-label="Navigation principale">
         <button type="button" class="nav-item active" id="catalogue-nav" aria-pressed="true">Le catalogue</button>
-        <button type="button" class="nav-item" id="publications-nav" aria-pressed="false">Nos sélections</button>
+        <button type="button" class="nav-item" id="publications-nav" aria-pressed="false">À la une</button>
         <button type="button" class="nav-item selection-nav" id="selection-nav" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><path d="M6 4h12v17l-6-4-6 4V4Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><span id="selection-label">Ma liste</span><span class="count-pill" id="selection-count">0</span></button>
       </nav>
     </div>
@@ -33,7 +33,6 @@
 
   <main class="page-shell">
     <div id="catalogue-view">
-    <section id="news-banner" class="news-banner" aria-labelledby="news-title" hidden></section>
     <section class="intro" aria-labelledby="page-title">
       <div class="intro-copy">
         <h1 id="page-title">Trouver un livre</h1>
@@ -83,11 +82,11 @@
     </div>
     <section id="publications-view" class="publications-view" aria-labelledby="publications-title" hidden>
       <header class="publications-header">
-        <h1 id="publications-title" tabindex="-1">Nos sélections</h1>
+        <h1 id="publications-title" tabindex="-1">À la une</h1>
         <p>Coups de cœur, idées de lecture et vie de la bibliothèque.</p>
       </header>
-      <form id="publication-search-form" class="publication-search" role="search" aria-label="Rechercher dans nos sélections"><label for="publication-search">Rechercher dans nos sélections</label><div><input id="publication-search" type="search" placeholder="Un livre, un auteur, un thème…" autocomplete="off"><button type="submit" class="primary-button">Rechercher</button><button type="button" id="clear-publication-search" class="secondary-button" hidden>Effacer la recherche</button></div></form>
-      <div id="publication-filters" class="publication-filters" role="group" aria-label="Filtrer nos sélections">
+      <form id="publication-search-form" class="publication-search" role="search" aria-label="Rechercher une communication"><label for="publication-search">Rechercher une communication</label><div><input id="publication-search" type="search" placeholder="Un livre, un auteur, un thème…" autocomplete="off"><button type="submit" class="primary-button">Rechercher</button><button type="button" id="clear-publication-search" class="secondary-button" hidden>Effacer la recherche</button></div></form>
+      <div id="publication-filters" class="publication-filters" role="group" aria-label="Filtrer les communications">
         <button type="button" data-category="all" aria-pressed="true">Toutes</button>
         <button type="button" data-category="theme" aria-pressed="false">Thèmes</button>
         <button type="button" data-category="coeur" aria-pressed="false">Coups de cœur</button>
@@ -96,16 +95,16 @@
         <button type="button" data-category="actualite" aria-pressed="false">Actualités</button>
         <button type="button" data-category="vie" aria-pressed="false">La bibliothèque</button>
       </div>
-      <p id="publications-count" class="publications-count" role="status">Les sélections se préparent…</p>
+      <p id="publications-count" class="publications-count" role="status">Les communications se préparent…</p>
       <div id="publications-list" class="publications-list"></div>
-      <p id="publications-empty" class="publications-empty" hidden>Aucune sélection dans cette rubrique pour le moment.</p>
+      <p id="publications-empty" class="publications-empty" hidden>Aucune communication dans cette rubrique pour le moment.</p>
     </section>
   </main>
 
   <footer class="site-footer"><div><strong>Bibliothèque des Bréviaires</strong><span>ASLB · Le plaisir de lire, tout près de chez vous.</span></div><p>Résumés, notes et avis issus du catalogue de la bibliothèque.<br><span id="catalogue-date">Les livres sont à retrouver lors de votre visite.</span></p></footer>
 
   <dialog id="book-dialog" aria-labelledby="detail-title"><button type="button" class="dialog-close" id="close-dialog" aria-label="Fermer la fiche"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Fermer</span></button><div id="detail-content"></div></dialog>
-  <dialog id="news-dialog" class="news-dialog" aria-labelledby="news-detail-title"><button type="button" class="dialog-close" id="close-news" aria-label="Fermer la sélection"><span>Fermer</span></button><div id="news-content"></div></dialog>
+  <dialog id="news-dialog" class="news-dialog" aria-labelledby="news-detail-title"><button type="button" class="dialog-close" id="close-news" aria-label="Fermer la communication"><span>Fermer</span></button><div id="news-content"></div></dialog>
   <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
   <div id="print-content" aria-hidden="true"></div>
   <noscript><p class="noscript-message">Activez JavaScript pour parcourir le catalogue.</p></noscript>
