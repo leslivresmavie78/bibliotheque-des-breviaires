@@ -10,6 +10,19 @@ const books = prepareBooks(rows);
 const metadata = JSON.parse(fs.readFileSync(new URL('../dist/catalogue-meta.json', import.meta.url), 'utf8'));
 const state = { q: '', author: '', genre: '', audience: '', age: '', rating: '', reviews: false, selection: false, sort: 'title' };
 
+test('Naissance, mois et singulier gardent leur libellé et rejoignent le filtre des tout-petits', () => {
+  for (const [label, expected] of [['Dès la naissance', 0], ['Dès 18 mois', 1.5], ['Dès 1 an', 1]]) {
+    const [book] = prepareBooks([{ ...rows[0], genre: `Album jeunesse | ${label} | Famille • Découverte • Animaux` }]);
+    assert.equal(book.age, label);
+    assert.equal(book.minAge, expected);
+    assert.deepEqual(book.themes, ['Famille', 'Découverte', 'Animaux']);
+    assert.equal(book.audience, 'jeunesse');
+    assert.equal(filterBooks([book], { ...state, age: '0-5' }, new Set()).length, 1);
+    assert.equal(filterBooks([book], { ...state, age: 'unknown' }, new Set()).length, 0);
+    assert.equal(filterBooks([book], { ...state, age: '18+' }, new Set()).length, 0);
+  }
+});
+
 test('Un âge exprimé par un intervalle garde son libellé et filtre sur son minimum', () => {
   const [book] = prepareBooks([{ ...rows[0], genre: 'Roman ado historique | Dès 12–13 ans | Enquête • Histoire • Amitié' }]);
   assert.equal(book.age, 'Dès 12–13 ans');
