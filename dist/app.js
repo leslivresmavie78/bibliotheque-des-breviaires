@@ -1,5 +1,5 @@
-import { parseCSV, prepareBooks, normalize, filterBooks, searchCatalogue, FAMILIES, AUDIENCES, AGE_RANGES } from './catalogue-core.js?v=7';
-import { activeCriteria, withoutCriterion } from './ui-core.js?v=1';
+import { parseCSV, prepareBooks, normalize, filterBooks, searchCatalogue, FAMILIES, AUDIENCES, AGE_RANGES } from './catalogue-core.js?v=8';
+import { activeCriteria, withoutCriterion } from './ui-core.js?v=2';
 
 const $ = id => document.getElementById(id);
 const PAGE_SIZE = 24;
@@ -343,7 +343,7 @@ function refreshFromInputs(expand = false) {
   state.age = $('age').value;
   if (!ready) return;
   const result = searchCatalogue(books, state, selected, { relaxFilters: expand === true });
-  if (result.broadened) { state = result.state; syncControls(); searchNotice = 'Recherche élargie à tous les livres pour retrouver votre titre.'; }
+  if (result.broadened) { state = result.state; syncControls(); searchNotice = 'Recherche élargie à tous les livres.'; }
   page = 1; render(result.books);
 }
 

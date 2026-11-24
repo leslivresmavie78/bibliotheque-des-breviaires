@@ -1,4 +1,4 @@
-import { AUDIENCES, FAMILIES, AGE_RANGES, normalize } from './catalogue-core.js?v=7';
+import { AUDIENCES, FAMILIES, AGE_RANGES, normalize } from './catalogue-core.js?v=8';
 
 export function activeCriteria(state) {
   const criteria = [];

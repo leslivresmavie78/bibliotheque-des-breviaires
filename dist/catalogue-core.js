@@ -27,9 +27,16 @@ function editDistanceWithin(a, b, limit) {
   return previous[b.length] <= limit ? previous[b.length] : Infinity;
 }
 
-function createQuery(value) {
+function createQuery(value, fuzzy = false) {
   const terms = queryWords(value);
-  return terms.length ? { tokens: [...new Set(terms)], key: terms.join(''), cache: new Map() } : null;
+  return terms.length ? { tokens: [...new Set(terms)], key: terms.join(''), fuzzy, cache: new Map() } : null;
+}
+
+function resolveQuery(books, value, authorOnly = false) {
+  const query = createQuery(value);
+  // Choisir le mode sur le catalogue entier : un filtre ne doit pas réintroduire des faux positifs.
+  if (!query || books.some(book => Number.isFinite(queryScore(book, query, authorOnly)))) return query;
+  return createQuery(value, true);
 }
 
 function wordCost(token, word, query) {
@@ -39,7 +46,7 @@ function wordCost(token, word, query) {
   if (token === word) cost = 0;
   else if (token.length >= 3 && word.startsWith(token)) cost = 0.2;
   else if (token.length >= 4 && word.includes(token)) cost = 0.45;
-  else if (token.length >= 4 && token.length <= 48 && !/^\d+$/.test(token)) {
+  else if (query.fuzzy && token.length >= 4 && token.length <= 48 && !/^\d+$/.test(token)) {
     const distance = editDistanceWithin(token, word, token.length >= 7 ? 2 : 1);
     if (Number.isFinite(distance)) cost = distance + 0.6;
   }
@@ -59,7 +66,8 @@ function queryScore(book, query, authorOnly = false) {
   if (!query) return 0;
   const primaryKey = authorOnly ? book.authorKey : book.titleKey;
   if (primaryKey === query.key) return -4;
-  if (query.key.length >= 5 && query.key.length <= 64 && primaryKey.length <= 64 && /^\p{L}+$/u.test(query.key)) {
+  // Une saisie composée peut viser un titre entier, même avec une petite faute ("l home de").
+  if ((query.fuzzy || !authorOnly && query.tokens.length > 1) && query.key.length >= 5 && query.key.length <= 64 && primaryKey.length <= 64 && /^\p{L}+$/u.test(query.key)) {
     const distance = editDistanceWithin(query.key, primaryKey, query.key.length >= 9 ? 2 : 1);
     if (Number.isFinite(distance)) return -3 + distance * 0.1;
   }
@@ -197,7 +205,7 @@ export function prepareBooks(rows) {
 }
 
 export function filterBooks(books, state, selected) {
-  const query = createQuery(state.q), authorQuery = createQuery(state.author), filtered = [];
+  const query = resolveQuery(books, state.q), authorQuery = resolveQuery(books, state.author, true), filtered = [];
   for (const book of books) {
     if (state.genre && !book.families.includes(state.genre) || state.audience && book.audience !== state.audience || !ageMatches(book, state.age) || state.rating && (book.rating === null || book.rating < Number(state.rating)) || state.reviews && !book.reviews || state.selection && !selected.has(book.id)) continue;
     if (!Number.isFinite(queryScore(book, authorQuery, true))) continue;
