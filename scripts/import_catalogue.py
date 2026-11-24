@@ -56,6 +56,24 @@ def extract_literary_awards(location):
     return '\n'.join(awards)
 
 
+def public_series(row):
+    """Retire l'identifiant d'import Android, en conservant nom et numéro."""
+    value = (row.get('series_details') or '').strip()
+    reference = (row.get('series_uuids') or '').strip()
+    if not value:
+        if reference:
+            raise ValueError('Série référencée sans nom : ' + row.get('_id', ''))
+        return ''
+    encoded = re.fullmatch(r'([0-9a-fA-F-]{36}),\s*(.+)', value)
+    if encoded:
+        if reference and reference != encoded.group(1):
+            raise ValueError('Référence de série incohérente : ' + row.get('_id', ''))
+        return encoded.group(2).strip()
+    if re.fullmatch(r'[0-9a-fA-F-]{36}', value):
+        raise ValueError('Identifiant de série sans nom : ' + row.get('_id', ''))
+    return value
+
+
 def convert(source, destination):
     raw = source.read_bytes()
     text = raw.decode('utf-8-sig')
@@ -78,6 +96,7 @@ def convert(source, destination):
         for key in ('description', 'notes'):
             book[key] = plain(book[key])
         book['literary_awards'] = extract_literary_awards(row.get('location', ''))
+        book['series_details'] = public_series(row)
         books.append(book)
     if not books:
         raise ValueError('Le catalogue est vide.')

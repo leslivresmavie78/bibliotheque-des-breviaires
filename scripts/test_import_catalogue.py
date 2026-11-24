@@ -1,5 +1,5 @@
 import unittest
-from import_catalogue import extract_literary_awards
+from import_catalogue import extract_literary_awards, public_series
 from update_publication_years import matching_year, clean_isbn, needs_manual_review
 
 
@@ -22,6 +22,26 @@ class AwardsImportTest(unittest.TestCase):
         location = 'Étagère 2\n🏆 Prix des Libraires 2002 🏆 Grand Prix des Lectrices de Elle 2002 — policier'
         self.assertEqual(extract_literary_awards(location), 'Prix des Libraires 2002\nGrand Prix des Lectrices de Elle 2002 — policier')
         self.assertEqual(extract_literary_awards('🏆 Finaliste du prix 2025 🏆 Prix des Libraires 2025'), 'Prix des Libraires 2025')
+
+
+class SeriesImportTest(unittest.TestCase):
+    def test_android_reference_is_private_and_volume_is_preserved(self):
+        reference = '33138457-a414-46f3-af8e-2cb0815e20a1'
+        row = {'_id': '631', 'series_uuids': reference,
+               'series_details': reference + ', Trilogie des ombres (2)'}
+        self.assertEqual(public_series(row), 'Trilogie des ombres (2)')
+        self.assertEqual(public_series({'series_details': 'Ariol (4)'}), 'Ariol (4)')
+        self.assertEqual(public_series({'series_details': '', 'series_uuids': ''}), '')
+
+    def test_unresolved_or_inconsistent_references_stop_publication(self):
+        reference = '33138457-a414-46f3-af8e-2cb0815e20a1'
+        for row in [
+            {'series_details': '', 'series_uuids': reference},
+            {'series_details': reference},
+            {'series_details': reference + ', Ariol (4)', 'series_uuids': 'autre'},
+        ]:
+            with self.assertRaises(ValueError):
+                public_series(row)
 
 
 class PublicationYearTest(unittest.TestCase):

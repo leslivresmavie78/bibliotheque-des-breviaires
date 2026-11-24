@@ -10,6 +10,14 @@ const books = prepareBooks(rows);
 const metadata = JSON.parse(fs.readFileSync(new URL('../dist/catalogue-meta.json', import.meta.url), 'utf8'));
 const state = { q: '', author: '', genre: '', audience: '', age: '', rating: '', reviews: false, selection: false, sort: 'title' };
 
+test('Un âge exprimé par un intervalle garde son libellé et filtre sur son minimum', () => {
+  const [book] = prepareBooks([{ ...rows[0], genre: 'Roman ado historique | Dès 12–13 ans | Enquête • Histoire • Amitié' }]);
+  assert.equal(book.age, 'Dès 12–13 ans');
+  assert.equal(book.minAge, 12);
+  assert.equal(filterBooks([book], { ...state, age: '12-14' }, new Set()).length, 1);
+  assert.equal(filterBooks([book], { ...state, age: 'unknown' }, new Set()).length, 0);
+});
+
 test('Les prix principaux ne se confondent pas avec leurs variantes ou une mention d’auteur', () => {
   assert.deepEqual(awardKeys(['Prix Goncourt 2020']), ['goncourt']);
   assert.deepEqual(awardKeys(['Prix Goncourt des Lycéens 2020']), ['goncourt-lyceens']);
