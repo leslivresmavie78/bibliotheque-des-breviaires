@@ -176,3 +176,67 @@ test('Les quatre publics sont nommés comme demandé et Adultes retrouve les ray
   assert.ok(!adults.some(book => book.audience === 'jeunesse' || book.audience === 'ados'));
   assert.ok(adults.some(book => book.id === '3430'));
 });
+
+// Les communications sont indépendantes du CSV : périodes, archives et priorités.
+const { publicationCategory, publishedPublications, featuredPublications, defaultPublicationCategory, filterPublications } = await import('../dist/news.js');
+const newsNow = Date.parse('2026-11-24T12:00:00+01:00');
+const newsFixture = (id, type = 'theme', extra = {}) => ({ id, title: id, type, starts_at: '2026-11-23T00:00:00+01:00', ends_at: '2026-11-27T00:00:00+01:00', ...extra });
+
+test('Une publication existante sans rubrique reste un thème et conserve son lien', () => {
+  const legacy = newsFixture('ancienne-communication'); delete legacy.type;
+  assert.equal(publicationCategory(legacy), 'theme');
+  assert.equal(publishedPublications([legacy], newsNow)[0].id, 'ancienne-communication');
+});
+
+test('Les brouillons, les communications futures et les périodes invalides sont exclus des archives et du bandeau', () => {
+  const items = [newsFixture('valide'), newsFixture('brouillon', 'coeur', { status: 'draft' }), newsFixture('draft', 'auteur', { draft: true }), newsFixture('non-publie', 'theme', { published: false }), newsFixture('futur', 'coeur', { starts_at: '2026-11-26T00:00:00+01:00' }), newsFixture('date-invalide', 'auteur', { starts_at: 'invalide' }), newsFixture('inversee', 'theme', { ends_at: '2026-11-22T00:00:00+01:00' }), null];
+  assert.deepEqual(publishedPublications(items, newsNow).map(item => item.id), ['valide']);
+  assert.deepEqual(Object.values(featuredPublications(items, newsNow)).map(item => item.id), ['valide']);
+});
+
+test('La fin de période retire le thème du bandeau mais garde son texte et son lien dans les archives', () => {
+  const legacy = newsFixture('lien-partage');
+  const atEnd = Date.parse(legacy.ends_at);
+  assert.deepEqual(featuredPublications([legacy], atEnd), {});
+  assert.equal(publishedPublications([legacy], atEnd)[0], legacy);
+  assert.equal(featuredPublications([legacy], atEnd - 1).theme, legacy);
+});
+
+test('Le dernier coup de cœur et le dernier focus restent accessibles jusqu’à leur remplacement', () => {
+  const oldHeart = newsFixture('coeur-ancien', 'coeur', { starts_at: '2026-11-01T00:00:00+01:00', ends_at: '2026-11-04T00:00:00+01:00' });
+  const focus = newsFixture('focus', 'auteur', { starts_at: '2026-11-02T00:00:00+01:00', ends_at: '2026-11-20T00:00:00+01:00' });
+  assert.deepEqual(featuredPublications([oldHeart, focus], newsNow), { coeur: oldHeart, auteur: focus });
+  const newHeart = newsFixture('coeur-nouveau', 'coeur');
+  assert.equal(featuredPublications([newHeart, oldHeart, focus], newsNow).coeur, newHeart);
+  assert.deepEqual(filterPublications([newHeart, oldHeart, focus], 'coeur', newsNow).map(item => item.id), ['coeur-nouveau', 'coeur-ancien']);
+});
+
+test('La priorité du vendredi au dimanche suit l’heure de Paris, y compris à minuit', () => {
+  const choices = { theme: {}, coeur: {}, auteur: {} };
+  assert.equal(defaultPublicationCategory(choices, Date.parse('2026-11-26T22:59:59Z')), 'theme');
+  assert.equal(defaultPublicationCategory(choices, Date.parse('2026-11-26T23:00:00Z')), 'coeur');
+  assert.equal(defaultPublicationCategory(choices, Date.parse('2026-11-29T22:59:59Z')), 'coeur');
+  assert.equal(defaultPublicationCategory(choices, Date.parse('2026-11-29T23:00:00Z')), 'theme');
+  assert.equal(defaultPublicationCategory(choices, Date.parse('2027-07-01T22:00:00Z')), 'coeur');
+  assert.equal(defaultPublicationCategory({ auteur: {} }, newsNow), 'auteur');
+  assert.equal(defaultPublicationCategory({}, newsNow), undefined);
+});
+
+test('Une alerte ne remplace pas un thème actif sauf priorité explicite', () => {
+  const theme = newsFixture('lundi'); const alert = newsFixture('alerte', 'alerte');
+  assert.equal(featuredPublications([alert, theme], newsNow).theme, theme);
+  assert.equal(featuredPublications([alert], newsNow).theme, alert);
+  const priority = { ...alert, highlight: true };
+  assert.equal(featuredPublications([theme, priority], newsNow).theme, priority);
+});
+
+test('Les archives se trient par publication, conservent les anciens textes et filtrent chaque rubrique', () => {
+  const old = newsFixture('ancien', 'theme', { starts_at: '2026-10-01T00:00:00+02:00', ends_at: '2026-10-05T00:00:00+02:00' });
+  const heart = newsFixture('coeur', 'coeur'); const author = newsFixture('auteur', 'auteur', { starts_at: '2026-11-24T00:00:00+01:00' });
+  const alert = newsFixture('alerte', 'alerte', { starts_at: '2026-11-20T00:00:00+01:00' });
+  const items = [old, heart, author, alert];
+  assert.deepEqual(filterPublications(items, 'all', newsNow).map(item => item.id), ['auteur', 'coeur', 'alerte', 'ancien']);
+  assert.deepEqual(filterPublications(items, 'theme', newsNow).map(item => item.id), ['alerte', 'ancien']);
+  assert.deepEqual(filterPublications(items, 'auteur', newsNow).map(item => item.id), ['auteur']);
+  assert.equal(items[0], old);
+});
