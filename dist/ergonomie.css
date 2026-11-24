@@ -2,6 +2,13 @@
 .search-label{display:block;padding:12px 17px 0;font-size:16px;font-weight:500;color:var(--ink)}
 .search-box{padding-top:6px}
 .search-submit-icon{display:none}
+.book-publication,.detail-publication{font-size:16px;line-height:1.45;color:var(--muted);margin:0 0 12px}
+.detail-publication a{color:var(--forest-dark);text-underline-offset:3px}
+#publication-year-help{font-size:14px;line-height:1.45;color:var(--muted);margin:2px 0 0}
+.filter-fields{align-items:start}
+@media(min-width:801px){.filter-fields{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(min-width:561px) and (max-width:800px){.award-field,.year-field,.sort-field{width:calc(50% - 7px)}}
+@media(max-width:560px){.award-field,.year-field{width:100%}}
 .mobile-filter-button{font-size:16px}
 .audience-bar{margin:18px 0 0}
 .active-criteria{display:flex;align-items:center;flex-wrap:wrap;gap:8px 12px;margin-top:18px;font-size:16px}

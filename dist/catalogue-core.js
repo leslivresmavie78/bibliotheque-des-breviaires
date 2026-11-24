@@ -180,7 +180,49 @@ export function displayAuthor(raw) {
   return comma < 0 ? raw.trim() : `${raw.slice(comma + 1).trim()} ${raw.slice(0, comma).trim()}`.trim();
 }
 
-export function prepareBooks(rows) {
+// Les prix principaux restent distincts de leurs variantes (lycéens, étranger, premier roman).
+export const LITERARY_AWARDS = [
+  ['goncourt', 'Goncourt', /^prix goncourt(?: \d{4}|$)/],
+  ['goncourt-lyceens', 'Goncourt des lycéens', /^prix goncourt des lyceens\b/],
+  ['goncourt-premier-roman', 'Goncourt du premier roman', /^prix goncourt du premier roman\b/],
+  ['renaudot', 'Renaudot', /^prix renaudot(?: \d{4}|$)/],
+  ['renaudot-lyceens', 'Renaudot des lycéens', /^prix renaudot des lyceens\b/],
+  ['femina', 'Femina', /^prix femina(?: \d{4}|$)/],
+  ['femina-etranger', 'Femina étranger', /^prix femina etranger\b/],
+  ['femina-lyceens', 'Femina des lycéens', /^prix femina des lyceens\b/],
+  ['medicis', 'Médicis', /^prix medicis(?: \d{4}|$)/],
+  ['medicis-etranger', 'Médicis étranger', /^prix medicis etranger\b/],
+  ['interallie', 'Interallié', /^prix interallie\b/],
+  ['academie-francaise', 'Grand Prix du roman de l’Académie française', /^grand prix du roman de l academie francaise\b/],
+  ['libraires', 'Prix des libraires', /^prix des libraires(?: \d{4}|$)/],
+  ['livre-poche', 'Prix des lecteurs du Livre de Poche', /^(?:grand )?prix des lecteurs du livre de poche\b/],
+  ['fnac', 'Prix du roman Fnac', /^prix (?:du roman )?fnac\b/],
+  ['maison-presse', 'Prix Maison de la Presse', /^prix (?:maison|des maisons) de la presse\b/],
+  ['livre-inter', 'Prix du Livre Inter', /^prix du livre inter(?: \d{4}|$)/],
+  ['elle', 'Prix des lectrices de Elle', /^(?:grand )?prix des lectrices de elle\b/],
+  ['rtl-lire', 'Prix RTL-Lire', /^(?:grand )?prix rtl lire\b/],
+  ['sorcieres', 'Prix Sorcières', /^prix sorcieres\b/],
+  ['incorruptibles', 'Prix des Incorruptibles', /^prix des incorruptibles\b/],
+  ['pulitzer', 'Prix Pulitzer', /^prix pulitzer\b/],
+];
+
+export function awardKeys(awards) {
+  return [...new Set(awards.map(award => LITERARY_AWARDS.find(([, , pattern]) => pattern.test(normalize(award)))?.[0] || 'other'))];
+}
+
+export function awardOptions(books) {
+  const present = new Set(books.flatMap(book => book.awardKeys));
+  return [['any', 'Tous les livres primés'], ...LITERARY_AWARDS.filter(([key]) => present.has(key)).map(([key, label]) => [key, label]), ...(present.has('other') ? [['other', 'Autres prix']] : [])];
+}
+
+export function publicationFor(row, data) {
+  const entry = data?.books?.[row._id];
+  if (!entry || entry.isbn !== row.isbn || entry.title !== row.title || entry.author_details !== row.author_details || !Number.isInteger(entry.year) || entry.year < 1450 || entry.year > new Date().getFullYear()) return null;
+  try { if (new URL(entry.source).protocol !== 'https:') return null; } catch { return null; }
+  return entry;
+}
+
+export function prepareBooks(rows, publicationData = {}) {
   const ids = new Set();
   return rows.map(row => {
     if (!row._id || !row.title || ids.has(row._id)) throw new Error('Le catalogue contient un identifiant absent ou en double.');
@@ -195,6 +237,10 @@ export function prepareBooks(rows) {
     const ratingNumber = Number((row.rating || '').replace(',', '.'));
     const rating = Number.isFinite(ratingNumber) && ratingNumber > 0 && ratingNumber <= 5 ? ratingNumber : null;
     const book = { id: row._id, title: row.title, authors, sortAuthor: row.author_details.split('|')[0], category, age, minAge, audience: audienceFor(category, minAge), themes, rating, series: row.series_details || '', pages: /^\d+$/.test(row.pages) && Number(row.pages) > 0 ? Number(row.pages) : null, summary: row.description || '', reviews: row.notes || '', isbn: row.isbn || '', addedAt: parseAddedAt(row.date_added), awards: (row.literary_awards || '').split(/\r?\n/).map(value => value.trim()).filter(Boolean) };
+    book.awardKeys = awardKeys(book.awards);
+    const publication = publicationFor(row, publicationData);
+    book.publicationYear = publication?.year ?? null;
+    book.publicationSource = publication?.source || '';
     book.families = familiesFor(category);
     book.search = normalize([book.title, row.author_details, ...authors, row.genre, book.series].join(' '));
     book.titleWords = [...new Set(words(book.title))]; book.titleKey = searchKey(book.title);
@@ -208,6 +254,8 @@ export function filterBooks(books, state, selected) {
   const query = resolveQuery(books, state.q), authorQuery = resolveQuery(books, state.author, true), filtered = [];
   for (const book of books) {
     if (state.genre && !book.families.includes(state.genre) || state.audience && book.audience !== state.audience || !ageMatches(book, state.age) || state.rating && (book.rating === null || book.rating < Number(state.rating)) || state.reviews && !book.reviews || state.selection && !selected.has(book.id)) continue;
+    if (state.award && (state.award === 'any' ? !book.awards.length : !book.awardKeys.includes(state.award))) continue;
+    if (state.year && (state.year === 'unknown' ? book.publicationYear !== null : book.publicationYear !== Number(state.year))) continue;
     if (!Number.isFinite(queryScore(book, authorQuery, true))) continue;
     const score = queryScore(book, query);
     if (Number.isFinite(score)) filtered.push({ book, score });
@@ -232,7 +280,7 @@ export function filterBooks(books, state, selected) {
 export function searchCatalogue(books, state, selected, { relaxFilters = false } = {}) {
   const found = filterBooks(books, state, selected);
   if (!relaxFilters || state.selection || searchKey(state.q).length < 4 || ![state.author, state.genre, state.audience, state.age, state.rating, state.reviews].some(Boolean)) return { books: found, state, broadened: false };
-  const widerState = { ...state, author: '', genre: '', audience: '', age: '', rating: '', reviews: false };
+  const widerState = { ...state, author: '', genre: '', audience: '', age: '', rating: '', award: '', year: '', reviews: false };
   const widerBooks = filterBooks(books, widerState, selected), key = searchKey(state.q);
   const exactTitleIsHidden = widerBooks.some(book => book.titleKey === key) && !found.some(book => book.titleKey === key);
   return widerBooks.length && (!found.length || exactTitleIsHidden) ? { books: widerBooks, state: widerState, broadened: true } : { books: found, state, broadened: false };

@@ -1,12 +1,12 @@
-import { parseCSV, prepareBooks, normalize, filterBooks, searchCatalogue, FAMILIES, AUDIENCES, AGE_RANGES } from './catalogue-core.js?v=8';
-import { activeCriteria, withoutCriterion } from './ui-core.js?v=2';
+import { parseCSV, prepareBooks, normalize, filterBooks, searchCatalogue, awardOptions, LITERARY_AWARDS, FAMILIES, AUDIENCES, AGE_RANGES } from './catalogue-core.js?v=9';
+import { activeCriteria, withoutCriterion } from './ui-core.js?v=3';
 
 const $ = id => document.getElementById(id);
 const PAGE_SIZE = 24;
 const STORAGE_KEY = 'breviaires-selection-v1';
 const numberFormat = new Intl.NumberFormat('fr-FR');
 const ratingFormat = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 1 });
-const defaults = () => ({ q: '', author: '', genre: '', audience: '', age: '', rating: '', reviews: false, selection: false, sort: 'recent' });
+const defaults = () => ({ q: '', author: '', genre: '', audience: '', age: '', rating: '', award: '', year: '', reviews: false, selection: false, sort: 'recent' });
 let state = defaults(), browseState = null, books = [], byId = new Map(), filtered = [], page = 1, ready = false;
 let selected = new Set(), debounce, toastTimer, activeBook = null, loading = false, restoreFocus = null, searchNotice = '';
 
@@ -54,6 +54,8 @@ function stateFromURL() {
   if (params.get('genre') === 'jeunesse' && !next.audience) next.audience = 'jeunesse';
   if (params.get('age') === 'unknown' || AGE_RANGES.some(([value]) => value === params.get('age'))) next.age = params.get('age');
   if (['4', '4.5'].includes(params.get('rating'))) next.rating = params.get('rating');
+  if (['any', 'other', ...LITERARY_AWARDS.map(([key]) => key)].includes(params.get('award'))) next.award = params.get('award');
+  if (params.get('year') === 'unknown' || /^\d{4}$/.test(params.get('year') || '') && Number(params.get('year')) >= 1450 && Number(params.get('year')) <= new Date().getFullYear()) next.year = params.get('year');
   if (['recent', 'title', 'author', 'rating'].includes(params.get('sort'))) next.sort = params.get('sort');
   next.reviews = params.get('reviews') === '1'; next.selection = params.get('selection') === '1';
   return next;
@@ -61,7 +63,7 @@ function stateFromURL() {
 
 function syncURL() {
   const url = new URL(location.href); url.search = '';
-  for (const key of ['q', 'author', 'genre', 'rating']) if (state[key]) url.searchParams.set(key, state[key]);
+  for (const key of ['q', 'author', 'genre', 'rating', 'award', 'year']) if (state[key]) url.searchParams.set(key, state[key]);
   if (state.audience) url.searchParams.set('public', state.audience);
   if (state.age) url.searchParams.set('age', state.age);
   if (state.reviews) url.searchParams.set('reviews', '1');
@@ -74,6 +76,7 @@ function syncControls() {
   $('search').value = state.q; $('author').value = state.author; $('genre').value = state.genre;
   $('rating').value = state.rating; $('with-reviews').checked = state.reviews; $('sort').value = state.sort;
   $('age').value = state.age;
+  $('award').value = state.award; $('year').value = state.year;
 }
 
 function updateSelectionCounter() {
@@ -124,6 +127,7 @@ function makeCard(book) {
   const heading = element('h3');
   heading.textContent = book.title;
   article.append(heading, element('p', 'book-author', book.authors.join(' · ')));
+  if (book.publicationYear !== null) article.append(element('p', 'book-publication', `Première parution connue : ${book.publicationYear}`));
   article.append(element('p', `book-preview${book.summary ? '' : ' missing'}`, book.summary ? book.summary.replace(/\s+/g, ' ') : 'Résumé à venir dans le catalogue.'));
   const themes = element('div', 'book-themes');
   if (book.age) themes.append(element('span', 'theme-tag age-tag', book.age));
@@ -175,8 +179,8 @@ function renderActiveCriteria() {
 function render(resultBooks) {
   if (!ready) return;
   const count = updateSelectionCounter();
-  const filterCount = [state.author, state.genre, state.audience, state.age, state.rating, state.reviews].filter(Boolean).length;
-  const extraCount = [state.author, state.genre, state.age, state.rating, state.reviews, state.sort !== (state.selection ? 'title' : 'recent')].filter(Boolean).length;
+  const filterCount = [state.author, state.genre, state.audience, state.age, state.rating, state.award, state.year, state.reviews].filter(Boolean).length;
+  const extraCount = [state.author, state.genre, state.age, state.rating, state.award, state.year, state.reviews, state.sort !== (state.selection ? 'title' : 'recent')].filter(Boolean).length;
   $('active-filter-count').textContent = extraCount ? `(${extraCount})` : '';
   $('reset-filters').hidden = !(state.q || filterCount || state.sort !== (state.selection ? 'title' : 'recent'));
   syncNavigation();
@@ -257,6 +261,12 @@ function openBook(id) {
   header.append(element('p', 'detail-category', [book.category, book.age].filter(Boolean).join(' · ')));
   if (!book.age && (book.audience === 'jeunesse' || book.audience === 'ados')) header.append(element('p', 'detail-age-note', 'Âge conseillé non renseigné dans le catalogue.'));
   const title = element('h2', '', book.title); title.id = 'detail-title'; header.append(title, element('p', 'detail-authors', book.authors.join(' · ')));
+  if (book.publicationYear !== null) {
+    const publication = element('p', 'detail-publication', 'Première parution connue : ');
+    const year = element('a', '', String(book.publicationYear)); year.href = book.publicationSource;
+    year.target = '_blank'; year.rel = 'noopener noreferrer'; year.setAttribute('aria-label', `Source de l’année de première parution ${book.publicationYear} (nouvel onglet)`);
+    publication.append(year); header.append(publication);
+  }
   if (book.awards.length) header.append(awardBadge());
   const meta = element('div', 'detail-meta'); meta.append(ratingElement(book, true));
   if (book.rating) meta.append(element('span', '', 'Note du catalogue'));
@@ -341,6 +351,7 @@ function refreshFromInputs(expand = false) {
   state.q = $('search').value; state.author = $('author').value; state.genre = $('genre').value;
   state.rating = $('rating').value; state.reviews = $('with-reviews').checked; state.sort = $('sort').value;
   state.age = $('age').value;
+  state.award = $('award').value; state.year = $('year').value;
   if (!ready) return;
   const result = searchCatalogue(books, state, selected, { relaxFilters: expand === true });
   if (result.broadened) { state = result.state; syncControls(); searchNotice = 'Recherche élargie à tous les livres.'; }
@@ -353,7 +364,8 @@ async function loadCatalogue() {
   try {
     const response = await fetch(new URL('./catalogue.csv', import.meta.url), { cache: 'no-cache' });
     if (!response.ok) throw new Error(`Catalogue : ${response.status}`);
-    books = prepareBooks(parseCSV(await response.text())); byId = new Map(books.map(book => [book.id, book]));
+    const publicationData = await fetch(new URL('./publication-years.json', import.meta.url), { cache: 'no-cache' }).then(response => response.ok ? response.json() : {}).catch(() => ({}));
+    books = prepareBooks(parseCSV(await response.text()), publicationData); byId = new Map(books.map(book => [book.id, book]));
     selected = new Set([...selected].filter(id => byId.has(id)));
     const authors = [...new Set(books.flatMap(book => book.authors))].sort(new Intl.Collator('fr', { sensitivity: 'base' }).compare);
     const authorOptions = document.createDocumentFragment(); for (const author of authors) { const option = element('option'); option.value = author; authorOptions.append(option); }
@@ -364,6 +376,12 @@ async function loadCatalogue() {
     const ageOptions = document.createDocumentFragment(); const anyAge = element('option', '', 'Tous les âges'); anyAge.value = ''; ageOptions.append(anyAge);
     for (const [value, label] of [...AGE_RANGES, ['unknown', 'Âge non renseigné']]) { const option = element('option', '', label); option.value = value; ageOptions.append(option); }
     $('age').replaceChildren(ageOptions);
+    const prizeOptions = document.createDocumentFragment(); const anyPrize = element('option', '', 'Tous les livres'); anyPrize.value = ''; prizeOptions.append(anyPrize);
+    for (const [value, label] of awardOptions(books)) { const option = element('option', '', label); option.value = value; prizeOptions.append(option); }
+    $('award').replaceChildren(prizeOptions);
+    const yearOptions = document.createDocumentFragment(); const anyYear = element('option', '', 'Toutes les années'); anyYear.value = ''; yearOptions.append(anyYear);
+    for (const value of [...new Set(books.map(book => book.publicationYear).filter(year => year !== null))].sort((a, b) => b - a)) { const option = element('option', '', String(value)); option.value = String(value); yearOptions.append(option); }
+    const unknownYear = element('option', '', 'Année non renseignée'); unknownYear.value = 'unknown'; yearOptions.append(unknownYear); $('year').replaceChildren(yearOptions);
     state = stateFromURL(); syncControls(); ready = true; render();
     if (location.hash.startsWith('#livre=')) { const id = decodeURIComponent(location.hash.slice(7)); if (byId.has(id)) openBook(id); else notify('Ce livre ne figure plus dans le catalogue.'); }
     fetch(new URL('./catalogue-meta.json', import.meta.url), { cache: 'no-cache' }).then(response => response.ok ? response.json() : null).then(metadata => {
@@ -380,7 +398,7 @@ async function loadCatalogue() {
 
 $('search-form').addEventListener('submit', event => { event.preventDefault(); refreshFromInputs(true); });
 for (const id of ['search', 'author']) $(id).addEventListener('input', () => { clearTimeout(debounce); debounce = setTimeout(() => refreshFromInputs(id === 'search'), 220); });
-for (const id of ['genre', 'age', 'rating', 'with-reviews', 'sort']) $(id).addEventListener('change', refreshFromInputs);
+for (const id of ['genre', 'age', 'rating', 'award', 'year', 'with-reviews', 'sort']) $(id).addEventListener('change', refreshFromInputs);
 $('reset-filters').addEventListener('click', () => { const selection = state.selection; state = { ...defaults(), selection, sort: selection ? 'title' : 'recent' }; searchNotice = ''; page = 1; syncControls(); render(); });
 $('empty-reset').addEventListener('click', () => {
   if (state.selection && updateSelectionCounter()) {

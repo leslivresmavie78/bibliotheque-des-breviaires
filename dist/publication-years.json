@@ -1,0 +1,6264 @@
+{
+  "checked_on": "2026-11-24",
+  "description": "Première année connue de l’œuvre, langue originale comprise. Rapprochement exact ISBN, titre et auteur. Les ambiguïtés, dates anciennes et grands écarts non revus restent sans année ; les compléments éditoriaux sont prioritaires.",
+  "books": {
+    "3": {
+      "isbn": "9782264035165",
+      "title": "Esclaves du passé",
+      "author_details": "Perry, Anne",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL8997310W"
+    },
+    "4": {
+      "isbn": "9782264027184",
+      "title": "Un étranger dans le miroir",
+      "author_details": "Perry, Anne",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL48800W"
+    },
+    "5": {
+      "isbn": "9782264027405",
+      "title": "Rutland Place",
+      "author_details": "Perry, Anne",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL21716027W"
+    },
+    "8": {
+      "isbn": "9782878580938",
+      "title": "Sans feu ni lieu",
+      "author_details": "Vargas, Fred",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL2497629W"
+    },
+    "12": {
+      "isbn": "9782878581522",
+      "title": "Pars vite et reviens tard",
+      "author_details": "Vargas, Fred",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL2497630W"
+    },
+    "15": {
+      "isbn": "9782266151245",
+      "title": "Le sang du renard",
+      "author_details": "Walters, Minette",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL31946956W"
+    },
+    "16": {
+      "isbn": "9782738209474",
+      "title": "Chambre froide",
+      "author_details": "Walters, Minette",
+      "year": 1996,
+      "source": "https://openlibrary.org/works/OL24693393W"
+    },
+    "17": {
+      "isbn": "9782221102411",
+      "title": "La disparue de Colliton Park",
+      "author_details": "Walters, Minette",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL31992807W"
+    },
+    "18": {
+      "isbn": "9782234055087",
+      "title": "Intime pulsion",
+      "author_details": "Walters, Minette",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL22094264W"
+    },
+    "28": {
+      "isbn": "9782742786626",
+      "title": "Le tailleur de pierre",
+      "author_details": "Läckberg, Camilla",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL19065467W"
+    },
+    "30": {
+      "isbn": "9782330008925",
+      "title": "La Sirène",
+      "author_details": "Läckberg, Camilla",
+      "year": 2012,
+      "source": "https://openlibrary.org/works/OL19063703W"
+    },
+    "37": {
+      "isbn": "9782258045248",
+      "title": "Une Patience d’ange",
+      "author_details": "George, Elizabeth",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL456484W"
+    },
+    "39": {
+      "isbn": "9782253139454",
+      "title": "Le sabotage amoureux",
+      "author_details": "Nothomb, Amélie",
+      "year": 1993,
+      "source": "https://openlibrary.org/works/OL1724585W"
+    },
+    "40": {
+      "isbn": "9782226188441",
+      "title": "Le fait du prince",
+      "author_details": "Nothomb, Amélie",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL8985046W"
+    },
+    "41": {
+      "isbn": "9782226153944",
+      "title": "Biographie de la faim",
+      "author_details": "Nothomb, Amélie",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL8387048W"
+    },
+    "42": {
+      "isbn": "9782226249685",
+      "title": "La nostalgie heureuse",
+      "author_details": "Nothomb, Amélie",
+      "year": 2013,
+      "source": "https://openlibrary.org/works/OL16815486W"
+    },
+    "43": {
+      "isbn": "9782210754959",
+      "title": "Stupeur et tremblements",
+      "author_details": "Nothomb, Amélie",
+      "year": 1999,
+      "source": "https://openlibrary.org/works/OL1724584W"
+    },
+    "44": {
+      "isbn": "9782226138828",
+      "title": "Antéchrista",
+      "author_details": "Nothomb, Amélie",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL8387046W"
+    },
+    "45": {
+      "isbn": "9782226093745",
+      "title": "Attentat",
+      "author_details": "Nothomb, Amélie",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL1724581W"
+    },
+    "46": {
+      "isbn": "9782253152842",
+      "title": "Métaphysique des tubes",
+      "author_details": "Nothomb, Amélie",
+      "year": 2000,
+      "source": "https://openlibrary.org/works/OL1724583W"
+    },
+    "47": {
+      "isbn": "9782253139461",
+      "title": "Les combustibles",
+      "author_details": "Nothomb, Amélie",
+      "year": 1994,
+      "source": "https://openlibrary.org/works/OL1724593W"
+    },
+    "48": {
+      "isbn": "9782226104991",
+      "title": "Mercure",
+      "author_details": "Nothomb, Amélie",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL1724586W"
+    },
+    "49": {
+      "isbn": "9782226454089",
+      "title": "Les Aérostats",
+      "author_details": "Nothomb, Amélie",
+      "year": 2020,
+      "source": "https://openlibrary.org/works/OL24317568W"
+    },
+    "51": {
+      "isbn": "9782253259688",
+      "title": "Frappe-toi le cœur",
+      "author_details": "Nothomb, Amélie",
+      "year": 2017,
+      "source": "https://openlibrary.org/works/OL19730375W"
+    },
+    "52": {
+      "isbn": "9782226443885",
+      "title": "Soif",
+      "author_details": "Nothomb, Amélie",
+      "year": 2019,
+      "source": "https://openlibrary.org/works/OL20118311W"
+    },
+    "55": {
+      "isbn": "9782226167224",
+      "title": "Acide sulfurique",
+      "author_details": "Nothomb, Amélie",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL1724580W"
+    },
+    "66": {
+      "isbn": "9782221247884",
+      "title": "Toujours plus",
+      "author_details": "Situations, Lena",
+      "year": 2020,
+      "source": "https://openlibrary.org/works/OL22294421W"
+    },
+    "69": {
+      "isbn": "9782266055734",
+      "title": "La bonne vie !",
+      "author_details": "Davis, Jim",
+      "year": 1993,
+      "source": "https://openlibrary.org/works/OL24687096W"
+    },
+    "77": {
+      "isbn": "9782072897153",
+      "title": "Street illusions",
+      "author_details": "Chrixcel, |Urbanus, Codex",
+      "year": 2020,
+      "source": "https://openlibrary.org/works/OL32280870W"
+    },
+    "95": {
+      "isbn": "9782246831662",
+      "title": "Je voulais vivre",
+      "author_details": "Clermont-Tonnerre, Adélaïde de",
+      "year": 2025,
+      "source": "https://openlibrary.org/works/OL45011723W"
+    },
+    "99": {
+      "isbn": "9782073113252",
+      "title": "Je suis Romane Monnier",
+      "author_details": "Vigan, Delphine de",
+      "year": 2026,
+      "source": "https://openlibrary.org/works/OL45039228W"
+    },
+    "102": {
+      "isbn": "9782702190753",
+      "title": "Le Garçon éternel",
+      "author_details": "Loubry, Jérôme",
+      "year": 2026,
+      "source": "https://openlibrary.org/works/OL46016555W"
+    },
+    "136": {
+      "isbn": "9782702191477",
+      "title": "Les belles promesses",
+      "author_details": "Lemaitre, Pierre",
+      "year": 2026,
+      "source": "https://openlibrary.org/works/OL45039129W"
+    },
+    "145": {
+      "isbn": "9782912485380",
+      "title": "La Boîte noire",
+      "author_details": "Robert, Denis",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL4529095W"
+    },
+    "146": {
+      "isbn": "9782867449710",
+      "title": "Chrétiens",
+      "author_details": "Rolin, Jean",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL39020849W"
+    },
+    "147": {
+      "isbn": "9782020846493",
+      "title": "Un chasseur de lions",
+      "author_details": "Rolin, Olivier",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL2288398W"
+    },
+    "149": {
+      "isbn": "9782350874425",
+      "title": "Sentinelle de la pluie",
+      "author_details": "Rosnay, Tatiana de",
+      "year": 2018,
+      "source": "https://openlibrary.org/works/OL23017752W"
+    },
+    "155": {
+      "isbn": "9782228891752",
+      "title": "Quatre temps du silence",
+      "author_details": "Rouanet, Marie",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL666956W"
+    },
+    "156": {
+      "isbn": "9782228882729",
+      "title": "Nous les filles",
+      "author_details": "Rouanet, Marie",
+      "year": 1990,
+      "source": "https://openlibrary.org/works/OL666951W"
+    },
+    "158": {
+      "isbn": "9782707316271",
+      "title": "Pour vos cadeaux",
+      "author_details": "Rouaud, Jean",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL2174131W"
+    },
+    "159": {
+      "isbn": "9782246802631",
+      "title": "Une place à prendre",
+      "author_details": "Rowling, J. K.",
+      "year": 2012,
+      "source": "https://openlibrary.org/works/OL27969449W"
+    },
+    "162": {
+      "isbn": "9782070753536",
+      "title": "Sauver Ispahan",
+      "author_details": "Rufin, Jean-Christophe",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL18975W"
+    },
+    "165": {
+      "isbn": "9782259186476",
+      "title": "Le rêve de Zamor",
+      "author_details": "Ruggieri, Eve",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL23869537W"
+    },
+    "172": {
+      "isbn": "9782226173362",
+      "title": "Alexandre et Alestria",
+      "author_details": "Sa, Shan",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL6033451W"
+    },
+    "174": {
+      "isbn": "9782258048157",
+      "title": "Une saison de passion",
+      "author_details": "Steel, Danielle",
+      "year": 1999,
+      "source": "https://openlibrary.org/works/OL19631W"
+    },
+    "175": {
+      "isbn": "9782070146413",
+      "title": "Check-point",
+      "author_details": "Rufin, Jean-Christophe",
+      "year": 2015,
+      "source": "https://openlibrary.org/works/OL20679211W"
+    },
+    "176": {
+      "isbn": "9782070757626",
+      "title": "Balzac et la petite tailleuse chinoise",
+      "author_details": "Dai, Sijie",
+      "year": 2000,
+      "source": "https://openlibrary.org/works/OL6011104W"
+    },
+    "177": {
+      "isbn": "9782226318299",
+      "title": "La nuit de feu",
+      "author_details": "Schmitt, Eric-Emmanuel",
+      "year": 2015,
+      "source": "https://openlibrary.org/works/OL20024482W"
+    },
+    "178": {
+      "isbn": "9782226188618",
+      "title": "Ulysse from Bagdad",
+      "author_details": "Schmitt, Eric-Emmanuel",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL13688400W"
+    },
+    "181": {
+      "isbn": "9782226244321",
+      "title": "Les deux messieurs de Bruxelles",
+      "author_details": "Schmitt, Eric-Emmanuel",
+      "year": 2012,
+      "source": "https://openlibrary.org/works/OL19358392W"
+    },
+    "186": {
+      "isbn": "9782226173621",
+      "title": "Odette Toulemonde et autres histoires",
+      "author_details": "Schmitt, Eric-Emmanuel",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL17999713W"
+    },
+    "189": {
+      "isbn": "9782714438638",
+      "title": "Le pouvoir du chien",
+      "author_details": "Savage, Thomas",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL4649188W"
+    },
+    "190": {
+      "isbn": "9782246637110",
+      "title": "Morte parmi les vivants",
+      "author_details": "Sahebjam, Freidoune",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL2426302W"
+    },
+    "193": {
+      "isbn": "9782260007807",
+      "title": "Les faux-fuyants",
+      "author_details": "Sagan, Françoise",
+      "year": 1991,
+      "source": "https://openlibrary.org/works/OL584269W"
+    },
+    "194": {
+      "isbn": "9782259180825",
+      "title": "Un chagrin de passage",
+      "author_details": "Sagan, Françoise",
+      "year": 1994,
+      "source": "https://openlibrary.org/works/OL584301W"
+    },
+    "196": {
+      "isbn": "9782260006862",
+      "title": "La laisse",
+      "author_details": "Sagan, Françoise",
+      "year": 1989,
+      "source": "https://openlibrary.org/works/OL584263W"
+    },
+    "197": {
+      "isbn": "9782070782895",
+      "title": "Gomorra",
+      "author_details": "Saviano, Roberto",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL19853191W"
+    },
+    "198": {
+      "isbn": "9782848768861",
+      "title": "La plus secrète mémoire des hommes",
+      "author_details": "Sarr, Mohamed Mbougar",
+      "year": 2021,
+      "source": "https://openlibrary.org/works/OL24607185W"
+    },
+    "200": {
+      "isbn": "9782021116199",
+      "title": "Pas pleurer",
+      "author_details": "Salvayre, Lydie",
+      "year": 2014,
+      "source": "https://openlibrary.org/works/OL20000323W"
+    },
+    "204": {
+      "isbn": "9782080663511",
+      "title": "Maman coq",
+      "author_details": "Sarraute, Claude",
+      "year": 1989,
+      "source": "https://openlibrary.org/works/OL2286570W"
+    },
+    "206": {
+      "isbn": "9782845632622",
+      "title": "Une seconde avant Noël",
+      "author_details": "Sardou, Romain",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL28945065W"
+    },
+    "208": {
+      "isbn": "9782226141835",
+      "title": "Impératrice",
+      "author_details": "Sa, Shan",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL6033457W"
+    },
+    "214": {
+      "isbn": "2207240509",
+      "title": "La fille du Nil",
+      "author_details": "Sinoué, Gilbert",
+      "year": 1993,
+      "source": "https://openlibrary.org/works/OL866734W"
+    },
+    "216": {
+      "isbn": "9782258040458",
+      "title": "Le septième papyrus",
+      "author_details": "Smith, Wilbur",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL8108220W"
+    },
+    "218": {
+      "isbn": "9782226006172",
+      "title": "Moi Zénobie, reine de Palmyre",
+      "author_details": "Simiot, Bernard",
+      "year": 1978,
+      "source": "https://openlibrary.org/works/OL886249W"
+    },
+    "223": {
+      "isbn": "9782246616115",
+      "title": "La joueuse de go",
+      "author_details": "Sa, Shan",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL7923582W"
+    },
+    "229": {
+      "isbn": "9782266160919",
+      "title": "La dame au sari bleu",
+      "author_details": "Scholes, Katherine",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL24276279W"
+    },
+    "232": {
+      "isbn": "9782081209077",
+      "title": "Le pavillon des pivoines",
+      "author_details": "See, Lisa",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL24279860W"
+    },
+    "233": {
+      "isbn": "9782080688286",
+      "title": "Fleur de Neige",
+      "author_details": "See, Lisa",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL24265329W"
+    },
+    "237": {
+      "isbn": "9782081219113",
+      "title": "Inch’ Allah",
+      "author_details": "Sinoué, Gilbert",
+      "year": 2010,
+      "source": "https://openlibrary.org/works/OL22416645W"
+    },
+    "243": {
+      "isbn": "9782226036223",
+      "title": "Rendez-vous à la malouinière",
+      "author_details": "Simiot, Bernard",
+      "year": 1989,
+      "source": "https://openlibrary.org/works/OL886258W"
+    },
+    "244": {
+      "isbn": "9782226156785",
+      "title": "La reine crucifiée",
+      "author_details": "Sinoué, Gilbert",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL24016806W"
+    },
+    "247": {
+      "isbn": "9782070196678",
+      "title": "Chanson douce",
+      "author_details": "Slimani, Leïla",
+      "year": 2016,
+      "source": "https://openlibrary.org/works/OL20051787W"
+    },
+    "248": {
+      "isbn": "9782841115648",
+      "title": "Monsieur le commandant",
+      "author_details": "Slocombe, Romain",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL16508992W"
+    },
+    "249": {
+      "isbn": "9782213634340",
+      "title": "Tout, tout de suite",
+      "author_details": "Sportès, Morgan",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL16489237W"
+    },
+    "252": {
+      "isbn": "9782070728954",
+      "title": "Le secret",
+      "author_details": "Sollers, Philippe",
+      "year": 1992,
+      "source": "https://openlibrary.org/works/OL133456W"
+    },
+    "255": {
+      "isbn": "9782221095010",
+      "title": "Cavalcade",
+      "author_details": "Stabenrath, Bruno de",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL9069282W"
+    },
+    "258": {
+      "isbn": "9782863912126",
+      "title": "La femme pressée",
+      "author_details": "Sulitzer, Paul-Loup",
+      "year": 1987,
+      "source": "https://openlibrary.org/works/OL652817W"
+    },
+    "259": {
+      "isbn": "9782221078600",
+      "title": "Le soleil en embuscade",
+      "author_details": "Han, Suyin",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL27738466W"
+    },
+    "264": {
+      "isbn": "9782267014679",
+      "title": "Small world",
+      "author_details": "Suter, Martin",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL7922475W"
+    },
+    "267": {
+      "isbn": "9782246758310",
+      "title": "Six mois, six jours",
+      "author_details": "Tuil, Karine",
+      "year": 2010,
+      "source": "https://openlibrary.org/works/OL22416327W"
+    },
+    "268": {
+      "isbn": "9782072729331",
+      "title": "Les Choses humaines",
+      "author_details": "Tuil, Karine",
+      "year": 2019,
+      "source": "https://openlibrary.org/works/OL24326615W"
+    },
+    "273": {
+      "isbn": "9782211069427",
+      "title": "Le fruit du dragon",
+      "author_details": "Ubac, Claire",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL10488221W"
+    },
+    "274": {
+      "isbn": "9782742799206",
+      "title": "La belle amour humaine",
+      "author_details": "Trouillot, Lyonel",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL19953269W"
+    },
+    "276": {
+      "isbn": "9782253069447",
+      "title": "Ahlam",
+      "author_details": "Trévidic, Marc",
+      "year": 2016,
+      "source": "https://openlibrary.org/works/OL17921971W"
+    },
+    "279": {
+      "isbn": "9782707320957",
+      "title": "Fuir",
+      "author_details": "Toussaint, Jean-Philippe",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL39324201W"
+    },
+    "282": {
+      "isbn": "9782213612485",
+      "title": "Les chantiers de la gloire",
+      "author_details": "Beineix, Jean-Jacques",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL3847178W"
+    },
+    "283": {
+      "isbn": "9782258057524",
+      "title": "La fiancée du santonnier",
+      "author_details": "Tixier, Jean-Max",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL1733979W"
+    },
+    "284": {
+      "isbn": "9782020414777",
+      "title": "Les adieux à la reine",
+      "author_details": "Thomas, Chantal",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL2388178W"
+    },
+    "285": {
+      "isbn": "9782258052550",
+      "title": "La Gasparine",
+      "author_details": "Thibaux, Jean-Michel",
+      "year": 2000,
+      "source": "https://openlibrary.org/works/OL557012W"
+    },
+    "289": {
+      "isbn": "9782070146376",
+      "title": "Sur les chemins noirs",
+      "author_details": "Tesson, Sylvain",
+      "year": 2016,
+      "source": "https://openlibrary.org/works/OL20051806W"
+    },
+    "290": {
+      "isbn": "9782260014942",
+      "title": "Darling",
+      "author_details": "Teulé, Jean",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL2291514W"
+    },
+    "294": {
+      "isbn": "9782283021125",
+      "title": "Loin de Chandigarh",
+      "author_details": "Tejpal, Tarun J.",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL24640679W"
+    },
+    "296": {
+      "isbn": "9782234059276",
+      "title": "Puisque rien ne dure",
+      "author_details": "Tardieu, Laurence",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL13750299W"
+    },
+    "298": {
+      "isbn": "9782213720579",
+      "title": "Le Tourbillon de la vie",
+      "author_details": "Valognes, Aurélie",
+      "year": 2021,
+      "source": "https://openlibrary.org/works/OL26129594W"
+    },
+    "299": {
+      "isbn": "9782253070566",
+      "title": "En voiture, Simone !",
+      "author_details": "Valognes, Aurélie",
+      "year": 2016,
+      "source": "https://openlibrary.org/works/OL19742696W"
+    },
+    "303": {
+      "isbn": "9782258022553",
+      "title": "Une femme en enfer",
+      "author_details": "Vallée, Brian",
+      "year": 1988,
+      "source": "https://openlibrary.org/works/OL33928864W"
+    },
+    "305": {
+      "isbn": "9782878583205",
+      "title": "Les sœurs Brelan",
+      "author_details": "Vallejo, François",
+      "year": 2010,
+      "source": "https://openlibrary.org/works/OL20872463W"
+    },
+    "308": {
+      "isbn": "9782351780466",
+      "title": "Désolations",
+      "author_details": "Vann, David",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL24728771W"
+    },
+    "320": {
+      "isbn": "9782207246825",
+      "title": "La châtelaine de Tyr",
+      "author_details": "Varney, Annick",
+      "year": 2000,
+      "source": "https://openlibrary.org/works/OL2152904W"
+    },
+    "321": {
+      "isbn": "9782226403179",
+      "title": "La toile du monde",
+      "author_details": "Varenne, Antonin",
+      "year": 2018,
+      "source": "https://openlibrary.org/works/OL44649631W"
+    },
+    "323": {
+      "isbn": "9782258053229",
+      "title": "Le chemin de Jean",
+      "author_details": "Varel, Brigitte",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL2492289W"
+    },
+    "328": {
+      "isbn": "9782246545910",
+      "title": "Trois jours chez ma mère",
+      "author_details": "Weyergans, François",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL2062630W"
+    },
+    "330": {
+      "isbn": "9782228897099",
+      "title": "Je suis de nulle part",
+      "author_details": "Weber, Olivier",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL2109432W"
+    },
+    "332": {
+      "isbn": "9782070784097",
+      "title": "Mon enfant de Berlin",
+      "author_details": "Wiazemsky, Anne",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL18657865W"
+    },
+    "333": {
+      "isbn": "9782246448518",
+      "title": "La démence du boxeur",
+      "author_details": "Weyergans, François",
+      "year": 1992,
+      "source": "https://openlibrary.org/works/OL2062620W"
+    },
+    "337": {
+      "isbn": "9782877060233",
+      "title": "Les hommes du tsar",
+      "author_details": "Volkoff, Vladimir",
+      "year": 1989,
+      "source": "https://openlibrary.org/works/OL708933W"
+    },
+    "338": {
+      "isbn": "9782020374781",
+      "title": "Des anges mineurs",
+      "author_details": "Volodine, Antoine",
+      "year": 1999,
+      "source": "https://openlibrary.org/works/OL2095140W"
+    },
+    "339": {
+      "isbn": "9782207234051",
+      "title": "Le maître des abeilles",
+      "author_details": "Vincenot, Henri",
+      "year": 1987,
+      "source": "https://openlibrary.org/works/OL983310W"
+    },
+    "340": {
+      "isbn": "9782709630405",
+      "title": "Les heures souterraines",
+      "author_details": "Vigan, Delphine de",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL15087648W"
+    },
+    "343": {
+      "isbn": "9782709661584",
+      "title": "Les Loyautés",
+      "author_details": "Vigan, Delphine de",
+      "year": 2018,
+      "source": "https://openlibrary.org/works/OL19742697W"
+    },
+    "344": {
+      "isbn": "9782234054363",
+      "title": "Sans instructions",
+      "author_details": "Vichnievsky, Laurence|Follorou, Jacques",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL6000150W"
+    },
+    "345": {
+      "isbn": "9782221117019",
+      "title": "Délivre-moi",
+      "author_details": "Viollier, Yves",
+      "year": 2010,
+      "source": "https://openlibrary.org/works/OL22416325W"
+    },
+    "346": {
+      "isbn": "9782841872145",
+      "title": "Le beau Danube jaune",
+      "author_details": "Verne, Jules",
+      "year": 1988,
+      "source": "https://openlibrary.org/works/OL1099902W"
+    },
+    "349": {
+      "isbn": "9782226245175",
+      "title": "Sombre dimanche",
+      "author_details": "Zeniter, Alice",
+      "year": 2013,
+      "source": "https://openlibrary.org/works/OL23134749W"
+    },
+    "352": {
+      "isbn": "9782070299867",
+      "title": "Abraham a vu mon jour",
+      "author_details": "Léturmy, Michel",
+      "year": 1982,
+      "source": "https://openlibrary.org/works/OL4410338W"
+    },
+    "354": {
+      "isbn": "9782226048264",
+      "title": "Rue de la mémoire-fêlée",
+      "author_details": "Zerdoun, Monique",
+      "year": 1990,
+      "source": "https://openlibrary.org/works/OL37609981W"
+    },
+    "363": {
+      "isbn": "9782226121202",
+      "title": "Maman, je veux pas être empereur",
+      "author_details": "Xenakis, Françoise",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL8995279W"
+    },
+    "364": {
+      "isbn": "9782743611835",
+      "title": "Par-dessus le bord du monde",
+      "author_details": "Winton, Tim",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL11331948W"
+    },
+    "365": {
+      "isbn": "9782867446030",
+      "title": "La maladie de Sachs",
+      "author_details": "Winckler, Martin",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL2103040W"
+    },
+    "367": {
+      "isbn": "9782856164525",
+      "title": "Hemlock, ou, Les poisons",
+      "author_details": "Wittkop-Ménardeau, Gabrielle",
+      "year": 1988,
+      "source": "https://openlibrary.org/works/OL2554198W"
+    },
+    "368": {
+      "isbn": "9782846820257",
+      "title": "Les trois médecins",
+      "author_details": "Winckler, Martin",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL2103043W"
+    },
+    "373": {
+      "isbn": "9782092591789",
+      "title": "Les insectes",
+      "author_details": "Zürcher, Muriel|Hurtrez, Stéphane",
+      "year": 2020,
+      "source": "https://openlibrary.org/works/OL24312751W"
+    },
+    "407": {
+      "isbn": "9782080681522",
+      "title": "La saison barbare",
+      "author_details": "Japp, Andrea H.",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL24277718W"
+    },
+    "408": {
+      "isbn": "9782080682413",
+      "title": "Le ventre des lucioles",
+      "author_details": "Japp, Andrea H.",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL6243277W"
+    },
+    "409": {
+      "isbn": "9782702478400",
+      "title": "La parabole du tueur",
+      "author_details": "Japp, Andrea H.",
+      "year": 1996,
+      "source": "https://openlibrary.org/works/OL6243274W"
+    },
+    "412": {
+      "isbn": "9782226221322",
+      "title": "Le passager",
+      "author_details": "Grangé, Jean-Christophe",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL16559364W"
+    },
+    "413": {
+      "isbn": "9782253127086",
+      "title": "Le serment des limbes",
+      "author_details": "Grangé, Jean-Christophe",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL24713144W"
+    },
+    "422": {
+      "isbn": "9782365693400",
+      "title": "Fais de moi la colère",
+      "author_details": "Villeminot, Vincent",
+      "year": 2018,
+      "source": "https://openlibrary.org/works/OL23018255W"
+    },
+    "430": {
+      "isbn": "2744170542",
+      "title": "La dernière promesse",
+      "author_details": "Sussman, Ellen",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL17849558W"
+    },
+    "433": {
+      "isbn": "2020059568",
+      "title": "Un amour infini",
+      "author_details": "Spencer, Scott",
+      "year": 1981,
+      "source": "https://openlibrary.org/works/OL1812804W"
+    },
+    "435": {
+      "isbn": "2724237056",
+      "title": "Les Bateaux de Benjamin",
+      "author_details": "Servan-Schreiber, Sylvie",
+      "year": 1987,
+      "source": "https://openlibrary.org/works/OL5044812W"
+    },
+    "438": {
+      "isbn": "2253133612",
+      "title": "Actes de foi",
+      "author_details": "Segal, Erich",
+      "year": 1994,
+      "source": "https://openlibrary.org/works/OL2656022W"
+    },
+    "441": {
+      "isbn": "226616631X",
+      "title": "Une lumière sur la neige",
+      "author_details": "Shreve, Anita",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL24158019W"
+    },
+    "445": {
+      "isbn": "9782253156796",
+      "title": "Un orage immobile",
+      "author_details": "Sagan, Françoise",
+      "year": 1983,
+      "source": "https://openlibrary.org/works/OL584309W"
+    },
+    "449": {
+      "isbn": "9782070377596",
+      "title": "De guerre lasse",
+      "author_details": "Sagan, Françoise",
+      "year": 1985,
+      "source": "https://openlibrary.org/works/OL584303W"
+    },
+    "454": {
+      "isbn": "9780385335522",
+      "title": "The Cottage",
+      "author_details": "Steel, Danielle",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL19648W"
+    },
+    "455": {
+      "isbn": "9780307566638",
+      "title": "Loving",
+      "author_details": "Steel, Danielle",
+      "year": 1980,
+      "source": "https://openlibrary.org/works/OL19560W"
+    },
+    "458": {
+      "isbn": "9782246411611",
+      "title": "La Porte du fond",
+      "author_details": "Rochefort, Christiane",
+      "year": 1988,
+      "source": "https://openlibrary.org/works/OL1696173W"
+    },
+    "461": {
+      "isbn": "9782264035493",
+      "title": "Le Fantôme de la rue Royale",
+      "author_details": "Parot, Jean-François",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL8997315W"
+    },
+    "464": {
+      "isbn": "9782213725109",
+      "title": "Fils de personne",
+      "author_details": "Pasques, Jean-François",
+      "year": 2022,
+      "source": "https://openlibrary.org/works/OL30786878W"
+    },
+    "468": {
+      "isbn": "9782070136711",
+      "title": "Fantôme",
+      "author_details": "Nesbø, Jo",
+      "year": 2013,
+      "source": "https://openlibrary.org/works/OL27053370W"
+    },
+    "480": {
+      "isbn": "9782298095036",
+      "title": "Appelle-moi",
+      "author_details": "McKenzie, Sophie",
+      "year": 2015,
+      "source": "https://openlibrary.org/works/OL24248566W"
+    },
+    "484": {
+      "isbn": "9782226093912",
+      "title": "Personnes disparues",
+      "author_details": "MacDonald, Patricia J.",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL8453818W"
+    },
+    "486": {
+      "isbn": "9782226120861",
+      "title": "Dernier Refuge",
+      "author_details": "MacDonald, Patricia J.",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL31975301W"
+    },
+    "488": {
+      "isbn": "9782246600411",
+      "title": "Le Pacte de Cassandre",
+      "author_details": "Ludlum, Robert|Shelby, Philip",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL14961842W"
+    },
+    "494": {
+      "isbn": "9782226392084",
+      "title": "Le serpent majuscule",
+      "author_details": "Lemaitre, Pierre",
+      "year": 2021,
+      "source": "https://openlibrary.org/works/OL25047238W"
+    },
+    "495": {
+      "isbn": "9782253157878",
+      "title": "Théorie du chiffon",
+      "author_details": "Lambron, Marc",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL44135130W"
+    },
+    "502": {
+      "isbn": "9782330001346",
+      "title": "Cyanure",
+      "author_details": "Läckberg, Camilla",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL16482946W"
+    },
+    "503": {
+      "isbn": "9782268027012",
+      "title": "Veritas",
+      "author_details": "Lashner, William",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL24858923W"
+    },
+    "512": {
+      "isbn": "9782709625166",
+      "title": "La jeune fille et la brume",
+      "author_details": "Silva, Lorenzo",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL24276755W"
+    },
+    "520": {
+      "isbn": "9782070428601",
+      "title": "Bus de nuit",
+      "author_details": "Rigosi, Giampiero",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL26171878W"
+    },
+    "524": {
+      "isbn": "9782702136003",
+      "title": "Promenons-nous dans les bois",
+      "author_details": "Rendell, Ruth",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL26441250W"
+    },
+    "529": {
+      "isbn": "9782709628679",
+      "title": "Le cadavre anglais",
+      "author_details": "Parot, Jean-François",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL7818412W"
+    },
+    "530": {
+      "isbn": "9782709622844",
+      "title": "Le Fantôme de la Rue Royale",
+      "author_details": "Parot, Jean-François",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL8997285W"
+    },
+    "532": {
+      "isbn": "9782265087354",
+      "title": "Apocalypse",
+      "author_details": "Giacometti, Eric|Ravenne, Jacques",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL24698932W"
+    },
+    "533": {
+      "isbn": "9782710327943",
+      "title": "Les secrets sont éternels",
+      "author_details": "Thompson, Carlene",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL22064983W"
+    },
+    "534": {
+      "isbn": "9782265099036",
+      "title": "Pandemia",
+      "author_details": "Thilliez, Franck",
+      "year": 2015,
+      "source": "https://openlibrary.org/works/OL34705932W"
+    },
+    "537": {
+      "isbn": "9782265157798",
+      "title": "Norferville",
+      "author_details": "Thilliez, Franck",
+      "year": 2024,
+      "source": "https://openlibrary.org/works/OL45949557W"
+    },
+    "538": {
+      "isbn": "9782265098695",
+      "title": "Angor",
+      "author_details": "Thilliez, Franck",
+      "year": 2014,
+      "source": "https://openlibrary.org/works/OL25272570W"
+    },
+    "543": {
+      "isbn": "9782355842832",
+      "title": "Une autre vie",
+      "author_details": "Watson, Steven J.",
+      "year": 2015,
+      "source": "https://openlibrary.org/works/OL21540443W"
+    },
+    "549": {
+      "isbn": "9782226011503",
+      "title": "La clinique du docteur H.",
+      "author_details": "Clark, Mary Higgins",
+      "year": 1981,
+      "source": "https://openlibrary.org/works/OL12999W"
+    },
+    "553": {
+      "isbn": "9782253170129",
+      "title": "Douce Nuit",
+      "author_details": "Clark, Mary Higgins",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL8996352W"
+    },
+    "555": {
+      "isbn": "225303732X",
+      "title": "Un cri dans la nuit",
+      "author_details": "Clark, Mary Higgins",
+      "year": 1985,
+      "source": "https://openlibrary.org/works/OL16289239W"
+    },
+    "562": {
+      "isbn": "9782226130990",
+      "title": "Ce soir je veillerai sur toi",
+      "author_details": "Clark, Mary Higgins|Clark, Carol Higgins",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL15111485W"
+    },
+    "567": {
+      "isbn": "9782234056954",
+      "title": "Le dernier adieu",
+      "author_details": "Arvin, Reed",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL24278861W"
+    },
+    "568": {
+      "isbn": "9782226192417",
+      "title": "La quatrième forme de Satan",
+      "author_details": "Aspe, Pieter",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL21531104W"
+    },
+    "569": {
+      "isbn": "9782226190895",
+      "title": "Les masques de la nuit",
+      "author_details": "Aspe, Pieter",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL24427358W"
+    },
+    "571": {
+      "isbn": "9782352947561",
+      "title": "Waldgänger",
+      "author_details": "Balek, Jeff",
+      "year": 2014,
+      "source": "https://openlibrary.org/works/OL19359755W"
+    },
+    "577": {
+      "isbn": "9782264049728",
+      "title": "Le parchemin disparu de maître Richard",
+      "author_details": "Bourgeois, Laetitia",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL33373529W"
+    },
+    "579": {
+      "isbn": "9782355931376",
+      "title": "Les nuits rouges de Nerwood",
+      "author_details": "Bornais, Gilles",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL16301669W"
+    },
+    "580": {
+      "isbn": "9782020563383",
+      "title": "La mort au fond du canyon",
+      "author_details": "Box, C. J.",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL27721645W"
+    },
+    "582": {
+      "isbn": "9782258145344",
+      "title": "On la trouvait plutôt jolie",
+      "author_details": "Bussi, Michel",
+      "year": 2017,
+      "source": "https://openlibrary.org/works/OL19730390W"
+    },
+    "591": {
+      "isbn": "9782226470072",
+      "title": "Lux",
+      "author_details": "Chattam, Maxime",
+      "year": 2023,
+      "source": "https://openlibrary.org/works/OL39494838W"
+    },
+    "596": {
+      "isbn": "9782020332422",
+      "title": "Créance de sang",
+      "author_details": "Connelly, Michael",
+      "year": 1999,
+      "source": "https://openlibrary.org/works/OL446241W"
+    },
+    "597": {
+      "isbn": "9782253086376",
+      "title": "Mariachi Plaza",
+      "author_details": "Connelly, Michael",
+      "year": 2017,
+      "source": "https://openlibrary.org/works/OL35425851W"
+    },
+    "600": {
+      "isbn": "9782213616704",
+      "title": "Ça se Corse !",
+      "author_details": "Dard, Patrice",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL23870099W"
+    },
+    "602": {
+      "isbn": "9782822401050",
+      "title": "Paraphilia",
+      "author_details": "Desforges, Saffina",
+      "year": 2012,
+      "source": "https://openlibrary.org/works/OL26212881W"
+    },
+    "604": {
+      "isbn": "9791032102008",
+      "title": "La disparition de Stephanie Mailer",
+      "author_details": "Dicker, Joël",
+      "year": 2018,
+      "source": "https://openlibrary.org/works/OL17887580W"
+    },
+    "605": {
+      "isbn": "9782889730742",
+      "title": "La très catastrophique visite du zoo",
+      "author_details": "Dicker, Joël",
+      "year": 2025,
+      "source": "https://openlibrary.org/works/OL42950605W"
+    },
+    "607": {
+      "isbn": "9782864244783",
+      "title": "Île noire",
+      "author_details": "Di Cara, Piergiorgio",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL28166331W"
+    },
+    "609": {
+      "isbn": "9782226060976",
+      "title": "Plan fixe",
+      "author_details": "Dorner, Marjorie",
+      "year": 1992,
+      "source": "https://openlibrary.org/works/OL24846355W"
+    },
+    "615": {
+      "isbn": "9782226318176",
+      "title": "La piste noire",
+      "author_details": "Larsson, Åsa",
+      "year": 2015,
+      "source": "https://openlibrary.org/works/OL45030091W"
+    },
+    "626": {
+      "isbn": "2265007943",
+      "title": "Dans le sable on nous enterrera",
+      "author_details": "Jacquemard, Serge",
+      "year": 1978,
+      "source": "https://openlibrary.org/works/OL6351627W"
+    },
+    "627": {
+      "isbn": "9782264027719",
+      "title": "Le chat qui parlait aux oiseaux",
+      "author_details": "Braun, Lilian Jackson",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL457991W"
+    },
+    "628": {
+      "isbn": "9782264049186",
+      "title": "Les souliers bruns du quai Voltaire",
+      "author_details": "Izner, Claude",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL27017803W"
+    },
+    "629": {
+      "isbn": "9782264034939",
+      "title": "Le carrefour des écrasés",
+      "author_details": "Izner, Claude",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL24278551W"
+    },
+    "635": {
+      "isbn": "2744177237",
+      "title": "Justice imminente",
+      "author_details": "Hoffman, Jilliane",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL24275104W"
+    },
+    "636": {
+      "isbn": "9782352947332",
+      "title": "Vlast",
+      "author_details": "Higgins, Peter",
+      "year": 2014,
+      "source": "https://openlibrary.org/works/OL28174299W"
+    },
+    "640": {
+      "isbn": "9782846080927",
+      "title": "Les flics ont toujours raison",
+      "author_details": "Héléna, André",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL10001568W"
+    },
+    "645": {
+      "isbn": "9782264030627",
+      "title": "Le Visage de Maât",
+      "author_details": "Haney, Lauren",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL553660W"
+    },
+    "648": {
+      "isbn": "9782702433249",
+      "title": "À la vue, à la mort",
+      "author_details": "Guérin, Françoise",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL28965887W"
+    },
+    "656": {
+      "isbn": "9782266162098",
+      "title": "Disparition",
+      "author_details": "Grimes, Martha",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL24261279W"
+    },
+    "671": {
+      "isbn": "9782355840845",
+      "title": "Adieu",
+      "author_details": "Expert, Jacques",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL16565579W"
+    },
+    "672": {
+      "isbn": "9782070130764",
+      "title": "Mapuche",
+      "author_details": "Férey, Caryl",
+      "year": 2012,
+      "source": "https://openlibrary.org/works/OL19706870W"
+    },
+    "674": {
+      "isbn": "2020495759",
+      "title": "La constance du jardinier",
+      "author_details": "le Carré, John",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL15332684W"
+    },
+    "698": {
+      "isbn": "9780451215772",
+      "title": "The Innocent",
+      "author_details": "Coben, Harlan",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL14963222W"
+    },
+    "710": {
+      "isbn": "9782205001341",
+      "title": "Astérix gladiateur",
+      "author_details": "Goscinny, René|Uderzo, Albert",
+      "year": 1964,
+      "source": "https://openlibrary.org/works/OL267615W"
+    },
+    "720": {
+      "isbn": "9782226442109",
+      "title": "Le Bal des folles",
+      "author_details": "Mas, Victoria",
+      "year": 2019,
+      "source": "https://openlibrary.org/works/OL24316073W"
+    },
+    "722": {
+      "isbn": "9782330108717",
+      "title": "Leurs enfants après eux",
+      "author_details": "Mathieu, Nicolas",
+      "year": 2018,
+      "source": "https://openlibrary.org/works/OL24348258W"
+    },
+    "724": {
+      "isbn": "9782707320759",
+      "title": "Des hommes",
+      "author_details": "Mauvignier, Laurent",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL14988959W"
+    },
+    "728": {
+      "isbn": "9782020334976",
+      "title": "Une vie de chien",
+      "author_details": "Mayle, Peter",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL80489W"
+    },
+    "730": {
+      "isbn": "9782841110223",
+      "title": "Provence toujours",
+      "author_details": "Mayle, Peter",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL80488W"
+    },
+    "731": {
+      "isbn": "9782330070489",
+      "title": "Ma vie de pingouin",
+      "author_details": "Mazetti, Katarina",
+      "year": 2016,
+      "source": "https://openlibrary.org/works/OL31823928W"
+    },
+    "733": {
+      "isbn": "9782714437297",
+      "title": "Danseur",
+      "author_details": "McCann, Colum",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL24259228W"
+    },
+    "748": {
+      "isbn": "9782848050560",
+      "title": "Les vivants et les ombres",
+      "author_details": "Meur, Diane",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL5793325W"
+    },
+    "750": {
+      "isbn": "9781408829370",
+      "title": "Transatlantic",
+      "author_details": "McCann, Colum",
+      "year": 2013,
+      "source": "https://openlibrary.org/works/OL17653175W"
+    },
+    "755": {
+      "isbn": "9782226155085",
+      "title": "Le roman de Marie Bashkirtseff",
+      "author_details": "Mille, Raoul",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL23933326W"
+    },
+    "757": {
+      "isbn": "9782714431998",
+      "title": "Les pièges de la passion",
+      "author_details": "Miles, Rosalind",
+      "year": 1994,
+      "source": "https://openlibrary.org/works/OL24281169W"
+    },
+    "758": {
+      "isbn": "9782260014447",
+      "title": "Le maître des paons",
+      "author_details": "Milovanoff, Jean-Pierre",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL1712410W"
+    },
+    "759": {
+      "isbn": "9782020993883",
+      "title": "La promesse",
+      "author_details": "Mingarelli, Hubert",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL19931341W"
+    },
+    "760": {
+      "isbn": "9782912162144",
+      "title": "La partie de dames",
+      "author_details": "Minor, Nata",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL5013256W"
+    },
+    "761": {
+      "isbn": "9782020538046",
+      "title": "Quatre Soldats",
+      "author_details": "Mingarelli, Hubert",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL19923733W"
+    },
+    "762": {
+      "isbn": "9782213630878",
+      "title": "Du côté des vivants",
+      "author_details": "Moati, Serge",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL4341438W"
+    },
+    "763": {
+      "isbn": "9782213616025",
+      "title": "Villa Jasmin",
+      "author_details": "Moati, Serge",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL4341441W"
+    },
+    "764": {
+      "isbn": "9782724247701",
+      "title": "Une Héritière de haut vol",
+      "author_details": "Michael, Judith",
+      "year": 1989,
+      "source": "https://openlibrary.org/works/OL24442439W"
+    },
+    "775": {
+      "isbn": "9782070719808",
+      "title": "Voyage de noces",
+      "author_details": "Modiano, Patrick",
+      "year": 1990,
+      "source": "https://openlibrary.org/works/OL742756W"
+    },
+    "778": {
+      "isbn": "9782070727711",
+      "title": "Un cirque passe",
+      "author_details": "Modiano, Patrick",
+      "year": 1992,
+      "source": "https://openlibrary.org/works/OL742743W"
+    },
+    "780": {
+      "isbn": "9782070408481",
+      "title": "Dora Bruder",
+      "author_details": "Modiano, Patrick",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL742747W"
+    },
+    "786": {
+      "isbn": "9782080680709",
+      "title": "Les Jardins de Vandières",
+      "author_details": "Montupet, Janine",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL2237599W"
+    },
+    "787": {
+      "isbn": "9782226173348",
+      "title": "Corpus Christine",
+      "author_details": "Monnehay, Max",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL13750226W"
+    },
+    "789": {
+      "isbn": "9782735700479",
+      "title": "Tar baby",
+      "author_details": "Morrison, Toni",
+      "year": 1981,
+      "source": "https://openlibrary.org/works/OL50557W"
+    },
+    "790": {
+      "isbn": "9782267023831",
+      "title": "Home",
+      "author_details": "Morrison, Toni",
+      "year": 2012,
+      "source": "https://openlibrary.org/works/OL16263320W"
+    },
+    "791": {
+      "isbn": "9782267007428",
+      "title": "Beloved",
+      "author_details": "Morrison, Toni",
+      "year": 1987,
+      "source": "https://openlibrary.org/works/OL50548W"
+    },
+    "792": {
+      "isbn": "9782213601267",
+      "title": "Le jardin de Badalpour",
+      "author_details": "Mourad, Kenizé",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL2246138W"
+    },
+    "799": {
+      "isbn": "9782845633704",
+      "title": "Je reviens te chercher",
+      "author_details": "Musso, Guillaume",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL16076857W"
+    },
+    "800": {
+      "isbn": "9782845639614",
+      "title": "Un appartement à Paris",
+      "author_details": "Musso, Guillaume",
+      "year": 2017,
+      "source": "https://openlibrary.org/works/OL19730401W"
+    },
+    "802": {
+      "isbn": "9782845634572",
+      "title": "La fille de papier",
+      "author_details": "Musso, Guillaume",
+      "year": 2010,
+      "source": "https://openlibrary.org/works/OL19067300W"
+    },
+    "803": {
+      "isbn": "9782253237631",
+      "title": "La vie secrète des écrivains",
+      "author_details": "Musso, Guillaume",
+      "year": 2019,
+      "source": "https://openlibrary.org/works/OL21711292W"
+    },
+    "804": {
+      "isbn": "9782266258487",
+      "title": "Central Park",
+      "author_details": "Musso, Guillaume",
+      "year": 2014,
+      "source": "https://openlibrary.org/works/OL17204552W"
+    },
+    "807": {
+      "isbn": "9782070372935",
+      "title": "Livret de famille",
+      "author_details": "Modiano, Patrick",
+      "year": 1977,
+      "source": "https://openlibrary.org/works/OL742760W"
+    },
+    "808": {
+      "isbn": "9782070373581",
+      "title": "Rue des boutiques obscures",
+      "author_details": "Modiano, Patrick",
+      "year": 1978,
+      "source": "https://openlibrary.org/works/OL742762W"
+    },
+    "810": {
+      "isbn": "9782848760346",
+      "title": "Les chutes",
+      "author_details": "Oates, Joyce Carol",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL34609911W"
+    },
+    "815": {
+      "isbn": "9782848761213",
+      "title": "La fille du fossoyeur",
+      "author_details": "Oates, Joyce Carol",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL37220928W"
+    },
+    "822": {
+      "isbn": "9782226393227",
+      "title": "Bakhita",
+      "author_details": "Olmi, Véronique",
+      "year": 2017,
+      "source": "https://openlibrary.org/works/OL19730365W"
+    },
+    "824": {
+      "isbn": "9782070134274",
+      "title": "Plonger",
+      "author_details": "Ono-dit-Biot, Christophe",
+      "year": 2013,
+      "source": "https://openlibrary.org/works/OL19709394W"
+    },
+    "826": {
+      "isbn": "9782070748488",
+      "title": "Casimir mène la grande vie",
+      "author_details": "Ormesson, Jean d'",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL12452040W"
+    },
+    "827": {
+      "isbn": "9782072744303",
+      "title": "Et moi, je vis toujours",
+      "author_details": "Ormesson, Jean d'",
+      "year": 2017,
+      "source": "https://openlibrary.org/works/OL19742691W"
+    },
+    "828": {
+      "isbn": "9782070756575",
+      "title": "Le rapport Gabriel",
+      "author_details": "Ormesson, Jean d'",
+      "year": 1999,
+      "source": "https://openlibrary.org/works/OL8974623W"
+    },
+    "830": {
+      "isbn": "9782221095355",
+      "title": "Voyez comme on danse",
+      "author_details": "Ormesson, Jean d'",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL2072553W"
+    },
+    "832": {
+      "isbn": "9782070720910",
+      "title": "Histoire du juif errant",
+      "author_details": "Ormesson, Jean d'",
+      "year": 1990,
+      "source": "https://openlibrary.org/works/OL2072556W"
+    },
+    "833": {
+      "isbn": "9782213600826",
+      "title": "Longtemps",
+      "author_details": "Orsenna, Erik",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL28795W"
+    },
+    "834": {
+      "isbn": "9782234054035",
+      "title": "La grammaire est une chanson douce",
+      "author_details": "Orsenna, Erik",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL8995513W"
+    },
+    "836": {
+      "isbn": "9782268056210",
+      "title": "Mémoires insolents de Désirée Clary",
+      "author_details": "Piat, Colette",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL24012167W"
+    },
+    "837": {
+      "isbn": "9782742776863",
+      "title": "Les ronces",
+      "author_details": "Piazza, Antoine",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL37232729W"
+    },
+    "838": {
+      "isbn": "9782246621713",
+      "title": "Paulette et Roger",
+      "author_details": "Picouly, Daniel",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL1713568W"
+    },
+    "840": {
+      "isbn": "9782744198960",
+      "title": "La couleur de la neige",
+      "author_details": "Picoult, Jodi",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL26398414W"
+    },
+    "841": {
+      "isbn": "9782226031082",
+      "title": "Les démons de la cour de Rohan",
+      "author_details": "Pilhes, René-Victor",
+      "year": 1987,
+      "source": "https://openlibrary.org/works/OL8969928W"
+    },
+    "843": {
+      "isbn": "9782226220851",
+      "title": "Les mots de ma vie",
+      "author_details": "Pivot, Bernard",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL16005954W"
+    },
+    "844": {
+      "isbn": "9782738207838",
+      "title": "Tous les fleuves vont à la mer",
+      "author_details": "Plain, Belva",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL10672937W"
+    },
+    "848": {
+      "isbn": "9782226186669",
+      "title": "Petit prince du désert",
+      "author_details": "Poivre d'Arvor, Patrick",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL684317W"
+    },
+    "851": {
+      "isbn": "9782890524668",
+      "title": "Appalaches",
+      "author_details": "Pronovost, André",
+      "year": 1992,
+      "source": "https://openlibrary.org/works/OL3979897W"
+    },
+    "855": {
+      "isbn": "9782260008712",
+      "title": "Prends garde au loup",
+      "author_details": "Queffélec, Yann",
+      "year": 1992,
+      "source": "https://openlibrary.org/works/OL942909W"
+    },
+    "856": {
+      "isbn": "9782070702329",
+      "title": "Les noces barbares",
+      "author_details": "Queffélec, Yann",
+      "year": 1985,
+      "source": "https://openlibrary.org/works/OL942922W"
+    },
+    "858": {
+      "isbn": "9782844120649",
+      "title": "Effroyables jardins",
+      "author_details": "Quint, Michel",
+      "year": 2000,
+      "source": "https://openlibrary.org/works/OL2065295W"
+    },
+    "859": {
+      "isbn": "9782844121158",
+      "title": "Aimer à peine",
+      "author_details": "Quint, Michel",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL2065292W"
+    },
+    "860": {
+      "isbn": "9782710303657",
+      "title": "Le soleil de la Perse",
+      "author_details": "Rachet, Guy",
+      "year": 1988,
+      "source": "https://openlibrary.org/works/OL158022W"
+    },
+    "861": {
+      "isbn": "9782268056166",
+      "title": "Le jardin de la rose",
+      "author_details": "Rachet, Guy",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL24016102W"
+    },
+    "863": {
+      "isbn": "9782253147954",
+      "title": "Happy birthday Sara",
+      "author_details": "Queffélec, Yann",
+      "year": 2000,
+      "source": "https://openlibrary.org/works/OL9041091W"
+    },
+    "867": {
+      "isbn": "9782258062061",
+      "title": "Pour que justice soit faite",
+      "author_details": "Picoult, Jodi",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL37908228W"
+    },
+    "874": {
+      "isbn": "9782266158329",
+      "title": "Sauve-moi",
+      "author_details": "Musso, Guillaume",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL16809921W"
+    },
+    "875": {
+      "isbn": "9782702183687",
+      "title": "Angélique",
+      "author_details": "Musso, Guillaume",
+      "year": 2022,
+      "source": "https://openlibrary.org/works/OL33370573W"
+    },
+    "877": {
+      "isbn": "9782845634190",
+      "title": "Que serais-je sans toi ?",
+      "author_details": "Musso, Guillaume",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL15990977W"
+    },
+    "880": {
+      "isbn": "9782905970510",
+      "title": "Grand large",
+      "author_details": "Narcejac, Thomas",
+      "year": 1984,
+      "source": "https://openlibrary.org/works/OL1291650W"
+    },
+    "882": {
+      "isbn": "9782070786541",
+      "title": "Trois femmes puissantes",
+      "author_details": "NDiaye, Marie",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL15650188W"
+    },
+    "883": {
+      "isbn": "9782707317407",
+      "title": "Rosie Carpe",
+      "author_details": "NDiaye, Marie",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL2082309W"
+    },
+    "884": {
+      "isbn": "9782714475657",
+      "title": "Le sympathisant",
+      "author_details": "Nguyen, Viet Thanh",
+      "year": 2017,
+      "source": "https://openlibrary.org/works/OL25689832W"
+    },
+    "886": {
+      "isbn": "9782207257647",
+      "title": "Le maître des âmes",
+      "author_details": "Némirovsky, Irène",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL1308087W"
+    },
+    "888": {
+      "isbn": "9782207256459",
+      "title": "Suite française",
+      "author_details": "Némirovsky, Irène",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL1308096W"
+    },
+    "889": {
+      "isbn": "9782856164839",
+      "title": "Comme un feu éternel",
+      "author_details": "Dubus, Elizabeth Nell",
+      "year": 1988,
+      "source": "https://openlibrary.org/works/OL4793608W"
+    },
+    "890": {
+      "isbn": "9782234052192",
+      "title": "Dimanche et autres nouvelles",
+      "author_details": "Némirovsky, Irène",
+      "year": 2000,
+      "source": "https://openlibrary.org/works/OL1308085W"
+    },
+    "893": {
+      "isbn": "9782864244455",
+      "title": "Luz ou Le temps sauvage",
+      "author_details": "Osorio, Elsa",
+      "year": 2000,
+      "source": "https://openlibrary.org/works/OL3139931W"
+    },
+    "896": {
+      "isbn": "9782823602357",
+      "title": "La grâce des brigands",
+      "author_details": "Ovaldé, Véronique",
+      "year": 2013,
+      "source": "https://openlibrary.org/works/OL23134822W"
+    },
+    "899": {
+      "isbn": "9782207253311",
+      "title": "Petits suicides entre amis",
+      "author_details": "Paasilinna, Arto",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL24291690W"
+    },
+    "903": {
+      "isbn": "9782020115391",
+      "title": "Les hommes cruels ne courent pas les rues",
+      "author_details": "Pancol, Katherine",
+      "year": 1990,
+      "source": "https://openlibrary.org/works/OL850898W"
+    },
+    "904": {
+      "isbn": "9782234059665",
+      "title": "Avant, pendant, après",
+      "author_details": "Parisis, Jean-Marc",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL3146926W"
+    },
+    "905": {
+      "isbn": "9782743618292",
+      "title": "Sheila Levine est morte et vit à New-York",
+      "author_details": "Parent, Gail",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL21848512W"
+    },
+    "908": {
+      "isbn": "9782226167231",
+      "title": "Le pont de Ran-Mositar",
+      "author_details": "Pavloff, Franck",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL23979325W"
+    },
+    "910": {
+      "isbn": "9782714434944",
+      "title": "Le cercle de la croix",
+      "author_details": "Pears, Iain",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL1900851W"
+    },
+    "912": {
+      "isbn": "9782070313303",
+      "title": "La petite Chartreuse",
+      "author_details": "Péju, Pierre",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL11648671W"
+    },
+    "914": {
+      "isbn": "9782207243947",
+      "title": "Qui regarde la montagne au loin",
+      "author_details": "Pelot, Pierre",
+      "year": 1996,
+      "source": "https://openlibrary.org/works/OL15089942W"
+    },
+    "915": {
+      "isbn": "9782070731404",
+      "title": "Monsieur Malaussène",
+      "author_details": "Pennac, Daniel",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL705034W"
+    },
+    "916": {
+      "isbn": "9782070756315",
+      "title": "Le dictateur et le hamac",
+      "author_details": "Pennac, Daniel",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL704993W"
+    },
+    "917": {
+      "isbn": "9782070718221",
+      "title": "La petite marchande de prose",
+      "author_details": "Pennac, Daniel",
+      "year": 1989,
+      "source": "https://openlibrary.org/works/OL705036W"
+    },
+    "918": {
+      "isbn": "9782070140121",
+      "title": "Le 6e continent",
+      "author_details": "Pennac, Daniel",
+      "year": 2012,
+      "source": "https://openlibrary.org/works/OL22335224W"
+    },
+    "920": {
+      "isbn": "9782070388905",
+      "title": "Comme un roman",
+      "author_details": "Pennac, Daniel",
+      "year": 1992,
+      "source": "https://openlibrary.org/works/OL705027W"
+    },
+    "922": {
+      "isbn": "9782070750252",
+      "title": "Messieurs les enfants",
+      "author_details": "Pennac, Daniel",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL705021W"
+    },
+    "923": {
+      "isbn": "9782226451149",
+      "title": "Trois",
+      "author_details": "Perrin, Valérie",
+      "year": 2021,
+      "source": "https://openlibrary.org/works/OL25377714W"
+    },
+    "925": {
+      "isbn": "9782070715237",
+      "title": "La Disparition",
+      "author_details": "Perec, Georges",
+      "year": 1969,
+      "source": "https://openlibrary.org/works/OL1715351W"
+    },
+    "929": {
+      "isbn": "9782353150397",
+      "title": "La Terre des mensonges",
+      "author_details": "Ragde, Anne Birkefeldt",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL21622451W"
+    },
+    "931": {
+      "isbn": "9782353150687",
+      "title": "La ferme des Neshov : roman",
+      "author_details": "Ragde, Anne Birkefeldt",
+      "year": 2010,
+      "source": "https://openlibrary.org/works/OL21769509W"
+    },
+    "932": {
+      "isbn": "9782226059062",
+      "title": "Le cocher du Boiroux",
+      "author_details": "Ragon, Michel",
+      "year": 1992,
+      "source": "https://openlibrary.org/works/OL678971W"
+    },
+    "933": {
+      "isbn": "9782846822770",
+      "title": "Syngué sabour",
+      "author_details": "Rahimi, Atiq",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL19931826W"
+    },
+    "935": {
+      "isbn": "9782841111350",
+      "title": "On ne fait que passer",
+      "author_details": "Rancé, Christiane",
+      "year": 1999,
+      "source": "https://openlibrary.org/works/OL9944931W"
+    },
+    "938": {
+      "isbn": "9782702434017",
+      "title": "Un pied au paradis",
+      "author_details": "Rash, Ron",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL28941176W"
+    },
+    "940": {
+      "isbn": "9782234061903",
+      "title": "Le système Victoria",
+      "author_details": "Reinhardt, Éric",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL16454704W"
+    },
+    "942": {
+      "isbn": "9782020414906",
+      "title": "Un jeune homme est passé",
+      "author_details": "Rémond, Alain",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL9917981W"
+    },
+    "943": {
+      "isbn": "9782020389747",
+      "title": "Chaque jour est un adieu",
+      "author_details": "Rémond, Alain",
+      "year": 2000,
+      "source": "https://openlibrary.org/works/OL9917979W"
+    },
+    "947": {
+      "isbn": "9782081375994",
+      "title": "Babylone",
+      "author_details": "Reza, Yasmina",
+      "year": 2016,
+      "source": "https://openlibrary.org/works/OL20051784W"
+    },
+    "949": {
+      "isbn": "9782213681214",
+      "title": "Le mariage des enfants",
+      "author_details": "Richard, Michel",
+      "year": 2014,
+      "source": "https://openlibrary.org/works/OL31617035W"
+    },
+    "966": {
+      "isbn": "9782352947226",
+      "title": "Coups de feu",
+      "author_details": "Hamilton, Laurell K.",
+      "year": 2013,
+      "source": "https://openlibrary.org/works/OL24257974W"
+    },
+    "972": {
+      "isbn": "9782352948247",
+      "title": "Le Club Vesuvius",
+      "author_details": "Gatiss, Mark",
+      "year": 2015,
+      "source": "https://openlibrary.org/works/OL24157045W"
+    },
+    "976": {
+      "isbn": "9782843441134",
+      "title": "Tau Zéro",
+      "author_details": "Anderson, Poul",
+      "year": 1970,
+      "source": "https://openlibrary.org/works/OL90571W"
+    },
+    "978": {
+      "isbn": "9782226249821",
+      "title": "Les Micro-humains",
+      "author_details": "Werber, Bernard",
+      "year": 2013,
+      "source": "https://openlibrary.org/works/OL24217584W"
+    },
+    "981": {
+      "isbn": "9782226455857",
+      "title": "La planète des chats",
+      "author_details": "Werber, Bernard",
+      "year": 2020,
+      "source": "https://openlibrary.org/works/OL22447339W"
+    },
+    "982": {
+      "isbn": "9782226438393",
+      "title": "La boîte de Pandore",
+      "author_details": "Werber, Bernard",
+      "year": 2018,
+      "source": "https://openlibrary.org/works/OL24415419W"
+    },
+    "983": {
+      "isbn": "9782226105622",
+      "title": "Le père de nos pères",
+      "author_details": "Werber, Bernard",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL136522W"
+    },
+    "984": {
+      "isbn": "9782226392053",
+      "title": "Demain les chats",
+      "author_details": "Werber, Bernard",
+      "year": 2016,
+      "source": "https://openlibrary.org/works/OL20051791W"
+    },
+    "987": {
+      "isbn": "9782253194941",
+      "title": "Troisième Humanité",
+      "author_details": "Werber, Bernard",
+      "year": 2014,
+      "source": "https://openlibrary.org/works/OL35311893W"
+    },
+    "988": {
+      "isbn": "9782226194022",
+      "title": "Le miroir de Cassandre",
+      "author_details": "Werber, Bernard",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL15251639W"
+    },
+    "989": {
+      "isbn": "9782226154989",
+      "title": "Nous, les dieux",
+      "author_details": "Werber, Bernard",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL15251634W"
+    },
+    "990": {
+      "isbn": "9782226173492",
+      "title": "Le papillon des étoiles",
+      "author_details": "Werber, Bernard",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL15251630W"
+    },
+    "993": {
+      "isbn": "9782226137937",
+      "title": "Nos amis les humains",
+      "author_details": "Werber, Bernard",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL136526W"
+    },
+    "996": {
+      "isbn": "9782265059306",
+      "title": "La nurse anglaise",
+      "author_details": "Dard, Frédéric",
+      "year": 1996,
+      "source": "https://openlibrary.org/works/OL2219214W"
+    },
+    "997": {
+      "isbn": "9782265071841",
+      "title": "Céréales killer",
+      "author_details": "Dard, Frédéric|Dard, Patrice",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL2219209W"
+    },
+    "1007": {
+      "isbn": "9782226168108",
+      "title": "Les Trois marches",
+      "author_details": "Malroux, Antonin",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL24641271W"
+    },
+    "1012": {
+      "isbn": "9782266026185",
+      "title": "Les Menthes sauvages",
+      "author_details": "Signol, Christian",
+      "year": 1985,
+      "source": "https://openlibrary.org/works/OL603448W"
+    },
+    "1014": {
+      "isbn": "9782226400260",
+      "title": "La vie en son royaume",
+      "author_details": "Signol, Christian",
+      "year": 2017,
+      "source": "https://openlibrary.org/works/OL23017324W"
+    },
+    "1016": {
+      "isbn": "9782868332950",
+      "title": "Roquebelle",
+      "author_details": "Gallois, Christiane",
+      "year": 1983,
+      "source": "https://openlibrary.org/works/OL33874894W"
+    },
+    "1017": {
+      "isbn": "9782226134547",
+      "title": "Une année de neige",
+      "author_details": "Signol, Christian",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL603431W"
+    },
+    "1018": {
+      "isbn": "9782226215086",
+      "title": "Une si belle école",
+      "author_details": "Signol, Christian",
+      "year": 2010,
+      "source": "https://openlibrary.org/works/OL15900695W"
+    },
+    "1019": {
+      "isbn": "9782226319319",
+      "title": "Nos si beaux rêves de jeunesse",
+      "author_details": "Signol, Christian",
+      "year": 2015,
+      "source": "https://openlibrary.org/works/OL22960541W"
+    },
+    "1021": {
+      "isbn": "9782226244239",
+      "title": "Les Enfants des Justes",
+      "author_details": "Signol, Christian",
+      "year": 2012,
+      "source": "https://openlibrary.org/works/OL19962897W"
+    },
+    "1022": {
+      "isbn": "9782226168085",
+      "title": "Les messieurs de Grandval",
+      "author_details": "Signol, Christian",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL603442W"
+    },
+    "1023": {
+      "isbn": "9782226179807",
+      "title": "Un matin sur la terre",
+      "author_details": "Signol, Christian",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL603432W"
+    },
+    "1028": {
+      "isbn": "9782226392060",
+      "title": "Dans la paix des saisons",
+      "author_details": "Signol, Christian",
+      "year": 2016,
+      "source": "https://openlibrary.org/works/OL42875094W"
+    },
+    "1029": {
+      "isbn": "9782226188519",
+      "title": "Ils rêvaient des dimanches",
+      "author_details": "Signol, Christian",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL603422W"
+    },
+    "1032": {
+      "isbn": "9782226229885",
+      "title": "Au cœur des forêts",
+      "author_details": "Signol, Christian",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL16629250W"
+    },
+    "1033": {
+      "isbn": "9782226259905",
+      "title": "Une vie de lumière et de vent",
+      "author_details": "Signol, Christian",
+      "year": 2014,
+      "source": "https://openlibrary.org/works/OL22905618W"
+    },
+    "1040": {
+      "isbn": "9782258070103",
+      "title": "Les tambours sauvages",
+      "author_details": "Peyramaure, Michel",
+      "year": 1993,
+      "source": "https://openlibrary.org/works/OL135757W"
+    },
+    "1041": {
+      "isbn": "9782840112648",
+      "title": "La fille du pitaud",
+      "author_details": "Galoni, Pierre",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL24431649W"
+    },
+    "1046": {
+      "isbn": "2266094327",
+      "title": "Le grillon vert",
+      "author_details": "Anglade, Jean",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL1324806W"
+    },
+    "1062": {
+      "isbn": "9782203340299",
+      "title": "La vengeance du chat",
+      "author_details": "Geluck, Philippe",
+      "year": 1988,
+      "source": "https://openlibrary.org/works/OL4410254W"
+    },
+    "1069": {
+      "isbn": "9782203163614",
+      "title": "Bug, Livre 2",
+      "author_details": "Bilal, Enki",
+      "year": 2019,
+      "source": "https://openlibrary.org/works/OL23538624W"
+    },
+    "1073": {
+      "isbn": "9782203017436",
+      "title": "La tour",
+      "author_details": "Schuiten, François|Peeters, Benoît",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL16944776W"
+    },
+    "1074": {
+      "isbn": "9782908406375",
+      "title": "Achille Talon vous salue bien",
+      "author_details": "Greg,",
+      "year": 1994,
+      "source": "https://openlibrary.org/works/OL33021265W"
+    },
+    "1080": {
+      "isbn": "9782213593784",
+      "title": "Dixie",
+      "author_details": "Green, Julien",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL568947W"
+    },
+    "1084": {
+      "isbn": "9782246670117",
+      "title": "Un secret",
+      "author_details": "Grimbert, Philippe",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL6249596W"
+    },
+    "1089": {
+      "isbn": "9782246288510",
+      "title": "Les trois quarts du temps",
+      "author_details": "Groult, Benoîte",
+      "year": 1983,
+      "source": "https://openlibrary.org/works/OL1691595W"
+    },
+    "1091": {
+      "isbn": "9782226193926",
+      "title": "Le club des incorrigibles optimistes",
+      "author_details": "Guenassia, Jean-Michel",
+      "year": 2000,
+      "source": "https://openlibrary.org/works/OL15089384W"
+    },
+    "1094": {
+      "isbn": "9782709624824",
+      "title": "La modiste de la reine",
+      "author_details": "Guennec, Catherine",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL10290194W"
+    },
+    "1095": {
+      "isbn": "9782070763542",
+      "title": "Le mausolée des amants",
+      "author_details": "Guibert, Hervé",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL8973242W"
+    },
+    "1096": {
+      "isbn": "9782020339667",
+      "title": "Les assises",
+      "author_details": "Gutman, Claude",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL23907016W"
+    },
+    "1099": {
+      "isbn": "9782879296562",
+      "title": "Démon",
+      "author_details": "Hesse, Thierry",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL19946296W"
+    },
+    "1107": {
+      "isbn": "9782081246331",
+      "title": "La Carte et le Territoire",
+      "author_details": "Houellebecq, Michel",
+      "year": 2010,
+      "source": "https://openlibrary.org/works/OL15646520W"
+    },
+    "1118": {
+      "isbn": "9782226172273",
+      "title": "Cet effrayant besoin de famille",
+      "author_details": "Janicot, Stéphanie",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL24039994W"
+    },
+    "1121": {
+      "isbn": "9782070726905",
+      "title": "Le petit sauvage",
+      "author_details": "Jardin, Alexandre",
+      "year": 1992,
+      "source": "https://openlibrary.org/works/OL1749121W"
+    },
+    "1122": {
+      "isbn": "9782246692812",
+      "title": "Le roman des Jardin",
+      "author_details": "Jardin, Alexandre",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL1749107W"
+    },
+    "1123": {
+      "isbn": "9782709635622",
+      "title": "Il faut laisser les cactus dans le placard",
+      "author_details": "Kerymer, Françoise",
+      "year": 2010,
+      "source": "https://openlibrary.org/works/OL35311437W"
+    },
+    "1126": {
+      "isbn": "9782260017585",
+      "title": "Ce que le jour doit à la nuit",
+      "author_details": "Khadra, Yasmina",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL2291647W"
+    },
+    "1127": {
+      "isbn": "9782080257949",
+      "title": "Les Vertueux",
+      "author_details": "Khadra, Yasmina",
+      "year": 2022,
+      "source": "https://openlibrary.org/works/OL31189186W"
+    },
+    "1128": {
+      "isbn": "9782260020967",
+      "title": "Les anges meurent de nos blessures",
+      "author_details": "Khadra, Yasmina",
+      "year": 2013,
+      "source": "https://openlibrary.org/works/OL23134888W"
+    },
+    "1129": {
+      "isbn": "9782260017127",
+      "title": "Les sirènes de Bagdad",
+      "author_details": "Khadra, Yasmina",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL2291658W"
+    },
+    "1133": {
+      "isbn": "9782253151449",
+      "title": "Dreamcatcher",
+      "author_details": "King, Stephen",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL81598W"
+    },
+    "1137": {
+      "isbn": "9782070742233",
+      "title": "La traversée",
+      "author_details": "Labro, Philippe",
+      "year": 1996,
+      "source": "https://openlibrary.org/works/OL12777911W"
+    },
+    "1138": {
+      "isbn": "9782070738410",
+      "title": "Un début à Paris",
+      "author_details": "Labro, Philippe",
+      "year": 1994,
+      "source": "https://openlibrary.org/works/OL888467W"
+    },
+    "1139": {
+      "isbn": "9782226141743",
+      "title": "Tomber sept fois, se relever huit",
+      "author_details": "Labro, Philippe",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL888463W"
+    },
+    "1140": {
+      "isbn": "9782020263689",
+      "title": "Montaigne à cheval",
+      "author_details": "Lacouture, Jean",
+      "year": 1996,
+      "source": "https://openlibrary.org/works/OL1375315W"
+    },
+    "1141": {
+      "isbn": "9782070720712",
+      "title": "Le petit garçon",
+      "author_details": "Labro, Philippe",
+      "year": 1990,
+      "source": "https://openlibrary.org/works/OL888472W"
+    },
+    "1142": {
+      "isbn": "9782818006030",
+      "title": "La vie est brève et le désir sans fin",
+      "author_details": "Lapeyre, Patrick",
+      "year": 2010,
+      "source": "https://openlibrary.org/works/OL19946313W"
+    },
+    "1144": {
+      "isbn": "9782283026441",
+      "title": "Joseph",
+      "author_details": "Lafon, Marie-Hélène",
+      "year": 2014,
+      "source": "https://openlibrary.org/works/OL22303180W"
+    },
+    "1145": {
+      "isbn": "9782715226456",
+      "title": "Alabama song",
+      "author_details": "Leroy, Gilles",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL2302052W"
+    },
+    "1153": {
+      "isbn": "9782867463365",
+      "title": "Un petit boulot",
+      "author_details": "Levison, Iain",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL26177766W"
+    },
+    "1160": {
+      "isbn": "9782226040220",
+      "title": "Le bel amour",
+      "author_details": "Le Varlet, Brigitte",
+      "year": 1990,
+      "source": "https://openlibrary.org/works/OL3654227W"
+    },
+    "1161": {
+      "isbn": "9782246822677",
+      "title": "Performance",
+      "author_details": "Liberati, Simon",
+      "year": 2022,
+      "source": "https://openlibrary.org/works/OL30810363W"
+    },
+    "1162": {
+      "isbn": "9782226114716",
+      "title": "La couleur de la nuit",
+      "author_details": "Lindsey, David L.",
+      "year": 2000,
+      "source": "https://openlibrary.org/works/OL15131501W"
+    },
+    "1165": {
+      "isbn": "9782070780976",
+      "title": "Les Bienveillantes",
+      "author_details": "Littell, Jonathan",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL8165095W"
+    },
+    "1171": {
+      "isbn": "9782253016052",
+      "title": "Ainsi soit-elle",
+      "author_details": "Groult, Benoîte",
+      "year": 1975,
+      "source": "https://openlibrary.org/works/OL8984838W"
+    },
+    "1176": {
+      "isbn": "9782070405916",
+      "title": "Le Nain jaune",
+      "author_details": "Jardin, Pascal",
+      "year": 1978,
+      "source": "https://openlibrary.org/works/OL6365241W"
+    },
+    "1178": {
+      "isbn": "2298009058",
+      "title": "Eternalis",
+      "author_details": "Khoury, Raymond",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL22833535W"
+    },
+    "1179": {
+      "isbn": "2226069801",
+      "title": "Carrie",
+      "author_details": "King, Stephen",
+      "year": 1974,
+      "source": "https://openlibrary.org/works/OL81626W"
+    },
+    "1183": {
+      "isbn": "9782226020222",
+      "title": "Fontbrune",
+      "author_details": "Le Varlet, Brigitte",
+      "year": 1984,
+      "source": "https://openlibrary.org/works/OL3654221W"
+    },
+    "1184": {
+      "isbn": "9782298061956",
+      "title": "Illusions mortelles",
+      "author_details": "Link, Charlotte",
+      "year": 2012,
+      "source": "https://openlibrary.org/works/OL24178094W"
+    },
+    "1186": {
+      "isbn": "9782710327356",
+      "title": "Le principe du tire-bouchon",
+      "author_details": "Haddad, Leïla",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL33165950W"
+    },
+    "1189": {
+      "isbn": "9782221113530",
+      "title": "Le kabbaliste de Prague",
+      "author_details": "Halter, Marek",
+      "year": 2010,
+      "source": "https://openlibrary.org/works/OL15607924W"
+    },
+    "1190": {
+      "isbn": "9782714440600",
+      "title": "La famille Lament",
+      "author_details": "Hagen, George",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL24276442W"
+    },
+    "1193": {
+      "isbn": "9782221109076",
+      "title": "La reine de Saba",
+      "author_details": "Halter, Marek",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL706946W"
+    },
+    "1196": {
+      "isbn": "9782221095881",
+      "title": "Lilah",
+      "author_details": "Halter, Marek",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL706977W"
+    },
+    "1197": {
+      "isbn": "9782259199292",
+      "title": "Fille de France",
+      "author_details": "Hamel, Françoise",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL23928538W"
+    },
+    "1199": {
+      "isbn": "9782246582717",
+      "title": "La chambre de la Stella",
+      "author_details": "Harang, Jean-Baptiste",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL24022131W"
+    },
+    "1201": {
+      "isbn": "9782286004156",
+      "title": "Le château des oliviers",
+      "author_details": "Hébrard, Frédérique",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL37471915W"
+    },
+    "1202": {
+      "isbn": "9782226107695",
+      "title": "Les dames de Brières",
+      "author_details": "Hermary-Vieille, Catherine",
+      "year": 1999,
+      "source": "https://openlibrary.org/works/OL811025W"
+    },
+    "1207": {
+      "isbn": "9782757896730",
+      "title": "Kukum",
+      "author_details": "Jean, Michel",
+      "year": 2019,
+      "source": "https://openlibrary.org/works/OL25550190W"
+    },
+    "1208": {
+      "isbn": "9782260029397",
+      "title": "La serpe",
+      "author_details": "Jaenada, Philippe",
+      "year": 2017,
+      "source": "https://openlibrary.org/works/OL19730394W"
+    },
+    "1209": {
+      "isbn": "9782020508728",
+      "title": "La Pianiste",
+      "author_details": "Jelinek, Elfriede",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL15196295W"
+    },
+    "1211": {
+      "isbn": "9782020239035",
+      "title": "Le premier amour est toujours le dernier",
+      "author_details": "Ben Jelloun, Tahar",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL456669W"
+    },
+    "1212": {
+      "isbn": "9782070149919",
+      "title": "Les prépondérants",
+      "author_details": "Kaddour, Hédi",
+      "year": 2015,
+      "source": "https://openlibrary.org/works/OL20024460W"
+    },
+    "1214": {
+      "isbn": "9782020126434",
+      "title": "Les yeux baissés",
+      "author_details": "Ben Jelloun, Tahar",
+      "year": 1991,
+      "source": "https://openlibrary.org/works/OL456693W"
+    },
+    "1216": {
+      "isbn": "9782070138340",
+      "title": "Le bonheur conjugal",
+      "author_details": "Ben Jelloun, Tahar",
+      "year": 2012,
+      "source": "https://openlibrary.org/works/OL23244256W"
+    },
+    "1218": {
+      "isbn": "9782221057780",
+      "title": "Le vrai goût de la vie",
+      "author_details": "Jeury, Michel",
+      "year": 1988,
+      "source": "https://openlibrary.org/works/OL1695710W"
+    },
+    "1219": {
+      "isbn": "9782266218528",
+      "title": "Le vieux qui ne voulait pas fêter son anniversaire",
+      "author_details": "Jonasson, Jonas",
+      "year": 2012,
+      "source": "https://openlibrary.org/works/OL19063402W"
+    },
+    "1220": {
+      "isbn": "9782081433489",
+      "title": "Nature Humaine",
+      "author_details": "Joncour, Serge",
+      "year": 2020,
+      "source": "https://openlibrary.org/works/OL25726393W"
+    },
+    "1221": {
+      "isbn": "9782290138113",
+      "title": "Repose-toi sur moi",
+      "author_details": "Joncour, Serge",
+      "year": 2017,
+      "source": "https://openlibrary.org/works/OL27724007W"
+    },
+    "1222": {
+      "isbn": "9782253033059",
+      "title": "La Vieille Dame de Djerba",
+      "author_details": "Joffo, Joseph",
+      "year": 1979,
+      "source": "https://openlibrary.org/works/OL27968391W"
+    },
+    "1226": {
+      "isbn": "9782234021754",
+      "title": "Le briquet à essence",
+      "author_details": "Jurquet, Henri",
+      "year": 1989,
+      "source": "https://openlibrary.org/works/OL4588371W"
+    },
+    "1227": {
+      "isbn": "9782070381050",
+      "title": "La Métamorphose et autres récits",
+      "author_details": "Kafka, Franz",
+      "year": 1989,
+      "source": "https://openlibrary.org/works/OL15070831W"
+    },
+    "1236": {
+      "isbn": "9782742754359",
+      "title": "Le drapeau anglais",
+      "author_details": "Kertész, Imre",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL24278934W"
+    },
+    "1238": {
+      "isbn": "9782283029763",
+      "title": "Nos vies",
+      "author_details": "Lafon, Marie-Hélène",
+      "year": 2017,
+      "source": "https://openlibrary.org/works/OL32683474W"
+    },
+    "1240": {
+      "isbn": "9782707317797",
+      "title": "Ne pas toucher",
+      "author_details": "Laurrent, Eric",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL705503W"
+    },
+    "1242": {
+      "isbn": "9782070726509",
+      "title": "Étoile errante",
+      "author_details": "Le Clézio, J. M. G.",
+      "year": 1992,
+      "source": "https://openlibrary.org/works/OL1727999W"
+    },
+    "1244": {
+      "isbn": "9782072689079",
+      "title": "Le lambeau",
+      "author_details": "Lançon, Philippe",
+      "year": 2018,
+      "source": "https://openlibrary.org/works/OL24706568W"
+    },
+    "1245": {
+      "isbn": "9782070122837",
+      "title": "Ritournelle de la faim",
+      "author_details": "Le Clézio, J. M. G.",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL10340288W"
+    },
+    "1246": {
+      "isbn": "9782234064829",
+      "title": "La ballade de Lila K",
+      "author_details": "Le Callet, Blandine",
+      "year": 2010,
+      "source": "https://openlibrary.org/works/OL22416323W"
+    },
+    "1248": {
+      "isbn": "9782070749126",
+      "title": "La fête chantée, et autres essais de thème amérindien",
+      "author_details": "Le Clézio, J. M. G.",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL1727970W"
+    },
+    "1250": {
+      "isbn": "9782070380824",
+      "title": "Le chercheur d’or",
+      "author_details": "Le Clézio, J. M. G.",
+      "year": 1985,
+      "source": "https://openlibrary.org/works/OL1727974W"
+    },
+    "1251": {
+      "isbn": "9782226478948",
+      "title": "Un abri de fortune",
+      "author_details": "Ledig, Agnès",
+      "year": 2023,
+      "source": "https://openlibrary.org/works/OL34948915W"
+    },
+    "1253": {
+      "isbn": "9782710328001",
+      "title": "Monsieur Viannet",
+      "author_details": "Le Goaziou, Véronique",
+      "year": 2018,
+      "source": "https://openlibrary.org/works/OL26414571W"
+    },
+    "1255": {
+      "isbn": "9782266220354",
+      "title": "Nous étions les hommes",
+      "author_details": "Legardinier, Gilles",
+      "year": 2014,
+      "source": "https://openlibrary.org/works/OL34896898W"
+    },
+    "1260": {
+      "isbn": "9782226392077",
+      "title": "Miroir de nos peines",
+      "author_details": "Lemaitre, Pierre",
+      "year": 2020,
+      "source": "https://openlibrary.org/works/OL26421573W"
+    },
+    "1261": {
+      "isbn": "9782226249678",
+      "title": "Au revoir là-haut",
+      "author_details": "Lemaitre, Pierre",
+      "year": 2013,
+      "source": "https://openlibrary.org/works/OL19304700W"
+    },
+    "1262": {
+      "isbn": "9782702183625",
+      "title": "Un avenir radieux",
+      "author_details": "Lemaitre, Pierre",
+      "year": 2025,
+      "source": "https://openlibrary.org/works/OL45039166W"
+    },
+    "1264": {
+      "isbn": "9782707317629",
+      "title": "Le magot de Momm",
+      "author_details": "Lenoir, Hélène",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL2293282W"
+    },
+    "1266": {
+      "isbn": "9782924519073",
+      "title": "Nirliit",
+      "author_details": "Léveillé-Trudel, Juliana",
+      "year": 2015,
+      "source": "https://openlibrary.org/works/OL22586115W"
+    },
+    "1269": {
+      "isbn": "9782709606813",
+      "title": "Samarcande",
+      "author_details": "Maalouf, Amin",
+      "year": 1988,
+      "source": "https://openlibrary.org/works/OL28602667W"
+    },
+    "1270": {
+      "isbn": "9782080682369",
+      "title": "La danse des paons",
+      "author_details": "Maas, Sharon",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL24705106W"
+    },
+    "1271": {
+      "isbn": "9782709608572",
+      "title": "Les jardins de lumière",
+      "author_details": "Maalouf, Amin",
+      "year": 1991,
+      "source": "https://openlibrary.org/works/OL606704W"
+    },
+    "1273": {
+      "isbn": "9782246497714",
+      "title": "Les Échelles du Levant",
+      "author_details": "Maalouf, Amin",
+      "year": 1996,
+      "source": "https://openlibrary.org/works/OL8996466W"
+    },
+    "1274": {
+      "isbn": "9782290119167",
+      "title": "Les Croisades vues par les Arabes",
+      "author_details": "Maalouf, Amin",
+      "year": 1983,
+      "source": "https://openlibrary.org/works/OL606700W"
+    },
+    "1275": {
+      "isbn": "9782246462712",
+      "title": "Le rocher de Tanios",
+      "author_details": "Maalouf, Amin",
+      "year": 1993,
+      "source": "https://openlibrary.org/works/OL606770W"
+    },
+    "1276": {
+      "isbn": "9782020847469",
+      "title": "Mémoires de porc-épic",
+      "author_details": "Mabanckou, Alain",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL2286889W"
+    },
+    "1279": {
+      "isbn": "9782715219366",
+      "title": "Le testament français",
+      "author_details": "Makine, Andreï",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL14873099W"
+    },
+    "1283": {
+      "isbn": "9782080669995",
+      "title": "La maison dont le chien est fou",
+      "author_details": "Mallet-Joris, Françoise",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL11464196W"
+    },
+    "1292": {
+      "isbn": "9782070131495",
+      "title": "Du domaine des murmures",
+      "author_details": "Martinez, Carole",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL16321980W"
+    },
+    "1293": {
+      "isbn": "9782845631977",
+      "title": "Orfenor",
+      "author_details": "Marc, Myrielle",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL24694978W"
+    },
+    "1294": {
+      "isbn": "9782845631984",
+      "title": "Orfenor",
+      "author_details": "Marc, Myrielle",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL24694978W"
+    },
+    "1295": {
+      "isbn": "9782845630017",
+      "title": "Néfer le silencieux",
+      "author_details": "Jacq, Christian",
+      "year": 2000,
+      "source": "https://openlibrary.org/works/OL695692W"
+    },
+    "1296": {
+      "isbn": "9782845630253",
+      "title": "La guerre des couronnes",
+      "author_details": "Jacq, Christian",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL695651W"
+    },
+    "1305": {
+      "isbn": "9782259025669",
+      "title": "La pyramide assassinée",
+      "author_details": "Jacq, Christian",
+      "year": 1993,
+      "source": "https://openlibrary.org/works/OL695635W"
+    },
+    "1310": {
+      "isbn": "9782221079997",
+      "title": "Barrage sur le Nil",
+      "author_details": "Jacq, Christian",
+      "year": 1994,
+      "source": "https://openlibrary.org/works/OL695645W"
+    },
+    "1312": {
+      "isbn": "9782221086254",
+      "title": "Le pharaon noir",
+      "author_details": "Jacq, Christian",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL695637W"
+    },
+    "1320": {
+      "isbn": "9782080661401",
+      "title": "La tristesse du cerf-volant",
+      "author_details": "Mallet-Joris, Françoise",
+      "year": 1988,
+      "source": "https://openlibrary.org/works/OL703165W"
+    },
+    "1321": {
+      "isbn": "0864924054",
+      "title": "Pélagie",
+      "author_details": "Maillet, Antonine",
+      "year": 1982,
+      "source": "https://openlibrary.org/works/OL2900453W"
+    },
+    "1323": {
+      "isbn": "9782253028956",
+      "title": "Rue des mamours",
+      "author_details": "Lanzmann, Jacques",
+      "year": 1981,
+      "source": "https://openlibrary.org/works/OL24446858W"
+    },
+    "1324": {
+      "isbn": "9781567924442",
+      "title": "Désert",
+      "author_details": "Le Clézio, J. M. G.",
+      "year": 1980,
+      "source": "https://openlibrary.org/works/OL1728016W"
+    },
+    "1325": {
+      "isbn": "2253042943",
+      "title": "Un pur espion",
+      "author_details": "le Carré, John",
+      "year": 1991,
+      "source": "https://openlibrary.org/works/OL11377241W"
+    },
+    "1330": {
+      "isbn": "9782744124037",
+      "title": "Mama Flora",
+      "author_details": "Haley, Alex|Stevens, David",
+      "year": 1999,
+      "source": "https://openlibrary.org/works/OL27294737W"
+    },
+    "1333": {
+      "isbn": "9782841875900",
+      "title": "Un été sans miel",
+      "author_details": "Hepinstall, Kathy",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL24305591W"
+    },
+    "1337": {
+      "isbn": "9782246526018",
+      "title": "Initiales B.B.",
+      "author_details": "Bardot, Brigitte",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL2795643W"
+    },
+    "1338": {
+      "isbn": "9782702116043",
+      "title": "Tristan Bernard, ou, Le temps de vivre",
+      "author_details": "Merlin, Olivier",
+      "year": 1989,
+      "source": "https://openlibrary.org/works/OL1415244W"
+    },
+    "1339": {
+      "isbn": "9782259016575",
+      "title": "Le pasteur Marc Boegner, 1881-1970",
+      "author_details": "Mehl, Roger",
+      "year": 1987,
+      "source": "https://openlibrary.org/works/OL5045308W"
+    },
+    "1340": {
+      "isbn": "9782010173325",
+      "title": "Parole de médecin",
+      "author_details": "Cabrol, Christian",
+      "year": 1991,
+      "source": "https://openlibrary.org/works/OL24290871W"
+    },
+    "1346": {
+      "isbn": "9782213026794",
+      "title": "Une femme honorable",
+      "author_details": "Giroud, Françoise",
+      "year": 1991,
+      "source": "https://openlibrary.org/works/OL8973597W"
+    },
+    "1347": {
+      "isbn": "9782221074220",
+      "title": "Seul",
+      "author_details": "Aboville, Gérard d'",
+      "year": 1992,
+      "source": "https://openlibrary.org/works/OL9944887W"
+    },
+    "1350": {
+      "isbn": "9782080674036",
+      "title": "Juliette Drouet",
+      "author_details": "Troyat, Henri",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL15214397W"
+    },
+    "1351": {
+      "isbn": "9782070745234",
+      "title": "Marguerite Duras",
+      "author_details": "Adler, Laure",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL2280112W"
+    },
+    "1353": {
+      "isbn": "9782863914748",
+      "title": "Cosa nostra",
+      "author_details": "Falcone, Giovanni|Padovani, Marcelle",
+      "year": 1991,
+      "source": "https://openlibrary.org/works/OL1649905W"
+    },
+    "1355": {
+      "isbn": "9782246446811",
+      "title": "Flaubert, ou, Le désert en abîme",
+      "author_details": "Chessex, Jacques",
+      "year": 1991,
+      "source": "https://openlibrary.org/works/OL655861W"
+    },
+    "1356": {
+      "isbn": "9782702135211",
+      "title": "Le sourire aux larmes",
+      "author_details": "Foucault, Jean-Pierre",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL23961465W"
+    },
+    "1357": {
+      "isbn": "9782080662248",
+      "title": "Monsieur Littré",
+      "author_details": "Hamburger, Jean",
+      "year": 1988,
+      "source": "https://openlibrary.org/works/OL4124284W"
+    },
+    "1358": {
+      "isbn": "9782226052841",
+      "title": "Moi, Ninon de Lenclos, courtisane",
+      "author_details": "Guth, Paul",
+      "year": 1991,
+      "source": "https://openlibrary.org/works/OL38877899W"
+    },
+    "1362": {
+      "isbn": "9782213612386",
+      "title": "Lou",
+      "author_details": "Giroud, Françoise",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL8973589W"
+    },
+    "1365": {
+      "isbn": "9782246616214",
+      "title": "Marguerite",
+      "author_details": "Soisson, Jean-Pierre",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL1649229W"
+    },
+    "1370": {
+      "isbn": "9782856163702",
+      "title": "Les vies secrètes de Marilyn Monroe",
+      "author_details": "Summers, Anthony",
+      "year": 1986,
+      "source": "https://openlibrary.org/works/OL24281505W"
+    },
+    "1373": {
+      "isbn": "9782080666581",
+      "title": "Nicolas II",
+      "author_details": "Troyat, Henri",
+      "year": 1991,
+      "source": "https://openlibrary.org/works/OL15214416W"
+    },
+    "1374": {
+      "isbn": "9782080452146",
+      "title": "Une sacrée envie de foutre le bordel",
+      "author_details": "Niel, Xavier|Missika, Jean-Louis",
+      "year": 2024,
+      "source": "https://openlibrary.org/works/OL44362395W"
+    },
+    "1375": {
+      "isbn": "9782253047094",
+      "title": "Marcel Pagnol",
+      "author_details": "Castans, Raymond",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL825434W"
+    },
+    "1376": {
+      "isbn": "9782714420848",
+      "title": "Profession, menteur",
+      "author_details": "Périer, François",
+      "year": 1990,
+      "source": "https://openlibrary.org/works/OL3169330W"
+    },
+    "1377": {
+      "isbn": "9782912283054",
+      "title": "Madame de Pompadour",
+      "author_details": "Debriffe, Martial",
+      "year": 1999,
+      "source": "https://openlibrary.org/works/OL957760W"
+    },
+    "1379": {
+      "isbn": "9782246631910",
+      "title": "Paul Ier, le tsar mal aimé",
+      "author_details": "Troyat, Henri",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL15214349W"
+    },
+    "1381": {
+      "isbn": "9782020069687",
+      "title": "Charles de Gaulle",
+      "author_details": "Lacouture, Jean",
+      "year": 1984,
+      "source": "https://openlibrary.org/works/OL13083802W"
+    },
+    "1382": {
+      "isbn": "9782262003487",
+      "title": "Madame de Genlis",
+      "author_details": "Broglie, Gabriel de",
+      "year": 1985,
+      "source": "https://openlibrary.org/works/OL3098845W"
+    },
+    "1383": {
+      "isbn": "9782841870288",
+      "title": "Grace et Rainier",
+      "author_details": "Robinson, Jeffrey",
+      "year": 1996,
+      "source": "https://openlibrary.org/works/OL31974905W"
+    },
+    "1386": {
+      "isbn": "9782876780675",
+      "title": "Václav Havel",
+      "author_details": "Kriseová, Eda",
+      "year": 1991,
+      "source": "https://openlibrary.org/works/OL24306182W"
+    },
+    "1388": {
+      "isbn": "9782877061063",
+      "title": "La nuit singulière",
+      "author_details": "Hélias, Pierre Jakez",
+      "year": 1990,
+      "source": "https://openlibrary.org/works/OL2594921W"
+    },
+    "1389": {
+      "isbn": "9782221059487",
+      "title": "Jackie",
+      "author_details": "Heymann, C. David",
+      "year": 1989,
+      "source": "https://openlibrary.org/works/OL9944848W"
+    },
+    "1390": {
+      "isbn": "9782221047125",
+      "title": "Mémoires salées",
+      "author_details": "Kersauson, Olivier de",
+      "year": 1985,
+      "source": "https://openlibrary.org/works/OL4272633W"
+    },
+    "1392": {
+      "isbn": "9782221076736",
+      "title": "Le cri de la mouette",
+      "author_details": "Laborit, Emmanuelle|Cuny, Marie-Thérèse",
+      "year": 1994,
+      "source": "https://openlibrary.org/works/OL1833531W"
+    },
+    "1395": {
+      "isbn": "9782753300392",
+      "title": "La Fayette",
+      "author_details": "Saint Bris, Gonzague",
+      "year": 1988,
+      "source": "https://openlibrary.org/works/OL827468W"
+    },
+    "1400": {
+      "isbn": "9782080666413",
+      "title": "Chère George Sand",
+      "author_details": "Chalon, Jean",
+      "year": 1991,
+      "source": "https://openlibrary.org/works/OL708797W"
+    },
+    "1403": {
+      "isbn": "9782213013763",
+      "title": "Staline",
+      "author_details": "Elleinstein, Jean",
+      "year": 1984,
+      "source": "https://openlibrary.org/works/OL3980657W"
+    },
+    "1406": {
+      "isbn": "9782877062992",
+      "title": "Mémoires du large",
+      "author_details": "Tabarly, Éric",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL1718153W"
+    },
+    "1411": {
+      "isbn": "9782234058170",
+      "title": "Une vie",
+      "author_details": "Veil, Simone",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL8680886W"
+    },
+    "1412": {
+      "isbn": "9782080669285",
+      "title": "Verlaine",
+      "author_details": "Troyat, Henri",
+      "year": 1993,
+      "source": "https://openlibrary.org/works/OL15214431W"
+    },
+    "1413": {
+      "isbn": "9782246521419",
+      "title": "Madame Zola",
+      "author_details": "Bloch-Dano, Evelyne",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL962970W"
+    },
+    "1416": {
+      "isbn": "9782259204231",
+      "title": "Mes vies",
+      "author_details": "White, Edmund",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL45818490W"
+    },
+    "1421": {
+      "isbn": "9782738211675",
+      "title": "Le bal de coton",
+      "author_details": "Gagnon-Thibaudeau, Marthe",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL2436734W"
+    },
+    "1423": {
+      "isbn": "9782742777044",
+      "title": "La porte des enfers",
+      "author_details": "Gaudé, Laurent",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL19931329W"
+    },
+    "1426": {
+      "isbn": "9782845630079",
+      "title": "Bleu blanc rouge",
+      "author_details": "Gallo, Max",
+      "year": 2000,
+      "source": "https://openlibrary.org/works/OL701902W"
+    },
+    "1430": {
+      "isbn": "9782070369065",
+      "title": "Gros-câlin",
+      "author_details": "Gary, Romain",
+      "year": 1974,
+      "source": "https://openlibrary.org/works/OL1226112W"
+    },
+    "1433": {
+      "isbn": "9782742751419",
+      "title": "Le soleil des Scorta",
+      "author_details": "Gaudé, Laurent",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL9992494W"
+    },
+    "1436": {
+      "isbn": "9782842631529",
+      "title": "La consolante",
+      "author_details": "Gavalda, Anna",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL6028446W"
+    },
+    "1438": {
+      "isbn": "9782842637903",
+      "title": "Billie",
+      "author_details": "Gavalda, Anna",
+      "year": 2013,
+      "source": "https://openlibrary.org/works/OL19709352W"
+    },
+    "1441": {
+      "isbn": "9782020096607",
+      "title": "Les mains vides",
+      "author_details": "Genevoix, Maurice",
+      "year": 1987,
+      "source": "https://openlibrary.org/works/OL28168676W"
+    },
+    "1452": {
+      "isbn": "9782221254929",
+      "title": "Pour rien au monde",
+      "author_details": "Follett, Ken",
+      "year": 2021,
+      "source": "https://openlibrary.org/works/OL26426255W"
+    },
+    "1458": {
+      "isbn": "9782709626507",
+      "title": "La Ligne pourpre",
+      "author_details": "Fleischhauer, Wolfram",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL31746343W"
+    },
+    "1459": {
+      "isbn": "9782742756346",
+      "title": "Les amants imparfaits",
+      "author_details": "Fleutiaux, Pierrette",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL868571W"
+    },
+    "1464": {
+      "isbn": "9782246857334",
+      "title": "Petit pays",
+      "author_details": "Faye, Gaël",
+      "year": 2016,
+      "source": "https://openlibrary.org/works/OL17841200W"
+    },
+    "1466": {
+      "isbn": "9782709620574",
+      "title": "Le Quadrille des épatants",
+      "author_details": "Faugérolas, Marie-Ange",
+      "year": 2000,
+      "source": "https://openlibrary.org/works/OL24026334W"
+    },
+    "1468": {
+      "isbn": "9782234070134",
+      "title": "Ce genre de choses",
+      "author_details": "Rochefort, Jean",
+      "year": 2013,
+      "source": "https://openlibrary.org/works/OL20329235W"
+    },
+    "1469": {
+      "isbn": "9782845632271",
+      "title": "Moi, Bouddha",
+      "author_details": "Frèches, José",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL23933353W"
+    },
+    "1472": {
+      "isbn": "9782246615712",
+      "title": "La passion selon Juette",
+      "author_details": "Dupont-Monod, Clara",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL11803825W"
+    },
+    "1474": {
+      "isbn": "9782020620543",
+      "title": "Allons voir plus loin, veux-tu ?",
+      "author_details": "Duperey, Anny",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL3646404W"
+    },
+    "1476": {
+      "isbn": "9782879294681",
+      "title": "Vous plaisantez, monsieur Tanner",
+      "author_details": "Dubois, Jean-Paul",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL787789W"
+    },
+    "1477": {
+      "isbn": "9782246386315",
+      "title": "Le Livre brisé",
+      "author_details": "Doubrovsky, Serge",
+      "year": 1989,
+      "source": "https://openlibrary.org/works/OL705683W"
+    },
+    "1479": {
+      "isbn": "9782226036568",
+      "title": "Le bal du dodo",
+      "author_details": "Dormann, Geneviève",
+      "year": 1989,
+      "source": "https://openlibrary.org/works/OL8994917W"
+    },
+    "1483": {
+      "isbn": "9782246264514",
+      "title": "Catherine Courage",
+      "author_details": "Duquesne, Jacques",
+      "year": 1990,
+      "source": "https://openlibrary.org/works/OL700136W"
+    },
+    "1484": {
+      "isbn": "9782246242215",
+      "title": "La rumeur de la ville",
+      "author_details": "Duquesne, Jacques",
+      "year": 1981,
+      "source": "https://openlibrary.org/works/OL700148W"
+    },
+    "1486": {
+      "isbn": "9782080685346",
+      "title": "Le bois des abeilles",
+      "author_details": "Dufour, Hortense",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL18870522W"
+    },
+    "1489": {
+      "isbn": "9782080689160",
+      "title": "Comment peut-on être Français",
+      "author_details": "Djavann, Chahdortt",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL24018670W"
+    },
+    "1490": {
+      "isbn": "9782081211582",
+      "title": "Le jeune homme en culotte de golf",
+      "author_details": "Diwo, Jean",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL911692W"
+    },
+    "1493": {
+      "isbn": "9782080670618",
+      "title": "Les dîners de Calpurnia",
+      "author_details": "Diwo, Jean",
+      "year": 1996,
+      "source": "https://openlibrary.org/works/OL911700W"
+    },
+    "1494": {
+      "isbn": "9782213621050",
+      "title": "La chevauchée du Flamand",
+      "author_details": "Diwo, Jean",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL911688W"
+    },
+    "1495": {
+      "isbn": "9782882506504",
+      "title": "La petite dernière",
+      "author_details": "Daas, Fatima",
+      "year": 2020,
+      "source": "https://openlibrary.org/works/OL24319850W"
+    },
+    "1496": {
+      "isbn": "9782072958168",
+      "title": "Le Mage du Kremlin",
+      "author_details": "Da Empoli, Giuliano",
+      "year": 2022,
+      "source": "https://openlibrary.org/works/OL27966102W"
+    },
+    "1501": {
+      "isbn": "9782020129251",
+      "title": "La femme de chambre du Titanic",
+      "author_details": "Decoin, Didier",
+      "year": 1991,
+      "source": "https://openlibrary.org/works/OL1722738W"
+    },
+    "1504": {
+      "isbn": "9782213609577",
+      "title": "Alger, ville blanche",
+      "author_details": "Deforges, Régine",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL19397334W"
+    },
+    "1505": {
+      "isbn": "9782253150015",
+      "title": "Cuba Libre",
+      "author_details": "Deforges, Régine",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL8996164W"
+    },
+    "1506": {
+      "isbn": "9782253033837",
+      "title": "La bicyclette bleue",
+      "author_details": "Deforges, Régine",
+      "year": 1981,
+      "source": "https://openlibrary.org/works/OL8985582W"
+    },
+    "1508": {
+      "isbn": "9782709647465",
+      "title": "On ne voyait que le bonheur",
+      "author_details": "Delacourt, Grégoire",
+      "year": 2014,
+      "source": "https://openlibrary.org/works/OL20000321W"
+    },
+    "1509": {
+      "isbn": "9782847208252",
+      "title": "Le théâtre de Slavek",
+      "author_details": "Delaflotte Mehdevi, Anne",
+      "year": 2018,
+      "source": "https://openlibrary.org/works/OL44762432W"
+    },
+    "1510": {
+      "isbn": "9782070709670",
+      "title": "Le contraire de un",
+      "author_details": "De Luca, Erri",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL24278760W"
+    },
+    "1511": {
+      "isbn": "9782709638180",
+      "title": "La liste de mes envies",
+      "author_details": "Delacourt, Grégoire",
+      "year": 2012,
+      "source": "https://openlibrary.org/works/OL16648033W"
+    },
+    "1512": {
+      "isbn": "9782070123254",
+      "title": "Le trottoir au soleil",
+      "author_details": "Delerm, Philippe",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL15939181W"
+    },
+    "1513": {
+      "isbn": "9782234048706",
+      "title": "Les chemins nous inventent",
+      "author_details": "Delerm, Philippe",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL11772362W"
+    },
+    "1515": {
+      "isbn": "9782841113194",
+      "title": "À Garonne",
+      "author_details": "Delerm, Philippe",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL19102675W"
+    },
+    "1516": {
+      "isbn": "9782757808375",
+      "title": "Ma grand-mère avait les mêmes",
+      "author_details": "Delerm, Philippe",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL20349W"
+    },
+    "1518": {
+      "isbn": "9782268033242",
+      "title": "Le portique",
+      "author_details": "Delerm, Philippe",
+      "year": 1999,
+      "source": "https://openlibrary.org/works/OL20360W"
+    },
+    "1519": {
+      "isbn": "9782070716555",
+      "title": "Jours de colère",
+      "author_details": "Germain, Sylvie",
+      "year": 1989,
+      "source": "https://openlibrary.org/works/OL8551822W"
+    },
+    "1520": {
+      "isbn": "9782259202473",
+      "title": "Apprendre à vivre",
+      "author_details": "Ferry, Luc",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL136665W"
+    },
+    "1522": {
+      "isbn": "9782070376599",
+      "title": "La Maison assassinée",
+      "author_details": "Magnan, Pierre",
+      "year": 1985,
+      "source": "https://openlibrary.org/works/OL705435W"
+    },
+    "1525": {
+      "isbn": "9782253163947",
+      "title": "Le sang versé",
+      "author_details": "Larsson, Åsa",
+      "year": 2015,
+      "source": "https://openlibrary.org/works/OL32000798W"
+    },
+    "1526": {
+      "isbn": "9782869599147",
+      "title": "Passion classique",
+      "author_details": "Bellamy, Olivier",
+      "year": 2010,
+      "source": "https://openlibrary.org/works/OL15935262W"
+    },
+    "1527": {
+      "isbn": "9782226167255",
+      "title": "Les conspirateurs",
+      "author_details": "Sa, Shan",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL24006655W"
+    },
+    "1530": {
+      "isbn": "9782253144489",
+      "title": "Mémoires du large",
+      "author_details": "Tabarly, Éric",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL1718153W"
+    },
+    "1533": {
+      "isbn": "9782226105127",
+      "title": "Corps étranger",
+      "author_details": "Van Cauwelaert, Didier",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL942355W"
+    },
+    "1534": {
+      "isbn": "9782298038439",
+      "title": "200 menus équilibrés à 2 euros",
+      "author_details": "Liégeois, Véronique",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL31776193W"
+    },
+    "1537": {
+      "isbn": "9782070402182",
+      "title": "La Folie Forcalquier",
+      "author_details": "Magnan, Pierre",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL705410W"
+    },
+    "1541": {
+      "isbn": "9781910200803",
+      "title": "Coming Home",
+      "author_details": "Morpurgo, Michael|Hyndman, Kerry",
+      "year": 2016,
+      "source": "https://openlibrary.org/works/OL19764498W"
+    },
+    "1548": {
+      "isbn": "9791094132487",
+      "title": "La barbe de Charlemagne",
+      "author_details": "Lévy, Marc|Hinder, Carine",
+      "year": 2018,
+      "source": "https://openlibrary.org/works/OL44998274W"
+    },
+    "1550": {
+      "isbn": "9782743664060",
+      "title": "Le Rêve du jaguar",
+      "author_details": "Bonnefoy, Miguel",
+      "year": 2024,
+      "source": "https://openlibrary.org/works/OL42294811W"
+    },
+    "1555": {
+      "isbn": "9782213623627",
+      "title": "Bahamas",
+      "author_details": "Denuzière, Maurice",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL604809W"
+    },
+    "1557": {
+      "isbn": "9782259184694",
+      "title": "Un Héros très discret",
+      "author_details": "Deniau, Jean-Francois",
+      "year": 1996,
+      "source": "https://openlibrary.org/works/OL11859357W"
+    },
+    "1558": {
+      "isbn": "9782080262387",
+      "title": "La belle famille",
+      "author_details": "Rivières, Laure de",
+      "year": 2022,
+      "source": "https://openlibrary.org/works/OL32038533W"
+    },
+    "1562": {
+      "isbn": "9782246771715",
+      "title": "Apocalypse Bébé",
+      "author_details": "Despentes, Virginie",
+      "year": 2010,
+      "source": "https://openlibrary.org/works/OL15701102W"
+    },
+    "1563": {
+      "isbn": "9782072915819",
+      "title": "Les enfants sont rois",
+      "author_details": "Vigan, Delphine de",
+      "year": 2021,
+      "source": "https://openlibrary.org/works/OL24212586W"
+    },
+    "1565": {
+      "isbn": "9782021077209",
+      "title": "Peste & Choléra",
+      "author_details": "Deville, Patrick",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL16815459W"
+    },
+    "1567": {
+      "isbn": "9782378800239",
+      "title": "La Vraie Vie",
+      "author_details": "Dieudonné, Adeline",
+      "year": 2018,
+      "source": "https://openlibrary.org/works/OL24344253W"
+    },
+    "1568": {
+      "isbn": "9782070323036",
+      "title": "Impuretés",
+      "author_details": "Djian, Philippe",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL24271475W"
+    },
+    "1569": {
+      "isbn": "9782877069472",
+      "title": "Le livre des Baltimore",
+      "author_details": "Dicker, Joël",
+      "year": 2013,
+      "source": "https://openlibrary.org/works/OL20024448W"
+    },
+    "1572": {
+      "isbn": "9782855654829",
+      "title": "Le jaguar",
+      "author_details": "Durand, Loup",
+      "year": 1989,
+      "source": "https://openlibrary.org/works/OL3139234W"
+    },
+    "1573": {
+      "isbn": "9782709623889",
+      "title": "Chamelle",
+      "author_details": "Durin-Valois, Marc",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL9968968W"
+    },
+    "1579": {
+      "isbn": "9782213634203",
+      "title": "La cité heureuse",
+      "author_details": "Duteurtre, Benoît",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL678693W"
+    },
+    "1581": {
+      "isbn": "9782330053123",
+      "title": "Boussole",
+      "author_details": "Enard, Mathias",
+      "year": 2015,
+      "source": "https://openlibrary.org/works/OL17311873W"
+    },
+    "1584": {
+      "isbn": "9782330012670",
+      "title": "Rue des voleurs",
+      "author_details": "Enard, Mathias",
+      "year": 2012,
+      "source": "https://openlibrary.org/works/OL19063705W"
+    },
+    "1587": {
+      "isbn": "9782757802038",
+      "title": "Sarnia",
+      "author_details": "Edwards, Gérald Basil",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL24773284W"
+    },
+    "1591": {
+      "isbn": "9782221090947",
+      "title": "Flint",
+      "author_details": "Eddy, Paul",
+      "year": 2000,
+      "source": "https://openlibrary.org/works/OL4076465W"
+    },
+    "1595": {
+      "isbn": "9782246705413",
+      "title": "Ce que nous avons eu de meilleur",
+      "author_details": "Enthoven, Jean-Paul",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL2578434W"
+    },
+    "1596": {
+      "isbn": "9782070382118",
+      "title": "Une femme",
+      "author_details": "Ernaux, Annie",
+      "year": 1987,
+      "source": "https://openlibrary.org/works/OL102396W"
+    },
+    "1599": {
+      "isbn": "9782213028996",
+      "title": "Devi",
+      "author_details": "Frain, Irène",
+      "year": 1993,
+      "source": "https://openlibrary.org/works/OL8985530W"
+    },
+    "1601": {
+      "isbn": "9782823600117",
+      "title": "Canada",
+      "author_details": "Ford, Richard",
+      "year": 2012,
+      "source": "https://openlibrary.org/works/OL21730162W"
+    },
+    "1604": {
+      "isbn": "9782742758142",
+      "title": "Dans la guerre",
+      "author_details": "Ferney, Alice",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL1723505W"
+    },
+    "1605": {
+      "isbn": "9782070140107",
+      "title": "Je vais mieux",
+      "author_details": "Foenkinos, David",
+      "year": 2013,
+      "source": "https://openlibrary.org/works/OL19962906W"
+    },
+    "1606": {
+      "isbn": "9782070179497",
+      "title": "Le mystère Henri Pick",
+      "author_details": "Foenkinos, David",
+      "year": 2016,
+      "source": "https://openlibrary.org/works/OL24321054W"
+    },
+    "1607": {
+      "isbn": "9782070134595",
+      "title": "Les souvenirs",
+      "author_details": "Foenkinos, David",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL16532964W"
+    },
+    "1611": {
+      "isbn": "9782070145683",
+      "title": "Charlotte",
+      "author_details": "Foenkinos, David",
+      "year": 2014,
+      "source": "https://openlibrary.org/works/OL20000291W"
+    },
+    "1612": {
+      "isbn": "9782330081775",
+      "title": "Les Bourgeois",
+      "author_details": "Ferney, Alice",
+      "year": 2017,
+      "source": "https://openlibrary.org/works/OL32680401W"
+    },
+    "1615": {
+      "isbn": "9782213622590",
+      "title": "Au royaume des femmes",
+      "author_details": "Frain, Irène",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL2164629W"
+    },
+    "1619": {
+      "isbn": "9782213622125",
+      "title": "Cher Boro",
+      "author_details": "Franck, Dan|Vautrin, Jean",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL24156067W"
+    },
+    "1623": {
+      "isbn": "9782266134590",
+      "title": "Les chevaux célestes",
+      "author_details": "Frèches, José",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL25068109W"
+    },
+    "1628": {
+      "isbn": "9782226167347",
+      "title": "Magnus",
+      "author_details": "Germain, Sylvie",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL960490W"
+    },
+    "1632": {
+      "isbn": "9782715218963",
+      "title": "Le crabe sur la banquette arrière",
+      "author_details": "Gille, Elisabeth",
+      "year": 1994,
+      "source": "https://openlibrary.org/works/OL2205308W"
+    },
+    "1636": {
+      "isbn": "9782080207340",
+      "title": "Vivre vite",
+      "author_details": "Giraud, Brigitte",
+      "year": 2022,
+      "source": "https://openlibrary.org/works/OL29255483W"
+    },
+    "1641": {
+      "isbn": "9782702165508",
+      "title": "Je te promets la liberté",
+      "author_details": "Gounelle, Laurent",
+      "year": 2018,
+      "source": "https://openlibrary.org/works/OL24488616W"
+    },
+    "1645": {
+      "isbn": "9782330022600",
+      "title": "Kinderzimmer",
+      "author_details": "Goby, Valentine",
+      "year": 2013,
+      "source": "https://openlibrary.org/works/OL26414304W"
+    },
+    "1647": {
+      "isbn": "9782915732009",
+      "title": "Histoires inédites du petit Nicolas",
+      "author_details": "Goscinny, René",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL4383711W"
+    },
+    "1652": {
+      "isbn": "9782020048361",
+      "title": "Lorelei",
+      "author_details": "Genevoix, Maurice",
+      "year": 1978,
+      "source": "https://openlibrary.org/works/OL2582167W"
+    },
+    "1660": {
+      "isbn": "2744170550",
+      "title": "Une ferme en Afrique",
+      "author_details": "DeSoto, Lewis",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL31745239W"
+    },
+    "1661": {
+      "isbn": "9782253056294",
+      "title": "Louison dans la douceur perdue",
+      "author_details": "Deschamps, Fanny",
+      "year": 1989,
+      "source": "https://openlibrary.org/works/OL2172867W"
+    },
+    "1668": {
+      "isbn": "2724295498",
+      "title": "La jurée",
+      "author_details": "Green, George Dawes",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL3232091W"
+    },
+    "1682": {
+      "isbn": "9782226025623",
+      "title": "La Princesse Palatine",
+      "author_details": "Lebigre, Arlette",
+      "year": 1986,
+      "source": "https://openlibrary.org/works/OL3153698W"
+    },
+    "1684": {
+      "isbn": "9782070380428",
+      "title": "Romy",
+      "author_details": "Hermary-Vieille, Catherine",
+      "year": 1986,
+      "source": "https://openlibrary.org/works/OL811045W"
+    },
+    "1694": {
+      "isbn": "9782246006817",
+      "title": "Ce que je crois",
+      "author_details": "Giroud, Françoise",
+      "year": 1978,
+      "source": "https://openlibrary.org/works/OL706887W"
+    },
+    "1697": {
+      "isbn": "9782226001344",
+      "title": "Moi, un comédien",
+      "author_details": "Charon, Jacques",
+      "year": 1975,
+      "source": "https://openlibrary.org/works/OL6849695W"
+    },
+    "1699": {
+      "isbn": "9782253024637",
+      "title": "Les Ritals",
+      "author_details": "Cavanna, François",
+      "year": 1978,
+      "source": "https://openlibrary.org/works/OL652765W"
+    },
+    "1708": {
+      "isbn": "9782226125729",
+      "title": "Le trésor du Temple",
+      "author_details": "Abécassis, Eliette",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL735995W"
+    },
+    "1709": {
+      "isbn": "9782226134486",
+      "title": "Mon père",
+      "author_details": "Abécassis, Eliette",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL8995164W"
+    },
+    "1712": {
+      "isbn": "9782259002325",
+      "title": "Une question de chance",
+      "author_details": "Arnothy, Christine",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL706631W"
+    },
+    "1713": {
+      "isbn": "9782378803759",
+      "title": "Veiller sur elle",
+      "author_details": "Andrea, Jean-Baptiste",
+      "year": 2023,
+      "source": "https://openlibrary.org/works/OL44097765W"
+    },
+    "1715": {
+      "isbn": "9782226215147",
+      "title": "Une affaire conjugale",
+      "author_details": "Abécassis, Eliette",
+      "year": 2010,
+      "source": "https://openlibrary.org/works/OL22416531W"
+    },
+    "1716": {
+      "isbn": "9782879295046",
+      "title": "Falaises",
+      "author_details": "Adam, Olivier",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL5776362W"
+    },
+    "1720": {
+      "isbn": "9782702144664",
+      "title": "Les cousins Belloc",
+      "author_details": "Anglade, Jean",
+      "year": 2014,
+      "source": "https://openlibrary.org/works/OL22916378W"
+    },
+    "1722": {
+      "isbn": "9782213623511",
+      "title": "Relations inquiétantes",
+      "author_details": "Arnothy, Christine",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL706654W"
+    },
+    "1723": {
+      "isbn": "9782253109174",
+      "title": "Aller-retour, tous frais payés",
+      "author_details": "Arnothy, Christine",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL24177905W"
+    },
+    "1725": {
+      "isbn": "9782258057678",
+      "title": "Dans le secret des roseaux",
+      "author_details": "Anglade, Jean",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL1324749W"
+    },
+    "1728": {
+      "isbn": "9782221103890",
+      "title": "Le pensionnat",
+      "author_details": "Alia, Josette",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL4068957W"
+    },
+    "1731": {
+      "isbn": "9782070762651",
+      "title": "À ce soir",
+      "author_details": "Adler, Laure",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL2280106W"
+    },
+    "1733": {
+      "isbn": "9782867464331",
+      "title": "Mal de pierres",
+      "author_details": "Agus, Milena",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL21539096W"
+    },
+    "1734": {
+      "isbn": "9782258048577",
+      "title": "Le Grillon vert",
+      "author_details": "Anglade, Jean",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL1324806W"
+    },
+    "1737": {
+      "isbn": "9782070776146",
+      "title": "Le portrait",
+      "author_details": "Assouline, Pierre",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL1749063W"
+    },
+    "1739": {
+      "isbn": "9782246416111",
+      "title": "Vent africain",
+      "author_details": "Arnothy, Christine",
+      "year": 1989,
+      "source": "https://openlibrary.org/works/OL706649W"
+    },
+    "1742": {
+      "isbn": "9782843044571",
+      "title": "Là où les tigres sont chez eux",
+      "author_details": "Blas de Roblès, Jean-Marie",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL4512277W"
+    },
+    "1743": {
+      "isbn": "9782818006061",
+      "title": "On ne peut plus dormir tranquille quand on a une fois ouvert les yeux",
+      "author_details": "Bober, Robert",
+      "year": 2010,
+      "source": "https://openlibrary.org/works/OL15912345W"
+    },
+    "1745": {
+      "isbn": "9782226193995",
+      "title": "Les saisons de la solitude",
+      "author_details": "Boyden, Joseph",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL28588796W"
+    },
+    "1748": {
+      "isbn": "9782213613628",
+      "title": "Recherche grand-mère désespérément",
+      "author_details": "Boissard, Janine",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL2168206W"
+    },
+    "1751": {
+      "isbn": "9782246734116",
+      "title": "Un roman français",
+      "author_details": "Beigbeder, Frédéric",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL15087646W"
+    },
+    "1753": {
+      "isbn": "9782213633787",
+      "title": "Malek",
+      "author_details": "Boissard, Janine",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL24437302W"
+    },
+    "1756": {
+      "isbn": "9782259223454",
+      "title": "La nuit avec ma femme",
+      "author_details": "Benchetrit, Samuel",
+      "year": 2016,
+      "source": "https://openlibrary.org/works/OL32648193W"
+    },
+    "1759": {
+      "isbn": "9782259185905",
+      "title": "Le prisonnier masqué",
+      "author_details": "Benzoni, Juliette",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL621334W"
+    },
+    "1760": {
+      "isbn": "9782259190961",
+      "title": "Un homme pour le roi",
+      "author_details": "Benzoni, Juliette",
+      "year": 1999,
+      "source": "https://openlibrary.org/works/OL621380W"
+    },
+    "1761": {
+      "isbn": "9782841002993",
+      "title": "Elles ont aimé",
+      "author_details": "Benzoni, Juliette",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL621301W"
+    },
+    "1765": {
+      "isbn": "9782738217950",
+      "title": "Charlotte et Millie",
+      "author_details": "Boissard, Janine",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL24679891W"
+    },
+    "1768": {
+      "isbn": "9782714442499",
+      "title": "La délégation norvégienne",
+      "author_details": "Boris, Hugo",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL19931339W"
+    },
+    "1772": {
+      "isbn": "9782709643740",
+      "title": "Inferno",
+      "author_details": "Brown, Dan",
+      "year": 2013,
+      "source": "https://openlibrary.org/works/OL16804289W"
+    },
+    "1774": {
+      "isbn": "9782260022008",
+      "title": "Le cercle des femmes",
+      "author_details": "Brocas, Sophie",
+      "year": 2014,
+      "source": "https://openlibrary.org/works/OL28964112W"
+    },
+    "1775": {
+      "isbn": "9782246493716",
+      "title": "Les voleurs de beauté",
+      "author_details": "Bruckner, Pascal",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL711134W"
+    },
+    "1778": {
+      "isbn": "9782915056259",
+      "title": "Laisse-moi te raconter… les chemins de la vie",
+      "author_details": "Bucay, Jorge",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL28588255W"
+    },
+    "1780": {
+      "isbn": "9782246824992",
+      "title": "La tour, ou, Un chien à Chinatown",
+      "author_details": "Bui, Doan",
+      "year": 2022,
+      "source": "https://openlibrary.org/works/OL31888308W"
+    },
+    "1787": {
+      "isbn": "9782818014059",
+      "title": "Limonov",
+      "author_details": "Carrère, Emmanuel",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL16557281W"
+    },
+    "1788": {
+      "isbn": "9782846821827",
+      "title": "Un roman russe",
+      "author_details": "Carrère, Emmanuel",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL2735606W"
+    },
+    "1789": {
+      "isbn": "9782867445507",
+      "title": "Le colonel des Zouaves",
+      "author_details": "Cadiot, Olivier",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL963631W"
+    },
+    "1790": {
+      "isbn": "9782246286813",
+      "title": "Le passé empiété",
+      "author_details": "Cardinal, Marie",
+      "year": 1983,
+      "source": "https://openlibrary.org/works/OL2139097W"
+    },
+    "1791": {
+      "isbn": "9782234053991",
+      "title": "Les étoiles froides",
+      "author_details": "Castillo, Michel Del",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL1381845W"
+    },
+    "1792": {
+      "isbn": "9782298027679",
+      "title": "Le serment du silence",
+      "author_details": "Castillo, Linda",
+      "year": 2010,
+      "source": "https://openlibrary.org/works/OL22706083W"
+    },
+    "1794": {
+      "isbn": "9782259205474",
+      "title": "Les pantoufles du samouraï",
+      "author_details": "Cauvin, Patrick",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL888489W"
+    },
+    "1795": {
+      "isbn": "9782226034441",
+      "title": "Werther, ce soir…",
+      "author_details": "Cauvin, Patrick",
+      "year": 1988,
+      "source": "https://openlibrary.org/works/OL24307659W"
+    },
+    "1797": {
+      "isbn": "9782226093660",
+      "title": "La Guinguette",
+      "author_details": "Clavel, Bernard",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL960947W"
+    },
+    "1799": {
+      "isbn": "9782234056039",
+      "title": "Les âmes grises",
+      "author_details": "Claudel, Philippe",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL5845742W"
+    },
+    "1800": {
+      "isbn": "9782234057746",
+      "title": "La petite fille de monsieur Linh",
+      "author_details": "Claudel, Philippe",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL5845731W"
+    },
+    "1802": {
+      "isbn": "9782246861898",
+      "title": "Le Dernier des nôtres",
+      "author_details": "Clermont-Tonnerre, Adélaïde de",
+      "year": 2016,
+      "source": "https://openlibrary.org/works/OL20051795W"
+    },
+    "1804": {
+      "isbn": "9782020500753",
+      "title": "Le voyage de Théo",
+      "author_details": "Clément, Catherine",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL31990W"
+    },
+    "1805": {
+      "isbn": "9782843371431",
+      "title": "Le Démon et Mademoiselle Prym",
+      "author_details": "Coelho, Paulo",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL796559W"
+    },
+    "1806": {
+      "isbn": "9782843372650",
+      "title": "Maktub",
+      "author_details": "Coelho, Paulo",
+      "year": 1994,
+      "source": "https://openlibrary.org/works/OL796575W"
+    },
+    "1809": {
+      "isbn": "9782080690173",
+      "title": "Comme le fleuve qui coule",
+      "author_details": "Coelho, Paulo",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL24256037W"
+    },
+    "1812": {
+      "isbn": "9782081202610",
+      "title": "La sorcière de Portobello",
+      "author_details": "Coelho, Paulo",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL31974926W"
+    },
+    "1815": {
+      "isbn": "9782070404025",
+      "title": "Belle du Seigneur",
+      "author_details": "Cohen, Albert",
+      "year": 1968,
+      "source": "https://openlibrary.org/works/OL2124999W"
+    },
+    "1820": {
+      "isbn": "9782267017120",
+      "title": "Les âmes perdues",
+      "author_details": "Collins, Michael",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL24651495W"
+    },
+    "1823": {
+      "isbn": "9782253043171",
+      "title": "Les funérailles de la sardine",
+      "author_details": "Combescot, Pierre",
+      "year": 1986,
+      "source": "https://openlibrary.org/works/OL2161265W"
+    },
+    "1825": {
+      "isbn": "9782365690669",
+      "title": "La famille Middlestein",
+      "author_details": "Attenberg, Jami",
+      "year": 2014,
+      "source": "https://openlibrary.org/works/OL24276445W"
+    },
+    "1828": {
+      "isbn": "9782330090517",
+      "title": "4 3 2 1",
+      "author_details": "Auster, Paul",
+      "year": 2013,
+      "source": "https://openlibrary.org/works/OL21153291W"
+    },
+    "1832": {
+      "isbn": "9782298019704",
+      "title": "La femme qui en savait trop",
+      "author_details": "Bale, Tom",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL22709576W"
+    },
+    "1833": {
+      "isbn": "9782221105528",
+      "title": "La mer",
+      "author_details": "Banville, John",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL32001148W"
+    },
+    "1838": {
+      "isbn": "9782070421657",
+      "title": "Une gourmandise",
+      "author_details": "Barbery, Muriel",
+      "year": 2000,
+      "source": "https://openlibrary.org/works/OL8973691W"
+    },
+    "1845": {
+      "isbn": "9782259200813",
+      "title": "Marie des intrigues",
+      "author_details": "Benzoni, Juliette",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL23950035W"
+    },
+    "1846": {
+      "isbn": "9782259206334",
+      "title": "Le collier sacré de Montezuma",
+      "author_details": "Benzoni, Juliette",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL621327W"
+    },
+    "1851": {
+      "isbn": "9782226109576",
+      "title": "Noces à la mer",
+      "author_details": "Benali, Abdelkader",
+      "year": 1999,
+      "source": "https://openlibrary.org/works/OL8476808W"
+    },
+    "1855": {
+      "isbn": "9782868692573",
+      "title": "Le roseau révolté",
+      "author_details": "Berberova, Nina Nikolaevna",
+      "year": 1988,
+      "source": "https://openlibrary.org/works/OL16272853W"
+    },
+    "1857": {
+      "isbn": "9782246820499",
+      "title": "La carte postale",
+      "author_details": "Berest, Anne",
+      "year": 2021,
+      "source": "https://openlibrary.org/works/OL24653348W"
+    },
+    "1858": {
+      "isbn": "9782260016410",
+      "title": "Les jours fragiles",
+      "author_details": "Besson, Philippe",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL6048586W"
+    },
+    "1859": {
+      "isbn": "9782213594033",
+      "title": "Boléro",
+      "author_details": "Boissard, Janine",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL2168200W"
+    },
+    "1860": {
+      "isbn": "9782234077317",
+      "title": "Constellation",
+      "author_details": "Bosc, Adrien",
+      "year": 2014,
+      "source": "https://openlibrary.org/works/OL20000295W"
+    },
+    "1862": {
+      "isbn": "9782714445643",
+      "title": "Mano a mano",
+      "author_details": "Bourdin, Françoise",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL18613907W"
+    },
+    "1868": {
+      "isbn": "9782234057982",
+      "title": "Mes mauvaises pensées",
+      "author_details": "Bouraoui, Nina",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL2139154W"
+    },
+    "1870": {
+      "isbn": "9782070740826",
+      "title": "Caporal supérieur",
+      "author_details": "Boulanger, Daniel",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL706143W"
+    },
+    "1871": {
+      "isbn": "9782070771257",
+      "title": "Court serpent",
+      "author_details": "Du Boucheron, Bernard",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL11596008W"
+    },
+    "1873": {
+      "isbn": "9782268023274",
+      "title": "Madame… de Saint-Sulpice",
+      "author_details": "Boudard, Alphonse",
+      "year": 1996,
+      "source": "https://openlibrary.org/works/OL868915W"
+    },
+    "1875": {
+      "isbn": "9782714443403",
+      "title": "Les bois de Battandière",
+      "author_details": "Bourdin, Françoise",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL27732944W"
+    },
+    "1876": {
+      "isbn": "9782714460561",
+      "title": "Face à la mer",
+      "author_details": "Bourdin, Françoise",
+      "year": 2016,
+      "source": "https://openlibrary.org/works/OL23017589W"
+    },
+    "1877": {
+      "isbn": "9782714441683",
+      "title": "Une passion fauve",
+      "author_details": "Bourdin, Françoise",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL24421574W"
+    },
+    "1880": {
+      "isbn": "9782226077134",
+      "title": "Villa Vanille",
+      "author_details": "Cauvin, Patrick",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL888510W"
+    },
+    "1881": {
+      "isbn": "9782226063373",
+      "title": "Menteur",
+      "author_details": "Cauvin, Patrick",
+      "year": 1993,
+      "source": "https://openlibrary.org/works/OL888506W"
+    },
+    "1882": {
+      "isbn": "9782226131843",
+      "title": "Le sang des roses",
+      "author_details": "Cauvin, Patrick",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL888505W"
+    },
+    "1889": {
+      "isbn": "9782213616018",
+      "title": "Noces avec la vie",
+      "author_details": "Chapsal, Madeleine",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL23928684W"
+    },
+    "1890": {
+      "isbn": "9782246785699",
+      "title": "Retour à Killybegs",
+      "author_details": "Chalandon, Sorj",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL16530948W"
+    },
+    "1892": {
+      "isbn": "9782226240040",
+      "title": "Les dames de Rome",
+      "author_details": "Chandernagor, Françoise",
+      "year": 2012,
+      "source": "https://openlibrary.org/works/OL22555758W"
+    },
+    "1895": {
+      "isbn": "9782070138258",
+      "title": "Noces de charbon",
+      "author_details": "Chauveau, Sophie",
+      "year": 2013,
+      "source": "https://openlibrary.org/works/OL23296931W"
+    },
+    "1897": {
+      "isbn": "9782213623788",
+      "title": "Le \"certain âge\"",
+      "author_details": "Chapsal, Madeleine",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL21528991W"
+    },
+    "1898": {
+      "isbn": "9782020592581",
+      "title": "La dernière leçon",
+      "author_details": "Chatelet, Noelle",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL8969609W"
+    },
+    "1899": {
+      "isbn": "9782213606873",
+      "title": "Le matamore ébouriffé",
+      "author_details": "Chaillou, Michel",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL1733520W"
+    },
+    "1901": {
+      "isbn": "9782234048041",
+      "title": "La femme coquelicot",
+      "author_details": "Chatelet, Noelle",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL885883W"
+    },
+    "1903": {
+      "isbn": "9782070767144",
+      "title": "La chambre",
+      "author_details": "Chandernagor, Françoise",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL2246125W"
+    },
+    "1908": {
+      "isbn": "9782266072878",
+      "title": "La tête dans le carton à chapeaux",
+      "author_details": "Childress, Mark",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL2748311W"
+    },
+    "1910": {
+      "isbn": "9782857045281",
+      "title": "Merveilleuse Thérésa",
+      "author_details": "Charvin, René",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL859679W"
+    },
+    "1911": {
+      "isbn": "9782330027650",
+      "title": "Le brasier",
+      "author_details": "Chaudun, Nicolas",
+      "year": 2015,
+      "source": "https://openlibrary.org/works/OL22929067W"
+    },
+    "1912": {
+      "isbn": "9782290319857",
+      "title": "Le Message",
+      "author_details": "Chedid, Andrée",
+      "year": 2000,
+      "source": "https://openlibrary.org/works/OL8911482W"
+    },
+    "1915": {
+      "isbn": "9782226192479",
+      "title": "Charleston sud",
+      "author_details": "Conroy, Pat",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL34962231W"
+    },
+    "1918": {
+      "isbn": "9782226159779",
+      "title": "Les gens du pays",
+      "author_details": "Cornaille, Didier",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL24621885W"
+    },
+    "1920": {
+      "isbn": "9782849908051",
+      "title": "Par la force des arbres",
+      "author_details": "Cortès, Édouard",
+      "year": 2020,
+      "source": "https://openlibrary.org/works/OL23519929W"
+    },
+    "1921": {
+      "isbn": "9782258068872",
+      "title": "Les boulets rouges de la Commune",
+      "author_details": "Coulonges, Georges",
+      "year": 1992,
+      "source": "https://openlibrary.org/works/OL825395W"
+    },
+    "1922": {
+      "isbn": "9782258066946",
+      "title": "Le pianiste de La Nouvelle-Orléans",
+      "author_details": "Couturiau, Paul",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL37781178W"
+    },
+    "1928": {
+      "isbn": "9782879295749",
+      "title": "Arlington Park",
+      "author_details": "Cusk, Rachel",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL114624W"
+    },
+    "1930": {
+      "isbn": "9782070121984",
+      "title": "Un brillant avenir",
+      "author_details": "Cusset, Catherine",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL2010767W"
+    },
+    "1941": {
+      "isbn": "9782226035042",
+      "title": "Maudits sauvages",
+      "author_details": "Clavel, Bernard",
+      "year": 1989,
+      "source": "https://openlibrary.org/works/OL960931W"
+    },
+    "1945": {
+      "isbn": "9782259018814",
+      "title": "Fiora et le Magnifique",
+      "author_details": "Benzoni, Juliette",
+      "year": 1988,
+      "source": "https://openlibrary.org/works/OL621382W"
+    },
+    "1953": {
+      "isbn": "9782246005988",
+      "title": "Une vie pour deux",
+      "author_details": "Cardinal, Marie",
+      "year": 1978,
+      "source": "https://openlibrary.org/works/OL2139119W"
+    },
+    "1957": {
+      "isbn": "9782738114259",
+      "title": "Psychologie de la peur",
+      "author_details": "André, Christophe",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL23926972W"
+    },
+    "1958": {
+      "isbn": "9782221078303",
+      "title": "La mort intime",
+      "author_details": "Hennezel, Marie de",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL2363492W"
+    },
+    "1959": {
+      "isbn": "9782020144506",
+      "title": "Mange ta soupe et… tais-toi !",
+      "author_details": "Ghazal, Michel",
+      "year": 1992,
+      "source": "https://openlibrary.org/works/OL2890942W"
+    },
+    "1964": {
+      "isbn": "9782290336724",
+      "title": "Les hommes viennent de Mars, les femmes viennent de Vénus",
+      "author_details": "Gray, John",
+      "year": 1999,
+      "source": "https://openlibrary.org/works/OL9996617W"
+    },
+    "1966": {
+      "isbn": "9782841112449",
+      "title": "Plaidoyer pour le bonheur",
+      "author_details": "Ricard, Matthieu",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL3373624W"
+    },
+    "1969": {
+      "isbn": "9782738103147",
+      "title": "Comment ne pas élever des enfants parfaits",
+      "author_details": "Purves, Libby",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL2082465W"
+    },
+    "1970": {
+      "isbn": "9782350130354",
+      "title": "La fabrique du crétin",
+      "author_details": "Brighelli, Jean-Paul",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL23983169W"
+    },
+    "1972": {
+      "isbn": "9782221106259",
+      "title": "Adolescence, les années violence",
+      "author_details": "Couderc, Claude",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL24085135W"
+    },
+    "1974": {
+      "isbn": "9782226108395",
+      "title": "Doit-on céder aux adolescents ?",
+      "author_details": "Delaroche, Patrick",
+      "year": 1999,
+      "source": "https://openlibrary.org/works/OL2549911W"
+    },
+    "1978": {
+      "isbn": "9782221053225",
+      "title": "Pour être des parents acceptables",
+      "author_details": "Bettelheim, Bruno",
+      "year": 1987,
+      "source": "https://openlibrary.org/works/OL3598325W"
+    },
+    "1980": {
+      "isbn": "9782221043882",
+      "title": "Le syndrome de Peter Pan",
+      "author_details": "Kiley, Dan",
+      "year": 1985,
+      "source": "https://openlibrary.org/works/OL28588993W"
+    },
+    "1985": {
+      "isbn": "9782863918920",
+      "title": "Lettres à Prunelle",
+      "author_details": "Ayache, Alain",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL963683W"
+    },
+    "1986": {
+      "isbn": "9782738118349",
+      "title": "Vaincre les peurs",
+      "author_details": "Ferry, Luc",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL136664W"
+    },
+    "1990": {
+      "isbn": "9782213662596",
+      "title": "Les épines et les roses",
+      "author_details": "Badinter, Robert",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL16136395W"
+    },
+    "1993": {
+      "isbn": "9782246503811",
+      "title": "Mais si, messieurs, les femmes ont une âme",
+      "author_details": "Verny, Françoise",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL2302044W"
+    },
+    "1996": {
+      "isbn": "9782070532629",
+      "title": "La Sagesse du Bouddha",
+      "author_details": "Boisselier, Jean",
+      "year": 1993,
+      "source": "https://openlibrary.org/works/OL2544349W"
+    },
+    "1997": {
+      "isbn": "9782070530304",
+      "title": "Mahomet",
+      "author_details": "Delcambre, Anne-Marie",
+      "year": 1987,
+      "source": "https://openlibrary.org/works/OL4371647W"
+    },
+    "2001": {
+      "isbn": "9782213636726",
+      "title": "Socrate, Jésus, Bouddha",
+      "author_details": "Lenoir, Frédéric",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL18544502W"
+    },
+    "2002": {
+      "isbn": "9782853135467",
+      "title": "Moine des cités",
+      "author_details": "Quinson, Henry",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL24286546W"
+    },
+    "2004": {
+      "isbn": "9782915134117",
+      "title": "Le roman noir de la Maison-Blanche",
+      "author_details": "Suskind, Ron",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL24762750W"
+    },
+    "2008": {
+      "isbn": "9782213620824",
+      "title": "Défis républicains",
+      "author_details": "Chevènement, Jean-Pierre",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL2488609W"
+    },
+    "2009": {
+      "isbn": "9782259198448",
+      "title": "La guerre des Bush",
+      "author_details": "Laurent, Eric",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL888574W"
+    },
+    "2010": {
+      "isbn": "9782226151483",
+      "title": "Contre tous les ennemis",
+      "author_details": "Clarke, Richard A.",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL29311521W"
+    },
+    "2024": {
+      "isbn": "9782070558094",
+      "title": "Jules Supervielle, Choix de poèmes",
+      "author_details": "Supervielle, Jules",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL35362999W"
+    },
+    "2027": {
+      "isbn": "9782226129215",
+      "title": "Paroles de griots",
+      "author_details": "Voinchet, Mathilde",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL9946512W"
+    },
+    "2032": {
+      "isbn": "9782878990973",
+      "title": "Le pire est derrière nous !",
+      "author_details": "Plantu,",
+      "year": 1994,
+      "source": "https://openlibrary.org/works/OL44441328W"
+    },
+    "2047": {
+      "isbn": "9782700602265",
+      "title": "Plaisirs du bain",
+      "author_details": "Donaldson, Stephanie",
+      "year": 2000,
+      "source": "https://openlibrary.org/works/OL33821599W"
+    },
+    "2048": {
+      "isbn": "9782263016790",
+      "title": "Pêche et ses techniques",
+      "author_details": "Limouzin, Henri|Affre, Pierre|Chavanne, Jacques|Drachkovitch, Yvan|Sourdot, Marc|Bordes, Gilbert",
+      "year": 1991,
+      "source": "https://openlibrary.org/works/OL5129512W"
+    },
+    "2051": {
+      "isbn": "9798781297887",
+      "title": "Vivre en autosuffisance et dépenser moins !",
+      "author_details": "Experts, Vital",
+      "year": 2021,
+      "source": "https://openlibrary.org/works/OL27547508W"
+    },
+    "2056": {
+      "isbn": "9782040153748",
+      "title": "Les bonsaï",
+      "author_details": "Pessey, Christian",
+      "year": 1990,
+      "source": "https://openlibrary.org/works/OL24280376W"
+    },
+    "2061": {
+      "isbn": "9782501035897",
+      "title": "Programme ventre plat",
+      "author_details": "Raisin, Lydie",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL9007752W"
+    },
+    "2063": {
+      "isbn": "9782012304307",
+      "title": "Plats uniques",
+      "author_details": "Bardi, Carla",
+      "year": 2012,
+      "source": "https://openlibrary.org/works/OL28765849W"
+    },
+    "2068": {
+      "isbn": "9782883530799",
+      "title": "Les cures de santé",
+      "author_details": "Vasey, Christopher|Brandt, Johanna",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL24472422W"
+    },
+    "2071": {
+      "isbn": "9782876919471",
+      "title": "Le langage psy du corps",
+      "author_details": "Messinger, Joseph",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL35320849W"
+    },
+    "2073": {
+      "isbn": "9782212560725",
+      "title": "My running book",
+      "author_details": "Atiki, Nadia|Duval, Anne-Lize",
+      "year": 2016,
+      "source": "https://openlibrary.org/works/OL33862871W"
+    },
+    "2076": {
+      "isbn": "9782862747118",
+      "title": "Médecin-chef à la prison de la Santé",
+      "author_details": "Vasseur, Véronique",
+      "year": 2000,
+      "source": "https://openlibrary.org/works/OL7818376W"
+    },
+    "2090": {
+      "isbn": "9782012804968",
+      "title": "Dictionnaire Hachette junior, CE-CM",
+      "author_details": "Jenner, B.",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL9916898W"
+    },
+    "2091": {
+      "isbn": "9782259195560",
+      "title": "Dictionnaire amoureux de la justice",
+      "author_details": "Vergès, Jacques",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL621671W"
+    },
+    "2104": {
+      "isbn": "9782020962292",
+      "title": "La stratégie des antilopes",
+      "author_details": "Hatzfeld, Jean",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL1448585W"
+    },
+    "2105": {
+      "isbn": "9782226257017",
+      "title": "Sapiens",
+      "author_details": "Harari, Yuval Noah",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL17075811W"
+    },
+    "2106": {
+      "isbn": "9782268015088",
+      "title": "La bataille de Cholet, ou, La guerre en sabots",
+      "author_details": "Prouteau, Gilbert",
+      "year": 1993,
+      "source": "https://openlibrary.org/works/OL1281202W"
+    },
+    "2107": {
+      "isbn": "9782246477617",
+      "title": "Les petites Mazarines",
+      "author_details": "Combescot, Pierre",
+      "year": 1999,
+      "source": "https://openlibrary.org/works/OL2161267W"
+    },
+    "2110": {
+      "isbn": "9782847347715",
+      "title": "Versailles, côté jardins",
+      "author_details": "Newton, William Ritchey",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL16171043W"
+    },
+    "2111": {
+      "isbn": "9782259213905",
+      "title": "La victoire de la Grande Armée",
+      "author_details": "Giscard d'Estaing, Valéry",
+      "year": 2010,
+      "source": "https://openlibrary.org/works/OL22361581W"
+    },
+    "2112": {
+      "isbn": "9782847341973",
+      "title": "Correspondance de Marie-Antoinette, 1770-1793",
+      "author_details": "Marie-Antoinette,",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL13407780W"
+    },
+    "2113": {
+      "isbn": "9782877611527",
+      "title": "Ernesto Che Guevara",
+      "author_details": "Ammar, Alain|Ojeda, Susana",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL10219302W"
+    },
+    "2118": {
+      "isbn": "9782211024068",
+      "title": "Quatre comédies à lire et à jouer",
+      "author_details": "Molière,",
+      "year": 1985,
+      "source": "https://openlibrary.org/works/OL15724648W"
+    },
+    "2119": {
+      "isbn": "9782070531530",
+      "title": "Hollywood",
+      "author_details": "Bosséno, Christian-Marc|Gerstenkorn, Jacques",
+      "year": 1992,
+      "source": "https://openlibrary.org/works/OL29291877W"
+    },
+    "2120": {
+      "isbn": "9782841140671",
+      "title": "Molière, jour après jour",
+      "author_details": "Weber, Jacques",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL2394699W"
+    },
+    "2123": {
+      "isbn": "9782213604015",
+      "title": "Mozart",
+      "author_details": "Paradis, Annie",
+      "year": 1999,
+      "source": "https://openlibrary.org/works/OL38582520W"
+    },
+    "2124": {
+      "isbn": "9782226134752",
+      "title": "Les Amoureux du pôle",
+      "author_details": "Tortel, Arnaud",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL9946617W"
+    },
+    "2125": {
+      "isbn": "9782749910116",
+      "title": "Métronome",
+      "author_details": "Deutsch, Lorànt|Haymann, Emmanuel",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL18701249W"
+    },
+    "2128": {
+      "isbn": "9782262017194",
+      "title": "Rodolphe et les secrets de Mayerling",
+      "author_details": "Des Cars, Jean",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL2105569W"
+    },
+    "2130": {
+      "isbn": "9782905913166",
+      "title": "De la vallée de la Seine à la forêt de Marly",
+      "author_details": "Cueille, Sophie",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL2811237W"
+    },
+    "2132": {
+      "isbn": "9782905913456",
+      "title": "Conflans-Sainte-Honorine : Terre de confluences",
+      "author_details": "Bussière, Roselyne|Delannoy, Julien|Billy, Aurélie|Blieck, Gilles|Le Bas, Antoine",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL2118459W"
+    },
+    "2139": {
+      "isbn": "9782755681505",
+      "title": "Iron Flame",
+      "author_details": "Yarros, Rebecca",
+      "year": 2023,
+      "source": "https://openlibrary.org/works/OL34028551W"
+    },
+    "2144": {
+      "isbn": "9782755804515",
+      "title": "Les châteaux forts",
+      "author_details": "Buquet, Samuel|Le Bel, Blanche",
+      "year": 2013,
+      "source": "https://openlibrary.org/works/OL26413098W"
+    },
+    "2162": {
+      "isbn": "9782747013802",
+      "title": "Tom-Tom et ses idées explosives",
+      "author_details": "Cohen, Jacqueline|Després, Bernadette",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL10387264W"
+    },
+    "2172": {
+      "isbn": "9782075076234",
+      "title": "Buck",
+      "author_details": "Revenson, Jody",
+      "year": 2016,
+      "source": "https://openlibrary.org/works/OL17588328W"
+    },
+    "2181": {
+      "isbn": "9782072764578",
+      "title": "Tropique de la violence",
+      "author_details": "Appanah, Nathacha",
+      "year": 2018,
+      "source": "https://openlibrary.org/works/OL23993644W"
+    },
+    "2205": {
+      "isbn": "9782070641802",
+      "title": "Les animaux extraordinaires",
+      "author_details": "Fuhr, Ute|Delafosse, Claude",
+      "year": 2012,
+      "source": "https://openlibrary.org/works/OL38084189W"
+    },
+    "2211": {
+      "isbn": "9782070628131",
+      "title": "Que se passe-t-il la nuit ?",
+      "author_details": "Gravier-Badreddine, Delphine",
+      "year": 2010,
+      "source": "https://openlibrary.org/works/OL28763216W"
+    },
+    "2212": {
+      "isbn": "9782070624652",
+      "title": "Les transports",
+      "author_details": "Gravier-Badreddine, Delphine",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL23670609W"
+    },
+    "2218": {
+      "isbn": "9782226090126",
+      "title": "Je compte avec Mimi",
+      "author_details": "Cousins, Lucy",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL14913537W"
+    },
+    "2219": {
+      "isbn": "9782278064762",
+      "title": "La moufle",
+      "author_details": "Desnouveaux, Florence|Hudrisier, Cécile",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL34315977W"
+    },
+    "2220": {
+      "isbn": "9782930182704",
+      "title": "Tof et Marguerite",
+      "author_details": "Maes, Dominique",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL27284738W"
+    },
+    "2221": {
+      "isbn": "9782203105362",
+      "title": "Le renardeau blanc",
+      "author_details": "Tack, Élise|Salembier, Philippe",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL24839187W"
+    },
+    "2223": {
+      "isbn": "9782841136452",
+      "title": "Tibert et Romuald",
+      "author_details": "Jonas, Anne|Crozat, François",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL19699791W"
+    },
+    "2226": {
+      "isbn": "9782020208178",
+      "title": "Les yeux de maman",
+      "author_details": "Koechlin, Lionel",
+      "year": 1994,
+      "source": "https://openlibrary.org/works/OL2903593W"
+    },
+    "2227": {
+      "isbn": "9782211048897",
+      "title": "Blaise et le robinet",
+      "author_details": "Ponti, Claude",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL750508W"
+    },
+    "2230": {
+      "isbn": "9782918857877",
+      "title": "Les moufles",
+      "author_details": "Imoto, Yoko",
+      "year": 2015,
+      "source": "https://openlibrary.org/works/OL23710624W"
+    },
+    "2232": {
+      "isbn": "2211079431",
+      "title": "Jean de la Lune",
+      "author_details": "Ungerer, Tomi",
+      "year": 1981,
+      "source": "https://openlibrary.org/works/OL9942830W"
+    },
+    "2235": {
+      "isbn": "9782227701403",
+      "title": "Hérisson et Ourson",
+      "author_details": "Kozlov, Serge",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL34766284W"
+    },
+    "2238": {
+      "isbn": "9782226159328",
+      "title": "Cheval vêtu",
+      "author_details": "Bernard, Frédéric|Roca, François",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL37607020W"
+    },
+    "2247": {
+      "isbn": "9782226173850",
+      "title": "Mille Mimi !",
+      "author_details": "Cousins, Lucy",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL14913741W"
+    },
+    "2253": {
+      "isbn": "9782211064736",
+      "title": "Baobonbon",
+      "author_details": "Ichikawa, Satomi",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL34317272W"
+    },
+    "2261": {
+      "isbn": "9782278065431",
+      "title": "La Culotte du Loup",
+      "author_details": "Servant, Stéphane|Le Saux, Laetitia",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL34316954W"
+    },
+    "2263": {
+      "isbn": "9782226118530",
+      "title": "Les fantômes",
+      "author_details": "Duquennoy, Jacques",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL1975410W"
+    },
+    "2274": {
+      "isbn": "2211027105",
+      "title": "Toutou dit tout",
+      "author_details": "Boujon, Claude",
+      "year": 1990,
+      "source": "https://openlibrary.org/works/OL4958986W"
+    },
+    "2294": {
+      "isbn": "9782266118293",
+      "title": "La parade des monstres",
+      "author_details": "Shan, Darren",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL31770108W"
+    },
+    "2347": {
+      "isbn": "9782070546817",
+      "title": "Artemis Fowl",
+      "author_details": "Colfer, Eoin",
+      "year": 1999,
+      "source": "https://openlibrary.org/works/OL5725956W"
+    },
+    "2350": {
+      "isbn": "9782330001698",
+      "title": "Peur express",
+      "author_details": "Witek, Jo",
+      "year": 2012,
+      "source": "https://openlibrary.org/works/OL38063925W"
+    },
+    "2368": {
+      "isbn": "9781783442010",
+      "title": "The Absolutely True Diary of a Part-Time Indian",
+      "author_details": "Alexie, Sherman",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL46472W"
+    },
+    "2371": {
+      "isbn": "9782092513538",
+      "title": "Deux morts à Venise",
+      "author_details": "Nicodème, Béatrice|Lefèvre, Thierry",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL22708789W"
+    },
+    "2373": {
+      "isbn": "9782266187565",
+      "title": "Le prince des nuages",
+      "author_details": "Galfard, Christophe",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL35338298W"
+    },
+    "2429": {
+      "isbn": "9782092533192",
+      "title": "Mon imagier du bébé",
+      "author_details": "Choux, Nathalie",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL21540519W"
+    },
+    "2433": {
+      "isbn": "9782227709034",
+      "title": "Petit Ours Brun dans son bain",
+      "author_details": "Bour, Danièle",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL9184394W"
+    },
+    "2448": {
+      "isbn": "9782012233003",
+      "title": "Oui-Oui et le Père Noël",
+      "author_details": "Blyton, Enid",
+      "year": 2000,
+      "source": "https://openlibrary.org/works/OL14904795W"
+    },
+    "2449": {
+      "isbn": "9782020416474",
+      "title": "Rose Citron",
+      "author_details": "Tullet, Hervé",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL9917882W"
+    },
+    "2488": {
+      "isbn": "9782700221244",
+      "title": "Le Vrai Prince Thibault",
+      "author_details": "Brisou-Pellen, Évelyne",
+      "year": 1993,
+      "source": "https://openlibrary.org/works/OL15020624W"
+    },
+    "2489": {
+      "isbn": "9782700226041",
+      "title": "La plus grosse bêtise",
+      "author_details": "Brisou-Pellen, Évelyne",
+      "year": 1999,
+      "source": "https://openlibrary.org/works/OL15020610W"
+    },
+    "2491": {
+      "isbn": "9782081224711",
+      "title": "Des soucis pour Lancelot",
+      "author_details": "Cantin, Marc",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL24260348W"
+    },
+    "2495": {
+      "isbn": "9782070612659",
+      "title": "Les contes bleus du chat perché",
+      "author_details": "Aymé, Marcel",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL27276824W"
+    },
+    "2502": {
+      "isbn": "9782742779772",
+      "title": "La vie en verte",
+      "author_details": "Abier, Gilles",
+      "year": 2009,
+      "source": "https://openlibrary.org/works/OL24278206W"
+    },
+    "2503": {
+      "isbn": "9782081622029",
+      "title": "Le mystère de la maison aux chats",
+      "author_details": "Adorjan, Carol",
+      "year": 1992,
+      "source": "https://openlibrary.org/works/OL24279627W"
+    },
+    "2509": {
+      "isbn": "9782012001633",
+      "title": "Fantômette et le château mystérieux",
+      "author_details": "Chaulet, Georges",
+      "year": 1999,
+      "source": "https://openlibrary.org/works/OL9916366W"
+    },
+    "2510": {
+      "isbn": "9782211012669",
+      "title": "Le secret de la grotte",
+      "author_details": "Chambers, Aidan",
+      "year": 1986,
+      "source": "https://openlibrary.org/works/OL2379495W"
+    },
+    "2512": {
+      "isbn": "9782733839584",
+      "title": "La mystérieuse expédition",
+      "author_details": "Bertholet, Claire",
+      "year": 2016,
+      "source": "https://openlibrary.org/works/OL42462070W"
+    },
+    "2517": {
+      "isbn": "9782251790343",
+      "title": "Arthur et la cité interdite",
+      "author_details": "Besson, Luc",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL4234938W"
+    },
+    "2518": {
+      "isbn": "9782251790329",
+      "title": "Arthur et les minimoys",
+      "author_details": "Besson, Luc",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL4234925W"
+    },
+    "2524": {
+      "isbn": "9782266128094",
+      "title": "Un retour mouvementé",
+      "author_details": "Brooke, Lauren",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL27689390W"
+    },
+    "2527": {
+      "isbn": "9782070331161",
+      "title": "Le Petit Lord Fauntleroy",
+      "author_details": "Burnett, Frances Hodgson",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL8019129W"
+    },
+    "2538": {
+      "isbn": "9782010197970",
+      "title": "Ils ont arrêté mon père",
+      "author_details": "Carmi, Daniella",
+      "year": 1993,
+      "source": "https://openlibrary.org/works/OL33927391W"
+    },
+    "2539": {
+      "isbn": "9782211204279",
+      "title": "Le farfadet",
+      "author_details": "Chabas, Jean-François",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL24278960W"
+    },
+    "2540": {
+      "isbn": "9782747019101",
+      "title": "Rêves Amers",
+      "author_details": "Condé, Maryse",
+      "year": 2010,
+      "source": "https://openlibrary.org/works/OL44120393W"
+    },
+    "2546": {
+      "isbn": "9782266100335",
+      "title": "La louve du Noirmont",
+      "author_details": "Clavel, Bernard",
+      "year": 2000,
+      "source": "https://openlibrary.org/works/OL24696881W"
+    },
+    "2549": {
+      "isbn": "9782081647978",
+      "title": "Le Quai des secrets",
+      "author_details": "Coppin, Brigitte",
+      "year": 2000,
+      "source": "https://openlibrary.org/works/OL7979497W"
+    },
+    "2562": {
+      "isbn": "9782203162037",
+      "title": "Le message",
+      "author_details": "Drozd, Irina",
+      "year": 1988,
+      "source": "https://openlibrary.org/works/OL4410748W"
+    },
+    "2570": {
+      "isbn": "9782801107874",
+      "title": "Comme une bombe",
+      "author_details": "Delperdange, Patrick",
+      "year": 1988,
+      "source": "https://openlibrary.org/works/OL27272853W"
+    },
+    "2571": {
+      "isbn": "9782081621510",
+      "title": "Laura et le mystère de la chambre rose",
+      "author_details": "Delval, Jacques",
+      "year": 1990,
+      "source": "https://openlibrary.org/works/OL9921159W"
+    },
+    "2580": {
+      "isbn": "9782747017176",
+      "title": "Les chats",
+      "author_details": "Delval, Marie-Hélène",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL21730491W"
+    },
+    "2587": {
+      "isbn": "9782266197199",
+      "title": "Krotokus Ier",
+      "author_details": "Férey, Caryl",
+      "year": 2010,
+      "source": "https://openlibrary.org/works/OL24156276W"
+    },
+    "2591": {
+      "isbn": "9782070566372",
+      "title": "Les aventures de Papagayo",
+      "author_details": "Farré, Marie-Raymond",
+      "year": 1991,
+      "source": "https://openlibrary.org/works/OL20983346W"
+    },
+    "2594": {
+      "isbn": "9782211041805",
+      "title": "Tous des menteurs !",
+      "author_details": "Fine, Anne",
+      "year": 1990,
+      "source": "https://openlibrary.org/works/OL14955664W"
+    },
+    "2595": {
+      "isbn": "9782211040365",
+      "title": "La crêpe des champs",
+      "author_details": "Fine, Anne",
+      "year": 1992,
+      "source": "https://openlibrary.org/works/OL24444889W"
+    },
+    "2597": {
+      "isbn": "9782211060202",
+      "title": "Mauvais rêves",
+      "author_details": "Fine, Anne",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL14955607W"
+    },
+    "2605": {
+      "isbn": "9782010179495",
+      "title": "La Tue-Mouche",
+      "author_details": "Malineau, Jean-Hugues",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL9897827W"
+    },
+    "2606": {
+      "isbn": "9782203163034",
+      "title": "Perceval le Gallois",
+      "author_details": "Johan, François",
+      "year": 1988,
+      "source": "https://openlibrary.org/works/OL4410324W"
+    },
+    "2616": {
+      "isbn": "9782081607057",
+      "title": "Akavak et deux récits esquimaux",
+      "author_details": "Houston, James",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL7963198W"
+    },
+    "2620": {
+      "isbn": "9782253037316",
+      "title": "Les mémoires de papa Moumine",
+      "author_details": "Jansson, Tove",
+      "year": 1982,
+      "source": "https://openlibrary.org/works/OL46228271W"
+    },
+    "2625": {
+      "isbn": "9782070333455",
+      "title": "Les terribles Zerlus",
+      "author_details": "Laureillard, Rémi",
+      "year": 1986,
+      "source": "https://openlibrary.org/works/OL4912043W"
+    },
+    "2638": {
+      "isbn": "9782070503940",
+      "title": "La Vie des animaux",
+      "author_details": "Costa de Beauregard, Diane|Czajkowski, Alexandre-C|Diévart, Roger|Ottenheimer-Maquet, Laurence",
+      "year": 1996,
+      "source": "https://openlibrary.org/works/OL4984256W"
+    },
+    "2643": {
+      "isbn": "9782070332878",
+      "title": "La Sorcière des neiges",
+      "author_details": "Livingstone, Ian",
+      "year": 1985,
+      "source": "https://openlibrary.org/works/OL21809861W"
+    },
+    "2646": {
+      "isbn": "9782266069007",
+      "title": "Gros Flan",
+      "author_details": "Kühl, Katharina",
+      "year": 1996,
+      "source": "https://openlibrary.org/works/OL29241870W"
+    },
+    "2656": {
+      "isbn": "9782070515264",
+      "title": "Les Indiens de la Ville Lumière",
+      "author_details": "Verlomme, Hugo",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL5156736W"
+    },
+    "2659": {
+      "isbn": "9782211051958",
+      "title": "Rouge de Honte et Vert de Rage",
+      "author_details": "Vaugelade, Anaïs",
+      "year": 1999,
+      "source": "https://openlibrary.org/works/OL8985256W"
+    },
+    "2666": {
+      "isbn": "9782211048880",
+      "title": "Léon",
+      "author_details": "Tillage, Leon Walter",
+      "year": 1999,
+      "source": "https://openlibrary.org/works/OL35667281W"
+    },
+    "2669": {
+      "isbn": "9782081648036",
+      "title": "La princesse qui détestait les princes charmants",
+      "author_details": "Thiès, Paul",
+      "year": 2000,
+      "source": "https://openlibrary.org/works/OL8984264W"
+    },
+    "2689": {
+      "isbn": "9782092519684",
+      "title": "Cheval de roi",
+      "author_details": "Silvestre, Anne-Sophie",
+      "year": 2008,
+      "source": "https://openlibrary.org/works/OL33658187W"
+    },
+    "2702": {
+      "isbn": "9782081643796",
+      "title": "Le Coupeur de mots",
+      "author_details": "Schädlich, Hans Joachim",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL33764353W"
+    },
+    "2703": {
+      "isbn": "9782203164024",
+      "title": "Odamok",
+      "author_details": "Sauvy, Jean|Sauvy, Olivier",
+      "year": 1987,
+      "source": "https://openlibrary.org/works/OL4410337W"
+    },
+    "2705": {
+      "isbn": "9782700223101",
+      "title": "La pêche aux doigts de sorcières",
+      "author_details": "Rouer, Béatrice",
+      "year": 1996,
+      "source": "https://openlibrary.org/works/OL35309850W"
+    },
+    "2708": {
+      "isbn": "9782070622252",
+      "title": "Le chat qui parlait malgré lui",
+      "author_details": "Roy, Claude",
+      "year": 1982,
+      "source": "https://openlibrary.org/works/OL7814533W"
+    },
+    "2720": {
+      "isbn": "9782227739109",
+      "title": "Les orangers de Versailles",
+      "author_details": "Pietri, Annie",
+      "year": 2000,
+      "source": "https://openlibrary.org/works/OL6028609W"
+    },
+    "2723": {
+      "isbn": "9782266131841",
+      "title": "Moi, Delphine, 13 ans...",
+      "author_details": "Peskine, Brigitte",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL20021952W"
+    },
+    "2726": {
+      "isbn": "9782812604928",
+      "title": "Western girl",
+      "author_details": "Percin, Anne",
+      "year": 2013,
+      "source": "https://openlibrary.org/works/OL24435929W"
+    },
+    "2732": {
+      "isbn": "9782266007665",
+      "title": "Cabot-Caboche",
+      "author_details": "Pennac, Daniel",
+      "year": 1994,
+      "source": "https://openlibrary.org/works/OL704979W"
+    },
+    "2735": {
+      "isbn": "9782070587384",
+      "title": "Réponses bêtes à des questions idiotes",
+      "author_details": "Pef,",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL29242030W"
+    },
+    "2747": {
+      "isbn": "9782070565184",
+      "title": "Un été algérien",
+      "author_details": "Nozière, Jean-Paul",
+      "year": 1990,
+      "source": "https://openlibrary.org/works/OL27288374W"
+    },
+    "2750": {
+      "isbn": "9782748505788",
+      "title": "Adieu mes jolies",
+      "author_details": "Nozière, Jean-Paul",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL24425958W"
+    },
+    "2752": {
+      "isbn": "9782700223644",
+      "title": "Une sixième en accordéon",
+      "author_details": "Nozière, Jean-Paul",
+      "year": 1994,
+      "source": "https://openlibrary.org/works/OL24157840W"
+    },
+    "2753": {
+      "isbn": "9782266126021",
+      "title": "Le faucon déniché",
+      "author_details": "Noguès, Jean-Côme",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL8985856W"
+    },
+    "2754": {
+      "isbn": "9782700211436",
+      "title": "Le jour du match",
+      "author_details": "Niquet, Gilberte-Louise",
+      "year": 1991,
+      "source": "https://openlibrary.org/works/OL24423130W"
+    },
+    "2758": {
+      "isbn": "9782211086202",
+      "title": "Nonpareil",
+      "author_details": "Murail, Marie-Aude",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL24439602W"
+    },
+    "2789": {
+      "isbn": "2211023738",
+      "title": "Impossible !",
+      "author_details": "Rivais, Yak",
+      "year": 1985,
+      "source": "https://openlibrary.org/works/OL4677471W"
+    },
+    "2796": {
+      "isbn": "9782070332939",
+      "title": "Les Collines maléfiques",
+      "author_details": "Jackson, Steve",
+      "year": 1985,
+      "source": "https://openlibrary.org/works/OL16805288W"
+    },
+    "2808": {
+      "isbn": "9782203004719",
+      "title": "Le Robinson du métro",
+      "author_details": "Holman, Felice",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL31977556W"
+    },
+    "2810": {
+      "isbn": "9782013216654",
+      "title": "Le jour où Marion devint un lapin",
+      "author_details": "Gudule,",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL8968268W"
+    },
+    "2817": {
+      "isbn": "9782867261770",
+      "title": "Piège sur Orlanda",
+      "author_details": "Held, Jacqueline",
+      "year": 1987,
+      "source": "https://openlibrary.org/works/OL29228726W"
+    },
+    "2819": {
+      "isbn": "9782040107604",
+      "title": "Oma",
+      "author_details": "Härtling, Peter",
+      "year": 1979,
+      "source": "https://openlibrary.org/works/OL23615657W"
+    },
+    "2833": {
+      "isbn": "9782266130912",
+      "title": "Oma, ma grand-mère à moi",
+      "author_details": "Härtling, Peter",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL9059837W"
+    },
+    "2834": {
+      "isbn": "9782742741410",
+      "title": "Les corbeaux de Fourlaud",
+      "author_details": "Grard, Françoise",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL24425476W"
+    },
+    "2835": {
+      "isbn": "9782211012829",
+      "title": "Rébecca",
+      "author_details": "Gordon, Sheila",
+      "year": 1992,
+      "source": "https://openlibrary.org/works/OL4461936W"
+    },
+    "2843": {
+      "isbn": "9782010136603",
+      "title": "La Sorcière et le commissaire",
+      "author_details": "Gripari, Pierre",
+      "year": 1988,
+      "source": "https://openlibrary.org/works/OL35983570W"
+    },
+    "2851": {
+      "isbn": "9782092512265",
+      "title": "Affreux, sales et gentils",
+      "author_details": "Guéraud, Guillaume",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL26169408W"
+    },
+    "2852": {
+      "isbn": "9782246614111",
+      "title": "Notre secret à nous",
+      "author_details": "Gudule,",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL8968285W"
+    },
+    "2905": {
+      "isbn": "9782266063432",
+      "title": "Le chien du roi Arthur",
+      "author_details": "Weulersse, Odile",
+      "year": 1994,
+      "source": "https://openlibrary.org/works/OL24278655W"
+    },
+    "2906": {
+      "isbn": "9782013218849",
+      "title": "Le serment des catacombes",
+      "author_details": "Weulersse, Odile",
+      "year": 1986,
+      "source": "https://openlibrary.org/works/OL8968320W"
+    },
+    "2922": {
+      "isbn": "9782732423692",
+      "title": "Chacun son look",
+      "author_details": "Amblard, Odile",
+      "year": 1997,
+      "source": "https://openlibrary.org/works/OL41795794W"
+    },
+    "2960": {
+      "isbn": "9782012044142",
+      "title": "Du rêve à la réalité",
+      "author_details": "Company, Walt Disney",
+      "year": 2014,
+      "source": "https://openlibrary.org/works/OL24157469W"
+    },
+    "2972": {
+      "isbn": "9782010023828",
+      "title": "Le divorce en 10 leçons",
+      "author_details": "Gorny, Violette",
+      "year": 1975,
+      "source": "https://openlibrary.org/works/OL3760322W"
+    },
+    "2978": {
+      "isbn": "9782227729612",
+      "title": "Une étoile pour le club",
+      "author_details": "Bryant, Bonnie",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL24305415W"
+    },
+    "2979": {
+      "isbn": "9782227729704",
+      "title": "Il faut sauver le club !",
+      "author_details": "Bryant, Bonnie",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL24271142W"
+    },
+    "2981": {
+      "isbn": "9782227738911",
+      "title": "Une sacrée équipe",
+      "author_details": "Bryant, Bonnie",
+      "year": 1999,
+      "source": "https://openlibrary.org/works/OL24435791W"
+    },
+    "2993": {
+      "isbn": "9782227757035",
+      "title": "Une randonnée très périlleuse",
+      "author_details": "Bryant, Bonnie",
+      "year": 2000,
+      "source": "https://openlibrary.org/works/OL24857571W"
+    },
+    "2996": {
+      "isbn": "9782227729711",
+      "title": "Tricheries au club !",
+      "author_details": "Bryant, Bonnie",
+      "year": 1998,
+      "source": "https://openlibrary.org/works/OL24674849W"
+    },
+    "3013": {
+      "isbn": "9782747004169",
+      "title": "Chair de poule, numéro 72",
+      "author_details": "Stine, R. L.",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL9021213W"
+    },
+    "3036": {
+      "isbn": "9782700238006",
+      "title": "La pire meilleure journée de ma vie",
+      "author_details": "Ben Kemoun, Hubert",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL24837732W"
+    },
+    "3059": {
+      "isbn": "9782918857600",
+      "title": "La petite princesse Sara",
+      "author_details": "Nunobukuro, Azuki|Mihara, Tetsuya|Burnett, Frances Hodgson",
+      "year": 2014,
+      "source": "https://openlibrary.org/works/OL29497612W"
+    },
+    "3084": {
+      "isbn": "9782010188459",
+      "title": "Indiana Jones Jr et la croix de rubis",
+      "author_details": "McCay, William",
+      "year": 1992,
+      "source": "https://openlibrary.org/works/OL13073490W"
+    },
+    "3096": {
+      "isbn": "9782740408865",
+      "title": "Ventre à terre",
+      "author_details": "Coudray, Philippe",
+      "year": 1999,
+      "source": "https://openlibrary.org/works/OL9992067W"
+    },
+    "3135": {
+      "isbn": "9782205011449",
+      "title": "Le fil qui chante",
+      "author_details": "Morris, |Goscinny, René",
+      "year": 1984,
+      "source": "https://openlibrary.org/works/OL4379357W"
+    },
+    "3139": {
+      "isbn": "9782864972662",
+      "title": "Astérix chez les Pictes",
+      "author_details": "Ferri, Jean-Yves|Conrad, Didier",
+      "year": 2013,
+      "source": "https://openlibrary.org/works/OL16818472W"
+    },
+    "3142": {
+      "isbn": "9782864970842",
+      "title": "Astérix et les Indiens",
+      "author_details": "Uderzo, Albert|Goscinny, René",
+      "year": 1995,
+      "source": "https://openlibrary.org/works/OL14935780W"
+    },
+    "3148": {
+      "isbn": "9782221157855",
+      "title": "La Dernière des Stanfield",
+      "author_details": "Lévy, Marc",
+      "year": 2017,
+      "source": "https://openlibrary.org/works/OL19730372W"
+    },
+    "3154": {
+      "isbn": "9782253100478",
+      "title": "Né sous une bonne étoile",
+      "author_details": "Valognes, Aurélie",
+      "year": 2020,
+      "source": "https://openlibrary.org/works/OL24142067W"
+    },
+    "3178": {
+      "isbn": "9782070582617",
+      "title": "La Passe-miroir, 1",
+      "author_details": "Dabos, Christelle",
+      "year": 2016,
+      "source": "https://openlibrary.org/works/OL20896994W"
+    },
+    "3248": {
+      "isbn": "9782745955920",
+      "title": "Le quatrième petit cochon",
+      "author_details": "Lestrade, Agnès de",
+      "year": 2013,
+      "source": "https://openlibrary.org/works/OL23656109W"
+    },
+    "3254": {
+      "isbn": "9782290317358",
+      "title": "Deux élèves ont disparu",
+      "author_details": "Kästner, Erich",
+      "year": 2002,
+      "source": "https://openlibrary.org/works/OL9018734W"
+    },
+    "3256": {
+      "isbn": "9782745925039",
+      "title": "Vive les bêtises !",
+      "author_details": "Loupy, Christophe",
+      "year": 2007,
+      "source": "https://openlibrary.org/works/OL24182205W"
+    },
+    "3263": {
+      "isbn": "9782747015691",
+      "title": "Une sorcière dans la classe",
+      "author_details": "Brière, Paule",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL29268323W"
+    },
+    "3271": {
+      "isbn": "9782075077828",
+      "title": "Je suis pas amoureux !",
+      "author_details": "Bréchet, Mathilde|Laprun, Amandine",
+      "year": 2017,
+      "source": "https://openlibrary.org/works/OL31265337W"
+    },
+    "3290": {
+      "isbn": "9782253005681",
+      "title": "Contes du lundi",
+      "author_details": "Daudet, Alphonse",
+      "year": 1993,
+      "source": "https://openlibrary.org/works/OL8967597W"
+    },
+    "3295": {
+      "isbn": "9782253010609",
+      "title": "Les Misérables II",
+      "author_details": "Hugo, Victor",
+      "year": 1999,
+      "source": "https://openlibrary.org/works/OL1064002W"
+    },
+    "3303": {
+      "isbn": "9782070330447",
+      "title": "Les Oiseaux de feu et autres contes peaux-rouges",
+      "author_details": "Camus, William|Héron, Bernard",
+      "year": 1978,
+      "source": "https://openlibrary.org/works/OL22450967W"
+    },
+    "3304": {
+      "isbn": "9782010147746",
+      "title": "Poil de Carotte",
+      "author_details": "Renard, Jules",
+      "year": 1981,
+      "source": "https://openlibrary.org/works/OL8997412W"
+    },
+    "3318": {
+      "isbn": "9782070530625",
+      "title": "Mozart, aimé des dieux",
+      "author_details": "Parouty, Michel",
+      "year": 1988,
+      "source": "https://openlibrary.org/works/OL719502W"
+    },
+    "3331": {
+      "isbn": "9782203149342",
+      "title": "Les animaux instruments",
+      "author_details": "Baulig, Pierre",
+      "year": 1996,
+      "source": "https://openlibrary.org/works/OL31275888W"
+    },
+    "3340": {
+      "isbn": "9782211203890",
+      "title": "Plus malin",
+      "author_details": "Ramos, Mario",
+      "year": 2011,
+      "source": "https://openlibrary.org/works/OL34315920W"
+    },
+    "3342": {
+      "isbn": "9782215080756",
+      "title": "Les cinq sens",
+      "author_details": "Hublet, Christophe|Beaumont, Emilie",
+      "year": 2004,
+      "source": "https://openlibrary.org/works/OL28177255W"
+    },
+    "3350": {
+      "isbn": "9782732433752",
+      "title": "Le dico des grandes découvertes",
+      "author_details": "Coppin, Brigitte",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL24692180W"
+    },
+    "3358": {
+      "isbn": "9782040199258",
+      "title": "Les Mayas",
+      "author_details": "Tutor, Pilar",
+      "year": 1990,
+      "source": "https://openlibrary.org/works/OL21669358W"
+    },
+    "3359": {
+      "isbn": "9782713009938",
+      "title": "Les Aztèques et les Incas, 1300-1532 ap. J.-C.",
+      "author_details": "Bateman, Penny|Thiel, Florence van",
+      "year": 1989,
+      "source": "https://openlibrary.org/works/OL24280342W"
+    },
+    "3361": {
+      "isbn": "9782010159060",
+      "title": "Les châteaux forts",
+      "author_details": "Luxardo, Hervé",
+      "year": 1990,
+      "source": "https://openlibrary.org/works/OL26442357W"
+    },
+    "3383": {
+      "isbn": "9782867268335",
+      "title": "Mon premier copain des bois",
+      "author_details": "Kayser, Renée",
+      "year": 1994,
+      "source": "https://openlibrary.org/works/OL27964687W"
+    },
+    "3391": {
+      "isbn": "9782010040955",
+      "title": "Au temps de Napoléon 1795-1815",
+      "author_details": "Miquel, Pierre|Plantain, Paul-Henry",
+      "year": 1979,
+      "source": "https://openlibrary.org/works/OL525113W"
+    },
+    "3394": {
+      "isbn": "9782010000928",
+      "title": "\"Au temps des premiers chemins de fer...\" ; 1830-1860",
+      "author_details": "Miquel, Pierre",
+      "year": 1976,
+      "source": "https://openlibrary.org/works/OL525120W"
+    },
+    "3404": {
+      "isbn": "9782740411827",
+      "title": "Le Moyen Âge",
+      "author_details": "Auger, Antoine|Casali, Dimitri",
+      "year": 2001,
+      "source": "https://openlibrary.org/works/OL27707761W"
+    },
+    "3406": {
+      "isbn": "9782010047565",
+      "title": "\"Au temps de la Grèce ancienne...\"",
+      "author_details": "Miquel, Pierre|Plantain, Paul-Henry",
+      "year": 1991,
+      "source": "https://openlibrary.org/works/OL19829108W"
+    },
+    "3409": {
+      "isbn": "2010023412",
+      "title": "\"Au temps des guerres en dentelle...\" : 1715-1785",
+      "author_details": "Miquel, Pierre",
+      "year": 1977,
+      "source": "https://openlibrary.org/works/OL525202W"
+    },
+    "3410": {
+      "isbn": "9782253252030",
+      "title": "Jacaranda",
+      "author_details": "Faye, Gaël",
+      "year": 2024,
+      "source": "https://openlibrary.org/works/OL42781690W"
+    },
+    "3411": {
+      "isbn": "9782012101432",
+      "title": "Le Bouclier Arverne",
+      "author_details": "Goscinny, René|Uderzo, Albert",
+      "year": 1968,
+      "source": "https://openlibrary.org/works/OL267628W"
+    },
+    "3413": {
+      "isbn": "2205011502",
+      "title": "Astérix chez les Belges",
+      "author_details": "Goscinny, René|Uderzo, Albert",
+      "year": 1979,
+      "source": "https://openlibrary.org/works/OL267611W"
+    },
+    "3414": {
+      "isbn": "9782368125588",
+      "title": "La vie rêvée des chaussettes orphelines",
+      "author_details": "Vareille, Marie",
+      "year": 2019,
+      "source": "https://editionscharleston.fr/products/marie-vareille-la-vie-revee-des-chaussettes-orphelines-grand-format"
+    },
+    "3425": {
+      "isbn": "9782070530694",
+      "title": "La Révolution des savants",
+      "author_details": "Guedj, Denis",
+      "year": 1988,
+      "source": "https://openlibrary.org/works/OL572869W"
+    },
+    "3439": {
+      "isbn": "9782211206389",
+      "title": "Peau de banane",
+      "author_details": "L'Arronge, Lilli",
+      "year": 2012,
+      "source": "https://openlibrary.org/works/OL26189703W"
+    },
+    "3446": {
+      "isbn": "9782211080552",
+      "title": "Cherche Amis",
+      "author_details": "Poussier, Audrey",
+      "year": 2005,
+      "source": "https://openlibrary.org/works/OL22451281W"
+    },
+    "3481": {
+      "isbn": "9782226241481",
+      "title": "Assurance vie",
+      "author_details": "Cook, Robin",
+      "year": 2012,
+      "source": "https://openlibrary.org/works/OL24533963W"
+    },
+    "3487": {
+      "isbn": "9782070339952",
+      "title": "La brave Anna",
+      "author_details": "Stein, Gertrude",
+      "year": 2006,
+      "source": "https://openlibrary.org/works/OL26212121W"
+    },
+    "3490": {
+      "isbn": "9782253073697",
+      "title": "Petits secrets, grands mensonges",
+      "author_details": "Moriarty, Liane",
+      "year": 2018,
+      "source": "https://openlibrary.org/works/OL31956539W"
+    },
+    "3492": {
+      "isbn": "9782266126823",
+      "title": "Une vie à se dire",
+      "author_details": "Salomé, Jacques",
+      "year": 2003,
+      "source": "https://openlibrary.org/works/OL8994982W"
+    },
+    "291": {
+      "isbn": "9782260017233",
+      "title": "Le Montespan",
+      "author_details": "Teulé, Jean",
+      "year": 2008,
+      "source": "https://www.bnfa.fr/livre?biblionumber=4069"
+    },
+    "1106": {
+      "isbn": "9782246373919",
+      "title": "Valet de nuit",
+      "author_details": "Host, Michel",
+      "year": 1986,
+      "source": "https://www.grasset.fr/livre/valet-de-nuit-9782246373919/"
+    },
+    "1314": {
+      "isbn": "9782221081532",
+      "title": "Le fils de la lumière",
+      "author_details": "Jacq, Christian",
+      "year": 1995,
+      "source": "https://christianjacq.fr/romans/le-fils-de-la-lumiere-b13.html"
+    },
+    "1575": {
+      "isbn": "9782707303141",
+      "title": "Moderato cantabile",
+      "author_details": "Duras, Marguerite",
+      "year": 1958,
+      "source": "https://www.leseditionsdeminuit.fr/livre-Moderato_cantabile-1598-1-1-0-1.html"
+    },
+    "3152": {
+      "isbn": "9782253251033",
+      "title": "La Dernière Allumette",
+      "author_details": "Vareille, Marie",
+      "year": 2024,
+      "source": "https://editionscharleston.fr/products/marie-vareille-la-derniere-allumette-grand-format"
+    },
+    "3211": {
+      "isbn": "9782253073055",
+      "title": "Là où tu iras j’irai",
+      "author_details": "Vareille, Marie",
+      "year": 2017,
+      "source": "https://www.fayard.fr/livre/la-ou-tu-iras-jirai-9782863744284/"
+    },
+    "3430": {
+      "isbn": "9782253244431",
+      "title": "Désenchantées",
+      "author_details": "Vareille, Marie",
+      "year": 2022,
+      "source": "https://editionscharleston.fr/products/marie-vareille-desenchantees-grand-format"
+    },
+    "3509": {
+      "isbn": "9782266335218",
+      "title": "Le syndrome du spaghetti",
+      "author_details": "Vareille, Marie",
+      "year": 2020,
+      "source": "https://catalogue.bnf.fr/ark:/12148/cb46629657j"
+    },
+    "3523": {
+      "isbn": "9782080510655",
+      "title": "D’autres printemps",
+      "author_details": "Grimaldi, Virginie",
+      "year": 2026,
+      "source": "https://www.eyrolles.com/Litterature/Livre/d-autres-printemps-9782080510655/"
+    }
+  }
+}

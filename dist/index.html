@@ -11,9 +11,9 @@
   <link rel="stylesheet" href="./style.css?v=5">
   <link rel="stylesheet" href="./simple.css?v=7">
   <link rel="stylesheet" href="./news.css?v=5">
-  <link rel="stylesheet" href="./ergonomie.css?v=5">
-  <script type="module" src="./app.js?v=10"></script>
-  <script type="module" src="./news.js?v=11"></script>
+  <link rel="stylesheet" href="./ergonomie.css?v=6">
+  <script type="module" src="./app.js?v=11"></script>
+  <script type="module" src="./news.js?v=12"></script>
 </head>
 <body>
   <a class="skip-link" href="#results">Aller aux livres</a>
@@ -58,6 +58,8 @@
         </div>
           <div class="filter-fields" id="filter-fields">
             <div class="filter-field author-field"><label for="author">Auteur</label><input type="search" id="author" list="authors" placeholder="Tous les auteurs" autocomplete="off"><datalist id="authors"></datalist></div>
+            <div class="filter-field award-field"><label for="award">Prix littéraire</label><select id="award"><option value="">Tous les livres</option></select></div>
+            <div class="filter-field year-field"><label for="year">Première parution</label><select id="year" aria-describedby="publication-year-help"><option value="">Toutes les années</option></select><p id="publication-year-help">Première année connue de l’œuvre, langue originale comprise. Les années non renseignées restent à compléter.</p></div>
             <div class="filter-field age-field"><label for="age">Âge conseillé</label><select id="age"><option value="">Tous les âges</option></select></div>
             <div class="filter-field rating-field"><label for="rating">Note du catalogue</label><select id="rating"><option value="">Toutes les notes</option><option value="4">4 / 5 et plus</option><option value="4.5">4,5 / 5 et plus</option></select></div>
             <div class="filter-field sort-field"><label for="sort">Ordre des livres</label><select id="sort"><option value="recent" id="sort-recent">Dernières arrivées</option><option value="title">Titre · A à Z</option><option value="author">Auteur · A à Z</option><option value="rating">Les mieux notés</option></select></div>
