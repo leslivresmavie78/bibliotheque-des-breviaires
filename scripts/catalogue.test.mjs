@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import { activeCriteria, withoutCriterion, publicationMatches } from '../dist/ui-core.js';
 import { parseCSV, prepareBooks, normalize, filterBooks, searchCatalogue, parseAddedAt, audienceFor, AUDIENCES } from '../dist/catalogue-core.js';
 
 const csv = fs.readFileSync(new URL('../dist/catalogue.csv', import.meta.url), 'utf8');
@@ -181,6 +182,41 @@ test('Les quatre publics sont nommés comme demandé et Adultes retrouve les ray
 const { publicationCategory, publishedPublications, featuredPublications, defaultPublicationCategory, filterPublications } = await import('../dist/news.js');
 const newsNow = Date.parse('2026-11-24T12:00:00+01:00');
 const newsFixture = (id, type = 'theme', extra = {}) => ({ id, title: id, type, starts_at: '2026-11-23T00:00:00+01:00', ends_at: '2026-11-27T00:00:00+01:00', ...extra });
+
+test('Les critères affichés décrivent la recherche sans confondre le tri et la liste personnelle', () => {
+  const personal = { ...state, selection: true, sort: 'title' };
+  assert.deepEqual(activeCriteria(personal), []);
+  const criteria = activeCriteria({ ...state, sort: 'recent', q: 'Grimaldi', audience: 'adultes', genre: 'polars', age: '18+', rating: '4.5', reviews: true });
+  assert.deepEqual(criteria.map(item => item.key), ['q', 'audience', 'genre', 'age', 'rating', 'reviews']);
+  assert.equal(criteria.find(item => item.key === 'audience').label, 'Adultes');
+  assert.equal(criteria.find(item => item.key === 'rating').label, 'Note : 4,5 / 5 et plus');
+});
+
+test('Retirer un seul critère conserve les autres choix et la limite de Ma liste', () => {
+  const original = { ...state, q: 'amour', selection: true, genre: 'polars', author: 'Bussi', sort: 'rating' };
+  const next = withoutCriterion(original, 'genre');
+  assert.equal(next.genre, ''); assert.equal(next.author, 'Bussi'); assert.equal(next.q, 'amour'); assert.equal(next.selection, true);
+  assert.equal(original.genre, 'polars');
+  assert.equal(withoutCriterion(original, 'sort').sort, 'title');
+  assert.equal(withoutCriterion({ ...state, sort: 'rating' }, 'sort').sort, 'recent');
+  assert.equal(withoutCriterion({ ...state, reviews: true }, 'reviews').reviews, false);
+});
+
+test('La recherche des communications retrouve accents, plusieurs mots et les auteurs des livres associés', () => {
+  const item = newsFixture('hiver', 'coeur', { title: 'Les fêtes de Noël', body: 'Une pause avec un livre.', books: [{ title: 'D’autres printemps', author: 'Virginie Grimaldi' }] });
+  assert.equal(publicationMatches(item, 'NOEL fêtes'), true);
+  assert.equal(publicationMatches(item, 'grimaldi printemps'), true);
+  assert.equal(publicationMatches(item, 'pause livre'), true);
+  assert.equal(publicationMatches(item, 'Bussi'), false);
+  assert.equal(publicationMatches(item, '   '), true);
+});
+
+test('La recherche des archives respecte les rubriques et exclut les brouillons et les dates futures', () => {
+  const items = [newsFixture('noel-coeur', 'coeur'), newsFixture('noel-theme', 'theme'), newsFixture('noel-brouillon', 'coeur', { draft: true }), newsFixture('noel-futur', 'coeur', { starts_at: '2026-12-01T00:00:00+01:00', ends_at: '2026-12-02T00:00:00+01:00' })];
+  assert.deepEqual(filterPublications(items, 'coeur', newsNow, 'Noël').map(item => item.id), ['noel-coeur']);
+  assert.deepEqual(filterPublications(items, 'all', newsNow, 'Noël').map(item => item.id), ['noel-coeur', 'noel-theme']);
+  assert.deepEqual(filterPublications(items, 'all', newsNow, 'introuvable'), []);
+});
 
 test('Une publication existante sans rubrique reste un thème et conserve son lien', () => {
   const legacy = newsFixture('ancienne-communication'); delete legacy.type;
