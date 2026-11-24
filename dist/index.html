@@ -11,9 +11,9 @@
   <link rel="stylesheet" href="./style.css?v=5">
   <link rel="stylesheet" href="./simple.css?v=7">
   <link rel="stylesheet" href="./news.css?v=5">
-  <link rel="stylesheet" href="./ergonomie.css?v=1">
+  <link rel="stylesheet" href="./ergonomie.css?v=2">
   <script type="module" src="./app.js?v=9"></script>
-  <script type="module" src="./news.js?v=7"></script>
+  <script type="module" src="./news.js?v=8"></script>
 </head>
 <body>
   <a class="skip-link" href="#results">Aller aux livres</a>
@@ -83,17 +83,16 @@
     <section id="publications-view" class="publications-view" aria-labelledby="publications-title" hidden>
       <header class="publications-header">
         <h1 id="publications-title" tabindex="-1">À la une</h1>
-        <p>Coups de cœur, idées de lecture et vie de la bibliothèque.</p>
       </header>
+      <details id="publication-search-panel" class="publication-search-panel">
+        <summary><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="1.7"/><path d="m16 16 4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg><span id="publication-search-label">Rechercher</span></summary>
       <form id="publication-search-form" class="publication-search" role="search" aria-label="Rechercher une communication"><label for="publication-search">Rechercher une communication</label><div><input id="publication-search" type="search" placeholder="Un livre, un auteur, un thème…" autocomplete="off"><button type="submit" class="primary-button">Rechercher</button><button type="button" id="clear-publication-search" class="secondary-button" hidden>Effacer la recherche</button></div></form>
+      </details>
       <div id="publication-filters" class="publication-filters" role="group" aria-label="Filtrer les communications">
         <button type="button" data-category="all" aria-pressed="true">Toutes</button>
         <button type="button" data-category="theme" aria-pressed="false">Thèmes</button>
         <button type="button" data-category="coeur" aria-pressed="false">Coups de cœur</button>
-        <button type="button" data-category="auteur" aria-pressed="false">Auteurs</button>
-        <button type="button" data-category="nouveautes" aria-pressed="false">Nouveautés</button>
-        <button type="button" data-category="actualite" aria-pressed="false">Actualités</button>
-        <button type="button" data-category="vie" aria-pressed="false">La bibliothèque</button>
+        <button type="button" data-category="auteur" aria-pressed="false">Focus auteur</button>
       </div>
       <p id="publications-count" class="publications-count" role="status">Les communications se préparent…</p>
       <div id="publications-list" class="publications-list"></div>

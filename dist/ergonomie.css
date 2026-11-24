@@ -25,6 +25,18 @@
 .publication-search>div{display:flex;align-items:stretch;flex-wrap:wrap;gap:8px;max-width:820px}
 .publication-search input{flex:1 1 240px;min-height:48px;padding:10px 13px;border:1px solid #9dbdca;border-radius:8px;color:var(--ink);background:#fff;font-size:17px}
 .publication-search input::placeholder,.search-box input::placeholder{color:#506871}
+.publications-view{padding-top:16px}
+.publications-header{margin-bottom:10px}
+.publications-header h1{margin:0}
+.publication-search-panel{max-width:820px;margin:0 0 12px}
+.publication-search-panel>summary{display:flex;align-items:center;gap:8px;width:fit-content;max-width:100%;min-height:44px;padding:8px 12px;list-style:none;border:1px solid #bdd5df;border-radius:8px;background:#fff;color:var(--forest-dark);font-size:16px;font-weight:500;cursor:pointer}
+.publication-search-panel>summary::-webkit-details-marker{display:none}
+.publication-search-panel>summary svg{width:20px;height:20px;flex-shrink:0}
+.publication-search-panel>summary span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.publication-search-panel[open]>summary{background:var(--mint)}
+.publication-search-panel .publication-search{margin:12px 0 0}
+.publication-filters button{min-height:44px;padding:7px 12px;border-radius:9px}
+.publications-count{margin:12px 0 6px}
 .news-quick-books{margin:0 0 22px;padding:14px 16px;border:1px solid #bcd5e0;border-radius:9px;background:#edf6fa}
 .news-quick-books a{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:9px 14px;border-radius:7px;text-decoration:none;font-size:16px;font-weight:600}
 .news-quick-books details summary{cursor:pointer;font-weight:600;min-height:44px;padding:8px 0}
@@ -35,6 +47,11 @@
 .news-banner-single>.news-featured{flex:1;min-width:0}
 .selection-tools p span{font-size:16px}
 @media(max-width:560px){
+  .publications-view{padding-top:14px}
+  .publications-header h1{font-size:26px;line-height:1.25}
+  .publication-filters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+  .publication-filters button{font-size:16px;line-height:1.25;padding:7px 8px;min-height:44px}
+  .publication-row{padding:14px 0}
   .intro{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;padding:16px 0 12px}
   .intro h1{font-size:25px;margin:0}.intro-text{display:none}
   .catalogue-stamp{background:none;border:0;padding:0;margin:0;gap:5px;line-height:1.4}

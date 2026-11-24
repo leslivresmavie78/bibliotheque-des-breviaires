@@ -210,6 +210,8 @@ async function initNews() {
     $('publications-empty').hidden = !!visible.length;
     $('publications-empty').textContent = unavailable ? 'Les communications n’ont pas pu être chargées. Réessayez en actualisant la page.' : archiveQuery.trim() ? 'Aucun message ne correspond. Essayez un autre mot ou choisissez la rubrique « Toutes ».' : 'Aucune communication dans cette rubrique pour le moment.';
     $('clear-publication-search').hidden = !archiveQuery;
+    const searchLabel = $('publication-search-label');
+    if (searchLabel) searchLabel.textContent = archiveQuery.trim() ? `Recherche : ${archiveQuery.trim()}` : 'Rechercher';
     for (const button of $('publication-filters').querySelectorAll('button')) button.setAttribute('aria-pressed', String(button.dataset.category === archiveCategory));
   }
 
