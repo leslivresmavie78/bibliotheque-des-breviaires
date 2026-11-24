@@ -11,9 +11,10 @@
   <link rel="stylesheet" href="./style.css?v=5">
   <link rel="stylesheet" href="./simple.css?v=7">
   <link rel="stylesheet" href="./news.css?v=5">
-  <link rel="stylesheet" href="./ergonomie.css?v=3">
+  <link rel="stylesheet" href="./ergonomie.css?v=4">
   <script type="module" src="./app.js?v=9"></script>
-  <script type="module" src="./news.js?v=8"></script>
+  <script type="module" src="./news.js?v=9"></script>
+  <script type="module" src="./club.js?v=1"></script>
 </head>
 <body>
   <a class="skip-link" href="#results">Aller aux livres</a>
@@ -84,10 +85,13 @@
       <header class="publications-header">
         <h1 id="publications-title" tabindex="-1">À la une</h1>
       </header>
+      <div class="publication-tools">
       <details id="publication-search-panel" class="publication-search-panel">
         <summary><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="1.7"/><path d="m16 16 4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg><span id="publication-search-label">Rechercher</span></summary>
       <form id="publication-search-form" class="publication-search" role="search" aria-label="Rechercher une communication"><label for="publication-search">Rechercher une communication</label><div><input id="publication-search" type="search" placeholder="Un livre, un auteur, un thème…" autocomplete="off"><button type="submit" class="primary-button">Rechercher</button><button type="button" id="clear-publication-search" class="secondary-button" hidden>Effacer la recherche</button></div></form>
       </details>
+      <a class="club-entry" id="club-entry" href="#club-lecture" aria-haspopup="dialog">Club de lecture</a>
+      </div>
       <div id="publication-filters" class="publication-filters" role="group" aria-label="Filtrer les communications">
         <button type="button" data-category="all" aria-pressed="true">Toutes</button>
         <button type="button" data-category="theme" aria-pressed="false">Thèmes</button>
@@ -104,6 +108,39 @@
 
   <dialog id="book-dialog" aria-labelledby="detail-title"><button type="button" class="dialog-close" id="close-dialog" aria-label="Fermer la fiche"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Fermer</span></button><div id="detail-content"></div></dialog>
   <dialog id="news-dialog" class="news-dialog" aria-labelledby="news-detail-title"><button type="button" class="dialog-close" id="close-news" aria-label="Fermer la communication"><span>Fermer</span></button><div id="news-content"></div></dialog>
+  <dialog id="club-dialog" aria-labelledby="club-title">
+    <button type="button" class="dialog-close" id="close-club" aria-label="Fermer le club de lecture"><span>Fermer</span></button>
+    <header class="club-header">
+      <p class="club-kicker">Club de lecture</p>
+      <h2 id="club-title">Les Bréviaires à la page</h2>
+      <p>Gratuit · À partir de 18 ans</p>
+    </header>
+    <div class="club-body">
+      <p class="club-intro">Un livre choisi ensemble, des échanges au fil des chapitres… et le plaisir de comparer nos impressions !</p>
+      <section class="club-reading" aria-labelledby="club-book-title">
+        <img class="club-cover" src="./club-etoiles-hiver.jpg" width="1080" height="1080" alt="Couverture du roman Les étoiles brillent plus fort en hiver de Sophie Jomain" loading="lazy" decoding="async">
+        <div>
+          <p class="club-reading-status">Prochaine lecture</p>
+          <h3 id="club-book-title">Les étoiles brillent plus fort en hiver</h3>
+          <p class="club-author">Sophie Jomain</p>
+        </div>
+      </section>
+      <div class="club-actions">
+        <a class="primary-button" href="https://booklub.fr/clubs/8156c88a-4142-4933-b62b-49de50a72aa0" target="_blank" rel="noopener noreferrer" aria-label="Rejoindre le club sur Booklub (nouvel onglet)">Rejoindre le club</a>
+        <a class="secondary-button" href="https://booknode.com/les_etoiles_brillent_plus_fort_en_hiver_03356762" target="_blank" rel="noopener noreferrer" aria-label="Découvrir Les étoiles brillent plus fort en hiver sur Booknode (nouvel onglet)">Découvrir le livre</a>
+      </div>
+      <p class="club-pitch">Agathe a tout préparé pour les Féeries des Galeries Hartmann. Son nouveau directeur veut tout refaire. Elle refuse de céder… et leurs préparatifs de Noël tournent au bras de fer.</p>
+      <details class="club-help">
+        <summary>Comment ça marche ?</summary>
+        <ol>
+          <li>Rejoignez « Les Bréviaires à la page » sur le site ou l’application Booklub.</li>
+          <li>On choisit un livre ensemble et on avance par étapes, à notre rythme.</li>
+          <li>On partage nos impressions, nos questions et nos théories, sans dévoiler la suite à ceux qui n’en sont pas encore là.</li>
+        </ol>
+        <p>Besoin d’un coup de main pour vous inscrire ? Passez à la bibliothèque, nous vous aiderons avec plaisir.</p>
+      </details>
+    </div>
+  </dialog>
   <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
   <div id="print-content" aria-hidden="true"></div>
   <noscript><p class="noscript-message">Activez JavaScript pour parcourir le catalogue.</p></noscript>

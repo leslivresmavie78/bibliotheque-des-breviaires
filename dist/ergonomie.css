@@ -36,6 +36,33 @@
 .publication-search-panel>summary span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .publication-search-panel[open]>summary{background:var(--mint)}
 .publication-search-panel .publication-search{margin:12px 0 0}
+.publication-tools{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;gap:8px;max-width:480px;margin:0 0 12px}
+.publication-tools .publication-search-panel{grid-area:1/1;margin:0;min-width:0}
+.publication-tools .publication-search-panel>summary{width:100%;padding-inline:6px;gap:6px}
+.publication-tools .publication-search-panel[open]{grid-column:1/-1}
+.publication-tools .publication-search-panel[open]>summary{width:calc((100% - 8px)/2)}
+.publication-tools .publication-search-panel[open] .publication-search{margin-top:24px}
+.club-entry{grid-area:1/2;display:flex;align-items:center;justify-content:center;min-height:44px;padding:8px 4px;border:1px solid #bdd5df;border-radius:8px;background:#edf6fa;color:var(--forest-dark);font-size:16px;font-weight:500;text-decoration:none;text-align:center;line-height:1.4}
+.club-entry:hover{background:#dceef5}
+body.club-open{overflow:hidden}
+#club-dialog{max-width:720px}
+.club-header{padding:30px 125px 22px 28px;background:#edf6fa;border-bottom:1px solid var(--line)}
+.club-header h2{font:700 28px/1.25 var(--sans);margin:5px 0 10px;letter-spacing:-.02em}
+.club-header p{margin:0;font-size:16px}
+.club-kicker{color:var(--forest);font-weight:500}
+.club-body{padding:22px 28px 28px;font-size:16px;line-height:1.65}
+.club-intro{margin:0 0 20px}
+.club-reading{display:grid;grid-template-columns:140px minmax(0,1fr);align-items:center;gap:18px}
+.club-cover{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain}
+.club-reading-status{margin:0 0 5px;font-weight:500;color:#694580}
+.club-reading h3{font:700 24px/1.3 var(--sans);margin:0 0 7px;overflow-wrap:anywhere}
+.club-author{margin:0;color:var(--muted)}
+.club-actions{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 16px}
+.club-actions a{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:10px 14px;font-size:16px;text-decoration:none;text-align:center}
+.club-pitch{margin:0 0 20px}
+.club-help{border-top:1px solid var(--line);padding-top:8px}
+.club-help summary{min-height:44px;padding:9px 0;cursor:pointer;font-weight:500}
+.club-help ol{padding-left:22px;margin:8px 0 16px}.club-help li+li{margin-top:8px}.club-help p{margin:0}
 .publication-filters button{min-height:44px;padding:7px 12px;border-radius:9px}
 .publications-count{margin:12px 0 6px}
 .news-quick-books{margin:0 0 22px;padding:14px 16px;border:1px solid #bcd5e0;border-radius:9px;background:#edf6fa}
@@ -48,6 +75,10 @@
 .news-banner-single>.news-featured{flex:1;min-width:0}
 .selection-tools p span{font-size:16px}
 @media(max-width:560px){
+  .club-header{padding:70px 20px 18px}.club-header h2{font-size:25px}
+  .club-body{padding:18px 20px 22px}.club-intro{margin-bottom:16px}
+  .club-reading{grid-template-columns:95px minmax(0,1fr);gap:12px}.club-reading h3{font-size:21px}
+  .club-actions{display:grid;grid-template-columns:1fr;margin-top:16px}.club-actions a{width:100%}
   .publications-view{padding-top:14px}
   .publications-header h1{font-size:26px;line-height:1.25}
   .publication-filters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}

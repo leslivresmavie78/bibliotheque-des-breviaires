@@ -191,7 +191,7 @@ async function initNews() {
       return;
     }
     if (dialog.open) dialog.close();
-    setView(location.hash === '#selections' || location.hash === '#publications-title');
+    setView(['#selections', '#publications-title', '#club-lecture'].includes(location.hash));
   }
 
   function renderArchives() {
