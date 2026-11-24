@@ -67,6 +67,43 @@ test('La recherche tolère accents, ordre du nom et ponctuation', () => {
   assert.ok(first.length > 0); assert.deepEqual(first, second);
 });
 
+test('Vareille retrouve ses livres sans ajouter oreille, abeille ou Mireille', () => {
+  const expected = new Set(books.filter(book => book.authors.includes('Marie Vareille')).map(book => book.id));
+  assert.ok(expected.size > 0);
+  for (const q of ['Vareille', 'VAREILLE', 'Marie Vareille', 'Vareille Marie']) {
+    for (const sort of ['recent', 'title', 'author', 'rating']) {
+      const found = filterBooks(books, { ...state, q, sort }, new Set());
+      assert.deepEqual(new Set(found.map(book => book.id)), expected, `${q}, ${sort}`);
+    }
+  }
+  const byAuthor = filterBooks(books, { ...state, author: 'Vareille' }, new Set());
+  assert.deepEqual(new Set(byAuthor.map(book => book.id)), expected);
+});
+
+test('Les filtres et Ma liste ne remplacent pas un auteur trouvé par un mot ressemblant', () => {
+  const fixture = prepareBooks([
+    { ...rows[0], _id: 'auteur', title: 'Un roman', author_details: 'Vareille, Marie', genre: 'Roman adulte' },
+    { ...rows[0], _id: 'oreille', title: 'L’Oreille cassée', author_details: 'Hergé', genre: 'BD jeunesse | Dès 8 ans | Aventure • Enquête • Voyage' },
+  ]);
+  const children = { ...state, q: 'Vareille', audience: 'jeunesse' };
+  assert.deepEqual(filterBooks(fixture, children, new Set()), []);
+  assert.deepEqual(filterBooks(fixture, { ...state, q: 'Vareille', selection: true }, new Set(['oreille'])), []);
+  assert.deepEqual(filterBooks(fixture, { ...children, q: '', author: 'Vareille' }, new Set()), []);
+  const wider = searchCatalogue(fixture, children, new Set(), { relaxFilters: true });
+  assert.equal(wider.broadened, true);
+  assert.deepEqual(wider.books.map(book => book.id), ['auteur']);
+});
+
+test('Les titres et thèmes précis écartent les voisins, et une faute reste rattrapable', () => {
+  const fixture = prepareBooks([
+    { ...rows[0], _id: 'abeille', title: 'L’abeille', author_details: 'Fuhr, Ute', genre: 'Documentaire jeunesse | Dès 3 ans | Nature • Écologie • Insectes' },
+    { ...rows[0], _id: 'oreille', title: 'L’Oreille cassée', author_details: 'Hergé', genre: 'BD | Aventure • Enquête • Voyage' },
+  ]);
+  for (const q of ['abeille', 'ecologie']) assert.deepEqual(filterBooks(fixture, { ...state, q }, new Set()).map(book => book.id), ['abeille']);
+  assert.equal(filterBooks(books, { ...state, q: 'Vareile', sort: 'recent' }, new Set())[0]?.authors[0], 'Marie Vareille');
+  assert.deepEqual(filterBooks(fixture, { ...state, q: 'zzzintrouvablezz' }, new Set()), []);
+});
+
 test('L’Homme-dé arrive en tête malgré une apostrophe oubliée ou une petite faute', () => {
   for (const q of ["l'homme dé", 'L’HOMME-DE', 'lhomme de', 'l home de', 'rhineart', 'rhinehatr']) {
     const found = filterBooks(books, { ...state, q, sort: 'recent' }, new Set());
