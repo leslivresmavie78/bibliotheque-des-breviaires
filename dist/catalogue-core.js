@@ -230,9 +230,10 @@ export function prepareBooks(rows, publicationData = {}) {
     const authors = row.author_details.split('|').map(x => x.trim()).filter(Boolean).map(displayAuthor);
     const genreParts = row.genre.split('|').map(x => x.trim()).filter(Boolean);
     const category = genreParts.shift() || 'Genre non renseigné';
-    const age = genreParts.find(x => /^d[eè]s\s+\d/i.test(x)) || '';
+    const age = genreParts.find(x => /^d[eè]s\s+(?:\d|la\s+naissance\b)/i.test(x)) || '';
     const ageNumber = age.match(/^d[eè]s\s+(\d+)(?:\s*[–—-]\s*\d+)?\s*ans?\b/i);
-    const minAge = ageNumber ? Number(ageNumber[1]) : null;
+    const ageMonths = age.match(/^d[eè]s\s+(\d+)\s*mois\b/i);
+    const minAge = ageNumber ? Number(ageNumber[1]) : ageMonths ? Number(ageMonths[1]) / 12 : /^d[eè]s\s+la\s+naissance\b/i.test(age) ? 0 : null;
     const themes = genreParts.filter(x => x !== age).flatMap(x => x.split('•')).map(x => x.trim()).filter(Boolean);
     const ratingNumber = Number((row.rating || '').replace(',', '.'));
     const rating = Number.isFinite(ratingNumber) && ratingNumber > 0 && ratingNumber <= 5 ? ratingNumber : null;
