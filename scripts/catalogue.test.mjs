@@ -2,13 +2,74 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { activeCriteria, withoutCriterion, publicationMatches } from '../dist/ui-core.js';
-import { parseCSV, prepareBooks, normalize, filterBooks, searchCatalogue, parseAddedAt, audienceFor, AUDIENCES } from '../dist/catalogue-core.js';
+import { parseCSV, prepareBooks, normalize, filterBooks, searchCatalogue, parseAddedAt, audienceFor, awardKeys, awardOptions, publicationFor, AUDIENCES } from '../dist/catalogue-core.js';
 
 const csv = fs.readFileSync(new URL('../dist/catalogue.csv', import.meta.url), 'utf8');
 const rows = parseCSV(csv);
 const books = prepareBooks(rows);
 const metadata = JSON.parse(fs.readFileSync(new URL('../dist/catalogue-meta.json', import.meta.url), 'utf8'));
 const state = { q: '', author: '', genre: '', audience: '', age: '', rating: '', reviews: false, selection: false, sort: 'title' };
+
+test('Les prix principaux ne se confondent pas avec leurs variantes ou une mention d’auteur', () => {
+  assert.deepEqual(awardKeys(['Prix Goncourt 2020']), ['goncourt']);
+  assert.deepEqual(awardKeys(['Prix Goncourt des Lycéens 2020']), ['goncourt-lyceens']);
+  assert.deepEqual(awardKeys(['Prix Goncourt du premier roman 2026']), ['goncourt-premier-roman']);
+  assert.deepEqual(awardKeys(['Prix Renaudot 2024', 'Prix Renaudot des lycéens 2018']), ['renaudot', 'renaudot-lyceens']);
+  assert.deepEqual(awardKeys(['Prix Femina étranger 2013', 'Prix Médicis étranger 2019']), ['femina-etranger', 'medicis-etranger']);
+  assert.deepEqual(awardKeys(['L’auteur a reçu le Prix Goncourt pour un autre livre']), ['other']);
+  assert.ok(!awardOptions(books).some(([key]) => key === 'inexistant'));
+  for (const key of ['goncourt', 'renaudot', 'any']) assert.ok(awardOptions(books).some(([value]) => value === key));
+});
+
+test('Le filtre d’un prix compose avec le public, la note et Ma liste', () => {
+  const goncourt = filterBooks(books, { ...state, award: 'goncourt' }, new Set());
+  assert.ok(goncourt.length > 10);
+  assert.ok(goncourt.every(book => book.awards.some(award => /^prix goncourt \d{4}/.test(normalize(award)))));
+  const selected = new Set(goncourt.slice(0, 2).map(book => book.id));
+  const found = filterBooks(books, { ...state, award: 'goncourt', selection: true, audience: 'adultes' }, selected);
+  assert.deepEqual(new Set(found.map(book => book.id)), selected);
+  const any = filterBooks(books, { ...state, award: 'any' }, new Set());
+  assert.equal(any.length, books.filter(book => book.awards.length).length);
+  const rated = filterBooks(books, { ...state, award: 'renaudot', rating: '4.5' }, new Set());
+  assert.ok(rated.every(book => book.awardKeys.includes('renaudot') && book.rating >= 4.5));
+});
+
+test('La première parution est liée à l’œuvre et ne provient jamais de sa réédition', () => {
+  const row = { ...rows[0], _id: 'date', title: 'Un roman', isbn: '9782253000006', author_details: 'Exemple, Auteur', date_published: '2025-02-01' };
+  const entry = { isbn: row.isbn, title: row.title, author_details: row.author_details, year: 1980, source: 'https://openlibrary.org/works/OL1W' };
+  const data = { books: { date: entry } };
+  assert.equal(publicationFor(row, data).year, 1980);
+  assert.equal(prepareBooks([row], data)[0].publicationYear, 1980);
+  assert.equal(prepareBooks([row])[0].publicationYear, null);
+  for (const change of [{ isbn: 'autre' }, { title: 'Un autre livre' }, { author_details: 'Un autre auteur' }]) assert.equal(publicationFor({ ...row, ...change }, data), null);
+  for (const change of [{ year: 9999 }, { year: '1980' }, { source: 'javascript:alert(1)' }]) assert.equal(publicationFor(row, { books: { date: { ...entry, ...change } } }), null);
+});
+
+test('L’année de première parution filtre précisément et les années absentes restent identifiables', () => {
+  const fixtureRows = ['ancien', 'recent', 'inconnu'].map((id, i) => ({ ...rows[0], _id: id, title: id, isbn: String(i), literary_awards: 'Prix Goncourt 2020' }));
+  const data = { books: Object.fromEntries(fixtureRows.slice(0, 2).map((row, i) => [row._id, { isbn: row.isbn, title: row.title, author_details: row.author_details, year: i ? 2020 : 1980, source: 'https://openlibrary.org/works/OL1W' }])) };
+  const fixture = prepareBooks(fixtureRows, data);
+  assert.deepEqual(filterBooks(fixture, { ...state, year: '1980', award: 'goncourt' }, new Set()).map(book => book.id), ['ancien']);
+  assert.deepEqual(filterBooks(fixture, { ...state, year: 'unknown' }, new Set()).map(book => book.id), ['inconnu']);
+  const criteria = activeCriteria({ ...state, sort: 'recent', year: '1980', award: 'goncourt' });
+  assert.deepEqual(criteria.map(item => item.label), ['Prix : Goncourt', 'Première parution : 1980']);
+  const next = withoutCriterion({ ...state, year: '1980', award: 'goncourt', selection: true }, 'award');
+  assert.equal(next.year, '1980'); assert.equal(next.award, ''); assert.equal(next.selection, true);
+});
+
+test('Les années publiées ont une source et correspondent encore exactement aux livres du catalogue', () => {
+  const data = JSON.parse(fs.readFileSync(new URL('../dist/publication-years.json', import.meta.url), 'utf8'));
+  const current = new Map(rows.map(row => [row._id, row]));
+  for (const [id, entry] of Object.entries(data.books)) {
+    assert.ok(current.has(id), `Livre absent : ${id}`);
+    assert.equal(publicationFor(current.get(id), data)?.year, entry.year, `Identité ou année invalide : ${id}`);
+  }
+  const dated = prepareBooks(rows, data);
+  assert.equal(dated.filter(book => book.publicationYear !== null).length, Object.keys(data.books).length);
+  assert.equal(dated.find(book => book.id === '3152').publicationYear, 2024);
+  assert.equal(dated.find(book => book.id === '3523').publicationYear, 2026);
+  assert.equal(dated.find(book => book.id === '1106').publicationYear, 1986);
+});
 
 test('Le CSV gère les virgules, guillemets, CRLF et champs multilignes', () => {
   const sample = '\uFEFF_id,title,author_details,genre,description\r\n1,"Un titre, deux mots","Nom, Prénom",Roman,"Une ligne\nPuis « un avis » et ""une citation""."\r\n';
