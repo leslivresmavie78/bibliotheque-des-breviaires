@@ -1,4 +1,5 @@
 import { publicationMatches, externalLinkLabel } from './ui-core.js?v=1';
+import { setClubView } from './club.js?v=2';
 
 const CATEGORY_LABELS = { theme: 'Thème', coeur: 'Coup de cœur', auteur: 'Focus auteur', alerte: 'Actualité', actualite: 'Actualité littéraire', nouveautes: 'Nouveautés', vie: 'Vie de la bibliothèque' };
 const parisWeekday = new Intl.DateTimeFormat('en-US', { timeZone: 'Europe/Paris', weekday: 'short' });
@@ -63,12 +64,15 @@ async function initNews() {
   const returnOrigins = new Map();
 
   function setView(archives, focus = false) {
-    $('catalogue-view').hidden = archives; $('publications-view').hidden = !archives;
-    $('publications-nav').classList.toggle('active', archives);
-    $('publications-nav').setAttribute('aria-pressed', String(archives));
+    const club = location.hash === '#club-lecture';
+    $('catalogue-view').hidden = archives || club; $('publications-view').hidden = !archives || club;
+    $('publications-nav').classList.toggle('active', archives && !club);
+    $('publications-nav').setAttribute('aria-pressed', String(archives && !club));
+    setClubView(club);
     document.dispatchEvent(new Event('catalogue-view-change'));
-    document.querySelector('.skip-link').href = archives ? '#publications-title' : '#results';
-    if (focus) $('publications-title').focus({ preventScroll: true });
+    const title = club ? 'club-title' : 'publications-title';
+    document.querySelector('.skip-link').href = club ? '#club-title' : archives ? '#publications-title' : '#results';
+    if (focus) $(title).focus({ preventScroll: true });
   }
 
   function setHash(hash, push = false) {
@@ -221,6 +225,7 @@ async function initNews() {
   }
 
   $('publications-nav').addEventListener('click', () => { if (location.hash !== '#selections') setHash('selections', true); setView(true, true); });
+  $('club-nav').addEventListener('click', () => { if (location.hash !== '#club-lecture') setHash('club-lecture', true); setView(false, true); });
   document.addEventListener('show-catalogue', () => { setHash(''); setView(false); });
   $('publication-filters').addEventListener('click', event => {
     const button = event.target.closest('button[data-category]'); if (!button) return;
