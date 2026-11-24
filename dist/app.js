@@ -78,9 +78,9 @@ function syncControls() {
 function updateSelectionCounter() {
   const count = [...selected].filter(id => byId.has(id)).length;
   $('selection-count').textContent = numberFormat.format(count);
-  $('selection-nav').setAttribute('aria-label', state.selection ? 'Retour aux livres' : `Ma liste, ${count} livre${count > 1 ? 's' : ''}`);
-  $('selection-label').textContent = state.selection ? 'Retour aux livres' : 'Ma liste';
-  $('selection-count').hidden = state.selection;
+  $('selection-nav').setAttribute('aria-label', `Ma liste, ${count} livre${count > 1 ? 's' : ''}`);
+  $('selection-label').textContent = 'Ma liste';
+  $('selection-count').hidden = false;
   return count;
 }
 
@@ -158,8 +158,7 @@ function render(resultBooks) {
   const extraCount = [state.author, state.age, state.rating, state.reviews, state.sort !== (state.selection ? 'title' : 'recent')].filter(Boolean).length;
   $('active-filter-count').textContent = extraCount ? `(${extraCount})` : '';
   $('reset-filters').hidden = !(state.q || filterCount || state.sort !== (state.selection ? 'title' : 'recent'));
-  $('catalogue-nav').classList.toggle('active', !state.selection); $('catalogue-nav').setAttribute('aria-pressed', String(!state.selection));
-  $('selection-nav').classList.toggle('active', state.selection); $('selection-nav').setAttribute('aria-pressed', String(state.selection));
+  syncNavigation();
   $('selection-tools').hidden = !state.selection; $('copy-selection').disabled = !count; $('print-selection').disabled = !count;
   $('results-heading').textContent = state.selection ? 'Ma liste de livres' : state.q.trim() ? 'Résultats de recherche' : state.audience === 'jeunesse' ? 'Les livres pour enfants' : state.audience === 'ados' ? 'Les livres pour ado' : state.audience === 'adultes' ? 'Les livres pour adultes' : state.sort === 'recent' ? 'Dernières arrivées' : 'Tous les livres';
   $('sort-recent').textContent = state.q.trim() ? 'Les plus proches' : 'Dernières arrivées';
@@ -183,6 +182,13 @@ function render(resultBooks) {
   $('page-count').textContent = `Page ${page} sur ${numberFormat.format(pages)}`;
   $('previous-page').disabled = page <= 1; $('next-page').disabled = page >= pages;
   renderChips(); syncURL();
+}
+
+function syncNavigation() {
+  const visible = !$('catalogue-view').hidden;
+  for (const [id, active] of [['catalogue-nav', visible && !state.selection], ['selection-nav', visible && state.selection]]) {
+    $(id).classList.toggle('active', active); $(id).setAttribute('aria-pressed', String(active));
+  }
 }
 
 function toggleSelection(id) {
@@ -258,8 +264,9 @@ function bookURL(book) {
 
 function finishClose() {
   document.body.classList.remove('dialog-open'); activeBook = null;
-  const url = new URL(location.href); url.hash = ''; history.replaceState(null, '', url);
-  const nextFocus = restoreFocus?.isConnected ? restoreFocus : $('search'); nextFocus?.focus({ preventScroll: true });
+  if (location.hash.startsWith('#livre=')) { const url = new URL(location.href); url.hash = ''; history.replaceState(null, '', url); }
+  const nextFocus = restoreFocus?.isConnected && restoreFocus.getClientRects().length ? restoreFocus : $('catalogue-view').hidden ? $('publications-title') : $('search');
+  if (!document.querySelector('dialog[open]')) nextFocus?.focus({ preventScroll: true });
 }
 
 async function copyText(text, message) {
@@ -344,8 +351,15 @@ for (const id of ['search', 'author']) $(id).addEventListener('input', () => { c
 for (const id of ['genre', 'age', 'rating', 'with-reviews', 'sort']) $(id).addEventListener('change', refreshFromInputs);
 $('reset-filters').addEventListener('click', () => { const selection = state.selection; state = { ...defaults(), selection, sort: selection ? 'title' : 'recent' }; searchNotice = ''; page = 1; syncControls(); render(); });
 $('empty-reset').addEventListener('click', resetCatalogue);
-$('catalogue-nav').addEventListener('click', () => setMode(false));
-$('selection-nav').addEventListener('click', () => setMode(!state.selection));
+$('catalogue-nav').addEventListener('click', () => {
+  const fromPublications = $('catalogue-view').hidden;
+  document.dispatchEvent(new Event('show-catalogue'));
+  if (fromPublications && !state.selection) render(); else setMode(false);
+});
+$('selection-nav').addEventListener('click', () => {
+  document.dispatchEvent(new Event('show-catalogue')); setMode(true);
+});
+document.addEventListener('catalogue-view-change', syncNavigation);
 $('toggle-filters').addEventListener('click', () => { const open = $('search-form').classList.toggle('filters-open'); $('toggle-filters').setAttribute('aria-expanded', String(open)); });
 for (const [id, delta] of [['previous-page', -1], ['next-page', 1]]) $(id).addEventListener('click', () => { page += delta; render(); $('results').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'start' }); $('results').focus({ preventScroll: true }); });
 $('close-dialog').addEventListener('click', () => $('book-dialog').close());

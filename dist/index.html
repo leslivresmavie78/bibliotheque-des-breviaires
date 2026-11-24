@@ -10,9 +10,9 @@
   <link rel="preload" href="./fonts/rubik-latin.woff" as="font" type="font/woff" crossorigin>
   <link rel="stylesheet" href="./style.css?v=5">
   <link rel="stylesheet" href="./simple.css?v=7">
-  <link rel="stylesheet" href="./news.css?v=3">
-  <script type="module" src="./app.js?v=7"></script>
-  <script type="module" src="./news.js?v=3"></script>
+  <link rel="stylesheet" href="./news.css?v=4">
+  <script type="module" src="./app.js?v=8"></script>
+  <script type="module" src="./news.js?v=4"></script>
 </head>
 <body>
   <a class="skip-link" href="#results">Aller aux livres</a>
@@ -24,12 +24,14 @@
       </a>
       <nav class="main-nav" aria-label="Navigation principale">
         <button type="button" class="nav-item active" id="catalogue-nav" aria-pressed="true">Le catalogue</button>
+        <button type="button" class="nav-item" id="publications-nav" aria-pressed="false">Nos sélections</button>
         <button type="button" class="nav-item selection-nav" id="selection-nav" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><path d="M6 4h12v17l-6-4-6 4V4Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><span id="selection-label">Ma liste</span><span class="count-pill" id="selection-count">0</span></button>
       </nav>
     </div>
   </header>
 
   <main class="page-shell">
+    <div id="catalogue-view">
     <section id="news-banner" class="news-banner" aria-labelledby="news-title" hidden></section>
     <section class="intro" aria-labelledby="page-title">
       <div class="intro-copy">
@@ -76,6 +78,22 @@
       <div class="empty-state" id="empty-state" hidden><span class="empty-mark" aria-hidden="true">⌕</span><h3 id="empty-title">Aucun livre pour cette recherche</h3><p id="empty-description">Essayez avec moins de mots ou changez les filtres.</p><button type="button" class="primary-button" id="empty-reset">Revoir tout le catalogue</button></div>
       <div class="load-error" id="load-error" role="alert" hidden><h3>Le catalogue n’a pas pu être chargé</h3><p>Vérifiez votre connexion, puis réessayez.</p><button type="button" class="primary-button" id="reload">Réessayer</button></div>
       <nav class="pagination" id="pagination" aria-label="Pages du catalogue" hidden><button type="button" class="secondary-button" id="previous-page">Précédent</button><span id="page-count"></span><button type="button" class="secondary-button" id="next-page">Suivant</button></nav>
+    </section>
+    </div>
+    <section id="publications-view" class="publications-view" aria-labelledby="publications-title" hidden>
+      <header class="publications-header">
+        <h1 id="publications-title" tabindex="-1">Nos sélections</h1>
+        <p>Les coups de cœur, les auteurs et les thèmes à retrouver au fil des lectures.</p>
+      </header>
+      <div id="publication-filters" class="publication-filters" role="group" aria-label="Filtrer nos sélections">
+        <button type="button" data-category="all" aria-pressed="true">Toutes</button>
+        <button type="button" data-category="theme" aria-pressed="false">Thèmes</button>
+        <button type="button" data-category="coeur" aria-pressed="false">Coups de cœur</button>
+        <button type="button" data-category="auteur" aria-pressed="false">Auteurs</button>
+      </div>
+      <p id="publications-count" class="publications-count" role="status">Les sélections se préparent…</p>
+      <div id="publications-list" class="publications-list"></div>
+      <p id="publications-empty" class="publications-empty" hidden>Aucune sélection dans cette rubrique pour le moment.</p>
     </section>
   </main>
 
