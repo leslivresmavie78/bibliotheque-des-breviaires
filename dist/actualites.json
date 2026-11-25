@@ -1,6 +1,26 @@
 {
   "publications": [
     {
+      "id": "hommage-catherine-clement-2026-11-25",
+      "type": "alerte",
+      "label": "Hommage",
+      "title": "Hommage à Catherine Clément",
+      "summary": "Philosophe, romancière et passionnée par l’Inde, Catherine Clément nous a quittés. Nous lui rendons hommage avec Le Sang du monde.",
+      "starts_at": "2026-11-25T12:00:00+01:00",
+      "ends_at": "2026-11-30T00:00:00+01:00",
+      "period": "Hommage du 25 au 29 novembre 2026",
+      "lead": "Catherine Clément est morte le 23 novembre 2026, à 87 ans. Nous lui rendons hommage avec Le Sang du monde, un roman à retrouver dans notre bibliothèque.",
+      "intro": "Philosophe, romancière et essayiste, Catherine Clément a fait se rencontrer les idées, les cultures et les histoires. L’Inde, où elle a vécu plusieurs années, a occupé une grande place dans sa vie et dans ses livres, notamment Pour l’amour de l’Inde. Le Voyage de Théo l’a fait connaître à des lecteurs de nombreux pays.\n\nElle a aussi partagé ses connaissances à la radio et à l’Université populaire du musée du quai Branly. Des essais aux romans, elle passait de la philosophie aux croyances et aux mythes, avec la même curiosité pour les autres cultures.",
+      "books": [
+        {
+          "id": "1804",
+          "title": "Le Sang du monde — Le Voyage de Théo, tome 2",
+          "author": "Catherine Clément",
+          "text": "Théo a maintenant vingt-six ans. Devenu médecin humanitaire et écologiste convaincu, il repart avec sa tante Marthe vers les régions les plus polluées de la planète. Au fil de ce voyage, la santé de la Terre rejoint celle de ses habitants, et l’amour trouve aussi sa place. C’est la suite du Voyage de Théo, avec un personnage devenu adulte et de nouveaux combats."
+        }
+      ]
+    },
+    {
       "id": "elles-ont-une-histoire-2026-11-25",
       "label": "En ce moment · 25 novembre",
       "title": "Elles ont une histoire à raconter…",

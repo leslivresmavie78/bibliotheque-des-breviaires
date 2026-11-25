@@ -202,7 +202,8 @@ async function initNews() {
     const visible = filterPublications(publications, archiveCategory, Date.now(), archiveQuery), fragment = document.createDocumentFragment();
     for (const publication of visible) {
       const article = node('article', 'publication-row'), copy = node('div', 'publication-copy');
-      copy.append(node('p', 'publication-category', CATEGORY_LABELS[publicationCategory(publication)]), node('h2', '', publication.title));
+      const category = publicationCategory(publication);
+      copy.append(node('p', 'publication-category', category === 'alerte' && publication.label ? publication.label : CATEGORY_LABELS[category]), node('h2', '', publication.title));
       paragraph(copy, 'publication-period', publication.period);
       const link = node('a', 'publication-read', 'Lire'); link.href = `#actualite=${encodeURIComponent(publication.id)}`;
       link.setAttribute('aria-label', `Lire la communication : ${publication.title}`);
