@@ -1,6 +1,23 @@
 {
   "publications": [
     {
+      "id": "ernest-celestine-cinema-2026-11-26",
+      "type": "alerte",
+      "label": "Actualité",
+      "title": "Ernest et Célestine, du cinéma aux livres",
+      "starts_at": "2026-11-26T12:00:00+01:00",
+      "ends_at": "2026-11-30T00:00:00+01:00",
+      "period": "Actualité du 26 au 29 novembre 2026",
+      "lead": "Le Noël d’Ernest et Célestine est au cinéma depuis le 25 novembre. Retrouvez les deux amis dans une autre aventure à la bibliothèque : Ernest et Célestine au cirque, de Gabrielle Vincent.",
+      "books": [
+        {
+          "id": "2259",
+          "title": "Ernest et Célestine au cirque",
+          "author": "Gabrielle Vincent"
+        }
+      ]
+    },
+    {
       "id": "hommage-catherine-clement-2026-11-25",
       "type": "alerte",
       "label": "Hommage",
