@@ -1,14 +1,42 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import { createHash } from 'node:crypto';
 import { activeCriteria, withoutCriterion, publicationMatches } from '../dist/ui-core.js';
-import { parseCSV, prepareBooks, normalize, filterBooks, searchCatalogue, parseAddedAt, audienceFor, awardKeys, awardOptions, publicationFor, AUDIENCES } from '../dist/catalogue-core.js';
+import { parseCSV, prepareBooks, normalize, filterBooks, searchCatalogue, parseAddedAt, audienceFor, awardKeys, awardOptions, publicationFor, coverFor, AUDIENCES } from '../dist/catalogue-core.js';
 
 const csv = fs.readFileSync(new URL('../dist/catalogue.csv', import.meta.url), 'utf8');
 const rows = parseCSV(csv);
 const books = prepareBooks(rows);
 const metadata = JSON.parse(fs.readFileSync(new URL('../dist/catalogue-meta.json', import.meta.url), 'utf8'));
 const state = { q: '', author: '', genre: '', audience: '', age: '', rating: '', reviews: false, selection: false, sort: 'title' };
+
+test('Les couvertures de l’essai restent liées au bon livre et à une première parution en 2026', () => {
+  const publications = JSON.parse(fs.readFileSync(new URL('../dist/publication-years.json', import.meta.url), 'utf8'));
+  const covers = JSON.parse(fs.readFileSync(new URL('../dist/book-covers.json', import.meta.url), 'utf8'));
+  const illustrated = prepareBooks(rows, publications, covers);
+  assert.equal(illustrated.filter(book => book.cover).length, Object.keys(covers.books).length);
+  for (const [id, entry] of Object.entries(covers.books)) {
+    const row = rows.find(row => row._id === id);
+    assert.ok(row); assert.equal(publicationFor(row, publications)?.year, 2026);
+    assert.equal(coverFor(row, 2026, covers), entry);
+    const bytes = fs.readFileSync(new URL(`../dist/${entry.src}`, import.meta.url));
+    assert.equal(bytes.subarray(0, 2).toString('hex'), 'ffd8');
+    assert.equal(createHash('sha256').update(bytes).digest('hex'), entry.sha256);
+    assert.equal(new URL(entry.source).protocol, 'https:');
+    assert.ok(entry.image_source.includes(row.isbn));
+  }
+});
+
+test('Une couverture ancienne, ambiguë ou extérieure au site ne remplace pas la bonne édition', () => {
+  const data = JSON.parse(fs.readFileSync(new URL('../dist/book-covers.json', import.meta.url), 'utf8'));
+  const id = Object.keys(data.books)[0], row = rows.find(row => row._id === id), entry = data.books[id];
+  assert.equal(coverFor(row, 2025, data), null);
+  assert.equal(coverFor(row, 2026, {}), null);
+  for (const change of [{ title: 'Un autre tome' }, { isbn: '9780000000002' }, { author_details: 'Autre, Auteur' }]) assert.equal(coverFor({ ...row, ...change }, 2026, data), null);
+  for (const change of [{ src: 'https://autre.site/couverture.jpg' }, { src: '../couverture.jpg' }, { width: 0 }]) assert.equal(coverFor(row, 2026, { ...data, books: { [id]: { ...entry, ...change } } }), null);
+  assert.ok(prepareBooks(rows).every(book => book.cover === null));
+});
 
 test('Naissance, mois et singulier gardent leur libellé et rejoignent le filtre des tout-petits', () => {
   for (const [label, expected] of [['Dès la naissance', 0], ['Dès 18 mois', 1.5], ['Dès 1 an', 1]]) {
