@@ -32,6 +32,10 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: '3.12'
+      - name: Préparer les couvertures du catalogue
+        run: python3 scripts/build_covers.py
+      - name: Vérifier les archives de couvertures
+        run: python3 scripts/test_build_covers.py
       - name: Vérifier le catalogue, la recherche et les filtres
         run: node --test scripts/catalogue.test.mjs
       - name: Vérifier l’extraction des prix littéraires
