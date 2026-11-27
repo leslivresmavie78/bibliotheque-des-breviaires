@@ -11,31 +11,63 @@ const books = prepareBooks(rows);
 const metadata = JSON.parse(fs.readFileSync(new URL('../dist/catalogue-meta.json', import.meta.url), 'utf8'));
 const state = { q: '', author: '', genre: '', audience: '', age: '', rating: '', reviews: false, selection: false, sort: 'title' };
 
-test('Les couvertures de l’essai restent liées au bon livre et à une première parution en 2026', () => {
+test('Les 1 440 couvertures récupérées et les quatre couvertures de l’essai restent liées aux bonnes fiches', () => {
   const publications = JSON.parse(fs.readFileSync(new URL('../dist/publication-years.json', import.meta.url), 'utf8'));
   const covers = JSON.parse(fs.readFileSync(new URL('../dist/book-covers.json', import.meta.url), 'utf8'));
   const illustrated = prepareBooks(rows, publications, covers);
-  assert.equal(illustrated.filter(book => book.cover).length, Object.keys(covers.books).length);
+  assert.equal(Object.keys(covers.books).length, 1444);
+  assert.equal(illustrated.filter(book => book.cover).length, 1444);
+  assert.equal(illustrated.filter(book => book.cover?.source_type === 'bookcatalogue').length, 1440);
+  assert.equal(illustrated.filter(book => book.cover && book.cover.width >= book.cover.height).length, 28);
   for (const [id, entry] of Object.entries(covers.books)) {
     const row = rows.find(row => row._id === id);
-    assert.ok(row); assert.equal(publicationFor(row, publications)?.year, 2026);
-    assert.equal(coverFor(row, 2026, covers), entry);
+    assert.ok(row);
+    assert.equal(coverFor(row, publicationFor(row, publications)?.year ?? null, covers), entry);
     const bytes = fs.readFileSync(new URL(`../dist/${entry.src}`, import.meta.url));
-    assert.equal(bytes.subarray(0, 2).toString('hex'), 'ffd8');
+    if (entry.src.endsWith('.jpg')) assert.equal(bytes.subarray(0, 2).toString('hex'), 'ffd8');
+    else if (entry.src.endsWith('.png')) assert.equal(bytes.subarray(0, 8).toString('hex'), '89504e470d0a1a0a');
+    else assert.equal(bytes.subarray(8, 12).toString(), 'WEBP');
     assert.equal(createHash('sha256').update(bytes).digest('hex'), entry.sha256);
-    assert.equal(new URL(entry.source).protocol, 'https:');
-    assert.ok(entry.image_source.includes(row.isbn));
+    if (entry.source_type === 'bookcatalogue') {
+      assert.match(entry.src, new RegExp(`^book-covers/${entry.sha256}\\.(jpg|png|webp)$`));
+      assert.equal(entry.series_details, row.series_details);
+    } else {
+      assert.equal(publicationFor(row, publications)?.year, 2026);
+      assert.equal(new URL(entry.source).protocol, 'https:');
+      assert.ok(entry.image_source.includes(row.isbn));
+    }
   }
 });
 
-test('Une couverture ancienne, ambiguë ou extérieure au site ne remplace pas la bonne édition', () => {
+test('Une couverture ambiguë, mal identifiée ou extérieure au site ne remplace pas le livre', () => {
   const data = JSON.parse(fs.readFileSync(new URL('../dist/book-covers.json', import.meta.url), 'utf8'));
-  const id = Object.keys(data.books)[0], row = rows.find(row => row._id === id), entry = data.books[id];
-  assert.equal(coverFor(row, 2025, data), null);
+  const id = Object.keys(data.books).find(id => data.books[id].source_type === 'bookcatalogue'), row = rows.find(row => row._id === id), entry = data.books[id];
+  assert.equal(coverFor(row, null, data), entry);
   assert.equal(coverFor(row, 2026, {}), null);
-  for (const change of [{ title: 'Un autre tome' }, { isbn: '9780000000002' }, { author_details: 'Autre, Auteur' }]) assert.equal(coverFor({ ...row, ...change }, 2026, data), null);
-  for (const change of [{ src: 'https://autre.site/couverture.jpg' }, { src: '../couverture.jpg' }, { width: 0 }]) assert.equal(coverFor(row, 2026, { ...data, books: { [id]: { ...entry, ...change } } }), null);
+  for (const change of [{ title: 'Un autre tome' }, { isbn: '9780000000002' }, { author_details: 'Autre, Auteur' }, { series_details: 'Autre série (7)' }]) assert.equal(coverFor({ ...row, ...change }, 2026, data), null);
+  for (const change of [{ src: 'https://autre.site/couverture.jpg' }, { src: '../couverture.jpg' }, { src: 'book-covers/../autre.jpg' }, { sha256: '../autre' }, { _id: 'autre' }, { width: 0 }, { height: 5000 }]) assert.equal(coverFor(row, 2026, { ...data, books: { [id]: { ...entry, ...change } } }), null);
+  assert.equal(coverFor(row, null, { ...data, schema_version: 999 }), null);
   assert.ok(prepareBooks(rows).every(book => book.cover === null));
+});
+
+test('Les couvertures avec ISBN à dix chiffres ou sans ISBN ne dépendent pas de l’année de parution', () => {
+  const data = JSON.parse(fs.readFileSync(new URL('../dist/book-covers.json', import.meta.url), 'utf8'));
+  const unusual = Object.entries(data.books).filter(([, entry]) => entry.source_type === 'bookcatalogue' && !/^\d{13}$/.test(entry.isbn));
+  assert.equal(unusual.length, 23);
+  for (const [id, entry] of unusual) {
+    const row = rows.find(row => row._id === id);
+    assert.equal(coverFor(row, null, data), entry);
+    assert.equal(coverFor(row, 1980, data), entry);
+  }
+});
+
+test('L’essai 2026 conserve ses quatre images et sa compatibilité avec l’ancien inventaire', () => {
+  const data = JSON.parse(fs.readFileSync(new URL('../dist/book-covers.json', import.meta.url), 'utf8'));
+  for (const id of ['99', '102', '136', '3523']) {
+    const row = rows.find(row => row._id === id), entry = data.books[id];
+    assert.equal(coverFor(row, 2026, { cohort_year: 2026, books: { [id]: entry } }), entry);
+    assert.equal(coverFor(row, 2025, data), null);
+  }
 });
 
 test('Naissance, mois et singulier gardent leur libellé et rejoignent le filtre des tout-petits', () => {
