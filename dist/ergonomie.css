@@ -2,6 +2,13 @@
 .search-label{display:block;padding:12px 17px 0;font-size:16px;font-weight:500;color:var(--ink)}
 .search-box{padding-top:6px}
 .search-submit-icon{display:none}
+.book-info-text{min-width:0;display:flow-root}
+.book-card-info.has-cover,.detail-book-info.has-cover{display:grid;grid-template-columns:minmax(0,1fr) 56px;align-items:start;gap:12px}
+.book-cover{display:block;width:56px;height:84px;object-fit:contain;object-position:top right}
+.detail-book-info.has-cover{grid-template-columns:minmax(0,1fr) 112px;gap:18px}
+.detail-cover{display:block;width:112px;height:168px;object-fit:contain;object-position:top right}
+@media(max-width:560px){.detail-book-info.has-cover{grid-template-columns:minmax(0,1fr) 88px;gap:12px}.detail-cover{width:88px;height:132px}}
+@media(max-width:350px){.book-card-info.has-cover{grid-template-columns:minmax(0,1fr) 48px;gap:10px}.book-cover{width:48px;height:72px}}
 .book-publication,.detail-publication{font-size:16px;line-height:1.45;color:var(--muted);margin:0 0 12px}
 .detail-publication a{color:var(--forest-dark);text-underline-offset:3px}
 #publication-year-help{font-size:14px;line-height:1.45;color:var(--muted);margin:2px 0 0}

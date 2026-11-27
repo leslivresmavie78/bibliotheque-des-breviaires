@@ -1,5 +1,5 @@
-import { parseCSV, prepareBooks, normalize, filterBooks, searchCatalogue, awardOptions, LITERARY_AWARDS, FAMILIES, AUDIENCES, AGE_RANGES } from './catalogue-core.js?v=20261124-age-v12';
-import { activeCriteria, withoutCriterion } from './ui-core.js?v=3';
+import { parseCSV, prepareBooks, normalize, filterBooks, searchCatalogue, awardOptions, LITERARY_AWARDS, FAMILIES, AUDIENCES, AGE_RANGES } from './catalogue-core.js?v=20261127-covers1';
+import { activeCriteria, withoutCriterion } from './ui-core.js?v=4';
 
 const $ = id => document.getElementById(id);
 const PAGE_SIZE = 24;
@@ -120,14 +120,29 @@ function awardBadge() {
   return badge;
 }
 
+function appendBookCover(container, book, detail = false) {
+  const image = element('img', detail ? 'detail-cover' : 'book-cover');
+  image.alt = `Couverture de ${book.title}`;
+  image.width = book.cover.width; image.height = book.cover.height;
+  image.loading = detail ? 'eager' : 'lazy'; image.decoding = 'async';
+  image.addEventListener('error', () => { image.remove(); container.classList.remove('has-cover'); }, { once: true });
+  image.src = book.cover.src; container.append(image);
+}
+
 function makeCard(book) {
   const article = element('article', 'book-card'); article.dataset.tone = toneFor(book); article.dataset.bookId = book.id;
   article.append(element('p', 'book-category', book.category));
   if (book.awards.length) article.append(awardBadge());
   const heading = element('h3');
   heading.textContent = book.title;
-  article.append(heading, element('p', 'book-author', book.authors.join(' · ')));
-  if (book.publicationYear !== null) article.append(element('p', 'book-publication', `Première parution connue : ${book.publicationYear}`));
+  article.append(heading);
+  const information = book.cover ? element('div', 'book-info-text') : article;
+  information.append(element('p', 'book-author', book.authors.join(' · ')));
+  if (book.publicationYear !== null) information.append(element('p', 'book-publication', `Première parution connue : ${book.publicationYear}`));
+  if (book.cover) {
+    const coverRow = element('div', 'book-card-info has-cover'); coverRow.append(information);
+    appendBookCover(coverRow, book); article.append(coverRow);
+  }
   article.append(element('p', `book-preview${book.summary ? '' : ' missing'}`, book.summary ? book.summary.replace(/\s+/g, ' ') : 'Résumé à venir dans le catalogue.'));
   const themes = element('div', 'book-themes');
   if (book.age) themes.append(element('span', 'theme-tag age-tag', book.age));
@@ -260,17 +275,23 @@ function openBook(id) {
   const header = element('div', 'detail-header');
   header.append(element('p', 'detail-category', [book.category, book.age].filter(Boolean).join(' · ')));
   if (!book.age && (book.audience === 'jeunesse' || book.audience === 'ados')) header.append(element('p', 'detail-age-note', 'Âge conseillé non renseigné dans le catalogue.'));
-  const title = element('h2', '', book.title); title.id = 'detail-title'; header.append(title, element('p', 'detail-authors', book.authors.join(' · ')));
+  const title = element('h2', '', book.title); title.id = 'detail-title'; header.append(title);
+  const information = book.cover ? element('div', 'book-info-text') : header;
+  information.append(element('p', 'detail-authors', book.authors.join(' · ')));
   if (book.publicationYear !== null) {
     const publication = element('p', 'detail-publication', 'Première parution connue : ');
     const year = element('a', '', String(book.publicationYear)); year.href = book.publicationSource;
     year.target = '_blank'; year.rel = 'noopener noreferrer'; year.setAttribute('aria-label', `Source de l’année de première parution ${book.publicationYear} (nouvel onglet)`);
-    publication.append(year); header.append(publication);
+    publication.append(year); information.append(publication);
   }
-  if (book.awards.length) header.append(awardBadge());
+  if (book.awards.length) information.append(awardBadge());
   const meta = element('div', 'detail-meta'); meta.append(ratingElement(book, true));
   if (book.rating) meta.append(element('span', '', 'Note du catalogue'));
-  header.append(meta);
+  information.append(meta);
+  if (book.cover) {
+    const coverRow = element('div', 'detail-book-info has-cover'); coverRow.append(information);
+    appendBookCover(coverRow, book, true); header.append(coverRow);
+  }
   const body = element('div', 'detail-body');
   const actions = element('div', 'detail-actions');
   const save = element('button', 'primary-button'); save.type = 'button'; save.id = 'detail-selection';
@@ -364,8 +385,8 @@ async function loadCatalogue() {
   try {
     const response = await fetch(new URL('./catalogue.csv', import.meta.url), { cache: 'no-cache' });
     if (!response.ok) throw new Error(`Catalogue : ${response.status}`);
-    const publicationData = await fetch(new URL('./publication-years.json', import.meta.url), { cache: 'no-cache' }).then(response => response.ok ? response.json() : {}).catch(() => ({}));
-    books = prepareBooks(parseCSV(await response.text()), publicationData); byId = new Map(books.map(book => [book.id, book]));
+    const [publicationData, coverData] = await Promise.all(['./publication-years.json', './book-covers.json'].map(path => fetch(new URL(path, import.meta.url), { cache: 'no-cache' }).then(response => response.ok ? response.json() : {}).catch(() => ({}))));
+    books = prepareBooks(parseCSV(await response.text()), publicationData, coverData); byId = new Map(books.map(book => [book.id, book]));
     selected = new Set([...selected].filter(id => byId.has(id)));
     const authors = [...new Set(books.flatMap(book => book.authors))].sort(new Intl.Collator('fr', { sensitivity: 'base' }).compare);
     const authorOptions = document.createDocumentFragment(); for (const author of authors) { const option = element('option'); option.value = author; authorOptions.append(option); }

@@ -1,0 +1,50 @@
+{
+  "cohort_year": 2026,
+  "checked_on": "2026-11-27",
+  "books": {
+    "99": {
+      "isbn": "9782073113252",
+      "title": "Je suis Romane Monnier",
+      "author_details": "Vigan, Delphine de",
+      "src": "book-cover-9782073113252.jpg",
+      "width": 290,
+      "height": 425,
+      "source": "https://www.eyrolles.com/Litterature/Livre/je-suis-romane-monnier-9782073113252/",
+      "image_source": "https://servimg.eyrolles.com/static/media/3252/9782073113252_internet_w290.jpg",
+      "sha256": "2be441d7caa0b3287bad72f5aac549ba2b751697504e6eb81191e62a6f32f42b"
+    },
+    "102": {
+      "isbn": "9782702190753",
+      "title": "Le Garçon éternel",
+      "author_details": "Loubry, Jérôme",
+      "src": "book-cover-9782702190753.jpg",
+      "width": 314,
+      "height": 500,
+      "source": "https://www.calmann-levy.fr/livre/le-garcon-eternel-9782702190753/",
+      "image_source": "https://media.hachette.fr/fit-in/500x500/imgArticle/CALMANNLEVY/2026/9782702190753-001-X.jpeg?source=web&v=e5a7029d6305e100927d461e0625186e",
+      "sha256": "b8b142463d872b81ca693193b1682ca9351b775debb82864e1a9ebf9bab14c9a"
+    },
+    "136": {
+      "isbn": "9782702191477",
+      "title": "Les belles promesses",
+      "author_details": "Lemaitre, Pierre",
+      "src": "book-cover-9782702191477.jpg",
+      "width": 330,
+      "height": 500,
+      "source": "https://www.calmann-levy.fr/livre/les-belles-promesses-9782702191477/",
+      "image_source": "https://media.hachette.fr/fit-in/500x500/imgArticle/CALMANNLEVY/2025/9782702191477-001-X.jpeg?source=web&v=0ca56db65e4d145bc14b5997d30ddb3d",
+      "sha256": "d189062892b63e4cc1e996192589eccb318521d507c56a4fdbd191998b4d1ee9"
+    },
+    "3523": {
+      "isbn": "9782080510655",
+      "title": "D’autres printemps",
+      "author_details": "Grimaldi, Virginie",
+      "src": "book-cover-9782080510655.jpg",
+      "width": 290,
+      "height": 451,
+      "source": "https://www.eyrolles.com/Litterature/Livre/d-autres-printemps-9782080510655/",
+      "image_source": "https://servimg.eyrolles.com/static/media/0655/9782080510655_internet_w290.jpg",
+      "sha256": "2b7ff36d937113871284562c6c21be651e7eb6e2dda783787f7484b28dd55ca6"
+    }
+  }
+}

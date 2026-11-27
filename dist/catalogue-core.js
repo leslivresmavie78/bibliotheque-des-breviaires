@@ -222,7 +222,14 @@ export function publicationFor(row, data) {
   return entry;
 }
 
-export function prepareBooks(rows, publicationData = {}) {
+export function coverFor(row, publicationYear, data) {
+  const entry = data?.books?.[row._id];
+  if (data?.cohort_year !== 2026 || publicationYear !== 2026 || !entry || entry.isbn !== row.isbn || entry.title !== row.title || entry.author_details !== row.author_details) return null;
+  if (!/^\d{13}$/.test(row.isbn) || entry.src !== `book-cover-${row.isbn}.jpg` || !Number.isInteger(entry.width) || !Number.isInteger(entry.height) || entry.width <= 0 || entry.height <= entry.width || entry.height > 4096) return null;
+  return entry;
+}
+
+export function prepareBooks(rows, publicationData = {}, coverData = {}) {
   const ids = new Set();
   return rows.map(row => {
     if (!row._id || !row.title || ids.has(row._id)) throw new Error('Le catalogue contient un identifiant absent ou en double.');
@@ -242,6 +249,7 @@ export function prepareBooks(rows, publicationData = {}) {
     const publication = publicationFor(row, publicationData);
     book.publicationYear = publication?.year ?? null;
     book.publicationSource = publication?.source || '';
+    book.cover = coverFor(row, book.publicationYear, coverData);
     book.families = familiesFor(category);
     book.search = normalize([book.title, row.author_details, ...authors, row.genre, book.series].join(' '));
     book.titleWords = [...new Set(words(book.title))]; book.titleKey = searchKey(book.title);
