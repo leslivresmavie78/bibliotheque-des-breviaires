@@ -1,12 +1,12 @@
 # Couvertures du catalogue
 
-Les 1 440 couvertures récupérées dans la sauvegarde Book Catalogue du 27-11-2026 sont conservées dans une archive découpée en segments de deux millions d’octets maximum à la racine du dépôt. Les 1 439 images distinctes sont identiques aux originaux triés ; deux fiches du même livre utilisent le même fichier. Les extensions reflètent le format réel : 1 431 JPEG, sept WebP et un PNG. Les quatre images du premier essai 2026 sont conservées. La recherche par années ajoute ensuite 206 couvertures vérifiées, pour 1 650 livres illustrés.
+Les 1 440 couvertures récupérées dans la sauvegarde Book Catalogue du 27-11-2026 sont conservées dans une archive découpée en segments de deux millions d’octets maximum à la racine du dépôt. Les 1 439 images distinctes sont identiques aux originaux triés ; deux fiches du même livre utilisent le même fichier. Les extensions reflètent le format réel : 1 431 JPEG, sept WebP et un PNG. Les quatre images du premier essai 2026 sont conservées. La recherche par années ajoute ensuite 271 couvertures vérifiées, pour 1 715 livres illustrés.
 
 `python3 scripts/build_covers.py` vérifie chaque segment, reconstitue l’archive, contrôle les noms, les empreintes, les tailles, les formats et les dimensions, puis prépare `dist/book-covers/`. Ce dossier est généré et n’est pas versionné. La publication GitHub Pages exécute cette préparation avant les contrôles et n’expose que `dist/`. Les segments respectent la limite observée lors du transfert des gros fichiers par l’interface GitHub ; ils ne sont pas téléchargés par les visiteurs du site.
 
 `dist/book-covers.json` associe chaque image à l’identifiant, au titre, à l’auteur, à l’ISBN et à la série du livre. Les couvertures récupérées ne dépendent pas de l’année de parution. Les images de l’essai restent réservées aux quatre parutions 2026 documentées. Les illustrations carrées et horizontales conservent leurs proportions dans le cadre compact existant.
 
-Les 1 771 fiches restantes restent sans image récupérée. L’archive de tri et sa liste à compléter sont conservées dans le suivi du projet, hors du dépôt public. Les nouveaux lots pourront suivre le même format ; ne pas réimporter un ancien catalogue pour ajouter une image.
+Les 1 706 fiches restantes restent sans image récupérée. L’archive de tri et sa liste à compléter sont conservées dans le suivi du projet, hors du dépôt public. Les nouveaux lots pourront suivre le même format ; ne pas réimporter un ancien catalogue pour ajouter une image.
 
 Cette intégration corrige aussi le titre public de la fiche 2388 en **Le Silence des étoiles**, déjà corrigé dans Export (26).csv et visible sur la couverture du livre. Les résumés, notes, avis, années et données de gestion ne sont pas réimportés pendant cette intervention.
 
@@ -45,3 +45,13 @@ Le lot 05 complète **les huit couvertures manquantes de la première page** : A
 Les sept JPEG et le WebP natif de Cher monstre conservent leurs octets d’origine. Ce dernier vient directement d’Albin Michel dans une définition de 798 × 800 pixels, plus nette que la petite vignette de libraire disponible et plus légère que l’image originale de très grande taille. Les couvertures carrées et horizontales gardent leurs proportions. Les deux ISBN à dix caractères d’Aller simple pour la joie et de Gatsby restent inchangés dans leurs fiches ; leur équivalent à treize chiffres identifie la couverture. The Deal conserve le tome 1 d’Off-Campus.
 
 Cet ajout porte uniquement sur les images : aucune modification du CSV public ou des sources, des notes, avis, résumés, premières parutions, communications, du club ou des listes personnelles. Aucun changement de présentation ou de programme n’est nécessaire ; l’inventaire des couvertures se charge déjà sans cache. Les contrôles existants sont étendus à ce lot de priorité accueil en plus des lots annuels.
+
+## Recherche 2019 puis 2018 — 27-11-2026
+
+Le lot 06 ajoute **65 couvertures** : **23 pour le repérage 2019 et 42 pour celui de 2018**. Le site compte **1 715 livres illustrés sur 3 421**. Les 65 fiches repérées sont complétées ; Kukum, auparavant réservé à sa première parution documentée de 2019, est repris. Les identités, pages sources, dimensions et éditions illustrées sont consignées dans `scripts/cover-research-2019-2018.json`. Le repérage utilise la première parution déjà documentée, sinon la date d’édition de la source, sans modifier les années affichées.
+
+Les contrôles visuels vérifient notamment les deux livres du Meurtre du Commandeur, Retour sur Aldébaran 2, La Venin 1, The Promised Neverland 1, Hungry Marie 1, les trois Kamo et T’choupi joue à cache-cache. Les images de remplacement génériques proposées pour Les Grandes Espérances et La barbe de Charlemagne sont écartées. Les autres éditions du même ouvrage restent autorisées ; l’ISBN de la fiche est conservé et celui de la couverture consigné séparément.
+
+T’choupi est identifié dans le catalogue par une référence OCLC. La validation des couvertures recherchées accepte désormais cette référence uniquement avec un ISBN à treize chiffres distinct pour l’édition illustrée. Les contrôles exacts du titre, de l’auteur, de l’identifiant, de la série, des sources HTTPS et de l’image locale demeurent obligatoires. Les imports du programme sont actualisés pour les navigateurs existants. Les images conservent leurs octets d’origine et leurs proportions.
+
+Aucun CSV, note, avis, résumé, genre, première parution, communication, élément du club ou liste personnelle n’est modifié. Les 24 livres de la première page restent illustrés. Les deux sources complètes du projet restent intactes. Les archives du lot 06 suivent la même reconstruction et les mêmes contrôles que les lots précédents.

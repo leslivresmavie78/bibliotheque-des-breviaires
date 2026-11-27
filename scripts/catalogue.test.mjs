@@ -104,9 +104,9 @@ test('Chaque lot annuel conserve ses sources et refuse les identités incomplèt
   }
 });
 
-test('Une autre édition conserve la fiche du catalogue, y compris avec un ISBN à dix caractères', () => {
+test('Une autre édition conserve la fiche du catalogue, avec un ISBN court ou une référence OCLC', () => {
   const data = JSON.parse(fs.readFileSync(new URL('../dist/book-covers.json', import.meta.url), 'utf8'));
-  for (const id of ['419', '450', '452', '574', '139', '2863']) {
+  for (const id of ['419', '450', '452', '574', '139', '2863', '1545', '2481']) {
     const row = rows.find(row => row._id === id), entry = data.books[id];
     assert.equal(coverFor(row, null, data), entry);
     assert.equal(entry.isbn, row.isbn);
@@ -119,6 +119,12 @@ test('Une autre édition conserve la fiche du catalogue, y compris avec un ISBN 
   assert.notEqual(data.books['450'].isbn, data.books['450'].cover_isbn);
   assert.equal(data.books['574'].source_type, 'institution');
   assert.equal(data.books['574'].source, 'https://www.normandielivre.fr/parutions-des-auteurs-en-normandie-10-de-fevrier-a-avril-2023/');
+  const row = rows.find(row => row._id === '2481'), entry = data.books['2481'];
+  assert.equal(entry.isbn, 'OCLC:670298309');
+  assert.equal(entry.cover_isbn, '9782092582060');
+  for (const cover_isbn of [undefined, '', 'autre']) {
+    assert.equal(coverFor(row, null, { ...data, books: { ...data.books, '2481': { ...entry, cover_isbn } } }), null);
+  }
 });
 
 test('Naissance, mois et singulier gardent leur libellé et rejoignent le filtre des tout-petits', () => {
