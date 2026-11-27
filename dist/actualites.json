@@ -1,6 +1,31 @@
 {
   "publications": [
     {
+      "id": "coup-de-coeur-dautres-printemps-2026-11-27",
+      "type": "coeur",
+      "title": "D’autres printemps — Virginie Grimaldi",
+      "summary": "90 ans, une fugue et direction la Toscane !",
+      "starts_at": "2026-11-27T00:00:00+01:00",
+      "ends_at": "2026-11-30T00:00:00+01:00",
+      "period": "Coup de cœur du 27 novembre 2026",
+      "body": "📚 LE COUP DE ❤️ DE LA BIBLIOTHÈQUE !\n\nD’AUTRES PRINTEMPS — Virginie Grimaldi\n\n90 ans, une fugue et direction la Toscane !\n\nLine veut quitter l’hôpital et compte sur sa petite-fille Flora pour l’emmener en Italie. Pourquoi ce village où personne ne lui connaît d’attaches ? Flora accepte le voyage… sans savoir quel secret sa grand-mère s’apprête à lui dévoiler.\n\nAvec Grimaldi, on commence à manquer de superlatifs… Celui-ci est magnifique ! Encore un coup de cœur, et surtout une furieuse envie de vous le faire lire pour qu’on puisse en parler ! ❤️\n\n👉 https://booknode.com/dautres_printemps_03695102\n\nÀ samedi, de 10 h à 12 h !",
+      "books": [
+        {
+          "id": "3523",
+          "title": "D’autres printemps",
+          "author": "Virginie Grimaldi"
+        }
+      ],
+      "images": [
+        {
+          "src": "./archive-wa-20261124-WA0000.jpg",
+          "alt": "Couverture de D’autres printemps de Virginie Grimaldi",
+          "width": 988,
+          "height": 1536
+        }
+      ]
+    },
+    {
       "id": "ernest-celestine-cinema-2026-11-26",
       "type": "alerte",
       "label": "Actualité",
