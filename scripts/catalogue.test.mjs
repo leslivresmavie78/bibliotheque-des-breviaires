@@ -11,7 +11,7 @@ const books = prepareBooks(rows);
 const metadata = JSON.parse(fs.readFileSync(new URL('../dist/catalogue-meta.json', import.meta.url), 'utf8'));
 const state = { q: '', author: '', genre: '', audience: '', age: '', rating: '', reviews: false, selection: false, sort: 'title' };
 const coverResearch = fs.readdirSync(new URL('.', import.meta.url))
-  .filter(name => /^cover-research-\d{4}-\d{4}\.json$/.test(name))
+  .filter(name => /^cover-research-(?:\d{4}-\d{4}|homepage)\.json$/.test(name))
   .map(name => JSON.parse(fs.readFileSync(new URL(`./${name}`, import.meta.url), 'utf8')));
 const researchedCovers = coverResearch.flatMap(research => research.books);
 

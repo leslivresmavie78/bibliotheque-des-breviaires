@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "recovered_books": 1440,
-  "unique_images": 1637,
+  "unique_images": 1645,
   "archives": [
     {
       "file": "book-covers-01.zip",
@@ -8448,7 +8448,61 @@
           "sha256": "b60c4098a12ddea89905670c2920362f503f5e25295bfeea86f7099534589e88"
         }
       ]
+    },
+    {
+      "file": "book-covers-05.zip",
+      "bytes": 898389,
+      "sha256": "ebe08342fe9a14d2a829666dbe8b390d98a3a073de3ae61f9d35655838fee2f9",
+      "images": {
+        "9b5d18c71e0fe617badaf3b7caea77a041fd35cedf220acbf73a6bdc834b9b93.jpg": {
+          "bytes": 112618,
+          "width": 800,
+          "height": 1311
+        },
+        "6fa4cb57870d56d7be053889119ff58c2f15ae1978a0acf04be0dad0b007d7af.jpg": {
+          "bytes": 92176,
+          "width": 945,
+          "height": 1400
+        },
+        "d07d1837b6b3ecddb62ef54ef39bada4098c37b860a294d8b099dd38f09ea5b4.webp": {
+          "bytes": 74030,
+          "width": 798,
+          "height": 800
+        },
+        "cd1aae584a05248685a82a52b3346359c31a3df7a548345166b3f71e55ea5276.jpg": {
+          "bytes": 82368,
+          "width": 600,
+          "height": 970
+        },
+        "508ce0a0eaf7e830a4a3b6d85507412d273d5f8187b4fb0a23d3e06f3bde445a.jpg": {
+          "bytes": 157886,
+          "width": 854,
+          "height": 1400
+        },
+        "dba9208d654a0a7de6bcdf0727ab09005077034653365ff13e5a740c62afe7a6.jpg": {
+          "bytes": 57499,
+          "width": 600,
+          "height": 492
+        },
+        "c16c08b203a2afdb65f5d839030b2c8885eef34db47889fba5d311fd9395d0d5.jpg": {
+          "bytes": 140459,
+          "width": 910,
+          "height": 1400
+        },
+        "abc736b1f398421d0648943913861748a38cdc5b319d4a0d6a3486943950a562.jpg": {
+          "bytes": 179633,
+          "width": 850,
+          "height": 1400
+        }
+      },
+      "parts": [
+        {
+          "file": "book-covers-05-001.part",
+          "bytes": 898389,
+          "sha256": "ebe08342fe9a14d2a829666dbe8b390d98a3a073de3ae61f9d35655838fee2f9"
+        }
+      ]
     }
   ],
-  "researched_books": 198
+  "researched_books": 206
 }
