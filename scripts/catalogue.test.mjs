@@ -11,14 +11,15 @@ const books = prepareBooks(rows);
 const metadata = JSON.parse(fs.readFileSync(new URL('../dist/catalogue-meta.json', import.meta.url), 'utf8'));
 const state = { q: '', author: '', genre: '', audience: '', age: '', rating: '', reviews: false, selection: false, sort: 'title' };
 
-test('Les 1 440 couvertures récupérées et les quatre couvertures de l’essai restent liées aux bonnes fiches', () => {
+test('Les couvertures récupérées et recherchées restent liées aux bonnes fiches et aux bons tomes', () => {
   const publications = JSON.parse(fs.readFileSync(new URL('../dist/publication-years.json', import.meta.url), 'utf8'));
   const covers = JSON.parse(fs.readFileSync(new URL('../dist/book-covers.json', import.meta.url), 'utf8'));
   const illustrated = prepareBooks(rows, publications, covers);
-  assert.equal(Object.keys(covers.books).length, 1444);
-  assert.equal(illustrated.filter(book => book.cover).length, 1444);
+  const research = JSON.parse(fs.readFileSync(new URL('./cover-research-2025-2024.json', import.meta.url), 'utf8'));
+  assert.equal(Object.keys(covers.books).length, 1444 + research.added_books);
+  assert.equal(illustrated.filter(book => book.cover).length, 1444 + research.added_books);
   assert.equal(illustrated.filter(book => book.cover?.source_type === 'bookcatalogue').length, 1440);
-  assert.equal(illustrated.filter(book => book.cover && book.cover.width >= book.cover.height).length, 28);
+  assert.equal(illustrated.filter(book => book.cover?.source_type === 'bookcatalogue' && book.cover.width >= book.cover.height).length, 28);
   for (const [id, entry] of Object.entries(covers.books)) {
     const row = rows.find(row => row._id === id);
     assert.ok(row);
@@ -28,9 +29,15 @@ test('Les 1 440 couvertures récupérées et les quatre couvertures de l’essai
     else if (entry.src.endsWith('.png')) assert.equal(bytes.subarray(0, 8).toString('hex'), '89504e470d0a1a0a');
     else assert.equal(bytes.subarray(8, 12).toString(), 'WEBP');
     assert.equal(createHash('sha256').update(bytes).digest('hex'), entry.sha256);
-    if (entry.source_type === 'bookcatalogue') {
+    if (entry.source_type) {
       assert.match(entry.src, new RegExp(`^book-covers/${entry.sha256}\\.(jpg|png|webp)$`));
       assert.equal(entry.series_details, row.series_details);
+      if (entry.source_type !== 'bookcatalogue') {
+        assert.ok(['publisher', 'bookseller'].includes(entry.source_type));
+        assert.equal(new URL(entry.source).protocol, 'https:');
+        assert.equal(new URL(entry.image_source).protocol, 'https:');
+        assert.ok([2024, 2025].includes(entry.research_year));
+      }
     } else {
       assert.equal(publicationFor(row, publications)?.year, 2026);
       assert.equal(new URL(entry.source).protocol, 'https:');
@@ -68,6 +75,23 @@ test('L’essai 2026 conserve ses quatre images et sa compatibilité avec l’an
     assert.equal(coverFor(row, 2026, { cohort_year: 2026, books: { [id]: entry } }), entry);
     assert.equal(coverFor(row, 2025, data), null);
   }
+});
+
+test('Les recherches 2025 et 2024 conservent leur source et refusent les identités incomplètes', () => {
+  const data = JSON.parse(fs.readFileSync(new URL('../dist/book-covers.json', import.meta.url), 'utf8'));
+  const research = JSON.parse(fs.readFileSync(new URL('./cover-research-2025-2024.json', import.meta.url), 'utf8'));
+  assert.equal(research.added_books, 61);
+  assert.deepEqual(research.added_by_research_year, { 2025: 29, 2024: 32 });
+  assert.equal(new Set(research.books.map(entry => entry._id)).size, 61);
+  for (const entry of research.books) {
+    const row = rows.find(row => row._id === entry._id);
+    assert.deepEqual(coverFor(row, null, data), data.books[entry._id]);
+    assert.deepEqual(coverFor(row, 1990, data), data.books[entry._id]);
+    for (const change of [{ source_type: 'unknown' }, { source: '' }, { image_source: 'http://image.site/couverture.jpg' }, { _id: undefined }, { series_details: undefined }, { width: 100 }, { src: entry.image_source }]) {
+      assert.equal(coverFor(row, null, { ...data, books: { [entry._id]: { ...entry, ...change } } }), null);
+    }
+  }
+  for (const entry of research.deferred) assert.equal(data.books[entry._id], undefined);
 });
 
 test('Naissance, mois et singulier gardent leur libellé et rejoignent le filtre des tout-petits', () => {
