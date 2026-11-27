@@ -224,8 +224,11 @@ export function publicationFor(row, data) {
 
 export function coverFor(row, publicationYear, data) {
   const entry = data?.books?.[row._id];
-  if (data?.cohort_year !== 2026 || publicationYear !== 2026 || !entry || entry.isbn !== row.isbn || entry.title !== row.title || entry.author_details !== row.author_details) return null;
-  if (!/^\d{13}$/.test(row.isbn) || entry.src !== `book-cover-${row.isbn}.jpg` || !Number.isInteger(entry.width) || !Number.isInteger(entry.height) || entry.width <= 0 || entry.height <= entry.width || entry.height > 4096) return null;
+  if (!entry || entry.isbn !== row.isbn || entry.title !== row.title || entry.author_details !== row.author_details || (entry._id !== undefined && entry._id !== row._id) || (entry.series_details !== undefined && entry.series_details !== row.series_details)) return null;
+  if (![entry.width, entry.height].every(value => Number.isInteger(value) && value > 0 && value <= 4096)) return null;
+  const recovered = data.schema_version === 2 && entry.source_type === 'bookcatalogue' && /^[a-f0-9]{64}$/.test(entry.sha256) && ['jpg', 'png', 'webp'].some(extension => entry.src === `book-covers/${entry.sha256}.${extension}`);
+  const trial = (data.schema_version === 2 || data.cohort_year === 2026) && entry.source_type !== 'bookcatalogue' && publicationYear === 2026 && /^\d{13}$/.test(row.isbn) && entry.src === `book-cover-${row.isbn}.jpg` && entry.height > entry.width;
+  if (!recovered && !trial) return null;
   return entry;
 }
 

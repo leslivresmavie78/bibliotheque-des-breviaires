@@ -1,5 +1,5 @@
-import { parseCSV, prepareBooks, normalize, filterBooks, searchCatalogue, awardOptions, LITERARY_AWARDS, FAMILIES, AUDIENCES, AGE_RANGES } from './catalogue-core.js?v=20261127-covers1';
-import { activeCriteria, withoutCriterion } from './ui-core.js?v=4';
+import { parseCSV, prepareBooks, normalize, filterBooks, searchCatalogue, awardOptions, LITERARY_AWARDS, FAMILIES, AUDIENCES, AGE_RANGES } from './catalogue-core.js?v=20261127-covers2';
+import { activeCriteria, withoutCriterion } from './ui-core.js?v=5';
 
 const $ = id => document.getElementById(id);
 const PAGE_SIZE = 24;

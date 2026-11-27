@@ -16,5 +16,15 @@
     "genre",
     "date_added",
     "literary_awards"
+  ],
+  "presentation_updated_on": "2026-11-27",
+  "presentation_changes": [
+    {
+      "book_id": "2388",
+      "field": "title",
+      "before": "Ma vie de banlieusarde",
+      "after": "Le Silence des étoiles",
+      "reason": "Titre corrigé dans Export (26).csv et visible sur sa couverture."
+    }
   ]
 }

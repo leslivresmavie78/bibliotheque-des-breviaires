@@ -1,4 +1,4 @@
-import { publicationMatches, externalLinkLabel } from './ui-core.js?v=4';
+import { publicationMatches, externalLinkLabel } from './ui-core.js?v=5';
 import { setClubView } from './club.js?v=2';
 
 const CATEGORY_LABELS = { theme: 'Thème', coeur: 'Coup de cœur', auteur: 'Focus auteur', alerte: 'Actualité', actualite: 'Actualité littéraire', nouveautes: 'Nouveautés', vie: 'Vie de la bibliothèque' };
