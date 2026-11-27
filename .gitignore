@@ -2,6 +2,7 @@ node_modules/
 .DS_Store
 *.tar.gz
 *.zip
+/dist/book-covers/
 __pycache__/
 source-privee/
 .openai/

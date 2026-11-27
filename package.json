@@ -3,7 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test scripts/catalogue.test.mjs",
+    "build:covers": "python3 scripts/build_covers.py",
+    "test": "python3 scripts/build_covers.py && node --test scripts/catalogue.test.mjs",
+    "test:covers": "python3 scripts/test_build_covers.py",
     "test:import": "python3 scripts/test_import_catalogue.py"
   }
 }
