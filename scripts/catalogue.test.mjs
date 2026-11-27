@@ -38,7 +38,7 @@ test('Les couvertures récupérées et recherchées restent liées aux bonnes fi
       assert.match(entry.src, new RegExp(`^book-covers/${entry.sha256}\\.(jpg|png|webp)$`));
       assert.equal(entry.series_details, row.series_details);
       if (entry.source_type !== 'bookcatalogue') {
-        assert.ok(['publisher', 'bookseller'].includes(entry.source_type));
+        assert.ok(['publisher', 'bookseller', 'institution'].includes(entry.source_type));
         assert.equal(new URL(entry.source).protocol, 'https:');
         assert.equal(new URL(entry.image_source).protocol, 'https:');
         assert.ok(researchedCovers.some(researched => researched._id === id && researched.research_year === entry.research_year && researched.sha256 === entry.sha256));
@@ -102,6 +102,23 @@ test('Chaque lot annuel conserve ses sources et refuse les identités incomplèt
       if (data.books[entry._id]) assert.ok(coverResearch.some(later => later !== batch && later.books.some(added => added._id === entry._id)));
     }
   }
+});
+
+test('Une autre édition conserve la fiche du catalogue, y compris avec un ISBN à dix caractères', () => {
+  const data = JSON.parse(fs.readFileSync(new URL('../dist/book-covers.json', import.meta.url), 'utf8'));
+  for (const id of ['419', '450', '452', '574', '139', '2863']) {
+    const row = rows.find(row => row._id === id), entry = data.books[id];
+    assert.equal(coverFor(row, null, data), entry);
+    assert.equal(entry.isbn, row.isbn);
+    for (const change of [{ title: 'Autre livre' }, { author_details: 'Autre auteur' }, { series_details: 'Autre tome (2)' }, { isbn: '9780000000002' }]) {
+      assert.equal(coverFor({ ...row, ...change }, null, data), null);
+    }
+  }
+  assert.match(data.books['419'].isbn, /^\d{9}X$/);
+  assert.equal(data.books['419'].cover_isbn, '9782253082132');
+  assert.notEqual(data.books['450'].isbn, data.books['450'].cover_isbn);
+  assert.equal(data.books['574'].source_type, 'institution');
+  assert.equal(data.books['574'].source, 'https://www.normandielivre.fr/parutions-des-auteurs-en-normandie-10-de-fevrier-a-avril-2023/');
 });
 
 test('Naissance, mois et singulier gardent leur libellé et rejoignent le filtre des tout-petits', () => {
