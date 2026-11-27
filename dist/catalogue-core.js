@@ -229,7 +229,8 @@ export function coverFor(row, publicationYear, data) {
   const localImage = data.schema_version === 2 && /^[a-f0-9]{64}$/.test(entry.sha256) && ['jpg', 'png', 'webp'].some(extension => entry.src === `book-covers/${entry.sha256}.${extension}`);
   const recovered = localImage && entry.source_type === 'bookcatalogue';
   let researched = false;
-  if (localImage && ['publisher', 'bookseller', 'institution'].includes(entry.source_type) && entry._id === row._id && entry.series_details === row.series_details && /^(?:\d{13}|\d{9}[\dXx])$/.test(row.isbn) && Math.min(entry.width, entry.height) >= 180 && Math.max(entry.width, entry.height) >= 280) {
+  const identifiedEdition = /^(?:\d{13}|\d{9}[\dXx])$/.test(row.isbn) || /^OCLC:\d+$/.test(row.isbn) && /^\d{13}$/.test(entry.cover_isbn);
+  if (localImage && ['publisher', 'bookseller', 'institution'].includes(entry.source_type) && entry._id === row._id && entry.series_details === row.series_details && identifiedEdition && Math.min(entry.width, entry.height) >= 180 && Math.max(entry.width, entry.height) >= 280) {
     try { researched = [entry.source, entry.image_source].every(source => new URL(source).protocol === 'https:'); } catch { /* An incomplete source does not provide a cover. */ }
   }
   const trial = (data.schema_version === 2 || data.cohort_year === 2026) && entry.source_type === undefined && publicationYear === 2026 && /^\d{13}$/.test(row.isbn) && entry.src === `book-cover-${row.isbn}.jpg` && entry.height > entry.width;
