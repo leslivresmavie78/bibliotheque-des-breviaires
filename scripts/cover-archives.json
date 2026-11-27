@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "recovered_books": 1440,
-  "unique_images": 1500,
+  "unique_images": 1581,
   "archives": [
     {
       "file": "book-covers-01.zip",
@@ -7700,7 +7700,446 @@
           "sha256": "67695e1f02df9f8a60e5d39c97902377e74f3bb85bed6f38fcc3ba9eaa04e1d6"
         }
       ]
+    },
+    {
+      "file": "book-covers-03.zip",
+      "bytes": 9850856,
+      "sha256": "c5fcef886e2e7e437d1d4be6c6e769e91c471799ddca3e3ec3126d9614eb04c0",
+      "images": {
+        "3c9dd2f49255f52567b877583d709d057d7ecb9ca1e4d7abf2cc86eda2c61301.jpg": {
+          "bytes": 332683,
+          "width": 1046,
+          "height": 1400
+        },
+        "a57af4b9fe48f46ed01d3c4fe809d3af4c23f073cace6173f8371c8c64365dac.jpg": {
+          "bytes": 91401,
+          "width": 956,
+          "height": 1400
+        },
+        "c1cd7a93c709f324a33776570a40023841e4340ab607eb34e0ca210e62ed67d3.jpg": {
+          "bytes": 79722,
+          "width": 489,
+          "height": 923
+        },
+        "7727c54bf6491136b3ecb06dc567590905feea3729fb86474442e7ef620f8d3b.jpg": {
+          "bytes": 58867,
+          "width": 400,
+          "height": 583
+        },
+        "e33fb80e09f7cc117829c13273a5d4852dabffbdc2b82aaf826354546eb45131.jpg": {
+          "bytes": 22414,
+          "width": 400,
+          "height": 596
+        },
+        "191eaf99d79264ffb566f595df3dd612d4c2f300070e019fd5eac9a9ceacb94b.jpg": {
+          "bytes": 36510,
+          "width": 400,
+          "height": 628
+        },
+        "dbeaa4a8699b539b444d65394f9fc88f9ed3ff6788959f9a30f7e542c8f773bf.jpg": {
+          "bytes": 53884,
+          "width": 400,
+          "height": 643
+        },
+        "ddcdd23c5e061244c9061a6f1847fee9c7b3cded4be06e72cc39041da2bb57a1.jpg": {
+          "bytes": 71669,
+          "width": 965,
+          "height": 1400
+        },
+        "da7e63e0bad64709018172237ef46d5fd72808af8ad4a9f6daa34af6712cda31.jpg": {
+          "bytes": 102044,
+          "width": 800,
+          "height": 1285
+        },
+        "f6908cc30327f5ee192706daf59a196be234c77f9c0936b90c85b125e802ff5f.jpg": {
+          "bytes": 64910,
+          "width": 400,
+          "height": 623
+        },
+        "26c4e35feda436c47c31d99b99ec61b89e1b9847d90ce4a85ccbf90d83d5602f.jpg": {
+          "bytes": 116058,
+          "width": 1058,
+          "height": 1400
+        },
+        "16523db4098989277aff30ba45820fbe684c6ac31429737299f10649f374da91.jpg": {
+          "bytes": 166509,
+          "width": 955,
+          "height": 1400
+        },
+        "07e83c9af504d6e51c981aa749c473cffe9a84cc40f51bdc38839a4b74db3cca.jpg": {
+          "bytes": 70237,
+          "width": 636,
+          "height": 1050
+        },
+        "aa5db46d9aeb148446e7fb890fb1222f2600eda08b29aefd043c298275506c1a.jpg": {
+          "bytes": 172897,
+          "width": 856,
+          "height": 1299
+        },
+        "ad219ba8bdc7ca7a87cda7168ed5834dac016afd8a3dab80bcadee2cae967631.jpg": {
+          "bytes": 236482,
+          "width": 800,
+          "height": 1311
+        },
+        "a5de99a7045ddd670599c86013b2c27eb46d75d4572620f39e501b50983bb333.jpg": {
+          "bytes": 56630,
+          "width": 400,
+          "height": 628
+        },
+        "9b1fc36e72d244282502e2f24fb4cb4116470c04d5422eb00db2dcac34f22b06.jpg": {
+          "bytes": 147614,
+          "width": 956,
+          "height": 1400
+        },
+        "85fa163750219fef3956fe16cca4b72290e8bc5fbdbb41a25f201e37af61bd06.jpg": {
+          "bytes": 71218,
+          "width": 546,
+          "height": 800
+        },
+        "a869e457aaf4b31c86f7be1fc4b973b9d61a37a099ef0e1437fdddaf9718fc78.jpg": {
+          "bytes": 58138,
+          "width": 400,
+          "height": 600
+        },
+        "7d3a3d6104b07d084cba2cdd020acd87bf47039799c7fd495ac27df0d7ab1dfb.jpg": {
+          "bytes": 32815,
+          "width": 400,
+          "height": 552
+        },
+        "64feb5ef18b5c016ccfee4f7608f8ca52273bbc63806c06a231926173c1c5d33.jpg": {
+          "bytes": 120849,
+          "width": 956,
+          "height": 1400
+        },
+        "7b2ad5310a64b0ad59122c5068e6f1834133223961ffdf1f801d0f2606c18deb.jpg": {
+          "bytes": 129204,
+          "width": 912,
+          "height": 1400
+        },
+        "af4902ab4778fd7440b182afc146891b910a96cec9f03a7b60866cd881baf7e2.jpg": {
+          "bytes": 185367,
+          "width": 872,
+          "height": 1400
+        },
+        "d73bc6f9327098d8ddb72f52649c8845af3278b09a8d73108d44e142a79c4235.jpg": {
+          "bytes": 26618,
+          "width": 400,
+          "height": 607
+        },
+        "d99f380ca9a65ef479839fa4d036587e32a71dbf45d18a2a3c6b31b1fec0882f.jpg": {
+          "bytes": 24327,
+          "width": 361,
+          "height": 500
+        },
+        "a6c6e43e97894eef92043262350f4e0c8280a4c284a3d01ea73c83d137811c95.jpg": {
+          "bytes": 151697,
+          "width": 1050,
+          "height": 1400
+        },
+        "ccddfed5652f786e7b999c8dc7be88e3516de830aa6d9b2f506af54bbef3e97e.jpg": {
+          "bytes": 158430,
+          "width": 650,
+          "height": 1051
+        },
+        "4799a7acf0902c30024285f4b0ed3c9a2757b546bd767acbceea3ca624b2ef37.jpg": {
+          "bytes": 196447,
+          "width": 870,
+          "height": 1400
+        },
+        "d3d144a3126654a84a5b74989069b926cffded2feab46c056f9771008b274b19.jpg": {
+          "bytes": 200638,
+          "width": 862,
+          "height": 1400
+        },
+        "eac31060a7a6dd16c4792f57d467e6138b2d512d791bbeb7199ed3597d083fc1.jpg": {
+          "bytes": 231955,
+          "width": 981,
+          "height": 1400
+        },
+        "06deddc03a862ff9c07940c6b9048c6344a25accf00e4fa13661ae0d4565763a.jpg": {
+          "bytes": 165016,
+          "width": 945,
+          "height": 1400
+        },
+        "011fffadcfb42285b081b42bb913b96195e864f4ee3d086f50a98e675569596f.jpg": {
+          "bytes": 203818,
+          "width": 1050,
+          "height": 1400
+        },
+        "d8afe580ee9725ba51ca0b9336f520e6419c33eea6c0e6f8105ccb3da783a6d6.jpg": {
+          "bytes": 41820,
+          "width": 400,
+          "height": 655
+        },
+        "718e407f735ce5475dd866b132fdb6cb9c018c1d2dec7213e7ec5f80ced99493.jpg": {
+          "bytes": 107141,
+          "width": 865,
+          "height": 1400
+        },
+        "9a6ae8a5381f5bcd3a018ca44bd796ba0d52df4f9fcc37a6832e3ef7f75e2d49.jpg": {
+          "bytes": 87852,
+          "width": 888,
+          "height": 1400
+        },
+        "b26b9ca0857b7aff4b4903c76e478450990438161970124e187c3efef059d207.jpg": {
+          "bytes": 172399,
+          "width": 871,
+          "height": 1400
+        },
+        "0cb305bb58e4b9d0ce71f1d1cd2f599bddf699d3fb26d23fdc2a2432bf591ae5.jpg": {
+          "bytes": 141190,
+          "width": 865,
+          "height": 1400
+        },
+        "a2dbff4080a224874d4041cdcc804b000f966b63c6207ffd5e9367693a9e479e.jpg": {
+          "bytes": 182456,
+          "width": 650,
+          "height": 1051
+        },
+        "e26b2a73bbb168132cee159d9685fd96309ca0c3f5af54e26258fe374c23bbbb.jpg": {
+          "bytes": 107161,
+          "width": 650,
+          "height": 1051
+        },
+        "9b48ccf40b094eefd22d4ae9e40ef498b85a2c1d9f208c02f885cf8e5583ef64.jpg": {
+          "bytes": 105420,
+          "width": 800,
+          "height": 1271
+        },
+        "7d5e271d710fc8d67645de2811b8eb2d3f46f882d55606d29d561332fc4d38a6.jpg": {
+          "bytes": 265322,
+          "width": 980,
+          "height": 1400
+        },
+        "76c1616b14ff0d1372f7196b18108fcec3a00af1340f4d31342606aed8b86e56.jpg": {
+          "bytes": 98672,
+          "width": 650,
+          "height": 1051
+        },
+        "12a958d15297703809ac300223ab2a08da617dfce33cdba3733ff42342799d03.jpg": {
+          "bytes": 114715,
+          "width": 733,
+          "height": 1051
+        },
+        "9c5b5a18acbd41be9cc52dd5634e3d2d4a3d1ce5fa20fe6d225ac08d535fb9f6.jpg": {
+          "bytes": 177941,
+          "width": 865,
+          "height": 1400
+        },
+        "160229b79e700113783d37cf0fb880ae8c477b368a58aba89447f99bdde1d2a0.jpg": {
+          "bytes": 93983,
+          "width": 945,
+          "height": 1400
+        },
+        "8b567c52e8d4f0c61652bd831343fd2472e4cfbd2c0c4e4b885b03835b87ad2c.jpg": {
+          "bytes": 138013,
+          "width": 956,
+          "height": 1400
+        },
+        "263d8e41cf49794b6fd3af387234049324f1aaf1ab6ffb3b26f2048974717ec7.jpg": {
+          "bytes": 210694,
+          "width": 865,
+          "height": 1400
+        },
+        "3c2da90cf037e75eb3b82466fb2e959fc5d3bcb1beb8cb4bbec122785748345f.jpg": {
+          "bytes": 51072,
+          "width": 400,
+          "height": 622
+        },
+        "0ecdc349f5774c230e61399ea6a5ea8447e45d53d5ee190677df10143124f7d3.jpg": {
+          "bytes": 187033,
+          "width": 963,
+          "height": 1400
+        },
+        "7cbf9d0f8051b6855165d9d06b26122f8325963d77f83fbe3188fcd809480687.jpg": {
+          "bytes": 25331,
+          "width": 400,
+          "height": 580
+        },
+        "f95246691905e47205825039d67c9b066754adfc0d32f9131eb53d0a851feb40.jpg": {
+          "bytes": 198057,
+          "width": 956,
+          "height": 1400
+        },
+        "243ad27742cb0fe253599634b4e1d3fb05b603b8576c36b2ab2db50c5b636566.jpg": {
+          "bytes": 119472,
+          "width": 524,
+          "height": 800
+        },
+        "5f802eaebc146710e1ea3a75f8abab959c3f51d37675ed5eb4db3fc65225f3f1.jpg": {
+          "bytes": 328170,
+          "width": 934,
+          "height": 1400
+        },
+        "707915e5c44afccc9868a23f10669ef997c29947d8f980d34175fade34eb0c0b.jpg": {
+          "bytes": 111669,
+          "width": 882,
+          "height": 1400
+        },
+        "26f23b2e763f317b1e8ccb535fd54e13be540327733cf3cc47de31ecd0144a72.jpg": {
+          "bytes": 55012,
+          "width": 546,
+          "height": 800
+        },
+        "a3b61f7ba3cd57be70127ae992cbba506f521b8e360b6a70b1ca624a2ad1f9a4.jpg": {
+          "bytes": 231407,
+          "width": 1097,
+          "height": 1400
+        },
+        "9ac45f399e6bfec7725ca63c8ef03a564d8099c47be5ab86baf880152087a991.jpg": {
+          "bytes": 130312,
+          "width": 856,
+          "height": 1299
+        },
+        "5b1c41dda60c4edcb5663134d06dda6c76edcf64ccfba495abbccc479bd18cf3.jpg": {
+          "bytes": 9031,
+          "width": 317,
+          "height": 500
+        },
+        "74b55bdac9c604005edfcabb2eca8482574005dc24f8ae419a6fa14625ced2bd.jpg": {
+          "bytes": 47858,
+          "width": 400,
+          "height": 628
+        },
+        "54b707c880df05b11d289483810cefa402e9b7ed27749892f5307863aa7f71a3.jpg": {
+          "bytes": 42174,
+          "width": 547,
+          "height": 800
+        },
+        "811e2b90d46a0b3a070848eeb25ec1b2fd0a200c4b12801703578898ebe0c623.jpg": {
+          "bytes": 69734,
+          "width": 400,
+          "height": 643
+        },
+        "b2fcc0236059433c905232dea27f31e02f6963b314d264611b327aafc5f6d345.jpg": {
+          "bytes": 122035,
+          "width": 823,
+          "height": 1207
+        },
+        "fc4d7db25c6d7089ebd137ada52641fa5b4d88579e26d3e370e175c9fdabe217.jpg": {
+          "bytes": 114095,
+          "width": 797,
+          "height": 1240
+        },
+        "2624ac32e8022efec6f760fb625d3ff57c6884247a3a86ac31f5194728b00039.jpg": {
+          "bytes": 37380,
+          "width": 400,
+          "height": 643
+        },
+        "b180c721e58c6206d79d4bdae992475c7c05ab249bc82ea81b319baf4c7f0bab.jpg": {
+          "bytes": 142626,
+          "width": 987,
+          "height": 1400
+        },
+        "d702b426665b2e29df66959a5df71f3c9c923fe61d0dadfed8322c30fd651eef.jpg": {
+          "bytes": 110559,
+          "width": 952,
+          "height": 1400
+        },
+        "f5f55ed8a271bce3f36550f6d802de29c79eea2b45acaede9079f889e1827364.jpg": {
+          "bytes": 125777,
+          "width": 959,
+          "height": 1400
+        },
+        "deda44c78a3dafe064d0cc245710c05ca1722c2fd5dd8b1a54474e2403f49155.jpg": {
+          "bytes": 229240,
+          "width": 856,
+          "height": 1299
+        },
+        "7deb4617b4c38fe155bdc94dd31cfd9d5d5295e2d7e6d7aa5e4cbc1ab7fe8c19.jpg": {
+          "bytes": 144903,
+          "width": 650,
+          "height": 1051
+        },
+        "c42dac70930e1880b458048b00371f55dc660db511d0f7fbabc1b2522064ad7d.jpg": {
+          "bytes": 99434,
+          "width": 598,
+          "height": 800
+        },
+        "5fba20cb598464085987dfd2eb3f94748373b4465cebfe05ed68cf0fc6b8abab.jpg": {
+          "bytes": 81379,
+          "width": 800,
+          "height": 800
+        },
+        "8a0a3615daa752bba2b2e45c73ded8f44a4eb84cec5b80487248df68cd611de0.jpg": {
+          "bytes": 53267,
+          "width": 800,
+          "height": 801
+        },
+        "8b680eb47097e68202284cfaaa0d121c7c971c8a5d1dfb331e6b47339d9e889f.jpg": {
+          "bytes": 102755,
+          "width": 530,
+          "height": 800
+        },
+        "ceecddbbf8ee0ce9634b31e946f36eb8944539c42a8050133ad9e66c8332e903.jpg": {
+          "bytes": 148470,
+          "width": 865,
+          "height": 1400
+        },
+        "37c7f26c709553b523050c092bed5a2c44f12cd94d17d679848f5ce6ba0b258c.jpg": {
+          "bytes": 117274,
+          "width": 933,
+          "height": 1400
+        },
+        "4c114f343e24044b208110ffbee510c440aecb5837cacc5488f9a16c89e9d32d.jpg": {
+          "bytes": 137292,
+          "width": 865,
+          "height": 1400
+        },
+        "8d17c1e5f1623905a98c5bd84c79ed420dc2b69f86c830d1fe8223ea8dc7662b.jpg": {
+          "bytes": 325291,
+          "width": 933,
+          "height": 1400
+        },
+        "69dc782c30ee477aebdf8395d61f3fb934d499914b217d41c2e12a3a1437ae20.jpg": {
+          "bytes": 82067,
+          "width": 910,
+          "height": 1400
+        },
+        "ce8d5bc75cbffa30dfe9bd81ce44f333327c482f8e6cf5aecea1c5a018a50fb1.jpg": {
+          "bytes": 50064,
+          "width": 485,
+          "height": 800
+        },
+        "dc34f2070b9ce62f208becc48baed7d18e63381aae01445e764b92952fbe0b40.jpg": {
+          "bytes": 34623,
+          "width": 400,
+          "height": 622
+        },
+        "c590ecba48fd0a34365cac49615544296ad5d322e01828b0099e19e80bf7bb7e.jpg": {
+          "bytes": 86952,
+          "width": 865,
+          "height": 1400
+        }
+      },
+      "parts": [
+        {
+          "file": "book-covers-03-001.part",
+          "bytes": 2000000,
+          "sha256": "8a9f2335a2cf375a3482d1ada78592d82708d8074327442a260f96f5ab446e56"
+        },
+        {
+          "file": "book-covers-03-002.part",
+          "bytes": 2000000,
+          "sha256": "e5b116a7e41472411e819426ac805e8982ec1d3bdd472fbbfbcb2638894365be"
+        },
+        {
+          "file": "book-covers-03-003.part",
+          "bytes": 2000000,
+          "sha256": "69424063eab3cafa2ceac167d785cbcde736b9008749792c59111abde2d7ef71"
+        },
+        {
+          "file": "book-covers-03-004.part",
+          "bytes": 2000000,
+          "sha256": "7c817cd4798b3245085af12b66999e98b862c9f9178584768c948dc551a49610"
+        },
+        {
+          "file": "book-covers-03-005.part",
+          "bytes": 1850856,
+          "sha256": "22032bd3fac52f8bc39a9df4352cd6a8d63c39fad84c1c4820bd480cd1ca1a02"
+        }
+      ]
     }
   ],
-  "researched_books": 61
+  "researched_books": 142
 }
