@@ -11,7 +11,7 @@ const books = prepareBooks(rows);
 const metadata = JSON.parse(fs.readFileSync(new URL('../dist/catalogue-meta.json', import.meta.url), 'utf8'));
 const state = { q: '', author: '', genre: '', audience: '', age: '', rating: '', reviews: false, selection: false, sort: 'title' };
 const coverResearch = fs.readdirSync(new URL('.', import.meta.url))
-  .filter(name => /^cover-research-(?:\d{4}-\d{4}|homepage)\.json$/.test(name))
+  .filter(name => /^cover-research-(?:\d{4}(?:-\d{4})?|homepage)\.json$/.test(name))
   .map(name => JSON.parse(fs.readFileSync(new URL(`./${name}`, import.meta.url), 'utf8')));
 const researchedCovers = coverResearch.flatMap(research => research.books);
 
@@ -104,9 +104,9 @@ test('Chaque lot annuel conserve ses sources et refuse les identités incomplèt
   }
 });
 
-test('Une autre édition conserve la fiche du catalogue, avec un ISBN court ou une référence OCLC', () => {
+test('Une autre édition conserve la fiche du catalogue, avec un ISBN court, une référence OCLC ou sans ISBN de catalogue', () => {
   const data = JSON.parse(fs.readFileSync(new URL('../dist/book-covers.json', import.meta.url), 'utf8'));
-  for (const id of ['419', '450', '452', '574', '139', '2863', '1545', '2481']) {
+  for (const id of ['419', '450', '452', '574', '139', '2863', '1545', '2481', '1690']) {
     const row = rows.find(row => row._id === id), entry = data.books[id];
     assert.equal(coverFor(row, null, data), entry);
     assert.equal(entry.isbn, row.isbn);
@@ -119,11 +119,14 @@ test('Une autre édition conserve la fiche du catalogue, avec un ISBN court ou u
   assert.notEqual(data.books['450'].isbn, data.books['450'].cover_isbn);
   assert.equal(data.books['574'].source_type, 'institution');
   assert.equal(data.books['574'].source, 'https://www.normandielivre.fr/parutions-des-auteurs-en-normandie-10-de-fevrier-a-avril-2023/');
-  const row = rows.find(row => row._id === '2481'), entry = data.books['2481'];
-  assert.equal(entry.isbn, 'OCLC:670298309');
-  assert.equal(entry.cover_isbn, '9782092582060');
-  for (const cover_isbn of [undefined, '', 'autre']) {
-    assert.equal(coverFor(row, null, { ...data, books: { ...data.books, '2481': { ...entry, cover_isbn } } }), null);
+  assert.equal(data.books['2481'].isbn, 'OCLC:670298309');
+  assert.equal(data.books['1690'].isbn, '');
+  for (const [id, isbn] of [['2481', '9782092582060'], ['1690', '9782262026905']]) {
+    const row = rows.find(row => row._id === id), entry = data.books[id];
+    assert.equal(entry.cover_isbn, isbn);
+    for (const cover_isbn of [undefined, '', 'autre']) {
+      assert.equal(coverFor(row, null, { ...data, books: { ...data.books, [id]: { ...entry, cover_isbn } } }), null);
+    }
   }
 });
 
