@@ -226,9 +226,14 @@ export function coverFor(row, publicationYear, data) {
   const entry = data?.books?.[row._id];
   if (!entry || entry.isbn !== row.isbn || entry.title !== row.title || entry.author_details !== row.author_details || (entry._id !== undefined && entry._id !== row._id) || (entry.series_details !== undefined && entry.series_details !== row.series_details)) return null;
   if (![entry.width, entry.height].every(value => Number.isInteger(value) && value > 0 && value <= 4096)) return null;
-  const recovered = data.schema_version === 2 && entry.source_type === 'bookcatalogue' && /^[a-f0-9]{64}$/.test(entry.sha256) && ['jpg', 'png', 'webp'].some(extension => entry.src === `book-covers/${entry.sha256}.${extension}`);
-  const trial = (data.schema_version === 2 || data.cohort_year === 2026) && entry.source_type !== 'bookcatalogue' && publicationYear === 2026 && /^\d{13}$/.test(row.isbn) && entry.src === `book-cover-${row.isbn}.jpg` && entry.height > entry.width;
-  if (!recovered && !trial) return null;
+  const localImage = data.schema_version === 2 && /^[a-f0-9]{64}$/.test(entry.sha256) && ['jpg', 'png', 'webp'].some(extension => entry.src === `book-covers/${entry.sha256}.${extension}`);
+  const recovered = localImage && entry.source_type === 'bookcatalogue';
+  let researched = false;
+  if (localImage && ['publisher', 'bookseller'].includes(entry.source_type) && entry._id === row._id && entry.series_details === row.series_details && /^\d{13}$/.test(row.isbn) && Math.min(entry.width, entry.height) >= 180 && Math.max(entry.width, entry.height) >= 280) {
+    try { researched = [entry.source, entry.image_source].every(source => new URL(source).protocol === 'https:'); } catch { /* An incomplete source does not provide a cover. */ }
+  }
+  const trial = (data.schema_version === 2 || data.cohort_year === 2026) && entry.source_type === undefined && publicationYear === 2026 && /^\d{13}$/.test(row.isbn) && entry.src === `book-cover-${row.isbn}.jpg` && entry.height > entry.width;
+  if (!recovered && !researched && !trial) return null;
   return entry;
 }
 

@@ -690,6 +690,22 @@
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
     },
+    "79": {
+      "_id": "79",
+      "isbn": "9782702452769",
+      "title": "34 m2",
+      "author_details": "Mey, Louise",
+      "series_details": "",
+      "width": 316,
+      "height": 500,
+      "sha256": "f89c574041f1a9a02bf4ea252d0bb9716c3d04bb4682da907530e29f79058d7d",
+      "source": "https://www.editions-jclattes.fr/livre/34m2-9782702452769/",
+      "image_source": "https://media.hachette.fr/fit-in/500x500/imgArticle/MASQUELCE/2025/9782702452769-001-X.jpeg?source=web&v=da2450cb1c8e9b5208229945f713b665",
+      "src": "book-covers/f89c574041f1a9a02bf4ea252d0bb9716c3d04bb4682da907530e29f79058d7d.jpg",
+      "source_type": "publisher",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
+    },
     "80": {
       "_id": "80",
       "isbn": "9782749185705",
@@ -728,6 +744,22 @@
       "sha256": "e9d030837de765c2d35b2c494a87384298eb1a9aa8ab78e50ec693ef47546c79",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "85": {
+      "_id": "85",
+      "isbn": "9782408059026",
+      "title": "Il était une fois un monde sauvage",
+      "author_details": "Hawkins, Emily",
+      "series_details": "",
+      "width": 1197,
+      "height": 1400,
+      "sha256": "9ef1ba4a657ce338a72fe01918792e2e96fe15be3ff3565f48bde593e8c8b760",
+      "source": "https://www.eyrolles.com/BD-Jeunesse/Livre/il-etait-une-fois-un-monde-sauvage-9782408059026/",
+      "image_source": "https://servimg.eyrolles.com/static/media/9026/9782408059026_internet_h1400.jpg",
+      "src": "book-covers/9ef1ba4a657ce338a72fe01918792e2e96fe15be3ff3565f48bde593e8c8b760.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
     },
     "86": {
       "_id": "86",
@@ -768,6 +800,22 @@
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
     },
+    "90": {
+      "_id": "90",
+      "isbn": "9782385295202",
+      "title": "Au train où va la vie",
+      "author_details": "Kafka, Cynthia",
+      "series_details": "",
+      "width": 863,
+      "height": 1400,
+      "sha256": "ec34a3057ddc73c139308cb12f0fe7612da966736b9a94177a44f9835b3e0118",
+      "source": "https://www.eyrolles.com/Litterature/Livre/au-train-ou-va-la-vie-9782385295202/",
+      "image_source": "https://servimg.eyrolles.com/static/media/5202/9782385295202_internet_h1400.jpg",
+      "src": "book-covers/ec34a3057ddc73c139308cb12f0fe7612da966736b9a94177a44f9835b3e0118.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
+    },
     "92": {
       "_id": "92",
       "isbn": "9782290417423",
@@ -781,6 +829,38 @@
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
     },
+    "93": {
+      "_id": "93",
+      "isbn": "9782373058482",
+      "title": "Les Promesses orphelines",
+      "author_details": "Marchand, Gilles",
+      "series_details": "",
+      "width": 1654,
+      "height": 2421,
+      "sha256": "5674dc33237f7f2c2c31c8d702fd00e1879abacee39e970d94831d3fc4ac641a",
+      "source": "https://auxforgesdevulcain.fr/a/gilles-marchand/les-promesses-orphelines",
+      "image_source": "https://images.weserv.nl/?url=https%3A%2F%2Fauxforgesdevulcain.fr%2Fimages%2Farticles%2F85307%2Fcover.jpg",
+      "src": "book-covers/5674dc33237f7f2c2c31c8d702fd00e1879abacee39e970d94831d3fc4ac641a.jpg",
+      "source_type": "publisher",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
+    },
+    "95": {
+      "_id": "95",
+      "isbn": "9782246831662",
+      "title": "Je voulais vivre",
+      "author_details": "Clermont-Tonnerre, Adélaïde de",
+      "series_details": "",
+      "width": 334,
+      "height": 500,
+      "sha256": "5bdfecaae1bba1d16e6a82de3650684d3d2ac7d038d1ecc6979627af9cc60835",
+      "source": "https://www.grasset.fr/livre/je-voulais-vivre-9782246831662/",
+      "image_source": "https://media.hachette.fr/fit-in/500x500/imgArticle/GRASSETFASQUELLE/2025/9782246831662-001-X.jpeg?source=web&v=685fffce1831566c01c89af747a45b7e",
+      "src": "book-covers/5bdfecaae1bba1d16e6a82de3650684d3d2ac7d038d1ecc6979627af9cc60835.jpg",
+      "source_type": "publisher",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
+    },
     "96": {
       "_id": "96",
       "isbn": "9782330206406",
@@ -793,6 +873,22 @@
       "sha256": "4820c987fa7a73ad83451ce72f0ee63c773a378740399f9dad8c0afe949aec48",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "97": {
+      "_id": "97",
+      "isbn": "9782226465740",
+      "title": "Entre toutes",
+      "author_details": "Bouysse, Franck",
+      "series_details": "",
+      "width": 957,
+      "height": 1400,
+      "sha256": "f1c1e35ba1ef743337afebe9b1dd963dc37c80cf2a8ad48ffaa1b62fe3efaedd",
+      "source": "https://www.eyrolles.com/Litterature/Livre/entre-toutes-9782226465740/",
+      "image_source": "https://servimg.eyrolles.com/static/media/5740/9782226465740_internet_h1400.jpg",
+      "src": "book-covers/f1c1e35ba1ef743337afebe9b1dd963dc37c80cf2a8ad48ffaa1b62fe3efaedd.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
     },
     "99": {
       "isbn": "9782073113252",
@@ -841,6 +937,22 @@
       "sha256": "f8e51a6446e48834d5ea756411e1cb06204c8dddf7282e85f13ced2cc26ce280",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "106": {
+      "_id": "106",
+      "isbn": "9782258212299",
+      "title": "Les Ombres du monde",
+      "author_details": "Bussi, Michel",
+      "series_details": "",
+      "width": 800,
+      "height": 1285,
+      "sha256": "7e858a14681ea9936e155e50ecf1a1eabcb44616ae20043d9e9b5466bae3c113",
+      "source": "https://www.eyrolles.com/Litterature/Livre/les-ombres-du-monde-9782258212299/",
+      "image_source": "https://servimg.eyrolles.com/static/media/2299/9782258212299_internet_h1400.jpg",
+      "src": "book-covers/7e858a14681ea9936e155e50ecf1a1eabcb44616ae20043d9e9b5466bae3c113.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
     },
     "107": {
       "_id": "107",
@@ -894,6 +1006,38 @@
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
     },
+    "112": {
+      "_id": "112",
+      "isbn": "9782211339889",
+      "title": "Les Wouf !",
+      "author_details": "Chan, Elodie|Martinez, Anthony",
+      "series_details": "",
+      "width": 395,
+      "height": 600,
+      "sha256": "dda7243f4ea35f31654c6d971590c8c6f4c7bc8940487d67e27d684e8475c4d3",
+      "source": "https://www.eyrolles.com/BD-Jeunesse/Livre/les-wouf--9782211339889/",
+      "image_source": "https://servimg.eyrolles.com/static/media/9889/9782211339889_internet_h1400.jpg",
+      "src": "book-covers/dda7243f4ea35f31654c6d971590c8c6f4c7bc8940487d67e27d684e8475c4d3.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
+    },
+    "113": {
+      "_id": "113",
+      "isbn": "9782036072077",
+      "title": "Tu es le héros du jeu vidéo",
+      "author_details": "Balpe, Anne-Gae͏̈lle",
+      "series_details": "",
+      "width": 346,
+      "height": 500,
+      "sha256": "254b4fd00a98daf5c576738d78890e52d389742286b3e88624f0fb0165549451",
+      "source": "https://www.editions-larousse.fr/livre/tu-es-le-heros-du-jeu-video-9782036072077/",
+      "image_source": "https://media.hachette.fr/fit-in/500x500/imgArticle/LAROUSSE/2025/9782036072077-001-X.jpeg?source=web&v=ad992eb7dca72bd6cefd69f5891ea6d9",
+      "src": "book-covers/254b4fd00a98daf5c576738d78890e52d389742286b3e88624f0fb0165549451.jpg",
+      "source_type": "publisher",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
+    },
     "117": {
       "_id": "117",
       "isbn": "9782809493139",
@@ -906,6 +1050,22 @@
       "sha256": "2de15177c787f69f846e9747bdcc6780f8c6160998225e222e547925dcfceb79",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "119": {
+      "_id": "119",
+      "isbn": "9782226499790",
+      "title": "La petite fille aux allumettes",
+      "author_details": "Andersen, Hans Christian|Lacombe, Benjamin",
+      "series_details": "",
+      "width": 250,
+      "height": 350,
+      "sha256": "d0d937324a4750360c3bc9c86cdc599f0ddac878a84460d797283da66fd3dd85",
+      "source": "https://www.eyrolles.com/BD-Jeunesse/Livre/la-petite-fille-aux-allumettes-9782226499790/",
+      "image_source": "https://servimg.eyrolles.com/static/media/9790/9782226499790_internet_h1400.jpg",
+      "src": "book-covers/d0d937324a4750360c3bc9c86cdc599f0ddac878a84460d797283da66fd3dd85.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
     },
     "121": {
       "_id": "121",
@@ -1011,6 +1171,23 @@
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
     },
+    "130": {
+      "_id": "130",
+      "isbn": "9782371049628",
+      "title": "Les super héroïnes de l’histoire en BD",
+      "author_details": "Sadoué, Mathilde|Fremont, Jeanne|Wennagel, Bruno|Ferret, Mathieu",
+      "series_details": "",
+      "width": 600,
+      "height": 831,
+      "sha256": "1094b948ebe10dbd6e538f62a61e67d9e8549494cb758d4611010b84139e7f1c",
+      "source": "https://www.quellehistoire.com/produit/les-super-heroines-de-l-histoire/",
+      "image_source": "https://static.bdbase.fr/images/books/15/couvertures/321415.webp",
+      "src": "book-covers/1094b948ebe10dbd6e538f62a61e67d9e8549494cb758d4611010b84139e7f1c.webp",
+      "source_type": "publisher",
+      "checked_on": "2026-11-27",
+      "research_year": 2024,
+      "reference": "https://www.bdbase.fr/bd/les-super-heroines-de-l-histoire-en-bd"
+    },
     "131": {
       "_id": "131",
       "isbn": "9782818934029",
@@ -1024,6 +1201,22 @@
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
     },
+    "132": {
+      "_id": "132",
+      "isbn": "9782244432168",
+      "title": "Aventuriers d’un jour",
+      "author_details": "Bertron-Martin, Agnès|Boos, André",
+      "series_details": "",
+      "width": 1146,
+      "height": 1400,
+      "sha256": "9d02fc0b4de3400d99dc82f2e372edd11c6fba2008f493920c6177ddf2bbe90a",
+      "source": "https://www.eyrolles.com/Loisirs/Livre/aventuriers-d-un-jour-9782244432168/",
+      "image_source": "https://servimg.eyrolles.com/static/media/2168/9782244432168_internet_h1400.jpg",
+      "src": "book-covers/9d02fc0b4de3400d99dc82f2e372edd11c6fba2008f493920c6177ddf2bbe90a.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
+    },
     "133": {
       "_id": "133",
       "isbn": "9782492768958",
@@ -1036,6 +1229,22 @@
       "sha256": "818cb79158de258eea58115303a8100216e6f9106396af90444069e93feeae7f",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "134": {
+      "_id": "134",
+      "isbn": "9782075232302",
+      "title": "Le cercle de ronces",
+      "author_details": "Anssel, Camille",
+      "series_details": "",
+      "width": 963,
+      "height": 1400,
+      "sha256": "c25c4663278d702abec0c1798fb41aa56caff43ca748eca2b242d1022bd16ffd",
+      "source": "https://www.eyrolles.com/BD-Jeunesse/Livre/le-cercle-de-ronces-9782075232302/",
+      "image_source": "https://servimg.eyrolles.com/static/media/2302/9782075232302_internet_h1400.jpg",
+      "src": "book-covers/c25c4663278d702abec0c1798fb41aa56caff43ca748eca2b242d1022bd16ffd.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
     },
     "136": {
       "isbn": "9782702191477",
@@ -1723,6 +1932,38 @@
       "sha256": "b5aa350cf3650b95289eb94534fb9b860337a637586263a7ca4357419ef4f882",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "224": {
+      "_id": "224",
+      "isbn": "9782494894068",
+      "title": "La dame de la poste",
+      "author_details": "Siguret, Catherine",
+      "series_details": "",
+      "width": 888,
+      "height": 1400,
+      "sha256": "37af0b57c14bb045aebbaf8e2bc1eb16a6469248c877f8298e7fbf4f200e325b",
+      "source": "https://www.eyrolles.com/Litterature/Livre/la-dame-de-la-poste-9782494894068/",
+      "image_source": "https://servimg.eyrolles.com/static/media/4068/9782494894068_internet_h1400.jpg",
+      "src": "book-covers/37af0b57c14bb045aebbaf8e2bc1eb16a6469248c877f8298e7fbf4f200e325b.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
+    },
+    "226": {
+      "_id": "226",
+      "isbn": "9782823619553",
+      "title": "Un perdant magnifique",
+      "author_details": "Seyvos, Florence",
+      "series_details": "",
+      "width": 956,
+      "height": 1400,
+      "sha256": "4c443d27f4591388ba811f9c5e21867eb6e81f0417c4e03679451c800ff04663",
+      "source": "https://www.eyrolles.com/Litterature/Livre/un-perdant-magnifique-prix-livre-inter-2025--9782823619553/",
+      "image_source": "https://servimg.eyrolles.com/static/media/9553/9782823619553_internet_h1400.jpg",
+      "src": "book-covers/4c443d27f4591388ba811f9c5e21867eb6e81f0417c4e03679451c800ff04663.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
     },
     "227": {
       "_id": "227",
@@ -2920,6 +3161,39 @@
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
     },
+    "400": {
+      "_id": "400",
+      "isbn": "9782737123887",
+      "title": "Accueillir la biodiversité dans son jardin",
+      "author_details": "Dewulf, Lucile",
+      "series_details": "",
+      "width": 400,
+      "height": 567,
+      "sha256": "a7186d5bdca4fbc3b066672e559a5a8fa010b374550731031316c5a531bec847",
+      "source": "https://www.arb-idf.fr/nos-travaux/publications/accueillir-la-biodiversite-dans-son-jardin/",
+      "image_source": "https://www.arb-idf.fr/fileadmin/_processed_/a/7/csm_CP15_Accueillir_Biodiv_Jardin_ARBidF_web_2024_22ca353db2.png",
+      "src": "book-covers/a7186d5bdca4fbc3b066672e559a5a8fa010b374550731031316c5a531bec847.png",
+      "source_type": "publisher",
+      "checked_on": "2026-11-27",
+      "research_year": 2024,
+      "isbn_evidence": "https://www.fnau.org/wp-content/uploads/2024/04/cp15_accueillir_biodiv_jardin_arbidf_web_2024.pdf"
+    },
+    "401": {
+      "_id": "401",
+      "isbn": "9782017901587",
+      "title": "Guide des Pokémon méga-évolués",
+      "author_details": "Company, The Pokémon",
+      "series_details": "",
+      "width": 360,
+      "height": 500,
+      "sha256": "8cbc10d801f6499d296e7562df33ba1eb11f6c949e98e4da60b7117c45a6f2d4",
+      "source": "https://www.hachette-jeunesse.com/livre/pokemon-le-guide-des-pokemon-mega-evolues-9782017901587/",
+      "image_source": "https://media.hachette.fr/fit-in/500x500/imgArticle/HACHETTEJEUNESSE/2025/9782017901587-001-X.jpeg?source=web&v=850132a70ca5f0fae853f9bf6b189b5e",
+      "src": "book-covers/8cbc10d801f6499d296e7562df33ba1eb11f6c949e98e4da60b7117c45a6f2d4.jpg",
+      "source_type": "publisher",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
+    },
     "406": {
       "_id": "406",
       "isbn": "9782080681508",
@@ -3076,6 +3350,38 @@
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
     },
+    "459": {
+      "_id": "459",
+      "isbn": "9782095051440",
+      "title": "Les mecs parfaits se trouvent en altitude",
+      "author_details": "Ninay, Adèle",
+      "series_details": "",
+      "width": 400,
+      "height": 478,
+      "sha256": "213209f61d9c910badab73541d48b58c1186532c36e0cadbe402a3908717b7bf",
+      "source": "https://www.fnac.com/a21333789/Adele-Ninay-Les-mecs-parfaits-se-trouvent-en-altitude",
+      "image_source": "https://static.fnac-static.com/multimedia/PE/Images/FR/NR/0f/ca/1d/18729487/1507-1/tsp20260821075945/Les-mecs-parfaits-se-trouvent-en-altitude.jpg",
+      "src": "book-covers/213209f61d9c910badab73541d48b58c1186532c36e0cadbe402a3908717b7bf.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
+    },
+    "460": {
+      "_id": "460",
+      "isbn": "9782365698580",
+      "title": "Les bien-aimés",
+      "author_details": "Napolitano, Ann",
+      "series_details": "",
+      "width": 800,
+      "height": 1247,
+      "sha256": "28c1a32ba914d21244dc710294213c2fb509b34c2a1d74c7c2a79e8116336bcc",
+      "source": "https://www.eyrolles.com/Litterature/Livre/les-bien-aimes-9782365698580/",
+      "image_source": "https://servimg.eyrolles.com/static/media/8580/9782365698580_internet_h1400.jpg",
+      "src": "book-covers/28c1a32ba914d21244dc710294213c2fb509b34c2a1d74c7c2a79e8116336bcc.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
+    },
     "461": {
       "_id": "461",
       "isbn": "9782264035493",
@@ -3153,6 +3459,22 @@
       "sha256": "a158a76b412fb37bd448e149e7508cb203d3c7343a784f53dae25cb2b1dbf305",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "477": {
+      "_id": "477",
+      "isbn": "9782374485454",
+      "title": "Les Effacées",
+      "author_details": "Minier, Bernard",
+      "series_details": "Lucia Guerrero - ✅ Série complète (2)",
+      "width": 400,
+      "height": 581,
+      "sha256": "16a5848dfbc89dd3190f97cae77880eb5171a349df988d06a7b71d2358eab112",
+      "source": "https://www.eyrolles.com/Litterature/Livre/les-effacees-9782374485454/",
+      "image_source": "https://servimg.eyrolles.com/static/media/5454/9782374485454_internet_h1400.jpg",
+      "src": "book-covers/16a5848dfbc89dd3190f97cae77880eb5171a349df988d06a7b71d2358eab112.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
     },
     "478": {
       "_id": "478",
@@ -3582,6 +3904,22 @@
       "sha256": "4bfbc1420e7bfe72f4dbd2ec594a5f3004934c8f7ed08c0994fd73563ccc29bd",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "537": {
+      "_id": "537",
+      "isbn": "9782265157798",
+      "title": "Norferville",
+      "author_details": "Thilliez, Franck",
+      "series_details": "",
+      "width": 400,
+      "height": 596,
+      "sha256": "05405ba61e33a8bb122da49d86c42d7c2a38fe425a9eac6ade014c68023bc29a",
+      "source": "https://www.eyrolles.com/Litterature/Livre/norferville-9782265157798/",
+      "image_source": "https://servimg.eyrolles.com/static/media/7798/9782265157798_internet_h1400.jpg",
+      "src": "book-covers/05405ba61e33a8bb122da49d86c42d7c2a38fe425a9eac6ade014c68023bc29a.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
     },
     "538": {
       "_id": "538",
@@ -4284,6 +4622,22 @@
       "sha256": "cc710cc2a3c62544cd7dbd60687727e7d4c7e2726f340c08d207532dfe5f2c09",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "652": {
+      "_id": "652",
+      "isbn": "9782709673723",
+      "title": "Le réseau",
+      "author_details": "Grisham, John",
+      "series_details": "The Firm (2)",
+      "width": 311,
+      "height": 500,
+      "sha256": "81a8d722cf9cdc934481707fbbae6f3696a24e5c11eac7247cec3459f008064e",
+      "source": "https://www.hachette.fr/livre/le-reseau-9782709673723/",
+      "image_source": "https://media.hachette.fr/fit-in/500x500/imgArticle/LATTES/2024/9782709673723-001-X.jpeg?source=web&v=6a421f1b1fe3a75394ce64831bc9c806",
+      "src": "book-covers/81a8d722cf9cdc934481707fbbae6f3696a24e5c11eac7247cec3459f008064e.jpg",
+      "source_type": "publisher",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
     },
     "655": {
       "_id": "655",
@@ -5624,6 +5978,22 @@
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
     },
+    "892": {
+      "_id": "892",
+      "isbn": "9782283040300",
+      "title": "Là où nous avons existé",
+      "author_details": "Nordquist, Lina",
+      "series_details": "",
+      "width": 956,
+      "height": 1400,
+      "sha256": "669666a30dac9d8f9e7f7d68282f07c2a6194daf771358ea6120f8ea17bbbe43",
+      "source": "https://www.eyrolles.com/Litterature/Livre/la-ou-nous-avons-existe-9782283040300/",
+      "image_source": "https://servimg.eyrolles.com/static/media/0300/9782283040300_internet_h1400.jpg",
+      "src": "book-covers/669666a30dac9d8f9e7f7d68282f07c2a6194daf771358ea6120f8ea17bbbe43.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
+    },
     "893": {
       "_id": "893",
       "isbn": "9782864244455",
@@ -5727,6 +6097,22 @@
       "sha256": "eb6ef2abf37ba976b5d911a9d22ef1f1c08c0cc5ca529d05475e29ed2f8bcf14",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "907": {
+      "_id": "907",
+      "isbn": "9782365698603",
+      "title": "La cuisinière des Kennedy",
+      "author_details": "Paturaud, Valérie",
+      "series_details": "",
+      "width": 400,
+      "height": 643,
+      "sha256": "e6aa7551a7691792a1750aa91d0885cb07392ec4e86139a971279faf5594b482",
+      "source": "https://www.eyrolles.com/Litterature/Livre/la-cuisiniere-des-kennedy-9782365698603/",
+      "image_source": "https://servimg.eyrolles.com/static/media/8603/9782365698603_internet_h1400.jpg",
+      "src": "book-covers/e6aa7551a7691792a1750aa91d0885cb07392ec4e86139a971279faf5594b482.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
     },
     "908": {
       "_id": "908",
@@ -6013,6 +6399,70 @@
       "sha256": "615975f249c14dd8232e08ac264b89cf37799c99c672600fe7a038b26037e121",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "959": {
+      "_id": "959",
+      "isbn": "9782265157811",
+      "title": "À retardement",
+      "author_details": "Thilliez, Franck",
+      "series_details": "Sharko & Hennebelle (14)",
+      "width": 800,
+      "height": 1190,
+      "sha256": "6b9596ea73dfba4f02165f47864fe6044e8324ddee1f03a727119ca07a6672fc",
+      "source": "https://www.eyrolles.com/Litterature/Livre/a-retardement-9782265157811/",
+      "image_source": "https://servimg.eyrolles.com/static/media/7811/9782265157811_internet_h1400.jpg",
+      "src": "book-covers/6b9596ea73dfba4f02165f47864fe6044e8324ddee1f03a727119ca07a6672fc.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
+    },
+    "960": {
+      "_id": "960",
+      "isbn": "9791026908067",
+      "title": "J’emporterai le feu",
+      "author_details": "Slimani, Leïla",
+      "series_details": "Le pays des autres (3)",
+      "width": 666,
+      "height": 1024,
+      "sha256": "3f3d66d9aaf96949963f0bb62e5232ab878d585f5c6c53a1514a2a5d552e4e51",
+      "source": "https://www.avuedoeil.fr/livres/jemporterai-le-feu/",
+      "image_source": "https://www.avuedoeil.fr/app/uploads/sites/2/2025/03/9791026908067-1-scaled-666x1024.jpg",
+      "src": "book-covers/3f3d66d9aaf96949963f0bb62e5232ab878d585f5c6c53a1514a2a5d552e4e51.jpg",
+      "source_type": "publisher",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
+    },
+    "961": {
+      "_id": "961",
+      "isbn": "9782226504340",
+      "title": "Je suis né du diable",
+      "author_details": "Grangé, Jean-Christophe",
+      "series_details": "",
+      "width": 957,
+      "height": 1400,
+      "sha256": "2304cde2e513dfb845636a963c61b198485c614efe324b242628cf20d113229a",
+      "source": "https://www.eyrolles.com/Litterature/Livre/je-suis-ne-du-diable-9782226504340/",
+      "image_source": "https://servimg.eyrolles.com/static/media/4340/9782226504340_internet_h1400.jpg",
+      "src": "book-covers/2304cde2e513dfb845636a963c61b198485c614efe324b242628cf20d113229a.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
+    },
+    "963": {
+      "_id": "963",
+      "isbn": "9782258210608",
+      "title": "Les Assassins de l’aube",
+      "author_details": "Bussi, Michel",
+      "series_details": "",
+      "width": 400,
+      "height": 643,
+      "sha256": "24591826e7e8c82fb3e969aaed26bb04e44108d6490c3ba55c757213c9442954",
+      "source": "https://www.eyrolles.com/Litterature/Livre/les-assassins-de-l-aube-9782258210608/",
+      "image_source": "https://servimg.eyrolles.com/static/media/0608/9782258210608_internet_h1400.jpg",
+      "src": "book-covers/24591826e7e8c82fb3e969aaed26bb04e44108d6490c3ba55c757213c9442954.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
     },
     "964": {
       "_id": "964",
@@ -6820,6 +7270,22 @@
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
     },
+    "1116": {
+      "_id": "1116",
+      "isbn": "9782073061041",
+      "title": "L’Ami du Prince",
+      "author_details": "Jaeglé, Marianne",
+      "series_details": "",
+      "width": 512,
+      "height": 846,
+      "sha256": "d830b27bde8470c1f3349dce47036ac1935f5ae72c67492b0c64363edcb76b6e",
+      "source": "https://www.eyrolles.com/Litterature/Livre/l-ami-du-prince-9782073061041/",
+      "image_source": "https://servimg.eyrolles.com/static/media/1041/9782073061041_internet_h1400.jpg",
+      "src": "book-covers/d830b27bde8470c1f3349dce47036ac1935f5ae72c67492b0c64363edcb76b6e.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
+    },
     "1117": {
       "_id": "1117",
       "isbn": "9782246758419",
@@ -6962,6 +7428,22 @@
       "sha256": "e476566745b4003a4f774f0d5b0453c3d8b0802dda21966bf7dac2acdc8813cc",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "1135": {
+      "_id": "1135",
+      "isbn": "9782384820054",
+      "title": "Et, refleurir",
+      "author_details": "Kiyémis,",
+      "series_details": "",
+      "width": 400,
+      "height": 607,
+      "sha256": "136712a08f2dbd233c046da34f148718d8c78e1382e0a3886d4bac9b3aae0ef9",
+      "source": "https://www.eyrolles.com/Litterature/Livre/et-refleurir-9782384820054/",
+      "image_source": "https://servimg.eyrolles.com/static/media/0054/9782384820054_internet_h1400.jpg",
+      "src": "book-covers/136712a08f2dbd233c046da34f148718d8c78e1382e0a3886d4bac9b3aae0ef9.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
     },
     "1136": {
       "_id": "1136",
@@ -7561,6 +8043,22 @@
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
     },
+    "1225": {
+      "_id": "1225",
+      "isbn": "9791037510914",
+      "title": "Ajouter de la vie aux jours",
+      "author_details": "Julliand, Anne-Dauphine",
+      "series_details": "",
+      "width": 400,
+      "height": 548,
+      "sha256": "e375938bd36a7ab2d84a672959e55f127c129694c302cc9d5028e854bd28ee90",
+      "source": "https://www.eyrolles.com/Litterature/Livre/ajouter-de-la-vie-aux-jours-9791037510914/",
+      "image_source": "https://servimg.eyrolles.com/static/media/0914/9791037510914_internet_h1400.jpg",
+      "src": "book-covers/e375938bd36a7ab2d84a672959e55f127c129694c302cc9d5028e854bd28ee90.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
+    },
     "1227": {
       "_id": "1227",
       "isbn": "9782070381050",
@@ -7638,6 +8136,22 @@
       "sha256": "5ff3d4eb12111b567a6423d66698b0a005e5895e3aab909c66b648995589c3d2",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "1241": {
+      "_id": "1241",
+      "isbn": "9782072912238",
+      "title": "Ta promesse",
+      "author_details": "Laurens, Camille",
+      "series_details": "",
+      "width": 827,
+      "height": 1211,
+      "sha256": "5229a0b3284224ea781f35da5aea1d68bb103503fcab8f04db6ff803dadd070d",
+      "source": "https://www.eyrolles.com/Litterature/Livre/ta-promesse-9782072912238/",
+      "image_source": "https://servimg.eyrolles.com/static/media/2238/9782072912238_internet_h1400.jpg",
+      "src": "book-covers/5229a0b3284224ea781f35da5aea1d68bb103503fcab8f04db6ff803dadd070d.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
     },
     "1242": {
       "_id": "1242",
@@ -7755,6 +8269,22 @@
       "sha256": "9fb4f0957c75fe8f0d75151c591890be908e94e7e38ddf18c2fbf10c9c523d5f",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "1262": {
+      "_id": "1262",
+      "isbn": "9782702183625",
+      "title": "Un avenir radieux",
+      "author_details": "Lemaitre, Pierre",
+      "series_details": "Les Années glorieuses (3)",
+      "width": 329,
+      "height": 500,
+      "sha256": "13568127f0173bac66465a1966f0e21d05e70f4fa3f845b8272d7b6923feea11",
+      "source": "https://www.calmann-levy.fr/livre/un-avenir-radieux-9782702183625/",
+      "image_source": "https://media.hachette.fr/fit-in/500x500/imgArticle/CALMANNLEVY/2024/9782702183625-001-X.jpeg?source=web&v=547b3cf85baae1873ce6df28749bb1a9",
+      "src": "book-covers/13568127f0173bac66465a1966f0e21d05e70f4fa3f845b8272d7b6923feea11.jpg",
+      "source_type": "publisher",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
     },
     "1263": {
       "_id": "1263",
@@ -7937,6 +8467,22 @@
       "sha256": "efcf62bfe85662386c28b2253a116c83b170707d97d1213cb5f67c6a79c88b5e",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "1282": {
+      "_id": "1282",
+      "isbn": "9782234094116",
+      "title": "La Louisiane",
+      "author_details": "Malye, Julia",
+      "series_details": "",
+      "width": 314,
+      "height": 500,
+      "sha256": "08c0c018c1d776c741aff5f03782afcfa835be539613b3a6b0bf5620c8356d48",
+      "source": "https://www.editions-stock.fr/livre/la-louisiane-9782234094116/",
+      "image_source": "https://media.hachette.fr/fit-in/500x500/imgArticle/STOCK/2023/9782234094116-001-X.jpeg?source=web&v=9e952d702500fccbef442b7c6ad1411f",
+      "src": "book-covers/08c0c018c1d776c741aff5f03782afcfa835be539613b3a6b0bf5620c8356d48.jpg",
+      "source_type": "publisher",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
     },
     "1283": {
       "_id": "1283",
@@ -8510,6 +9056,22 @@
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
     },
+    "1374": {
+      "_id": "1374",
+      "isbn": "9782080452146",
+      "title": "Une sacrée envie de foutre le bordel",
+      "author_details": "Niel, Xavier|Missika, Jean-Louis",
+      "series_details": "",
+      "width": 797,
+      "height": 1240,
+      "sha256": "3493c1856aac835d8140ec3f516848b2c0d9be9bf72df276d9dc8b12cadfcfb9",
+      "source": "https://www.eyrolles.com/Litterature/Livre/une-sacree-envie-de-foutre-le-bordel-9782080452146/",
+      "image_source": "https://servimg.eyrolles.com/static/media/2146/9782080452146_internet_h1400.jpg",
+      "src": "book-covers/3493c1856aac835d8140ec3f516848b2c0d9be9bf72df276d9dc8b12cadfcfb9.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
+    },
     "1377": {
       "_id": "1377",
       "isbn": "9782912283054",
@@ -8614,6 +9176,22 @@
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
     },
+    "1397": {
+      "_id": "1397",
+      "isbn": "9782384820894",
+      "title": "La vie infinie",
+      "author_details": "Richard, Jennifer D.",
+      "series_details": "",
+      "width": 400,
+      "height": 607,
+      "sha256": "3614af5e12ac74f0f1cc97142d9e3e753b43655a17f2c6eae28b357268326a59",
+      "source": "https://www.eyrolles.com/Litterature/Livre/la-vie-infinie-9782384820894/",
+      "image_source": "https://servimg.eyrolles.com/static/media/0894/9782384820894_internet_h1400.jpg",
+      "src": "book-covers/3614af5e12ac74f0f1cc97142d9e3e753b43655a17f2c6eae28b357268326a59.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
+    },
     "1400": {
       "_id": "1400",
       "isbn": "9782080666413",
@@ -8639,6 +9217,22 @@
       "sha256": "86c2c66f6ded562f7f4258d153f7946d375e4c379d3fa9891699c54479ae6ae5",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "1405": {
+      "_id": "1405",
+      "isbn": "9782919547852",
+      "title": "Marc",
+      "author_details": "Stock, Benjamin",
+      "series_details": "",
+      "width": 400,
+      "height": 586,
+      "sha256": "7015f4d7aa71288abc270fbf7e3f3312f8a7be8da09b7f03a14f74357a751c16",
+      "source": "https://www.eyrolles.com/Litterature/Livre/marc-prix-de-flore-2024-9782919547852/",
+      "image_source": "https://servimg.eyrolles.com/static/media/7852/9782919547852_internet_h1400.jpg",
+      "src": "book-covers/7015f4d7aa71288abc270fbf7e3f3312f8a7be8da09b7f03a14f74357a751c16.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
     },
     "1406": {
       "_id": "1406",
@@ -9017,6 +9611,22 @@
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
     },
+    "1465": {
+      "_id": "1465",
+      "isbn": "9782363608383",
+      "title": "Jacaranda",
+      "author_details": "Faye, Gaël",
+      "series_details": "",
+      "width": 400,
+      "height": 599,
+      "sha256": "513947a1ad7a86875920bef96256055f58d8539ec2906d61784f6def05e489cd",
+      "source": "https://www.mollat.com/livres/3211848/gael-faye-jacaranda",
+      "image_source": "https://media.electre-ng.com/images/image-id/dc5b79b1dbfb456a819d538777f319144c3b7fc5583809d6b1e04df49f21d007.webp",
+      "src": "book-covers/513947a1ad7a86875920bef96256055f58d8539ec2906d61784f6def05e489cd.webp",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
+    },
     "1467": {
       "_id": "1467",
       "isbn": "9782330012595",
@@ -9224,6 +9834,54 @@
       "sha256": "29650a201ad0dae9fa7e3d4cc98318517f75a21e035a2ecefa742dd799eaf28c",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "1498": {
+      "_id": "1498",
+      "isbn": "9782073025708",
+      "title": "Bientôt les vivants",
+      "author_details": "Damerdji, Amina",
+      "series_details": "",
+      "width": 956,
+      "height": 1400,
+      "sha256": "cb500309f638f457979cf4686fde2893f651d2f5785d90cdbdf8f3a8e251a4e0",
+      "source": "https://www.eyrolles.com/Litterature/Livre/bientot-les-vivants-9782073025708/",
+      "image_source": "https://servimg.eyrolles.com/static/media/5708/9782073025708_internet_h1400.jpg",
+      "src": "book-covers/cb500309f638f457979cf4686fde2893f651d2f5785d90cdbdf8f3a8e251a4e0.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
+    },
+    "1500": {
+      "_id": "1500",
+      "isbn": "9791026907848",
+      "title": "Houris",
+      "author_details": "Daoud, Kamel",
+      "series_details": "",
+      "width": 666,
+      "height": 1024,
+      "sha256": "6bcc994177d3974cf11c838d80a529259ba1f912247f6c7226c1e69f0c6ee396",
+      "source": "https://www.avuedoeil.fr/livres/houris/",
+      "image_source": "https://www.avuedoeil.fr/app/uploads/sites/2/2024/10/9791026907848-scaled-666x1024.jpg",
+      "src": "book-covers/6bcc994177d3974cf11c838d80a529259ba1f912247f6c7226c1e69f0c6ee396.jpg",
+      "source_type": "publisher",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
+    },
+    "1503": {
+      "_id": "1503",
+      "isbn": "9782021576535",
+      "title": "Ann d’Angleterre",
+      "author_details": "Deck, Julia",
+      "series_details": "",
+      "width": 546,
+      "height": 800,
+      "sha256": "db57d829488e865eb4ba2bcd36440d11a7a5b7670d0108cd529790f519d85339",
+      "source": "https://www.eyrolles.com/Litterature/Livre/ann-d-angleterre-9782021576535/",
+      "image_source": "https://servimg.eyrolles.com/static/media/6535/9782021576535_internet_h1400.jpg",
+      "src": "book-covers/db57d829488e865eb4ba2bcd36440d11a7a5b7670d0108cd529790f519d85339.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
     },
     "1504": {
       "_id": "1504",
@@ -9459,6 +10117,22 @@
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
     },
+    "1550": {
+      "_id": "1550",
+      "isbn": "9782743664060",
+      "title": "Le Rêve du jaguar",
+      "author_details": "Bonnefoy, Miguel",
+      "series_details": "",
+      "width": 720,
+      "height": 1054,
+      "sha256": "4deba98e448a6f85a044ea210ef5162fb9734a158c8690f0342a19f6c083fcbe",
+      "source": "https://www.eyrolles.com/Litterature/Livre/le-reve-du-jaguar-9782743664060/",
+      "image_source": "https://servimg.eyrolles.com/static/media/4060/9782743664060_internet_h1400.jpg",
+      "src": "book-covers/4deba98e448a6f85a044ea210ef5162fb9734a158c8690f0342a19f6c083fcbe.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
+    },
     "1562": {
       "_id": "1562",
       "isbn": "9782246771715",
@@ -9536,6 +10210,22 @@
       "sha256": "92bd27b3849400857a6a6c94ecd64bd48eca2ae8f7c1d7e341c50e431211697b",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "1571": {
+      "_id": "1571",
+      "isbn": "9782021538090",
+      "title": "Fantastique Histoire d’amour",
+      "author_details": "Divry, Sophie",
+      "series_details": "",
+      "width": 527,
+      "height": 800,
+      "sha256": "819495bae8afd74eb75dbc49a5bded5154733a528cabc96d0ba0787a0c66925b",
+      "source": "https://www.eyrolles.com/Litterature/Livre/fantastique-histoire-d-amour-9782021538090/",
+      "image_source": "https://servimg.eyrolles.com/static/media/8090/9782021538090_internet_h1400.jpg",
+      "src": "book-covers/819495bae8afd74eb75dbc49a5bded5154733a528cabc96d0ba0787a0c66925b.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
     },
     "1573": {
       "_id": "1573",
@@ -9901,6 +10591,22 @@
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
     },
+    "1629": {
+      "_id": "1629",
+      "isbn": "9782246836124",
+      "title": "Cézembre",
+      "author_details": "Gestern, Hélène",
+      "series_details": "",
+      "width": 325,
+      "height": 500,
+      "sha256": "a8d23c678df74a877c455096460d818e859a1e759e9ccbb1264436d1569b8309",
+      "source": "https://www.grasset.fr/livre/cezembre-9782246836124/",
+      "image_source": "https://media.hachette.fr/fit-in/500x500/imgArticle/GRASSETFASQUELLE/2024/9782246836124-001-X.jpeg?source=web&v=cee7987fc5d789b1d24ae42ac58ff261",
+      "src": "book-covers/a8d23c678df74a877c455096460d818e859a1e759e9ccbb1264436d1569b8309.jpg",
+      "source_type": "publisher",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
+    },
     "1634": {
       "_id": "1634",
       "isbn": "9782253126300",
@@ -10252,6 +10958,22 @@
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
     },
+    "1735": {
+      "_id": "1735",
+      "isbn": "9782073080028",
+      "title": "La Nuit au cœur",
+      "author_details": "Appanah, Nathacha",
+      "series_details": "",
+      "width": 827,
+      "height": 1211,
+      "sha256": "1ac4ee5c6bfa95fcb35f3351342272b28febd801cdb09309978d6fea97d0e67a",
+      "source": "https://www.eyrolles.com/Litterature/Livre/la-nuit-au-coeur-9782073080028/",
+      "image_source": "https://servimg.eyrolles.com/static/media/0028/9782073080028_internet_h1400.jpg",
+      "src": "book-covers/1ac4ee5c6bfa95fcb35f3351342272b28febd801cdb09309978d6fea97d0e67a.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
+    },
     "1739": {
       "_id": "1739",
       "isbn": "9782246416111",
@@ -10356,6 +11078,22 @@
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
     },
+    "1763": {
+      "_id": "1763",
+      "isbn": "9782383110293",
+      "title": "La Petite Bonne",
+      "author_details": "Pichat, Bérénice",
+      "series_details": "",
+      "width": 800,
+      "height": 1186,
+      "sha256": "cb08f852015ed4d86e6c058e3b4cfe3766c01614c52838e1f0fdd05da752eca2",
+      "source": "https://www.eyrolles.com/Litterature/Livre/la-petite-bonne-9782383110293/",
+      "image_source": "https://servimg.eyrolles.com/static/media/0293/9782383110293_internet_h1400.jpg",
+      "src": "book-covers/cb08f852015ed4d86e6c058e3b4cfe3766c01614c52838e1f0fdd05da752eca2.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
+    },
     "1764": {
       "_id": "1764",
       "isbn": "9782742700714",
@@ -10421,6 +11159,22 @@
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
     },
+    "1770": {
+      "_id": "1770",
+      "isbn": "9782709672719",
+      "title": "Les influentes",
+      "author_details": "Bréau, Adèle",
+      "series_details": "",
+      "width": 317,
+      "height": 500,
+      "sha256": "f368664eec47d7fa772b6b28abc7b03022e94b39b47789a46455bec7912d6ab4",
+      "source": "https://www.hachette.fr/livre/les-influentes-9782709672719/",
+      "image_source": "https://media.hachette.fr/fit-in/500x500/imgArticle/LATTES/2024/9782709672719-001-X.jpeg?source=web&v=a93089217702f7d11b81b4e7f6d6bf1c",
+      "src": "book-covers/f368664eec47d7fa772b6b28abc7b03022e94b39b47789a46455bec7912d6ab4.jpg",
+      "source_type": "publisher",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
+    },
     "1771": {
       "_id": "1771",
       "isbn": "9782709626996",
@@ -10446,6 +11200,22 @@
       "sha256": "dc9be9cc66b819b11727b48cb856d1fcffc469ddb628355432422f8459981783",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "1773": {
+      "_id": "1773",
+      "isbn": "9782073085153",
+      "title": "Fort Alamo",
+      "author_details": "Caro, Fabrice",
+      "series_details": "",
+      "width": 974,
+      "height": 1400,
+      "sha256": "59bebd4477e08e242a5bdea94f6d8da6080dedbebcf47074bbdb400846a6dfc2",
+      "source": "https://www.eyrolles.com/Litterature/Livre/fort-alamo-9782073085153/",
+      "image_source": "https://servimg.eyrolles.com/static/media/5153/9782073085153_internet_h1400.jpg",
+      "src": "book-covers/59bebd4477e08e242a5bdea94f6d8da6080dedbebcf47074bbdb400846a6dfc2.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
     },
     "1775": {
       "_id": "1775",
@@ -10498,6 +11268,22 @@
       "sha256": "2f0eb2e3ee1ae7b1a2e0e82a6051b87657bcffcf87d4328c34a904dea0944ff4",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "1785": {
+      "_id": "1785",
+      "isbn": "9782259320146",
+      "title": "La Dame du jeu d’échecs",
+      "author_details": "Charlier, Philippe",
+      "series_details": "",
+      "width": 400,
+      "height": 622,
+      "sha256": "802fefc1f07b1eb213fc3b7e561776ab0fa56cc237bc4dc3270de08039483d56",
+      "source": "https://www.eyrolles.com/Litterature/Livre/la-dame-du-jeu-d-echecs-9782259320146/",
+      "image_source": "https://servimg.eyrolles.com/static/media/0146/9782259320146_internet_h1400.jpg",
+      "src": "book-covers/802fefc1f07b1eb213fc3b7e561776ab0fa56cc237bc4dc3270de08039483d56.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
     },
     "1788": {
       "_id": "1788",
@@ -10784,6 +11570,22 @@
       "sha256": "33cee866ff47632f80e3ba2b885ee3454dd70bdc57332a3553a0d9c352260547",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "1839": {
+      "_id": "1839",
+      "isbn": "9782365699174",
+      "title": "Almah",
+      "author_details": "Bardon, Catherine",
+      "series_details": "",
+      "width": 400,
+      "height": 643,
+      "sha256": "f3487dbcbf1e98aae4b1651e240ef12919a8869fe30e330ad9e139dc7f85bca8",
+      "source": "https://www.eyrolles.com/Litterature/Livre/almah-la-jeunesse-viennoise-des-deracines-9782365699174/",
+      "image_source": "https://servimg.eyrolles.com/static/media/9174/9782365699174_internet_h1400.jpg",
+      "src": "book-covers/f3487dbcbf1e98aae4b1651e240ef12919a8869fe30e330ad9e139dc7f85bca8.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
     },
     "1840": {
       "_id": "1840",
@@ -12618,6 +13420,22 @@
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
     },
+    "2135": {
+      "_id": "2135",
+      "isbn": "9782290379530",
+      "title": "La Guerre des deux Reines",
+      "author_details": "Armentrout, Jennifer L.",
+      "series_details": "Le Sang et la Cendre (4)",
+      "width": 650,
+      "height": 1051,
+      "sha256": "ef9a4dc3a501661866e8f1f74f2774c32e64efda6e3682fe33dc5eb1cf6bab44",
+      "source": "https://www.eyrolles.com/Litterature/Livre/le-sang-et-la-cendre-9782290379530/",
+      "image_source": "https://servimg.eyrolles.com/static/media/9530/9782290379530_internet_h1400.jpg",
+      "src": "book-covers/ef9a4dc3a501661866e8f1f74f2774c32e64efda6e3682fe33dc5eb1cf6bab44.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
+    },
     "2140": {
       "_id": "2140",
       "isbn": "9782747020343",
@@ -13150,6 +13968,22 @@
       "sha256": "4fd7916f14fcda3adf6ead7c3e1a791d6670579a96cfa0102cf378832dbc7e2c",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "2249": {
+      "_id": "2249",
+      "isbn": "9782352896104",
+      "title": "Tellement bien ensemble",
+      "author_details": "Vast, Emilie",
+      "series_details": "",
+      "width": 821,
+      "height": 800,
+      "sha256": "3b095e585f89266e4f8e7bcd42b41eff50011560885cb8ae626935b09b1508cd",
+      "source": "https://www.eyrolles.com/BD-Jeunesse/Livre/tellement-bien-ensemble-9782352896104/",
+      "image_source": "https://servimg.eyrolles.com/static/media/6104/9782352896104_internet_h1400.jpg",
+      "src": "book-covers/3b095e585f89266e4f8e7bcd42b41eff50011560885cb8ae626935b09b1508cd.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
     },
     "2253": {
       "_id": "2253",
@@ -14099,6 +14933,54 @@
       "sha256": "43cc44ab671b6f051d8c12c1586fce9fb62db78492172bc1155bb79f7aa41207",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "2472": {
+      "_id": "2472",
+      "isbn": "9791039548168",
+      "title": "Cherche et trouve Loup",
+      "author_details": "Lallemand, Orianne|Thuillier, Eléonore",
+      "series_details": "",
+      "width": 800,
+      "height": 1219,
+      "sha256": "3efb4ae1cef8d5a5852a08199b14dd932b43d81f9214247e8348aad2efc06ff6",
+      "source": "https://www.eyrolles.com/BD-Jeunesse/Livre/cherche-et-trouve-geant-loup-c-est-la-fete--9791039548168/",
+      "image_source": "https://servimg.eyrolles.com/static/media/8168/9791039548168_internet_h1400.jpg",
+      "src": "book-covers/3efb4ae1cef8d5a5852a08199b14dd932b43d81f9214247e8348aad2efc06ff6.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
+    },
+    "2473": {
+      "_id": "2473",
+      "isbn": "9782226471574",
+      "title": "Les Fantômes",
+      "author_details": "Perez, Sébastien|Mazzanti, Isabella",
+      "series_details": "L'encyclopédie du Merveilleux (5)",
+      "width": 1057,
+      "height": 1400,
+      "sha256": "c2e259bee5bf004072755da1bb2b6143b405da9e0fecb66a556e16f42f58fd72",
+      "source": "https://www.eyrolles.com/BD-Jeunesse/Livre/les-fantomes-9782226471574/",
+      "image_source": "https://servimg.eyrolles.com/static/media/1574/9782226471574_internet_h1400.jpg",
+      "src": "book-covers/c2e259bee5bf004072755da1bb2b6143b405da9e0fecb66a556e16f42f58fd72.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
+    },
+    "2486": {
+      "_id": "2486",
+      "isbn": "9782330212636",
+      "title": "La Fille dans les griffes du lynx",
+      "author_details": "Smirnoff, Karin",
+      "series_details": "Millennium (8)",
+      "width": 720,
+      "height": 1192,
+      "sha256": "97ccc451502d4022dd2f61dffdaf08244dbd1c78e9279de0b1c95372e2f9600f",
+      "source": "https://www.eyrolles.com/Litterature/Livre/millenium-8-la-fille-dans-les-griffes-du-lynx-9782330212636/",
+      "image_source": "https://servimg.eyrolles.com/static/media/2636/9782330212636_internet_h1400.jpg",
+      "src": "book-covers/97ccc451502d4022dd2f61dffdaf08244dbd1c78e9279de0b1c95372e2f9600f.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
     },
     "2487": {
       "_id": "2487",
@@ -15178,6 +16060,22 @@
       "sha256": "4aed5477aab67e6ac1728b0d56ee89a4005ef1b544863e50e191d119dc8fb78e",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "2664": {
+      "_id": "2664",
+      "isbn": "9782211341394",
+      "title": "Le jour où tout s’arrêta",
+      "author_details": "Tirilly, Vincent",
+      "series_details": "",
+      "width": 395,
+      "height": 600,
+      "sha256": "bd7eb18f521fe87b431a7d4bc0d3ecaef873d3fc1f073d1750b81e4b2d714223",
+      "source": "https://www.eyrolles.com/BD-Jeunesse/Livre/le-jour-ou-tout-s-arreta-9782211341394/",
+      "image_source": "https://servimg.eyrolles.com/static/media/1394/9782211341394_internet_h1400.jpg",
+      "src": "book-covers/bd7eb18f521fe87b431a7d4bc0d3ecaef873d3fc1f073d1750b81e4b2d714223.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
     },
     "2666": {
       "_id": "2666",
@@ -17727,6 +18625,38 @@
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
     },
+    "3151": {
+      "_id": "3151",
+      "isbn": "9791042905231",
+      "title": "Onyx Storm",
+      "author_details": "Yarros, Rebecca",
+      "series_details": "The Empyrean (3)",
+      "width": 862,
+      "height": 1400,
+      "sha256": "e73623a0707464211a41794c5aa69c9b4d9801065d549c27f5aecaebb4164520",
+      "source": "https://www.eyrolles.com/Litterature/Livre/onyx-storm-version-francaise-9791042905231/",
+      "image_source": "https://servimg.eyrolles.com/static/media/5231/9791042905231_internet_h1400.jpg",
+      "src": "book-covers/e73623a0707464211a41794c5aa69c9b4d9801065d549c27f5aecaebb4164520.jpg",
+      "source_type": "bookseller",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
+    },
+    "3152": {
+      "_id": "3152",
+      "isbn": "9782253251033",
+      "title": "La Dernière Allumette",
+      "author_details": "Vareille, Marie",
+      "series_details": "",
+      "width": 309,
+      "height": 500,
+      "sha256": "fc3c6a7488615068a5b5b260de9be40538c2798152032c831eb9eaef00e05354",
+      "source": "https://www.livredepoche.com/livre/la-derniere-allumette-9782253251033/",
+      "image_source": "https://media.hachette.fr/fit-in/500x500/imgArticle/LGFLIVREDEPOCHE/2026/9782253251033-001-X.jpeg?source=web&v=d9d39bcfd9ef66d05f26735f9e70391d",
+      "src": "book-covers/fc3c6a7488615068a5b5b260de9be40538c2798152032c831eb9eaef00e05354.jpg",
+      "source_type": "publisher",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
+    },
     "3153": {
       "_id": "3153",
       "isbn": "9782253073178",
@@ -18533,6 +19463,22 @@
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
     },
+    "3410": {
+      "_id": "3410",
+      "isbn": "9782253252030",
+      "title": "Jacaranda",
+      "author_details": "Faye, Gaël",
+      "series_details": "",
+      "width": 309,
+      "height": 500,
+      "sha256": "5d91986fe8f297e2840e100003efa49f4ddb3dc44fad92919de17c7a37a47a35",
+      "source": "https://www.livredepoche.com/livre/jacaranda-9782253252030/",
+      "image_source": "https://media.hachette.fr/fit-in/500x500/imgArticle/LGFLIVREDEPOCHE/2025/9782253252030-001-X.jpeg?source=web&v=ea3df8ab7872cd888cefd1c0bf4354ed",
+      "src": "book-covers/5d91986fe8f297e2840e100003efa49f4ddb3dc44fad92919de17c7a37a47a35.jpg",
+      "source_type": "publisher",
+      "checked_on": "2026-11-27",
+      "research_year": 2024
+    },
     "3411": {
       "_id": "3411",
       "isbn": "9782012101432",
@@ -18584,6 +19530,22 @@
       "sha256": "39d204f52255e8b7a107f30298b522405cf931dccceb54f54ed354b71a99e5ea",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "3458": {
+      "_id": "3458",
+      "isbn": "9782702194225",
+      "title": "La femme de chambre sauve Noël",
+      "author_details": "Prose, Nita",
+      "series_details": "Molly the Maid (2.5)",
+      "width": 324,
+      "height": 500,
+      "sha256": "50c6c2b13770f8370ebaa9757dd04ed9bd64e58bea993e795e68be0275f71366",
+      "source": "https://www.calmann-levy.fr/livre/la-femme-de-chambre-sauve-noel-9782702194225/",
+      "image_source": "https://media.hachette.fr/fit-in/500x500/imgArticle/KERO/2025/9782702194225-001-X.jpeg?source=web&v=b2442203c0cdfd6c579169869193e321",
+      "src": "book-covers/50c6c2b13770f8370ebaa9757dd04ed9bd64e58bea993e795e68be0275f71366.jpg",
+      "source_type": "publisher",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
     },
     "3471": {
       "_id": "3471",
@@ -18675,6 +19637,22 @@
       "sha256": "49937abaa5b2d965464b3bc8d510585c175b2d02a62f00bebe14612de95173b2",
       "source_type": "bookcatalogue",
       "source": "Sauvegarde Book Catalogue du 27-11-2026"
+    },
+    "3497": {
+      "_id": "3497",
+      "isbn": "9782234093904",
+      "title": "Hiromi",
+      "author_details": "Dabadie, Florent",
+      "series_details": "",
+      "width": 314,
+      "height": 500,
+      "sha256": "fb9e920da54724cc440dc95ba8221a0fd258223c21ffb3bd4c3ec0ad65e908b2",
+      "source": "https://www.editions-stock.fr/livre/hiromi-9782234093904/",
+      "image_source": "https://media.hachette.fr/fit-in/500x500/imgArticle/STOCK/2025/9782234093904-001-X.jpeg?source=web&v=8c58a058d8a423cfa0d1f45eb28bf7f4",
+      "src": "book-covers/fb9e920da54724cc440dc95ba8221a0fd258223c21ffb3bd4c3ec0ad65e908b2.jpg",
+      "source_type": "publisher",
+      "checked_on": "2026-11-27",
+      "research_year": 2025
     },
     "3501": {
       "_id": "3501",
