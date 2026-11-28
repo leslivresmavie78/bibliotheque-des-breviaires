@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "recovered_books": 1442,
-  "unique_images": 2109,
+  "recovered_books": 1447,
+  "unique_images": 2122,
   "archives": [
     {
       "file": "book-covers-01.zip",
@@ -10963,7 +10963,91 @@
           "sha256": "d0d6dd1fc23ad5b7d7f423632b51fa060d5dddd90355372715f599ae2c422246"
         }
       ]
+    },
+    {
+      "file": "book-covers-10.zip",
+      "bytes": 2104333,
+      "sha256": "4ebe1d9d7112901bb23d0152eca7143b5938cf4bc3dbc4de22238b763469139b",
+      "images": {
+        "1796fc5900afeafec952b68082e07aca35cdaf8a0a933cad6956cbafda820592.jpg": {
+          "bytes": 1761317,
+          "width": 2420,
+          "height": 3226
+        },
+        "80462f7784e15db8fb75ff99ce1132e7e18a642179ea95289331c11ff9e6f56a.jpg": {
+          "bytes": 24840,
+          "width": 305,
+          "height": 500
+        },
+        "b72bd555a11328529c63a7b4f859c099d3faa28e61f0150526aef9c7b7318d49.jpg": {
+          "bytes": 24571,
+          "width": 305,
+          "height": 500
+        },
+        "c0e0e2ee7159a182843c0622be74d129f7dfabd957a87a3f21d1bd7dbf1d8e75.jpg": {
+          "bytes": 27722,
+          "width": 400,
+          "height": 563
+        },
+        "fe1f4e5cb44596c4c6b9acc051953685a524260666f5539713d9d26ab456778a.jpg": {
+          "bytes": 44554,
+          "width": 400,
+          "height": 647
+        },
+        "1f168cc823fe51b6fc339b586099784dfcbb7d4091e113aa08af4c981d437eb5.jpg": {
+          "bytes": 20102,
+          "width": 309,
+          "height": 500
+        },
+        "dc715bb8c55bf05760823b0465f83e14b7077c8007211114ff2e6d7ecc571f4a.jpg": {
+          "bytes": 19041,
+          "width": 307,
+          "height": 500
+        },
+        "43b673c9d19f9b0b522c5f3191fd380214038af1d4d9ef4c12bb4246aba4cb75.jpg": {
+          "bytes": 25031,
+          "width": 288,
+          "height": 475
+        },
+        "f671878654195cd0b3128cf1719086a5596bf46a91f30b0981fdf060926ff355.jpg": {
+          "bytes": 20768,
+          "width": 299,
+          "height": 475
+        },
+        "ca20cf23a7271a96db8bf1d7fca073e03d6a2b52ff1c8e9d0f3ca5714dbfdadd.jpg": {
+          "bytes": 33909,
+          "width": 400,
+          "height": 503
+        },
+        "b44cb309a68cb360721339be18649ff73d8d3e7a6eb2ea059db3758718c391b4.jpg": {
+          "bytes": 49500,
+          "width": 303,
+          "height": 500
+        },
+        "eea6c763e10d2671ffaa5d773e87a5102f3634c16c8eda4edebad35bf747ce0a.jpg": {
+          "bytes": 27543,
+          "width": 294,
+          "height": 500
+        },
+        "38e0e5fd28f1c899dcabb2b9aac899ccd70b5d928ef1577ad7bf41442bf6dbbc.jpg": {
+          "bytes": 22657,
+          "width": 400,
+          "height": 647
+        }
+      },
+      "parts": [
+        {
+          "file": "book-covers-10-001.part",
+          "bytes": 2000000,
+          "sha256": "c8ec1991f78e1f213a28b824954de8abfe5796364710850358deea0d895ec085"
+        },
+        {
+          "file": "book-covers-10-002.part",
+          "bytes": 104333,
+          "sha256": "403c29f362afd77667e943bd307abe1bf0811b417fae826c3f041fdb56ba130c"
+        }
+      ]
     }
   ],
-  "researched_books": 668
+  "researched_books": 676
 }
