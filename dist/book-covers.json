@@ -1,5 +1,5 @@
 {
-  "checked_on": "2026-11-27",
+  "checked_on": "2026-11-28",
   "books": {
     "2": {
       "_id": "2",
@@ -23920,6 +23920,34 @@
       "source": "https://www.eyrolles.com/Litterature/Livre/d-autres-printemps-9782080510655/",
       "image_source": "https://servimg.eyrolles.com/static/media/0655/9782080510655_internet_w290.jpg",
       "sha256": "2b7ff36d937113871284562c6c21be651e7eb6e2dda783787f7484b28dd55ca6"
+    },
+    "3524": {
+      "_id": "3524",
+      "isbn": "9782253100799",
+      "title": "Chère Mamie",
+      "author_details": "Grimaldi, Virginie",
+      "series_details": "",
+      "src": "book-covers/6f0dbc5ca76c7b422c7a874653cb7c8e9ca712247aa154f518cfe2dde6c41df9.jpg",
+      "width": 309,
+      "height": 500,
+      "sha256": "6f0dbc5ca76c7b422c7a874653cb7c8e9ca712247aa154f518cfe2dde6c41df9",
+      "source_type": "bookcatalogue",
+      "source": "Sauvegarde Book Catalogue du 28-11-2026",
+      "checked_on": "2026-11-28"
+    },
+    "3531": {
+      "_id": "3531",
+      "isbn": "9782012008335",
+      "title": "Titeuf 09 - Ah ouais, d'accord...",
+      "author_details": "Zep, |Anguerrand, Shirley",
+      "series_details": "Titeuf (Bibliothèque Rose) (9)",
+      "src": "book-covers/7fa212f5ccc7e7ce4937e5e70cb93210aec7e5956bb9665e4dca9411cef7febc.jpg",
+      "width": 350,
+      "height": 500,
+      "sha256": "7fa212f5ccc7e7ce4937e5e70cb93210aec7e5956bb9665e4dca9411cef7febc",
+      "source_type": "bookcatalogue",
+      "source": "Sauvegarde Book Catalogue du 28-11-2026",
+      "checked_on": "2026-11-28"
     }
   },
   "schema_version": 2
