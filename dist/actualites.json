@@ -1,6 +1,32 @@
 {
   "publications": [
     {
+      "id": "coup-de-coeur-chere-mamie-2026-11-28",
+      "type": "coeur",
+      "title": "Chère mamie — Virginie Grimaldi",
+      "summary": "Une carte à mamie… et un fou rire pour nous !",
+      "starts_at": "2026-11-28T00:00:00+01:00",
+      "ends_at": "2026-11-30T00:00:00+01:00",
+      "period": "Coup de cœur du 28 novembre 2026",
+      "body": "📚 LE COUP DE ❤️ DE LA BIBLIOTHÈQUE !\n\nCHÈRE MAMIE — Virginie Grimaldi\n\nUne carte à mamie… et un fou rire pour nous !\n\nVirginie Grimaldi raconte son quotidien à sa grand-mère : les enfants, les vacances, les petites catastrophes… Des cartes postales accompagnées de photos, avec une sacrée dose d’autodérision !\n\nÇa se lit comme un petit bonbon. On se dit qu’on va juste lire une carte… allez, encore une !\n\n📸 Pour vous donner le ton, on vous a pris en photo l’une des cartes postales du livre…\n\nEt derrière ces éclats de rire, une belle initiative : un recueil imaginé pour soutenir CéKeDuBonheur, qui œuvre pour améliorer le quotidien des enfants hospitalisés.\n\n👉 Le livre sur Booknode : https://booknode.com/chere_mamie_tome_1_02699235\n\n❤️ Pour découvrir l’association et ses actions : https://cekedubonheur.fr/\n\nÀ tout de suite... on fait chauffer l'eau pour le thé, et on a des petites madeleines.",
+      "books": [
+        {
+          "id": "3524",
+          "title": "Chère Mamie",
+          "author": "Virginie Grimaldi",
+          "booknode": "https://booknode.com/chere_mamie_tome_1_02699235"
+        }
+      ],
+      "images": [
+        {
+          "src": "./book-covers/6f0dbc5ca76c7b422c7a874653cb7c8e9ca712247aa154f518cfe2dde6c41df9.jpg",
+          "alt": "Couverture de Chère mamie de Virginie Grimaldi",
+          "width": 309,
+          "height": 500
+        }
+      ]
+    },
+    {
       "id": "coup-de-coeur-dautres-printemps-2026-11-27",
       "type": "coeur",
       "title": "D’autres printemps — Virginie Grimaldi",
