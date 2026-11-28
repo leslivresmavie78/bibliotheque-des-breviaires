@@ -1,8 +1,8 @@
 {
-  "imported_on": "2026-11-25",
-  "source_name": "Export25_CORRIGE_25-11-2026_v16.csv",
-  "count": 3423,
-  "source_sha256": "283604a5983cb844234ea69d61ad3f08418eb4186e2f7c4458e8aca597967e53",
+  "imported_on": "2026-11-28",
+  "source_name": "Export (27).csv",
+  "count": 3433,
+  "source_sha256": "5b44f77dfaa0f3327238d727fd6dd9a0e413f10bf48c9e089a05adadc14a4d07",
   "public_fields": [
     "_id",
     "title",
@@ -16,26 +16,5 @@
     "genre",
     "date_added",
     "literary_awards"
-  ],
-  "presentation_updated_on": "2026-11-27",
-  "presentation_changes": [
-    {
-      "book_id": "2388",
-      "field": "title",
-      "before": "Ma vie de banlieusarde",
-      "after": "Le Silence des étoiles",
-      "reason": "Titre corrigé dans Export (26).csv et visible sur sa couverture."
-    }
-  ],
-  "cover_recovery": {
-    "added_on": "2026-11-28",
-    "source_name": "Export (27).csv",
-    "source_sha256": "659374efd334f0b80b2d9c46706acbbeed61de83df75b68ffc19d87e39d8bca0",
-    "added_book_ids": [
-      "3524",
-      "3531"
-    ],
-    "previous_public_count": 3421,
-    "scope": "Deux notices ajoutées pour afficher les deux nouvelles couvertures récupérées ; notices publiques antérieures conservées."
-  }
+  ]
 }
