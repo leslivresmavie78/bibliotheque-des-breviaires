@@ -14,6 +14,7 @@ const coverResearch = fs.readdirSync(new URL('.', import.meta.url))
   .filter(name => /^cover-research-(?:\d{4}(?:-\d{4})?|homepage)\.json$/.test(name))
   .map(name => JSON.parse(fs.readFileSync(new URL(`./${name}`, import.meta.url), 'utf8')));
 const researchedCovers = coverResearch.flatMap(research => research.books);
+const recoveredCount = JSON.parse(fs.readFileSync(new URL('./cover-archives.json', import.meta.url), 'utf8')).recovered_books;
 
 test('Les couvertures récupérées et recherchées restent liées aux bonnes fiches et aux bons tomes', () => {
   const publications = JSON.parse(fs.readFileSync(new URL('../dist/publication-years.json', import.meta.url), 'utf8'));
@@ -21,9 +22,9 @@ test('Les couvertures récupérées et recherchées restent liées aux bonnes fi
   const illustrated = prepareBooks(rows, publications, covers);
   const researchedCount = coverResearch.reduce((total, research) => total + research.added_books, 0);
   assert.equal(new Set(researchedCovers.map(entry => entry._id)).size, researchedCount);
-  assert.equal(Object.keys(covers.books).length, 1444 + researchedCount);
-  assert.equal(illustrated.filter(book => book.cover).length, 1444 + researchedCount);
-  assert.equal(illustrated.filter(book => book.cover?.source_type === 'bookcatalogue').length, 1440);
+  assert.equal(Object.keys(covers.books).length, 4 + recoveredCount + researchedCount);
+  assert.equal(illustrated.filter(book => book.cover).length, 4 + recoveredCount + researchedCount);
+  assert.equal(illustrated.filter(book => book.cover?.source_type === 'bookcatalogue').length, recoveredCount);
   assert.equal(illustrated.filter(book => book.cover?.source_type === 'bookcatalogue' && book.cover.width >= book.cover.height).length, 28);
   for (const [id, entry] of Object.entries(covers.books)) {
     const row = rows.find(row => row._id === id);
