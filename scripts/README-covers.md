@@ -1,5 +1,7 @@
 # Couvertures du catalogue
 
+> Mise à jour du 28-11-2026 : **2 114 livres illustrés sur 3 423**  après un nouveau lot de **368 couvertures** pour le repérage des années 2000 à 2009. Les 1 746 couvertures antérieures restent conservées.
+
 Les 1 440 couvertures récupérées dans la sauvegarde Book Catalogue du 27-11-2026 sont conservées dans une archive découpée en segments de deux millions d’octets maximum à la racine du dépôt. Les 1 439 images distinctes sont identiques aux originaux triés ; deux fiches du même livre utilisent le même fichier. Les extensions reflètent le format réel : 1 431 JPEG, sept WebP et un PNG. Les quatre images du premier essai 2026 sont conservées. La recherche par années ajoute ensuite 300 couvertures vérifiées, pour 1 744 livres illustrés avant la nouvelle récupération du 28-11-2026.
 
 `python3 scripts/build_covers.py` vérifie chaque segment, reconstitue l’archive, contrôle les noms, les empreintes, les tailles, les formats et les dimensions, puis prépare `dist/book-covers/`. Ce dossier est généré et n’est pas versionné. La publication GitHub Pages exécute cette préparation avant les contrôles et n’expose que `dist/`. Les segments respectent la limite observée lors du transfert des gros fichiers par l’interface GitHub ; ils ne sont pas téléchargés par les visiteurs du site.
@@ -73,3 +75,26 @@ Le lot 08 ajoute les couvertures originales de **Chère Mamie**, de Virginie Gri
 Les deux notices absentes du site sont ajoutées avec leurs identifiants source pour que leurs couvertures apparaissent dans le catalogue et les fiches. Le classement de Titeuf est Roman jeunesse et sa série est Titeuf (Bibliothèque Rose), tome 9, recopié du titre source ; il ne s’agit pas du tome 9 de la BD. Aucune note ni aucun avis ne sont inventés. Les **3 421 notices précédentes sont conservées champ pour champ**, de même que les 1 744 couvertures existantes, les premières parutions, les communications et le club.
 
 Cette publication porte sur la récupération d’images, pas sur une synchronisation complète d’Export (27).csv. Les dix autres nouveaux livres seront intégrés avec le catalogue réconcilié dans le fil 1, qui traite les notes, avis et séries manquants. Les deux sources originales restent intactes. La provenance du catalogue public conserve l’import précédent et documente séparément cet ajout de deux notices. Les 24 livres de la première page restent tous illustrés.
+
+## Années 2000 à 2009 — 28-11-2026
+
+Le lot 09 ajoute **368 couvertures** et porte le catalogue à **2 114 livres illustrés sur 3 423**. La recherche parcourt les 498 fiches encore sans image repérées entre 2001 et 2009 ; l’année 2000, déjà complétée, ne demande aucun nouvel ajout. Le détail des éditions, sources, contrôles et 130 cas restant à reprendre se trouve dans `scripts/cover-research-2000-2009.json`.
+
+Les premières parutions déjà sourcées sont prioritaires pour ce repérage. À défaut, la date d’édition de l’export sert uniquement à trouver les fiches à illustrer ; aucune date d’édition ne devient une année de première parution. Les autres éditions sont autorisées pour le même ouvrage, en contrôlant titre, auteur et tome et en conservant séparément l’ISBN de la couverture.
+
+| Année de repérage | Couvertures ajoutées | Restant à reprendre |
+| --- | ---: | ---: |
+| 2009 | 63 | 1 |
+| 2008 | 55 | 14 |
+| 2007 | 56 | 13 |
+| 2006 | 38 | 13 |
+| 2005 | 47 | 17 |
+| 2004 | 48 | 22 |
+| 2003 | 28 | 16 |
+| 2002 | 14 | 9 |
+| 2001 | 19 | 25 |
+| 2000 | 0 | 0 |
+
+Chaque image retenue est contrôlée visuellement. Les visuels génériques « Pas d’image », une image presque noire et les scans marqués commercialement sont écartés ou remplacés par des couvertures propres. Le Magot de Momm vient directement des Éditions de Minuit. L’intégrale du Secret des fleurs conserve bien les trois romans. Pour La Saga des émigrants, la couverture de poche du seul premier tome Au pays remplace le premier recours erroné à un omnibus. Les deux Bahamas conservent leurs couvertures distinctes par ISBN, et les volumes de La Guerre des clans, Chocola et Vanilla, Naruto, Harry Potter et La Cabane magique sont vérifiés. Les rééditions avec un titre actualisé sont documentées séparément.
+
+Les octets JPEG, PNG et WebP téléchargés sont conservés sans retouche, avec leurs proportions d’origine. Les nouvelles images suivent la reconstruction et les contrôles des segments des lots précédents. Aucun changement d’interface ni de programme n’est nécessaire. Le CSV public, les notes, avis, résumés, genres, identifiants, premières parutions, communications, club et listes personnelles ne sont pas modifiés par ce lot ; les 24 livres de la première page restent tous illustrés. Aucun CSV à réimporter dans Book Catalogue.
